@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Iqbal Abdullah'
-SITENAME = 'The Fortunate'
+SITENAME = 'The Fortunate | A blog by Iqbal Abdullah'
 SITEURL = ''
 
 PATH = 'content'
@@ -32,4 +32,4 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
