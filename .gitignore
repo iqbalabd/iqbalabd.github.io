@@ -128,5 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Pelican output directory
+# Ignore Pelican directories which we don't need in the repo
 output/
+plugins/
