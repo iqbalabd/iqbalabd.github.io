@@ -4,7 +4,7 @@ Lang: en
 Date: 2017-06-15 16:00
 Modified: 2017-06-15 16:00
 Tags: pycon; japan; malaysia; apac; community; kuala lumpur;
-Authors: Iqbal Abdullah
+Authors: iqbalabd
 Summary: Thinking back on what I've done through PyCon and how it all started in the first place.
 
 # Changing the world one PyCon at a time
