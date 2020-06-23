@@ -4,7 +4,7 @@ Lang: en
 Date: 2020-06-20 16:05
 Modified: 2020-06-20 16:05
 Tags: psf; politics; community; 2020;
-Authors: Iqbal Abdullah
+Authors: iqbalabd
 Summary: My thoughts after my failed attempt at running for the 2020 board of the Python Software Foundation (PSF).
 
 Since 2019, I have been working on trying to
