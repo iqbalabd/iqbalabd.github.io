@@ -46,7 +46,7 @@ it to build stuff.
 So when I saw the poster for the first PyCon APAC in Singapore in 2010, I
 decided to meet the people behind it:
 
-![PyCon APAC 2010 Singapore]({filename}/images/pycons/pycon-apac-2010-poster.png)
+![PyCon APAC 2010 Singapore]({static}/images/pycons/pycon-apac-2010-poster.png)
 
 I didn't know anyone there but I'd thought I'll just make new friends and see
 what other cool stuff everyone else was building. And made friends I did: I met up with
@@ -93,10 +93,10 @@ seriously. Given also the fact that Python was still considered an obscure
 language in Japan as opposed to PHP, Java or Ruby, we were also sceptical that
 there will be any traction at all.
 
-![Steve Holden in Tokyo]({filename}/images/pycons/steve-holden-in-tokyo-02.jpg)
+![Steve Holden in Tokyo]({static}/images/pycons/steve-holden-in-tokyo-02.jpg)
 **Dinner with Steve in Roppongi**
 
-![Steve Holden in Tokyo]({filename}/images/pycons/steve-holden-in-tokyo-01.jpg)
+![Steve Holden in Tokyo]({static}/images/pycons/steve-holden-in-tokyo-01.jpg)
 **With Masuda-san and Takizawa-san**
 
 Following that dinner with Steve, Terada-san, Masuda-san and myself met again on the
@@ -104,7 +104,7 @@ Following that dinner with Steve, Terada-san, Masuda-san and myself met again on
 to have our first stab at a PyCon in Japan. We agreed to start small, and host
 APAC when we are ready.
 
-![Email calling for the first PyCon meeting]({filename}/images/pycons/shibuya-email.png)
+![Email calling for the first PyCon meeting]({static}/images/pycons/shibuya-email.png)
 
 We had our first [_mini_ PyCon JP](https://sites.google.com/site/pyconminijp/) 
 on a cold January morning in 2011 at the Rakuten offices in Tokyo. I was 
@@ -175,18 +175,18 @@ get in touch with when they came to APAC in Tokyo, to move the APAC conference t
 Since there was no other community which has shown interest to host APAC for
 2015, the conference stayed in Taipi until 2015.
 
-![PyCon APAC dinner in Taipei]({filename}/images/pycons/pycon-apac-tw-06-2015.jpg)
+![PyCon APAC dinner in Taipei]({static}/images/pycons/pycon-apac-tw-06-2015.jpg)
 **With Van Lindberg, Chairperson for the PSF, Beng Keat, and our friends and staff organizing
 PyCon APAC TW in 2015.**
 
 The South Korean community, after having their first local PyCon in
 2015 stepped up to the plate to host APAC in 2016, and was succesful with over 1000 attendees.
 
-![PyCon APAC meeting in Seoul 2016]({filename}/images/pycons/apac-meeting-seoul-2015.jpg)
+![PyCon APAC meeting in Seoul 2016]({static}/images/pycons/apac-meeting-seoul-2015.jpg)
 **A community meeting of representatives from the different countries in APAC
 during the 2016 APAC conference: KR, JP, VN, TW, PH, MY, HK and SG was present**
 
-![PyCon APAC meeting in Seoul 2016]({filename}/images/pycons/pycon-apac-seoul-2016-group.jpg)
+![PyCon APAC meeting in Seoul 2016]({static}/images/pycons/pycon-apac-seoul-2016-group.jpg)
 **Group picture after the community meeting**
 
 The regional communities have done a wonderful job to boost their local PyCon
@@ -201,7 +201,7 @@ who came to a PyCon APAC for the first time, and their eyes light up and they sm
 now they want to start something in their city and their community after
 experiencing the conference.
 
-![PyCon APAC dinner in Taipei]({filename}/images/pycons/dylan-jay-bangkok.jpg)
+![PyCon APAC dinner in Taipei]({static}/images/pycons/dylan-jay-bangkok.jpg)
 **Meeting up with Dylan Jay in Bangkok. Dylan is the former lead for the Sydney
 Python Users Group**
 
@@ -262,22 +262,22 @@ from the academic staff of the universities who do use Python as a learning tool
 and wanted their own students to get involved in academic conferences like
 PyCon.
 
-![mini PyCon MY 2014]({filename}/images/pycons/mini-pycon-my-2014.jpg)
+![mini PyCon MY 2014]({static}/images/pycons/mini-pycon-my-2014.jpg)
 **Our keynote for mini PyCon MY, [Eric Holscher](http://ericholscher.com/) giving
 his talk. Eric was in Kuala Lumpur for vacation and also decided to
 contribute.**
 
-![PyCon APAC dinner in Taipei]({filename}/images/pycons/pycon-my-um-02-08-2015.jpg)
+![PyCon APAC dinner in Taipei]({static}/images/pycons/pycon-my-um-02-08-2015.jpg)
 **Members of PyCon JP coming in to support our first PyCon MY in University
 Malaya**
 
-![PyCon MY 2015]({filename}/images/pycons/pycon-my-2015-hello.jpg)
+![PyCon MY 2015]({static}/images/pycons/pycon-my-2015-hello.jpg)
 **Kicking off PyCon MY 2015.**
 
-![PyCon MY 2015]({filename}/images/pycons/pycon-my-2015-group.jpg)
+![PyCon MY 2015]({static}/images/pycons/pycon-my-2015-group.jpg)
 **A group picture at the end of PyCon MY 2015.**
 
-![PyCon MY 2016]({filename}/images/pycons/pycon-my-2016-group.jpg)
+![PyCon MY 2016]({static}/images/pycons/pycon-my-2016-group.jpg)
 **And the group picture at the end of PyCon MY 2016.**
 
 As if coming to a full circle, one of the keynote speaker for the first APAC in
