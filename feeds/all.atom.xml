@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>The Fortunate | A blog by Iqbal Abdullah</title><link href="https://iqbalabd.blog/" rel="alternate"></link><link href="https://iqbalabd.blog/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabd.blog/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>Diversification is the future for the Python Software Foundation (PSF)</title><link href="https://iqbalabd.blog/diversification-is-the-future-for-the-psf.html" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabd.blog,2020-06-20:/diversification-is-the-future-for-the-psf.html</id><summary type="html">&lt;p&gt;My thoughts after my failed attempt at running for the 2020 board of the Python Software Foundation (PSF).&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since 2019, I have been working on trying to
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Fortunate | A blog by Iqbal Abdullah</title><link href="https://thefortunate.blog/" rel="alternate"></link><link href="https://thefortunate.blog/feeds/all.atom.xml" rel="self"></link><id>https://thefortunate.blog/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>Diversification is the future for the Python Software Foundation (PSF)</title><link href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:thefortunate.blog,2020-06-20:/diversification-is-the-future-for-the-psf.html</id><summary type="html">&lt;p&gt;My thoughts after my failed attempt at running for the 2020 board of the Python Software Foundation (PSF).&lt;/p&gt;</summary><content type="html">&lt;p&gt;Since 2019, I have been working on trying to
 get our Python community in East/South/South East Asia (collectively called APAC) to move towards a
 more coherent direction together.&lt;/p&gt;
 &lt;p&gt;There were also plans for a poster session to introduce us to the wider North American and international community
@@ -16,7 +16,7 @@ safeguard the Python language, its ecosystems and the community that use and
 depends on it. Read more about what the PSF does &lt;a href="https://www.python.org/psf/#:~:text=The%20mission%20of%20the%20Python,international%20community%20of%20Python%20programmers."&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Running for a seat on the PSF board&lt;/h2&gt;
 &lt;p&gt;In June 2020, the Python Software Foundation (PSF) had four seats going vacant with
-directors fulfilling their term. After many years &lt;a href="https://iqbalabd.blog/changing-the-world-one-pycon-at-a-time.html"&gt;working with and building the community on this side of the planet&lt;/a&gt;
+directors fulfilling their term. After many years &lt;a href="https://thefortunate.blog/changing-the-world-one-pycon-at-a-time.html"&gt;working with and building the community on this side of the planet&lt;/a&gt;
 I had a feeling that there is a gap between what the PSF, as a US-centric organization thinks it's doing, with what the rest
 of the growing community on our part of the world think that they are doing, so I
 decided to run for a seat, to at least represent a voice from E/S/SE Asia.&lt;/p&gt;
@@ -202,7 +202,7 @@ its community.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Python and PyCons"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="2020"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://iqbalabd.blog/changing-the-world-one-pycon-at-a-time.html" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabd.blog,2017-06-15:/changing-the-world-one-pycon-at-a-time.html</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
+&lt;/div&gt;</content><category term="Python and PyCons"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="2020"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://thefortunate.blog/changing-the-world-one-pycon-at-a-time.html" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:thefortunate.blog,2017-06-15:/changing-the-world-one-pycon-at-a-time.html</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
 &lt;p&gt;As an engineer, programming languages are very important tools to solve the
 problems that you face. As an entrepreneur, they are also important tools to
 bring your imagination to life, to get that profit and making that difference.&lt;/p&gt;
@@ -231,7 +231,7 @@ with my mind and how I believe coding should be, and most importantly I enjoyed 
 it to build stuff.&lt;/p&gt;
 &lt;p&gt;So when I saw the poster for the first PyCon APAC in Singapore in 2010, I
 decided to meet the people behind it:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon APAC 2010 Singapore" src="https://iqbalabd.blog/images/pycons/pycon-apac-2010-poster.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC 2010 Singapore" src="https://thefortunate.blog/images/pycons/pycon-apac-2010-poster.png"&gt;&lt;/p&gt;
 &lt;p&gt;I didn't know anyone there but I'd thought I'll just make new friends and see
 what other cool stuff everyone else was building. And made friends I did: I met up with
 three other participants from Japan: Manabu Terada
@@ -268,15 +268,15 @@ us, who had no experience at all running conferences, to actually take the idea
 seriously. Given also the fact that Python was still considered an obscure
 language in Japan as opposed to PHP, Java or Ruby, we were also sceptical that
 there will be any traction at all.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabd.blog/images/pycons/steve-holden-in-tokyo-02.jpg"&gt;
+&lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://thefortunate.blog/images/pycons/steve-holden-in-tokyo-02.jpg"&gt;
 &lt;strong&gt;Dinner with Steve in Roppongi&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabd.blog/images/pycons/steve-holden-in-tokyo-01.jpg"&gt;
+&lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://thefortunate.blog/images/pycons/steve-holden-in-tokyo-01.jpg"&gt;
 &lt;strong&gt;With Masuda-san and Takizawa-san&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Following that dinner with Steve, Terada-san, Masuda-san and myself met again on the
 1st of July 2010 in an underground Turkish restaurant in Shibuya and over dinner decided
 to have our first stab at a PyCon in Japan. We agreed to start small, and host
 APAC when we are ready.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Email calling for the first PyCon meeting" src="https://iqbalabd.blog/images/pycons/shibuya-email.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Email calling for the first PyCon meeting" src="https://thefortunate.blog/images/pycons/shibuya-email.png"&gt;&lt;/p&gt;
 &lt;p&gt;We had our first &lt;a href="https://sites.google.com/site/pyconminijp/"&gt;&lt;em&gt;mini&lt;/em&gt; PyCon JP&lt;/a&gt; 
 on a cold January morning in 2011 at the Rakuten offices in Tokyo. I was 
 involved as the program manager, choosing talks and deciding the contents of the conference.
@@ -331,15 +331,15 @@ community representatives such as Singapore and South Korea which we managed to
 get in touch with when they came to APAC in Tokyo, to move the APAC conference to Taipei.&lt;/p&gt;
 &lt;p&gt;Since there was no other community which has shown interest to host APAC for
 2015, the conference stayed in Taipi until 2015.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabd.blog/images/pycons/pycon-apac-tw-06-2015.jpg"&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://thefortunate.blog/images/pycons/pycon-apac-tw-06-2015.jpg"&gt;
 &lt;strong&gt;With Van Lindberg, Chairperson for the PSF, Beng Keat, and our friends and staff organizing
 PyCon APAC TW in 2015.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The South Korean community, after having their first local PyCon in
 2015 stepped up to the plate to host APAC in 2016, and was succesful with over 1000 attendees.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabd.blog/images/pycons/apac-meeting-seoul-2015.jpg"&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://thefortunate.blog/images/pycons/apac-meeting-seoul-2015.jpg"&gt;
 &lt;strong&gt;A community meeting of representatives from the different countries in APAC
 during the 2016 APAC conference: KR, JP, VN, TW, PH, MY, HK and SG was present&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabd.blog/images/pycons/pycon-apac-seoul-2016-group.jpg"&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://thefortunate.blog/images/pycons/pycon-apac-seoul-2016-group.jpg"&gt;
 &lt;strong&gt;Group picture after the community meeting&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The regional communities have done a wonderful job to boost their local PyCon
 conferences to be a well known annual event to gather and share knowledge among
@@ -351,7 +351,7 @@ have no representation in our loose group, like Myanmar or Vietnam.  I've seen f
 who came to a PyCon APAC for the first time, and their eyes light up and they smile and say
 now they want to start something in their city and their community after
 experiencing the conference.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabd.blog/images/pycons/dylan-jay-bangkok.jpg"&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://thefortunate.blog/images/pycons/dylan-jay-bangkok.jpg"&gt;
 &lt;strong&gt;Meeting up with Dylan Jay in Bangkok. Dylan is the former lead for the Sydney
 Python Users Group&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The collective knowledge of all of us help to remove some anxiety and help guide
@@ -399,18 +399,18 @@ International University of Malaya-Wales. Nearly all the time we've had help
 from the academic staff of the universities who do use Python as a learning tool
 and wanted their own students to get involved in academic conferences like
 PyCon.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="mini PyCon MY 2014" src="https://iqbalabd.blog/images/pycons/mini-pycon-my-2014.jpg"&gt;
+&lt;p&gt;&lt;img alt="mini PyCon MY 2014" src="https://thefortunate.blog/images/pycons/mini-pycon-my-2014.jpg"&gt;
 &lt;strong&gt;Our keynote for mini PyCon MY, &lt;a href="http://ericholscher.com/"&gt;Eric Holscher&lt;/a&gt; giving
 his talk. Eric was in Kuala Lumpur for vacation and also decided to
 contribute.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabd.blog/images/pycons/pycon-my-um-02-08-2015.jpg"&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://thefortunate.blog/images/pycons/pycon-my-um-02-08-2015.jpg"&gt;
 &lt;strong&gt;Members of PyCon JP coming in to support our first PyCon MY in University
 Malaya&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://iqbalabd.blog/images/pycons/pycon-my-2015-hello.jpg"&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://thefortunate.blog/images/pycons/pycon-my-2015-hello.jpg"&gt;
 &lt;strong&gt;Kicking off PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://iqbalabd.blog/images/pycons/pycon-my-2015-group.jpg"&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://thefortunate.blog/images/pycons/pycon-my-2015-group.jpg"&gt;
 &lt;strong&gt;A group picture at the end of PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="PyCon MY 2016" src="https://iqbalabd.blog/images/pycons/pycon-my-2016-group.jpg"&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2016" src="https://thefortunate.blog/images/pycons/pycon-my-2016-group.jpg"&gt;
 &lt;strong&gt;And the group picture at the end of PyCon MY 2016.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;As if coming to a full circle, one of the keynote speaker for the first APAC in
 Singapore in 2010 (Steve Holden), and another keynote speaker for the first PyCon JP in 2011
