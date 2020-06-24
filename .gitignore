@@ -131,3 +131,4 @@ dmypy.json
 # Ignore Pelican directories which we don't need in the repo
 output/
 plugins/
+themes/
