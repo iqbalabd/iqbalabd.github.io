@@ -25,6 +25,12 @@ $ make github
 
 ### CNAME file
 
+In order to use custom domains on GitHub Pages, you'll need to make sure the
+CNAME file gets published everytime you do `make github`:
+
 https://stackoverflow.com/questions/33384328/how-can-i-add-a-cname-file-to-the-root-of-the-master
 
 ## master
+
+The `master` branch is not used directly, but is only used by GitHub Pages to
+publish the html files.
