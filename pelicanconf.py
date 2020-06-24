@@ -11,7 +11,6 @@ PATH = 'content'
 TIMEZONE = 'Asia/Tokyo'
 
 DEFAULT_LANG = 'en'
-#THEME = 'themes/pelican-blue'
 THEME = 'themes/blue-penguin'
 
 # Feed generation is usually not desired when developing
@@ -78,17 +77,11 @@ MENU_INTERNAL_PAGES = (
     ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
 )
 
-# pelican-blue template variables
-#SIDEBAR_DIGEST = 'Programmer and Web Developer'
-#FAVICON = 'url-to-favicon'
-#DISPLAY_PAGES_ON_MENU = True
-#TWITTER_USERNAME = 'iqbalabd'
-
 MENUITEMS = (
     ('Xoxzo Inc.', 'https://info.xoxzo.com/'),
 )
 
-DISQUS_SITENAME = 'https://the-fortunate.disqus.com/'
+DISQUS_SITENAME = 'the-fortunate'
 DISQUS_DISPLAY_COUNTS = True
 
 # Uncomment following line if you want document-relative URLs when developing
