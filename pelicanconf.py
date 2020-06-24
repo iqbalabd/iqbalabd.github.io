@@ -47,7 +47,7 @@ I18N_UNTRANSLATED_PAGES = 'hide'
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
     'ja': {
-        'SITENAME': 'ザ・フォチャネット',
+        'SITENAME': SITENAME,
         'STATIC_PATHS': STATIC_PATHS,
         'THEME': THEME,
     },
