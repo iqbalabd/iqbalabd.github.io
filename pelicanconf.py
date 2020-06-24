@@ -11,7 +11,7 @@ PATH = 'content'
 TIMEZONE = 'Asia/Tokyo'
 
 DEFAULT_LANG = 'en'
-THEME = 'themes/blue-penguin'
+THEME = 'themes/pelican-bootstrap3'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -21,10 +21,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         )
+LINKS = (
+    ('Xoxzo Inc. Blog', 'https://blog.xoxzo.com/author/iqbal-abdullah.html'),
+)
 
 # Social widget
 SOCIAL = (
@@ -33,7 +32,7 @@ SOCIAL = (
             ('twitter', 'https://twitter.com/iqbalabd'),
          )
 
-DEFAULT_PAGINATION = 1
+DEFAULT_PAGINATION = 4
 
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
 STATIC_PATHS = ['images', 'extra/CNAME']
@@ -65,28 +64,13 @@ I18N_SUBSITES = {
 
 }
 
-# blue-penguin template variables
-# provided as examples, they make clean urls. used by MENU_INTERNAL_PAGES.
-TAGS_URL = 'tags'
-TAGS_SAVE_AS = 'tags/index.html'
-AUTHORS_URL = 'authors'
-AUTHORS_SAVE_AS = 'authors/index.html'
-CATEGORIES_URL = 'categories'
-CATEGORIES_SAVE_AS = 'categories/index.html'
-ARCHIVES_URL = 'archives'
-ARCHIVES_SAVE_AS = 'archives/index.html'
-
-# use those if you want pelican standard pages to appear in your menu
-MENU_INTERNAL_PAGES = (
-    ('Tags', TAGS_URL, TAGS_SAVE_AS),
-#    ('Authors', AUTHORS_URL, AUTHORS_SAVE_AS),
-    ('Categories', CATEGORIES_URL, CATEGORIES_SAVE_AS),
-    ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
-)
-
 MENUITEMS = (
-    ('Xoxzo Inc. Blog', 'https://blog.xoxzo.com/author/iqbal-abdullah.html'),
+#    ('Xoxzo Inc. Blog', 'https://blog.xoxzo.com/author/iqbal-abdullah.html'),
 )
+
+# pelican-bootstrap3 template variables
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+TAG_CLOUD_MAX_ITEMS = 10
 
 DISQUS_SITENAME = 'the-fortunate'
 DISQUS_DISPLAY_COUNTS = True
