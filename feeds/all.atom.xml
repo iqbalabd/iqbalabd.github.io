@@ -202,7 +202,162 @@ its community.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Python and PyCons"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="2020"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://thefortunate.blog/changing-the-world-one-pycon-at-a-time.html" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2017-06-15:/changing-the-world-one-pycon-at-a-time.html</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
+&lt;/div&gt;</content><category term="Python and PyCons"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="2020"></category></entry><entry><title>Digital IDs for Malaysia</title><link href="https://thefortunate.blog/digital-ids-for-malaysia.html" rel="alternate"></link><published>2018-10-21T18:40:00+09:00</published><updated>2018-10-21T18:40:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2018-10-21:/digital-ids-for-malaysia.html</id><summary type="html">&lt;p&gt;Digital IDs to verify identities will propel us forward&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is an article on my opinion concerning the plan for digital IDs for
+Malaysians. It was not published&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;Bringing back the idea&lt;/h1&gt;
+&lt;p&gt;Since Minister Gobind brought back the idea of a &lt;a href="http://www.bernama.com/en/news.php?id=1651523"&gt;digital ID for
+Malaysians&lt;/a&gt;, we are
+seeing a healthy debate going on concerning the feasibility or even
+the need of a national digital ID. I would like to also contribute to
+this debate.&lt;/p&gt;
+&lt;h1&gt;I am who I say I am&lt;/h1&gt;
+&lt;p&gt;The internet was originally designed in such a way that it's
+"stateless", which basically means it has no memory. This means that
+if you visit a website and come again 3 seconds later that website
+will treat you like a totally new person on your second and subsequent
+visits.&lt;/p&gt;
+&lt;p&gt;This is obviously an issue when you need to get things done: You
+won't have shopping carts, Instagram timelines, or friends on Facebook
+because the internet can't differentiate between you and your
+grandmother.&lt;/p&gt;
+&lt;p&gt;Along the way innovative ways was invented to workaround this
+limitation, such as "cookies" and sessions, which has evolved to
+produce the user registration, username and password combination that
+we so much love today.&lt;/p&gt;
+&lt;p&gt;One problem with this method is that no one is vouching for you: You
+come up saying "this is who I am, and I'm vouching for myself that
+this is true". For Facebook or Instagram where the most complex every
+day use case is sharing pictures of cats or your rented Chanel
+handbags, this is all fine, but if you need to do anything more that
+comes with responsibilities and social consequences like registering
+your new born child, renewing your business
+license or making a loan application, someone needs to make sure that
+you are who you say you are.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This should be the MAIN and ONLY purpose a national ID program should
+perform: Verifying that you are who you say you are or in other words,
+creating a "platform of trust" as termed by Minister Gobind.&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;I don't trust you, but I trust that person that you trust&lt;/h1&gt;
+&lt;p&gt;By design and nature of the internet I cannot trust you, but the funny
+thing is I will trust something that you also trust. This "something"
+naturally will fall to some central authority like the government,
+because they are the issuer of identities.&lt;/p&gt;
+&lt;p&gt;It is interesting to note that this concept is not new: We are already
+using it in the HTTPS/TLS scheme (the padlock that you see in your
+browser address bar to make sure you're accessing a secure site)&lt;/p&gt;
+&lt;p&gt;Private entities like banks are also able to connect to this central
+system. Using the state-issued ID card, you can access the myriad of
+private services
+that connects to the state and can verify that you are who you are. Once they
+know who you are, you are then authorized to carry out actions based on the
+services that you're currently accessing, like making money transfers
+from your bank account, or renewing your driving license.&lt;/p&gt;
+&lt;p&gt;A platform of trust based on officially sanctioned national-ID to
+directly verify identity is more meaningful than indirect methods such
+as sending SMS to mobile numbers that proves possession than identity.&lt;/p&gt;
+&lt;p&gt;At the same time, the central authority should not (or MUST not) have access
+to whatever you're doing online once you're passed the verification
+phase. What you do, once you're verified, will only be between you and
+the services you're utilizing.&lt;/p&gt;
+&lt;h1&gt;A paper photostated IC is not "verification"&lt;/h1&gt;
+&lt;p&gt;The current way of doing things by the majority of Malaysians in regards of
+identity verification is broken to say the best. We take our physical
+ID and make physical paper copies of it to sign-up for services from
+opening bank accounts to subscribing to mobile plans. This is far from
+secure nor it is an effective form of identity verification and can be
+easily abused. We have read of many cases where someone else have
+signed up for something which the real owner of that identity doesn't
+know of and instead is paying for.&lt;/p&gt;
+&lt;p&gt;An online platform of trust will help us reduce the likelihood of abuse by
+taking away the physical aspect of the identity verification, which will also
+lead to a more efficient workflow since data can be processed much
+more easily than physical record.&lt;/p&gt;
+&lt;p&gt;But having said that, we also must understand and appreciate this: No
+technology is perfect.&lt;/p&gt;
+&lt;h1&gt;It's not if but WHEN&lt;/h1&gt;
+&lt;p&gt;The fear that a central authority being hacked is justified and it is
+a risk which needs to be mitigated.&lt;/p&gt;
+&lt;p&gt;In the technology context, we mitigate this risk by increasing the hurdles
+before any hacked data is made usable, and minimize the damage &lt;strong&gt;WHEN&lt;/strong&gt;
+(and not if) there is data breach.&lt;/p&gt;
+&lt;p&gt;We do this by ensuring that the hacked data is unusable without a
+second factor, such as an encrypted physical ID which is not connected
+in any way to the central system. Those physical ID can also be locked
+by passwords which are stored on the ID itself, and supposedly known
+only to the ID holder.&lt;/p&gt;
+&lt;p&gt;This means that if an aspiring hacker wants to steal the data of the
+citizens of Malaysia, they need to hack the central system, and steal
+30 million ID cards AND also figure out the password to access that
+physical device. At the same time, third-parties like banks which access
+the central system to verify identity will not have the identity verification
+information on them, which means if the banks are hacked, the hacker will
+know how much money an account has but will not know who that account
+belongs to.&lt;/p&gt;
+&lt;h1&gt;Estonia's E-Residency programme&lt;/h1&gt;
+&lt;p&gt;I am enrolled in the Estonian E-Residency program, where the state
+vouches for you and issues a state sanctioned ID card which you can
+use to connect to state services online. The ID card does not have my
+picture on it, and is not valid as a self-identification document in
+the physical world. Estonia's E-Residency system employs the same
+scheme for personal verification and authentication I have explained
+above. It is also used by her 1.3 million citizens to access
+government services, other than e-residents (which can access the same
+services too!).&lt;/p&gt;
+&lt;p&gt;Thousands of kilometers away, day or night, in my living room or in my
+favorite local cafe, I can sign agreements, check the status of my
+applications and operate my business and get on with my life without
+having to wait in line or getting stuck in traffic because all the
+different moving parts that I need to interact with know with a very
+high probability and confidence that I am who I say I am.&lt;/p&gt;
+&lt;p&gt;Well, I know 1.3 million people versus Malaysia's 30 million people is
+a huge difference, but that is the beauty of technology: You can scale it.&lt;/p&gt;
+&lt;h1&gt;So..&lt;/h1&gt;
+&lt;p&gt;Do we need this? I truly believe so. In fact, I believe it is inevitable. The
+technology is already there, it is open and we have no need to invent
+anything new. The actual example of implementing it state wide is also
+there (Estonia) as well as any leanings or know-how. It has been done
+and it has been proven.&lt;/p&gt;
+&lt;p&gt;The right to be connected online is now starting to be accepted as a
+universal human right. Coupled with the constant business needs to get
+better efficency and savings, being able to do work and business
+online will become more and more of a necessity.&lt;/p&gt;
+&lt;p&gt;Allowing us to do business and deal with bureaucracy online will free up
+tremendous amount of time that we can use to enrich ourselves in many other
+ways. This is in the end what technology is supposed to be about:
+Empowering us human beings by allowing us to regain back our most
+valuable resource: time.&lt;/p&gt;
+&lt;p&gt;The more relevant and important question is when?&lt;/p&gt;
+&lt;p&gt;Obviously as a country of limited resources there is the question of
+prioritization. I will leave that question as a homework to be
+answered by our elected representatives.&lt;/p&gt;
+&lt;p&gt;But before go forth, an important issue we must address before we
+embark on this project, as &lt;a href="https://www.malaymail.com/s/1683682/dear-politicians-digital-ids-are-a-terrible-idea"&gt;pointed out by Ms. Erna Mahyuni in her
+piece&lt;/a&gt;,
+is that Malaysia does not have a good track record of enforcing
+privacy laws, and top top that off a very low understanding of privacy
+and privacy rights. This is a larger issue which should be addressed,
+regardless of having a national digital ID or not, as it is effecting
+us all, right here, right now.&lt;/p&gt;
+&lt;p&gt;But I believe the creation of a national digital ID as a base for a
+platform of trust to empower citizens of Malaysia is inevitable in
+order to continue to being relevant and competitive.&lt;/p&gt;</content><category term="Letters To The Editor"></category><category term="current affairs"></category><category term="malaysia"></category><category term="estonia"></category><category term="2018"></category></entry><entry><title>Your roots and your identity</title><link href="https://thefortunate.blog/your-root-and-your-identity.html" rel="alternate"></link><published>2017-10-06T23:40:00+09:00</published><updated>2017-10-06T23:40:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2017-10-06:/your-root-and-your-identity.html</id><summary type="html">&lt;p&gt;Your roots are not your identity; It does not define who you are.&lt;/p&gt;</summary><content type="html">&lt;p&gt;62-year old &lt;a href="https://en.wikipedia.org/wiki/Kazuo_Ishiguro"&gt;Kuzo Ishigoro&lt;/a&gt; &lt;a href="https://www.theguardian.com/books/2017/oct/05/kazuo-ishiguro-wins-the-nobel-prize-in-literature"&gt;won
+the Nobel Prize in Literature&lt;/a&gt;
+for 2017. I saw him on TV and he was talking about his Japanese roots,
+and that got me thinking about &lt;em&gt;roots&lt;/em&gt; and how we confuse it with our &lt;em&gt;identity&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Many upheavel caused by nationalist movements in the current world around us right
+now are symbols of the assertion of identity and stems from the need to differentiate. &lt;/p&gt;
+&lt;p&gt;I believe though, contrary to popular belief, your roots are not your identity.
+Our roots are our past and history, mostly events in our lives which we do not
+have much say in due to our dependence of our parents and immediate families.
+Our roots are emotional attachments and memories of the past, that allows us to
+return back to a place where we came from, physically or emotionally.&lt;/p&gt;
+&lt;p&gt;Identity though, is forward facing: Identity is who you are, or who you strive to be
+in the future. You can choose to identify yourself with someplace or something, like the
+town you're staying in or and idea that feels right to you.&lt;/p&gt;
+&lt;p&gt;Your identity is a conscious choice, for better or for worse, which you can define.&lt;/p&gt;
+&lt;p&gt;To be defined by your roots, and then having your identity set upon you based on
+some set values of your roots is just too inhumane and unfair.&lt;/p&gt;
+&lt;p&gt;Knowing where you come from does help on figuring out where you will be heading,
+but it does not define your destination.&lt;/p&gt;</content><category term="Society"></category><category term="roots"></category><category term="identity"></category><category term="2017"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://thefortunate.blog/changing-the-world-one-pycon-at-a-time.html" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2017-06-15:/changing-the-world-one-pycon-at-a-time.html</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
 &lt;p&gt;As an engineer, programming languages are very important tools to solve the
 problems that you face. As an entrepreneur, they are also important tools to
 bring your imagination to life, to get that profit and making that difference.&lt;/p&gt;
@@ -509,4 +664,579 @@ appreciate and understand them.&lt;/p&gt;
 intellectual rights of Python&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="Python and PyCons"></category><category term="pycon"></category><category term="japan"></category><category term="malaysia"></category><category term="apac"></category><category term="community"></category><category term="kuala lumpur"></category></entry></feed>
+&lt;/div&gt;</content><category term="Python and PyCons"></category><category term="pycon"></category><category term="japan"></category><category term="malaysia"></category><category term="apac"></category><category term="community"></category><category term="kuala lumpur"></category></entry><entry><title>Disunity via Schools</title><link href="https://thefortunate.blog/disunity-in-malaysian-schools.html" rel="alternate"></link><published>2017-05-28T11:40:00+09:00</published><updated>2017-05-28T11:40:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2017-05-28:/disunity-in-malaysian-schools.html</id><summary type="html">&lt;p&gt;My thoughts after listening on to BFM's TALKBACK THURSDAY: UNITY IN SCHOOLS&lt;/p&gt;</summary><content type="html">&lt;p&gt;The question of Malaysia's schools not doing its part in fostering unity among
+Malaysians have been brought up again due to TN50&lt;sup id="fnref:Ref1"&gt;&lt;a class="footnote-ref" href="#fn:Ref1"&gt;1&lt;/a&gt;&lt;/sup&gt;, and Business FM did a program to
+source opinions from the general public.&lt;/p&gt;
+&lt;p&gt;I followed the podcast on &lt;a href="http://www.bfm.my/talkback-thursday-unity-in-schools.html"&gt;BFM's TALKBACK THURSDAY: UNITY IN SCHOOLS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It was an enlightening podcast that puts light on the thoughts and feelings of the
+general public on where they think the schooling institution in Malaysia should
+head in the context as a tool to promote social unity. &lt;/p&gt;
+&lt;p&gt;Read &lt;a href="https://en.wikipedia.org/wiki/Education_in_Malaysia"&gt;Education in Malaysia&lt;/a&gt; for a 
+quick primer on the history of schools in Malaysia, or search for &lt;a href="https://www.google.co.jp/search?q=controversy+vernacular+schools+malaysia&amp;amp;oq=controversy+vernacular+schools+malaysia&amp;amp;aqs=chrome..69i57.6788j0j7&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8#q=pros+and+cons+of+vernacular+school"&gt;controversy of vernacular schools 
+in Malaysia&lt;/a&gt;
+for some more background reading. The &lt;a href="http://penanginstitute.org/v3/resources/articles/statistics/714-demographics-of-a-diverse-malaysia"&gt;Penang
+Institute&lt;/a&gt;
+also has data on the diverse demographics of children attending the different
+schools. &lt;a href="https://en.wikipedia.org/wiki/Tony_Pua"&gt;Tony Pua&lt;/a&gt; also
+&lt;a href="http://educationmalaysia.blogspot.jp/2007/03/national-vs-vernacular-schools.html"&gt;wrote&lt;/a&gt;
+about vernacular schools with insights on how the vernacular school
+educationists look at the rhetoric of their schools being the reason of our
+disunity.&lt;/p&gt;
+&lt;h2&gt;The current times questions the difference&lt;/h2&gt;
+&lt;p&gt;By and large the callers basically supported a single-stream school, but many with
+caveats, such as pointing to the failures of the so-called national school to be
+to be regarded as a symbol of excellence and is part to blame the rise of
+so-called vernacular schools.&lt;/p&gt;
+&lt;p&gt;A Twitter poll by BFM also suggested that the majority who took the poll
+supported a single-stream school:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="BFM's Poll for Single Stream School" src="https://thefortunate.blog/images/bfm-single-stream-school-unity.png"&gt;&lt;/p&gt;
+&lt;p&gt;I have my own thoughts on schools in Malaysia, and it's perceived position as a
+tool for national unity.&lt;/p&gt;
+&lt;h2&gt;Why is education a partisan issue?&lt;/h2&gt;
+&lt;p&gt;Education for our children, by itself is a subject that we should all be in
+agreement. &lt;em&gt;All&lt;/em&gt; of us wants the best for our children. We want them to have
+good grades, enjoy school life, eat nutritional food at school and grow up a
+happy, compasionate, intelligent and balanced child. But this issue now has became a partisan
+issue.&lt;/p&gt;
+&lt;p&gt;I am also sure that we all agree that as a nation, a good education for our children is an
+important part of building the future of our nation.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it has became a partisan issue when we take things which are not directly
+related to education that aims to develop our children into that balanced human
+being, such as racial or religious identity into the equation.&lt;/p&gt;
+&lt;p&gt;Racial or religious identity are exlusive to a particular person or group in the society
+and these are the things that puts us apart instead of bringing us together.
+When we bring these identities to the public sphere and relate to them it will
+of course create exlusitivity and if it's something that not all of us can strive to be (like
+race for example) then it will eventually create resentment.&lt;/p&gt;
+&lt;p&gt;Of course, there is absolutely nothing wrong in being a Dayak who is a Buddhist
+or a half-Thai half-Chinese Christian or a Javanese half-Bajau Muslim. All are
+Malaysian and all want a better future.&lt;/p&gt;
+&lt;p&gt;In the context of our children what is important is that they know that these people 
+exists in our society. They are our neigbours, the people that we see at shops, buy things
+from, sell things to. They are the ones which we should help when they ask for
+help, and they are also the ones that will help us when we need  help.
+They too want their children to grow up a compasionate, intelligent and healthy
+member of society.&lt;/p&gt;
+&lt;p&gt;Unless we can scientifically prove that excellence are born with a certain race, 
+it doesn't make any sense to insist a person of a certain skin colour is
+only eligable to run a certain public school. &lt;/p&gt;
+&lt;p&gt;Instead of trying to satisfy nonsense demands and requirements that do not
+improve the education level of our children, our public education should 
+refocus itself on what is universally important to the growth of a child into becoming 
+a young adult capable of thinking for herself what is good for her own future, 
+regardless of skin colour or faith.&lt;/p&gt;
+&lt;h2&gt;The public shool focus is on education, and not just a tool to unite society&lt;/h2&gt;
+&lt;p&gt;Look at it another way: The current rheoteric that we're seeing basically also
+says that part of the blame for our national disunity are on schools, but when in fact schools in
+it's pure form should only be focusing on giving education to our children.&lt;/p&gt;
+&lt;p&gt;The subject of national unity is &lt;em&gt;beyond&lt;/em&gt; our public schools and doesn't stop
+there. Our 7-year old child starting her formal education doesn't care what skin
+colour she is, or what colour her new friend that'll be sitting next to her in
+class will be.&lt;/p&gt;
+&lt;h1&gt;Disunity is not a problem that the schools started&lt;/h1&gt;
+&lt;p&gt;Every child when born doesn't know what race or religion is. If they know that
+they are &lt;em&gt;different&lt;/em&gt; than other people and should only stick to their own kind by the time 
+they get to primary school, then the problem of disunity has started even before
+getting to the schools. How would we expect schools to solve a problem which it
+did not start?&lt;/p&gt;
+&lt;p&gt;Don't make our public schools one of the scapegoats of our inability to get our
+act together, and don't expect the schools to solve a problem it did not
+start.&lt;/p&gt;
+&lt;h1&gt;Focusing on good education and it's resources&lt;/h1&gt;
+&lt;p&gt;To achieve the level of education that we expect for our children requires us to
+step back and reasses the ability of us to educate them the way we want them to
+be. It is a fool's errand to say that we want the best, when we are only willing
+or able to move forward at a mediocre level.&lt;/p&gt;
+&lt;p&gt;Having capable teachers, and teachers who can focus only on teaching without
+being burdened with adminstrative tasks is a no-brainer and I know we are aware 
+of the need to focus and fix these problems.&lt;/p&gt;
+&lt;p&gt;One other aspect that have not being discussed though is the fact that we're
+spreading our resources thin due to political pressure based on racial or
+religious identity instead of educational needs.&lt;/p&gt;
+&lt;p&gt;For example, if a child wants to learn a particular language, why would she
+need to go to a vernacular school to do so? Why shouldn't we give the
+opportunity for &lt;em&gt;all&lt;/em&gt; our children to learn these different languages at any
+school that they go to?&lt;/p&gt;
+&lt;p&gt;The only obvious reason this is happening is that we don't
+have enough capable teachers to go around all of our schools.&lt;/p&gt;
+&lt;p&gt;It does not make rational or scientific sense to say we need a totally different
+school stream just to learn a language.&lt;/p&gt;
+&lt;p&gt;Instead of having teachers assigned to different schools all over the
+country, we should have lesser amount of schools. The different languages, or
+subjects that are being taught differently at vernacular schools should be
+made avaialable and taught at all the schools that we have.&lt;/p&gt;
+&lt;p&gt;What works at the the better schools should be shared and emulated among other
+schools, increasing the education level bar evenly across all our schools.&lt;/p&gt;
+&lt;p&gt;Robin, one of the callers pointed out that vernacular schools strive because they do
+offer something or maybe even do something better which are missing from the national schools.
+We should figure this out, and emulate them on all our schools.&lt;/p&gt;
+&lt;p&gt;It makes sense to have a single stream school, where everyone can learn all
+these different languages with everyone else. We will have a single budget, and
+a single focus on education, practicing best practices learned via a single way to run
+all our schools, with less overhead burden due to the different wants or
+political needs that has nothing to do with a good education. Our teaching resources will be
+more focused on teaching rather than than be bogged down by non-educational matters.&lt;/p&gt;
+&lt;p&gt;Within the public education sphere, languages should be regarded as just
+another tool to communicate and to educate our children, and are
+just subjects to be learned instead of them being symbols of racial or religious
+identities.&lt;/p&gt;
+&lt;h2&gt;Mixed signals: It's confusing and it's insane&lt;/h2&gt;
+&lt;p&gt;Judging from the perspective that our general public is viewing our school
+system, we're not doing very well. Most of us complain that our children are
+being burdened by more and more things to learn, and at the same time they are
+not getting to know one another any better.&lt;/p&gt;
+&lt;p&gt;Year in and year out, we focus on the amount of &lt;em&gt;As&lt;/em&gt; that our children get, how
+many did not get the scholarship that they want, how many couldn't speak good
+English, and how they are getting more and more polarised day by day.&lt;/p&gt;
+&lt;p&gt;But the fact is in essence we're not changing the way we're teaching our
+children. We think we give them education by adding all these new information
+and subjects at school for them to pass exams, and we think we're giving them
+"education", but are we?&lt;/p&gt;
+&lt;p&gt;When we read the news of children killing themselves because they did not get
+the results that they wanted, we raise our hands and say what have we done? &lt;/p&gt;
+&lt;p&gt;But we continue to demand As as if this is the only way forward and complain
+when there is not enough places in the universities because tens of thousands of
+other children also received more &lt;em&gt;As&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The same goes for putting the schools as a scapegoat for our disunity. We say we want
+our people to unite and be treated as one and as equals, but when we say all our
+schools should be one and all our children learn under a single roof, we raise
+our hands and shout and say that &lt;em&gt;we need to protect culture&lt;/em&gt; and it's &lt;em&gt;racism
+and discrimination&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We are just making our children confused by saying something and doing something
+else. They will just grow up cynical and untrusting of the adults they see, and
+worst, they will grow up &lt;em&gt;into&lt;/em&gt; those exact same adults.&lt;/p&gt;
+&lt;p&gt;Now, sixty years down the road when we started of with our current formula of
+education, have we achieved in terms of quality or strength among our society
+that we wanted to achieve at that time? Just judging from what our society is
+debating right now, it does not seem so. &lt;/p&gt;
+&lt;p&gt;If we expect different results now, but without changing the approach we have been
+taking all this while, we are insane!&lt;/p&gt;
+&lt;h2&gt;Our multiculturalism does not die with the schools.&lt;/h2&gt;
+&lt;p&gt;It dies when we only care about our own lot.&lt;/p&gt;
+&lt;p&gt;Remove all references to a particular language or race types of school, 
+from vernacular schools, the Malay College to the MRSM schools by MARA&lt;sup id="fnref:footnote1"&gt;&lt;a class="footnote-ref" href="#fn:footnote1"&gt;2&lt;/a&gt;&lt;/sup&gt; 
+schools and make all these schools accessible without prejudice to any child of Malaysia.&lt;/p&gt;
+&lt;p&gt;If we want to play divisive politics and call out each other by their skin
+colour, fine. But leave our children and &lt;em&gt;their&lt;/em&gt; schools out of it.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:Ref1"&gt;
+&lt;p&gt;&lt;a href="https://mytn50.com/?language=eng"&gt;TN50&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:Ref1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:footnote1"&gt;
+&lt;p&gt;Ironically &lt;strong&gt;Majlis Amanah Rakyat&lt;/strong&gt;, despite it's name, doesn't seem to
+consider non-bumiputras as &lt;em&gt;rakyat&lt;/em&gt; to be helped as it's mandate is focused only helping bumiputras&amp;#160;&lt;a class="footnote-backref" href="#fnref:footnote1" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="Society"></category><category term="malaysia"></category><category term="education"></category><category term="current affairs"></category><category term="unity"></category><category term="bfm"></category><category term="2017"></category></entry><entry><title>The Malaysia's brain drain dilemma</title><link href="https://thefortunate.blog/the-malaysian-brain-drain-dilemma.html" rel="alternate"></link><published>2017-01-28T11:00:00+09:00</published><updated>2017-01-28T11:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2017-01-28:/the-malaysian-brain-drain-dilemma.html</id><summary type="html">&lt;p&gt;My take on the Malaysian brain-drain dilemma&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is the original article which was published on 28th Feb 2017 in The Malay Mail Online
+titled &lt;a href="http://m.themalaymailonline.com/what-you-think/article/believing-in-malaysias-future-and-potential-iqbal-abdullah"&gt;Believing in Malaysia’s future and
+potential&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://m.themalaymailonline.com/malaysia/article/the-other-side-of-malaysias-brain-drain-story"&gt;This&lt;/a&gt; 
+article concerning Malaysia's brain drain phenomena on The Malay Mail Online 
+brought me thinking on this fine Saturday morning of the 1st day of the
+New Lunar Year, and I want to write on what I think of the &lt;em&gt;Malaysian Brain Drain Dilemma&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Malaysia spends time, money and effort to attract Malaysian overseas to return
+to Malaysia and contribute back to the country. The idea of getting people to
+contribute to the development of the country is on the right track: Heck, it's
+the only track that we have! There are absolutely no alternatives to &lt;em&gt;not
+wanting people&lt;/em&gt; to contribute.&lt;/p&gt;
+&lt;p&gt;On the other hand, I do not see the point of getting &lt;em&gt;Malaysians to Malaysia&lt;/em&gt; in
+order to achieve that. I feel the narrative of showing better lives for
+Malaysians who returned home after years away, or of Malaysians who succeeded
+&lt;em&gt;because&lt;/em&gt; they left home is missing the point.&lt;/p&gt;
+&lt;h2&gt;In the 21st century you can be anywhere and still contribute&lt;/h2&gt;
+&lt;p&gt;First, improvements in infrastructure, information technology and travel makes
+it possible for any of us to be anywhere on this planet. In a 8-hour period you
+can be in Helsinki or if you spend 30 hours, you can be in Beunos Aires. You can
+communicate via email, share information on websites and discuss ideas face-to
+face via Hangouts or Facetime.&lt;/p&gt;
+&lt;p&gt;People who want to contribute to something are passionate at what they do and 
+will know that they want to contribute. The missing piece is the effort that we
+spend to identify these people, reach out to them and connect them to like-minded
+people or institutions that can help them amplify their contributions.&lt;/p&gt;
+&lt;p&gt;TalentCorp says they have approved 4000 people within a period of 5 years since
+2011. Malaysian overseas are estimated at 1 million people, which translates to
+only 0.004%. Is 1000 per year of people enough to contribute? Is 0.004% an
+acceptable acception rate after 5 years? Are we doing too little, or is this too much?&lt;/p&gt;
+&lt;p&gt;Perhaps TalentCorp's mandate is to identify and attract only talents with skills that
+can only be utilized if they are present in the country, like surgeons to do
+surgery. But we know contributing to something is more than that, and we need all the help
+we can get, not only from the sciences but also engineering and arts.&lt;/p&gt;
+&lt;p&gt;We also must not forget the home grown talents and people that are doing
+wonderous jobs. Overseas Malaysias have different backgrounds, ideas and
+approaches to the same problem we all have and these differences are what we
+want to be accesible to our home grown talents. They can learn from each other,
+improve and make something better together. Creating the missing piece of connecting
+these dots between locals and abroad Malaysiams is where we should put more effort in,
+regardless if the overseas talent will be coming home or not.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img alt="The writer checking email in front of Mont Saint Michel" src="https://thefortunate.blog/images/montsaintmichel.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;This is a picture of the writer checking his email taken in front of Mont Saint Michel&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Home is where the heart is&lt;/h2&gt;
+&lt;p&gt;The second part is the most important factor of all: Where we call home. &lt;/p&gt;
+&lt;p&gt;Home is not where we were born. Making a place home is a self-conscious
+decision based on the different situation, personality and opportunities for any
+given individual. This should and must be the overarching target for any 
+returning program that we want to carry out: &lt;strong&gt;Making Malaysia home.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once someone calls a place home, the good and the bad will be taken in stride.
+It is human nature to better their own home, for themselves and the generations
+to come, and when we can get people who want to contribute calling Malaysia
+their home, it will be a sustainable success story.&lt;/p&gt;
+&lt;p&gt;Although based on the article above, there are individuals who would return back
+to Malaysia because they did not find the bed or roses they thought were waiting
+for them whereever they were:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Who cares if there’s corruption and crime in Malaysia? I just go back, make
+heaps of money, then live in a condo with proper security. Solved. Whereas
+here, I’m just an average Joe, and I’m struggling just to keep my head above
+water".  - See more at:
+&lt;a href="//m.themalaymailonline.com/malaysia/article/the-other-side-of-malaysias-brain-drain-story#sthash.Z6zLaSYD.dpuf"&gt;http://m.themalaymailonline.com/malaysia/article/the-other-side-of-malaysias-brain-drain-story#sthash.Z6zLaSYD.dpuf&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;These people do not call Malaysia their home. Making money is their intention,
+and when there are better opportunities elsewhere, they move on. What we should
+focus on for the long term are the stayers, the builders and the committed.&lt;/p&gt;
+&lt;p&gt;Given this is what we agree to, to make Malaysia home, so the next big question is: 
+&lt;em&gt;How do you convince people to call Malaysia their home?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;First, lets think of &lt;em&gt;what makes a good home?&lt;/em&gt;. Obviously you would not want to
+live in a home that is fighting all the time. You do not want to live in a home
+that is wrapped in poisonous polluting gasses. You &lt;em&gt;want&lt;/em&gt; to live in a home that
+is peaceful, clean and conducise to health.&lt;/p&gt;
+&lt;p&gt;We should accept and understand that the universal values that attract human beings 
+with a purpose applies and this is where we should concentrate our effort in: 
+The values of justice, fairness, equality, fair reward for hard work, 
+a genuine effort in betterment, a chance to better oneself, rule of law: 
+Similar to the so-called &lt;strong&gt;The American Dream&lt;/strong&gt;, a slogan that made
+America the place to be for all people having dreams of a better future.&lt;/p&gt;
+&lt;p&gt;We do have an upperhand over overseas Malaysians to call Malaysia home, as they 
+have family, roots and the eternal love for Malaysian food. But we should not take 
+those for granted. There are more things that needs to be done. &lt;/p&gt;
+&lt;h3&gt;And then it's not only Malaysians&lt;/h3&gt;
+&lt;p&gt;Let's face it: Globalisation means people, capital and goods will move around at
+a much easier and faster pace than it has ever before. Our competition is no
+longer our neighbours like Singapore, Thailand or Indonesia, but it's New York,
+Rio de Janeiro, Beirut, Paris or even Banjul. It's not countries anymore but cities: 
+Cities now try to attract the best people from anywhere around the world to come and live there.
+If people would not want to stay in Kuala Lumpur, all of these other cities will
+woo them and are more than happy to welcome their wealth, expertise and passion.
+The faster we realize this, the better it is for us.&lt;/p&gt;
+&lt;p&gt;The point here is that when we get our head around at aiming to make Malaysia our
+home, the universal values that apply to a good home will apply and attract many more
+people, regardless of nationality, colour and creed. This is what makes a
+country great: People believing in it and wanting to participate in it's growth
+process. All these believers will come, and call Malaysia their home.&lt;/p&gt;
+&lt;p&gt;And when we reach this stage, we will be in a totally different playing field altogether. 
+It will no longer be what race we are, or who are sons of soil, or where we are
+from but we will be in the race to be the best in the world. &lt;/p&gt;
+&lt;p&gt;I believe in this vision of our country, where everyone wants to make it their
+home, and believe in its potential and future. In the end, this is what we
+mostly desire now: Believers in our country, it's potential and it's future.&lt;/p&gt;</content><category term="Letters To The Editor"></category><category term="current affairs"></category><category term="malaysia"></category><category term="2017"></category></entry><entry><title>Yang di-Pertuan Agong is not "king".</title><link href="https://thefortunate.blog/agong-and-not-king.html" rel="alternate"></link><published>2016-12-05T10:00:00+09:00</published><updated>2016-12-05T10:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2016-12-05:/agong-and-not-king.html</id><summary type="html">&lt;p&gt;Malaysians do not have a king, but the Yang di-Pertuan Agong.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was an email I sent to The Star on referring to the Malaysian Head of State
+using the appropriate proper noun. It was not published.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I refer to your news article on 16th Nov 2016 with the title
+&lt;a href="http://www.thestar.com.my/news/nation/2016/11/16/king-and-queen-attend-parade-of-thanks-for-14th-yang-dipertuan-agong/"&gt;King and Queen attend parade of thanks for 14th Yang di-Pertuan
+Agong&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Every time I read in your paper news about our Yang di-Pertuan Agong
+and your paper refers to him as King and his consort as Queen, I
+cringe.&lt;/p&gt;
+&lt;p&gt;We Malaysians do not have a king. Spain has a king. Sweden has a king.
+Monaco has a king. Japan has an emperor, while we Malaysian have our
+Agong.&lt;/p&gt;
+&lt;p&gt;It is a unique position even within this small world of ours. A king
+generally implies a hereditary line of monarchs with power passed down
+between families. Our Yang di-Pertuan Agong is elected and even has a
+deputy which are not from the same family unlike kings which have
+crown princes which are nearly the time sons of the same family.&lt;/p&gt;
+&lt;p&gt;Our passports also refers to the Agong as "His Majesty the Yang
+di-Pertuan Agong of Malaysia".&lt;/p&gt;
+&lt;p&gt;The Agong is not a hereditary role, is a proper noun and referring to
+a specific and important role in our country. There is no equivalent
+english translation for our Agong, as the English language came from a
+region and time where a ruler is a king and have absolute powers.&lt;/p&gt;
+&lt;p&gt;As an alternative, you can refer to our Agong by addressing him by
+"His Majesty" and his consort as "Her Majesty", or even the "Supreme
+Commander of the Malaysian Armed Forces" if you'd like.&lt;/p&gt;
+&lt;p&gt;As one of the few English papers with wide circulation in the country,
+we can assume that your good paper will be read by many foreigners
+visiting our shores. It would be best to give the proper introduction
+to them concerning our Yang di-Pertuan Agong, by correctly referring
+to our unique elected Head of State lest they'l have the impression
+that the Federation of Malaysia have "kings".&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="Letters To The Editor"></category><category term="current affairs"></category><category term="malaysia"></category><category term="2016"></category></entry><entry><title>Let's stop saying hello</title><link href="https://thefortunate.blog/no-greeting-condo.html" rel="alternate"></link><published>2016-11-09T08:30:00+09:00</published><updated>2016-11-09T08:30:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2016-11-09:/no-greeting-condo.html</id><summary type="html">&lt;p&gt;The cutting edge on living together in a condo&lt;/p&gt;</summary><content type="html">&lt;p&gt;So I saw this on Twitter:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Letter to the editor on no greeting condo" src="https://thefortunate.blog/images/no-aisatsu-twitter.png"&gt;&lt;/p&gt;
+&lt;p&gt;A person wrote to the local newspaper telling the story of his condominium
+making a new rule to not allow greeting each other. &lt;/p&gt;
+&lt;p&gt;As the story goes, one of the parents were telling the management comittee 
+that they were teaching their children to not greet anyone that they know, 
+and since it's difficult for children to know a person who is an occupant of the
+condo complex or not, the parent were asking the comittee to make a rule to not
+allow greetings in the condo complex.&lt;/p&gt;
+&lt;p&gt;At the same time, one of the older occupants were also saying that since their
+greetings always goes unaswered and doesn't make them feel any better, why not
+we just stop with all the greetings altogether? &lt;/p&gt;
+&lt;p&gt;And so the occupants have reached an agreement not to greet each other, and now
+they need to publish the new rule so that the rest of the condo complex
+occupants know and follow it.&lt;/p&gt;</content><category term="Society"></category><category term="living together"></category><category term="2016"></category></entry><entry><title>あいさつをやめましょう。</title><link href="https://thefortunate.blog/ja/no-greeting-condo.html" rel="alternate"></link><published>2016-11-09T08:30:00+09:00</published><updated>2016-11-09T08:30:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2016-11-09:/ja/no-greeting-condo.html</id><summary type="html">&lt;p&gt;日本の近所付き合いの最先端だそうです。&lt;/p&gt;</summary><content type="html">&lt;p&gt;Twitterで以下の投稿を見かけたが、&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Letter to the editor on no greeting condo" src="https://thefortunate.blog/images/no-aisatsu-twitter.png"&gt;&lt;/p&gt;
+&lt;p&gt;読んでビックリした。教育上だからと言って周りの社会まで巻き込んで近所の付き合い方（というか防犯対策上も問題になりそうだが）を根本的に変えちゃう
+というのはどうかと思うけど。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「マンション内のあいさつは禁止」&lt;/strong&gt; という張り紙でもだすのでしょうか。やっぱりこっちも理解苦しんでいるわ。&lt;/p&gt;</content><category term="Society"></category><category term="近所付き合い"></category><category term="マンション生活"></category><category term="2016"></category></entry><entry><title>Can Entrepreneurship Be Taught?</title><link href="https://thefortunate.blog/can-entrepreneurship-be-taught.html" rel="alternate"></link><published>2015-03-12T10:00:00+09:00</published><updated>2015-03-12T10:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2015-03-12:/can-entrepreneurship-be-taught.html</id><summary type="html">&lt;p&gt;My story on learning how to be an entrepreneur&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="http://www.mymagic.my/about/"&gt;MaGIC&lt;/a&gt;'s &lt;a href="https://cherylyeoh.com/"&gt;Cheryl Yeoh&lt;/a&gt; 
+gave her views on if entrepreneurship can be taught in &lt;a href="http://bit.ly/1FbbK89"&gt;The Star, March 3
+2015&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I would like to add my comments, based on my different experiences and
+motivation from the context of teaching entrepreneurship.&lt;/p&gt;
+&lt;p&gt;My views on entrepreneurship are purely based on experience. I did not have any
+formal education on entrepreneurship, (I am trained as an engineer) nor my
+immediate family members have been examples of entrepreneurship. As it is now,
+out my siblings and my parents, only I are currently earning a living from a
+business that I run.&lt;/p&gt;
+&lt;p&gt;From these experiences of mine, I believe that entrepreneurship are not
+dissimilar to fado, the traditional music of Lisbon. You can nuture the feel for
+fado (having many fado houses and public performances, as well as exposure from
+the media), you can learn how to write and perform fado (by watching and
+learning from the great fado maestros on how they perform their art) but alas
+you cannot teach fado. There will be pointers on techniques which you can pass
+on, but it is impossible for you to teach "how to fado". This sentiment is
+echoed by all the great fado players, and I am very sure it is the same for any
+art form.&lt;/p&gt;
+&lt;p&gt;Which brings me to an interesting take on entrepreneurship that I believe in:
+That it is a mix of science and art form. It is science from the way that you
+measure success: Because it is a business, you can measure what is the profit
+margin, or the earnings per stock, or valuation or market capitalization. Based
+on this numbers, so called investor will tell you if a business is growing,
+stagnating or losing ground and if you should invest in a certain business. The
+more these numbers show a positive trend, the better it is for the business&lt;/p&gt;
+&lt;p&gt;But how do you get to that measurable success is, at the very best, not
+measurable. Best practices from a certain market, when brought over might not
+work the same way in a different market. The best we have the franchise types
+turn key model which implements best practices but by different people, but even
+that still doesn't work the same all the time everywhere.&lt;/p&gt;
+&lt;p&gt;Successful entrepreneurship requires more than understanding the numbers and
+theories like what we learn in a business school sitting for an MBA. Business
+and entrepreneurship are two different animals: A successful entrepreneur can
+create a successful business, but a successful business might not create the
+successful entrepreneur.&lt;/p&gt;
+&lt;p&gt;In that context I very much agree with what Cheryl has pointed out: That the
+Stanford Technology Ventures Program (STVP) does not look at purely the numbers
+of startup companies created. A performance indicator to gauge if
+entrepreneurship is taking hold that is based the amount of companies created is
+nonsensical.&lt;/p&gt;
+&lt;p&gt;It doesn't make sense and it doesn't show anything other than, well, the amount
+of companies created.&lt;/p&gt;
+&lt;p&gt;A top-down approach stating a target of so and so amount of companies should be
+created to boost entrepreneurship, which I have noticed we, from time and time
+again prefer to do, will only lead to more insubstantial companies and nonsense
+capital distribution, with very little impact on creating resilient and
+successful entrepreneurs.&lt;/p&gt;
+&lt;p&gt;Instead, a much more pedal-to-steel indicator that directly connects to the
+would-be entrepreneurs will serve this purpose better. We can learn from
+Stanford on how they use the amount of students who oversubscribe to their
+courses or the ratings the students have given. Entrepreneurship is a career
+path; For me personally, it is a way to live.&lt;/p&gt;
+&lt;p&gt;We should treat entrepreneurship like any other career path. Students from young
+should know that being an entrepreneur is also a viable career, like being a
+policewoman, a mechanic, a pilot, or a lawyer or a doctor. But unlike a
+policewoman who enforces the law or a pilot who flies a plane, the entrepreneur
+creates value to the public and her customers by solving problems with a purpose
+that will be sustainable for her, her family and her employees.&lt;/p&gt;
+&lt;p&gt;But in the end, it is up to the entrepreneur on why she decides to become one.
+For the pilot, it might be the blue skies and travelling the world. For the
+policewoman, it might be because of her sense of justice and conviction. This
+reason or purpose, in the end, is the single most important driver behind
+successful entrepreneurs.&lt;/p&gt;
+&lt;p&gt;Knowing wanting to achieve this goal and being able to do so by creating
+sustainable value is the first step of being an entrepreneur. Unfortunately this
+cannot be taught. What we, as the society and the education system can the best
+do is to say that these goals can be achieved and have tangible tools like
+infrastructure and access to human and monetary capital accessible.&lt;/p&gt;
+&lt;p&gt;Like any good artist, give them the tools, step back and watch them work! &lt;/p&gt;</content><category term="Entrepreneurship and Business"></category><category term="current affairs"></category><category term="malaysia"></category><category term="entrepreneurship"></category><category term="2015"></category></entry><entry><title>So you're CEO</title><link href="https://thefortunate.blog/so-you-are-ceo.html" rel="alternate"></link><published>2012-10-21T10:20:00+09:00</published><updated>2012-10-21T10:20:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2012-10-21:/so-you-are-ceo.html</id><summary type="html">&lt;p&gt;Being CEO is a maximizing your balancing act and not a zero sum game&lt;/p&gt;</summary><content type="html">&lt;p&gt;On my flight on Singapore Airlines from Changi to KLIA I read an interesting
+interview of &lt;a href="https://en.wikipedia.org/wiki/Tan_Suee_Chieh"&gt;Tan Suee Chieh&lt;/a&gt; in The Straits Times Opinion section (Fri Oct 19
+2012 edition).&lt;/p&gt;
+&lt;p&gt;In that interview Tan basically talks about going "from well to good", and how
+this is a departure from how he usually did things before going on board as head
+of Singapore's NTUC.&lt;/p&gt;
+&lt;p&gt;I find this excerpt of the interview particularly interesting:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"I worked in commercial companies for 25 years. My job as CEO of a listed
+company has always been to maximise profits. And my obligation is to give as
+little as possible to the customer, subject to market share and profit
+considerations. But my job at NTUC Income is to give as much as possible to the
+policyholders as a group. It's two different mindsets."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Of course, as an outifit out to make a profit everything is subject to profit
+considerations. But I feel that being CEO or the leader even for an unlisted, 
+3 person family business, with obligations to &lt;em&gt;give as little as possible to the
+customer&lt;/em&gt; while in the same stride talking about &lt;em&gt;maximising profits&lt;/em&gt; is
+misguided at best.&lt;/p&gt;
+&lt;p&gt;Is this how our Asian CEOs on this part of the world generally think what their
+mandate is all about?&lt;/p&gt;
+&lt;p&gt;In my role as a leader, in a nutshell my work boils down to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Give good returns to shareholders by maximizing profits, as they are the ones taking the risk to
+  put up the money for the business in the first place.&lt;/li&gt;
+&lt;li&gt;Stand in the customer's shoes and give them as much as possible making them happy, which will get
+  you more money to do point 1 above. You are where you are because your customers are. &lt;/li&gt;
+&lt;li&gt;Empower your employees and then stand out of their way so that they can please your customer which
+  will lead to point 2 above and consequently to point 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It should not be (and it never is) a zero sum game. Maximising profits does not
+mean giving as little as possible to your customer.&lt;/p&gt;</content><category term="Entrepreneurship and Business"></category><category term="asian business"></category><category term="leadership"></category><category term="2012"></category></entry><entry><title>KTMB should follow right train of thought</title><link href="https://thefortunate.blog/ktmb-should-follow-right-train-of-thought.html" rel="alternate"></link><published>2009-12-25T10:00:00+09:00</published><updated>2009-12-25T10:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2009-12-25:/ktmb-should-follow-right-train-of-thought.html</id><summary type="html">&lt;p&gt;Why KTMB still in the red&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was an &lt;a href="http://bit.ly/TxHZCy"&gt;email&lt;/a&gt; I sent to The Star on Christmas Day 2009 about how terrible
+KTMB Komuter service was. I was pretty pissed at that time. I don't understand
+how KTMB cannot understand this very simple thing on providing a decent service to
+it's customers.&lt;/p&gt;
+&lt;p&gt;After I sent the email, I got a call from The Star while I was in Jaya Jusco in
+Malacca and the person wanted to confirm that what I wrote about KTMB's aim of
+getting MYR1 profit was correct before they published it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ON DEC 12, I took KTM’s Ekspres Sinaran Pagi from KL Sentral bound for
+Singapore, which was originally scheduled to depart at 8.30am.&lt;/p&gt;
+&lt;p&gt;While I waited at the terminal, the departure time was rescheduled to 8.40am
+and again to 8.55am. The train finally departed at 9am, and we reached
+Singapore one hour later than the scheduled time.&lt;/p&gt;
+&lt;p&gt;For the KTM Komuter from Mid Valley to Seremban (Rawang-Seremban route) on
+Dec 22, we waited from 9.10pm and the train arrived only at 9.40pm. We
+finally reached Seremban at around 11pm.&lt;/p&gt;
+&lt;p&gt;KTMB customers waiting at the Mid Valley station resigned themselves to the
+waiting, and some even opened up their work on the cement floor and tried to
+get something done.&lt;/p&gt;
+&lt;p&gt;The electronic signs at the platform were confusing and did not show correct
+information. We were not notified the reason for the delays.&lt;/p&gt;
+&lt;p&gt;Certain passengers were inconsiderate, refusing to allow passengers to alight
+first before boarding, pushing ahead with their big backpacks, having their
+handphone ringtones on full volume and refusing to give up their seats for a
+blind mother and child who boarded in Serdang.&lt;/p&gt;
+&lt;p&gt;The experience of taking the Komuter from Mid Valley to Seremban has left me
+tired. I felt I have grown older by 10 years and my will to live has gone.&lt;/p&gt;
+&lt;p&gt;There are two points that I wish to share with KTMB:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In today’s economy, KTMB must realise that it is not an operator of
+      railways. It must realise that it is a service provider, not much different
+      from taxis or retail outlets. It just so happens that the service provider
+      called KTMB is providing its service through railways.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The money is in transporting people, not goods. If KTMB truly wishes to
+   reach its stated target of even RM1 profit, stay there or even go beyond
+   that, it has to understand that the service of transporting people, in a
+   timely and comfortable manner, will be the single most important revenue
+   provider.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These are important concepts that everyone in KTMB must realise and
+understand, from the CEO down to the person maintaining the ticket machines
+at the stations.&lt;/p&gt;
+&lt;p&gt;From a layman’s point of view KTMB has great potential.&lt;/p&gt;
+&lt;p&gt;With highways being built every day and airline flights getting cheaper, it
+is more important than ever that KTMB realise its potential as a service
+provider, and the strength that its assets hold. KTMB owns tracks and
+stations which are not affected by traffic yet that go direct to the heart of
+towns.&lt;/p&gt;
+&lt;p&gt;Malaysia will change like other developed nations, where more and more people
+commute to work from out-of-state into Kuala Lumpur. We see this happening
+right here and now, and it is inevitable.&lt;/p&gt;
+&lt;p&gt;There are too many cars on the roads and everyone is tired of traffic jams in
+the city.&lt;/p&gt;
+&lt;p&gt;Everything is in place that will allow KTMB to be the leading transportation
+service provider. All that KTMB needs to do is to leverage these assets and
+by being reliable and punctual.&lt;/p&gt;
+&lt;p&gt;To be reliable and on time do not require KTMB to change its rolling stock
+immediately, nor does it require it to send its staff to Tokyo to study how
+JR (Japan Railways Group) does its job. All KTMB has to do is ride its own
+trains and make notes of what it’s doing right and what it’s doing wrong, and
+then fix them.&lt;/p&gt;
+&lt;p&gt;IQBAL ABDULLAH, 
+Petaling Jaya.&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="Letters To The Editor"></category><category term="current affairs"></category><category term="malaysia"></category><category term="public transportation"></category><category term="2009"></category></entry><entry><title>Meritokrasi ubat pahit tetapi mujarab</title><link href="https://thefortunate.blog/meritokrasi-ubat-pahit-tetapi-mujarab.html" rel="alternate"></link><published>2001-08-09T10:20:00+09:00</published><updated>2010-10-04T18:40:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2001-08-09:/meritokrasi-ubat-pahit-tetapi-mujarab.html</id><summary type="html">&lt;p&gt;An opinion letter published in Utusan Malaysia concerning meritocracy in schools.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is an opinion letter I wrote when I was staying in Higashi-Kawaguchi, fresh
+out of college during the summer of my first job at Sun Microsystems. It was published in 
+&lt;a href="http://ww1.utusan.com.my/utusan/info.asp?y=2001&amp;amp;dt=0809&amp;amp;pub=Utusan_Malaysia&amp;amp;sec=Rencana&amp;amp;pg=re_06.htm"&gt;Utusan Malaysia&lt;/a&gt;
+on 9th August 2001:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Saya percaya dengan tahap teknologi dan capaian media kita sekarang, seseorang
+itu tidak perlu lagi lulus universiti untuk mendapatkan kebolehan baik di dalam
+bidang tertentu, terutamanya sains maklumat.&lt;/p&gt;
+&lt;p&gt;Tetapi pokoknya ia bukan sahaja mengenai minat atau kebolehan, tetapi mentaliti
+dan disiplin pelajar Melayu kita. Oleh sebab untuk membaiki mentaliti dan
+disiplin pelajar Melayu ini juga, maka Perdana Menteri, Datuk Seri Dr. Mahathir
+mencadangkan pelaksanaan sistem meritokrasi (walaupun sebagai eksperimen) mulai
+sesi pengambilan pelajar akan datang.&lt;/p&gt;
+&lt;p&gt;Setelah melalui kehidupan belajar di universiti (walaupun saya belajar di salah
+sebuah universiti awam di Jepun), saya dapat memahami jika dikatakan, walaupun
+kelulusan yang baik itu penting, tetapi sebenarnya pembelajaran di univerisiti
+adalah lebih daripada itu. Jika dibandingkan dengan kursus-kursus lain, kita
+sedia maklum memang pembelajaran di universiti lebih susah dan membebankan,
+kerana salah satu sebabnya ialah terdapat subjek-subjek lain yang langsung tiada
+kaitan dengan kursus seseorang itu, tetapi ia harus diambil bagi memenuhi syarat
+kreditnya untuk menamatkan kursus.&lt;/p&gt;
+&lt;p&gt;Tetapi tidakkah kita terfikir, jika sistem pendidikan kita mahu menghasilkan
+seorang programmer atau seorang jurutera, mengapa tidak dari awal lagi gaya
+pembelajaran di univerisiti diubah? Ini kerana institut universiti itu bukan
+hanya mahu menghasilkan seorang programmer atau jurutera tetapi seorang
+profesional semua bidang, yang berdisiplin dan berwibawa.&lt;/p&gt;
+&lt;p&gt;Tidak ada gunanya jika seseorang itu boleh menulis kod program yang cukup bagus
+tetapi masih tidak memahami sejarah negaranya, oleh itu tiada sikap patriotik.&lt;/p&gt;
+&lt;p&gt;Bertahan selama empat tahun di universiti dan berhadapan dengan segala macam
+masalah, kebanyakan bergantung dari dalam diri sendiri dan selebihnya dari luar,
+telah mengajar saya pelbagai perkara. Bukan tidak pernah semasa di universiti,
+saya menangis seorang diri di belakang dewan kuliah kerana rasa terlalu tertekan
+untuk mendapatkan gred bagus dalam satu subjek yang saya langsung tidak
+mempunyai minat.&lt;/p&gt;
+&lt;p&gt;Bukan tidak pernah dalam empat tahun itu saya terfikir untuk berhenti sahaja
+belajar di universiti kerana saya rasa minat saya tidak ada dalam bidang
+tertentu, dan saya percaya kebolehan diri untuk melakukan apa yang saya minat.
+Pernah semasa saya di tahun dua, saya berdiri di hadapan pensyarah selama lebih
+dua jam, sambil diherdik dan dimarahi kerana tugasan saya yang dikatakannya
+tidak berapa elok walaupun saya bersengkang mata lebih tiga hari tiga malam
+untuk menyiapkannya. Pada masa itu hanya Tuhan sahaja yang tahu betapa sakitnya
+hati saya dan betapa mahu saya pulang saja ke Malaysia kerana tidak tahan lagi
+dengan satu sistem pembelajaran yang apa-kenapa-dan-bagaimananya langsung
+tidak saya fahami.&lt;/p&gt;
+&lt;p&gt;Semasa saya di tahun empat, pernah saya diminta oleh pensyarah untuk melakukan
+pembentangan mengenai kajian yang sedang saya lakukan. Setelah membuat
+pembentangan tersebut, saya telah dimarahi kerana pembentangan saya itu tidak
+berapa memuaskan. Pensyarah tersebut berkata, Kenapa kamu tidak lakukan
+seperti saya, dengan membuat nota dan rajah yang teliti, seperti saya lakukan
+setiap kali kuliah? Saya berkata oleh kerana profesor adalah seorang
+profesional dalam bidang tersebut, maka perkara itu sudah menjadi satu benda
+yang biasa, dan tidak pula bagi saya.&lt;/p&gt;
+&lt;p&gt;Tetapi beliau kemudian menjawab, Habis, kenapa kamu hadir di univerisiti?
+Bukankah untuk menjadi seorang profesional? Saya terdiam. Memang benar kata
+pensyarah saya itu.&lt;/p&gt;
+&lt;p&gt;Setelah memasuki alam pekerjaan, saya dapati sebenarnya apa yang diutamakan oleh
+orang Jepun di sini bukanlah kelulusan peperiksaan ataupun kemahiran (walaupun
+ia penting) tetapi kendiri dan sikap seseorang itu terhadap pekerjaannya.&lt;/p&gt;
+&lt;p&gt;Kerana belajar itu suatu perkara yang tidak akan habis sehinggalah kita mati,
+maka kemahiran dan pengetahuan masih boleh kita timba walaupun setelah tamat
+universiti. Tetapi sikap itu harus dipupuk dari muda, bak kata pepatah,
+Meluntur buluh biar dari rebungnya.&lt;/p&gt;
+&lt;p&gt;Empat tahun di universiti mengajar kita untuk bersikap profesional, berdisiplin
+untuk mengikut sistem, tidak anti-establishment, sabar, gigih, bersemangat dan
+bercita-cita tinggi. Apa yang tersurat di atas segulung ijazah itu tidak dapat
+menggambarkan seribu satu perkara yang tersirat. Tetapi malangnya jika dilihat
+fenomena pelajar Melayu kita di universiti sekarang, mereka seperti hilang punca
+tentang mengapa mereka di sana.&lt;/p&gt;
+&lt;p&gt;Mungkin pelajar Melayu kita, seperti juga remaja Jepun sekarang, yang terlalu
+mewah atas titik peluh generasi sebelumnya, tidak faham akan apa itu erti
+kesusahan, lantas hilang fokus dan lupa akan matlamat diri sebagai pemuda-pemudi
+bangsa.&lt;/p&gt;
+&lt;p&gt;Jika seperti selalu, jalan keluar yang senang dan cepat diberikan, sehingga
+kiamat pun, orang Melayu kita akan tetap mencari jalan mudah untuk keluar
+daripada segala macam masalah.&lt;/p&gt;
+&lt;p&gt;Tidak semua orang boleh menjadi genius kerana itu adalah anugerah Tuhan, tetapi
+semua orang boleh bersikap profesional dan berdisiplin, kerana sikap itu boleh
+dipupuk.&lt;/p&gt;
+&lt;p&gt;Kita harus mempunyai keyakinan terhadap pemuda-pemudi Melayu kita yang walaupun
+tanpa bantuan kerajaan, masih boleh menunjukkan kelayakan cukup bagus sehingga
+boleh memberi persaingan kepada kaum-kaum lain.&lt;/p&gt;
+&lt;p&gt;Lebih baik sistem meritokrasi ini dilaksanakan dalam keadaan kita berkuasa dan
+boleh mengubahnya semula kepada sistem kuota jika ia tidak mencapai matlamat,
+daripada ia dilakukan pada masa kita tiada kuasa dan tidak berkuasa untuk
+memperbetulkan keadaan. Pelaksanaan sistem meritokrasi ini, walaupun ia pedih
+dan pahit, tetapi saya percaya ia akan memberi ubat yang paling mujarab bagi
+pewaris bangsa dan negara kita. Tabik saya kepada bakal mahasiswa Melayu yang
+sanggup menerima cabaran ini. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IQBAL ABDULLAH, Kawaguchi, Jepun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</content><category term="Letters To The Editor"></category><category term="current affairs"></category><category term="malaysia"></category><category term="education"></category><category term="2001"></category></entry></feed>
