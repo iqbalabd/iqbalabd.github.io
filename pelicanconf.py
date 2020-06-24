@@ -85,7 +85,7 @@ MENU_INTERNAL_PAGES = (
 )
 
 MENUITEMS = (
-    ('Xoxzo Inc.', 'https://info.xoxzo.com/'),
+    ('Xoxzo Inc. Blog', 'https://blog.xoxzo.com/author/iqbal-abdullah.html'),
 )
 
 DISQUS_SITENAME = 'the-fortunate'
