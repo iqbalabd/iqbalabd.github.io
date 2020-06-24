@@ -33,7 +33,7 @@ SOCIAL = (
             ('twitter', 'https://twitter.com/iqbalabd'),
          )
 
-DEFAULT_PAGINATION = 2
+DEFAULT_PAGINATION = 1
 
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
 STATIC_PATHS = ['images', 'extra/CNAME']
@@ -56,6 +56,13 @@ I18N_SUBSITES = {
         'STATIC_PATHS': STATIC_PATHS,
         'THEME': THEME,
     },
+
+#    'ms': {
+#        'SITENAME': "Yang Bertuah",
+#        'STATIC_PATHS': STATIC_PATHS,
+#        'THEME': THEME,
+#    },
+
 }
 
 # blue-penguin template variables
