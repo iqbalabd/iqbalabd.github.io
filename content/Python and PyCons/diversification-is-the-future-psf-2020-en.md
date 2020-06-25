@@ -219,7 +219,7 @@ have paid or the time and effort they have put in. This means building a
 stronger relationship to the people that matter to us.
 
 As written when [PyCon 2020 cancellation was announced](https://pycon.blogspot.com/2020/03/pycon-us-2020-in-pittsburgh.html), 
-some of the ways the community can help are getting employers invovled in
+some of the ways the community can help are getting employers involved in
 sponsorships. Having invested members will help us advocate our mission to the
 their immediate communities.
 
@@ -259,8 +259,8 @@ Now at the end of writing this post, I believe that it is the _only_ future for 
 
 ---
 
-_Thank you to [terapyon](https://twitter.com/terapyon) and [scari_net](https://twitter.com/scari_net) for proofreading
-and reviewing this post_
+*Thank you to [terapyon](https://twitter.com/terapyon) and [scari_net](https://twitter.com/scari_net) for proofreading
+and reviewing this post*
 
 
 [^fn01]:[How Many Software Developers Are There in the World?](https://www.daxx.com/blog/development-trends/number-software-developers-world)
