@@ -164,7 +164,7 @@ funds, or what initiatives it has to increase inclusivity within our community.
 Increasing the voter base will directly result in community members which are
 invested in knowing about all of the good and important work done by the PSF.
 
-The PSF has done a great job at [opening up memberships](http://pyfound.blogspot.com/2015/02/enroll-as-psf-voting-member.html)
+The PSF has done a great job at [opening up memberships](http://pyfound.blogspot.com/2015/02/enroll-as-psf-voting-member.html).
 Other than the most obvious way of being a paying member to be a voting member, the revamped membership structure also
 allows members who are active in other ways such as writing code or managing meetups and conference to also become a
 voting member.
