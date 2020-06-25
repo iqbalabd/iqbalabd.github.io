@@ -257,6 +257,11 @@ its community.
 
 Now at the end of writing this post, I believe that it is the _only_ future for the PSF.
 
+---
+
+_Thank you to [terapyon](https://twitter.com/terapyon) and [scari_net](https://twitter.com/scari_net) for proofreading
+and reviewing this post_
+
 
 [^fn01]:[How Many Software Developers Are There in the World?](https://www.daxx.com/blog/development-trends/number-software-developers-world)
 [^fn02]:[PSF Annual Report 2018](https://www.python.org/psf/annual-report/2019/)
