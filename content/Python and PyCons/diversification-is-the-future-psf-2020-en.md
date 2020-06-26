@@ -198,13 +198,14 @@ or [Naomi](https://twitter.com/naomiceder) has flown back home.
 
 #### In finance
 
-Out of USD4.5MM of revenue for the PSF in 2019, over 80% of it came from PyCon.
+Out of USD4.5MM of revenue for the PSF in 2019, around 63% of it came from PyCon.
 USD1.9MM was the costs of having PyCon, which means that for every dollar spent
-on PyCon, the PSF gets back 1.80 dollars. [^fn03]
+on PyCon, the PSF gets back 1.50 dollars. [^fn03] [^fn05]
 
-Compare that to the other 20% of revenue from contributions, membership dues, and grants.
-What costs were involved to generate these revenue? If these are recurring
-revenue through already established processes, costs per dollar only diminishes
+Compare that to the 32% of revenue from sponsorship fees, contributions, membership dues, and grants.
+What costs were involved to generate these revenue? [^fn04]
+
+If these are recurring revenue through already established processes, costs per dollar only diminishes
 for every dollar we get. I believe the return per dollar invested into them are higher than what
 PyCon brings in.
 
@@ -230,7 +231,7 @@ future** instead of the present. Bigger investment shows committment, which
 breeds goodwill, trust and paves the way for a stronger relationship.
 
 The PSF is already heading in the right direction in this aspect, although I
-believe there are more ways we can improve, like the quantum of grant portions.[^fn03] [^fn04]
+believe there are more ways we can improve, like the quantum of grant portions.[^fn05] [^fn06]
 
 With better relationship, we should next try to expand the supporting members
 group, who directly contribute money to the PSF. I believe this is the one group
@@ -260,9 +261,11 @@ Now at the end of writing this post, I believe that it is the _only_ future for 
 ---
 
 *Thank you to [terapyon](https://twitter.com/terapyon) and [scari_net](https://twitter.com/scari_net) for proofreading
-and reviewing this post*
+and reviewing this post. Thank you to [Ewa](https://twitter.com/ewa_jodlowska) for proofreading and revewing the financial numbers*
 
 [^fn01]: Going forward the PSF is rebranding PyCon to PyCon US since they happen everywhere according to Ewa
 [^fn02]:[How Many Software Developers Are There in the World?](https://www.daxx.com/blog/development-trends/number-software-developers-world)
-[^fn03]:[PSF Annual Report 2018](https://www.python.org/psf/annual-report/2019/)
-[^fn04]:[PSF Annual Report 2019](https://www.python.org/psf/annual-report/2020/)
+[^fn03]: Total revenue in 2019 was $4,481,192 and $2,852,109 was from PyCon according to Ewa
+[^fn04]: Contributions and Grants were $1,165,278. We can also factor in PSF sponsorship fees, which are another $248,343. If we factor that in, that is ~32% according to Ewa
+[^fn05]:[PSF Annual Report 2018](https://www.python.org/psf/annual-report/2019/)
+[^fn06]:[PSF Annual Report 2019](https://www.python.org/psf/annual-report/2020/)
