@@ -14,14 +14,14 @@ more coherent direction together.
 There were also plans for a poster session to introduce us to the wider North American and international community
 during the annual PyCon 2020 in Pittsburgh, but due to COVID-19, that unfortunately didn't happen.
 
-PyCon is an annual Python programming language conference, which is organized by
+PyCon US[^fn01] is an annual Python programming language conference, which is organized by
 the Python Software Foundation (PSF) and at the same time is also its single biggest
 fundraising event.
 
 # The Python Software Foundation (PSF)
 
 First, I have to admit: When I started using Python in 2002, I didn't know about
-the existance of the PSF. I only begin to understand that there is such a thing
+the existence of the PSF. I only begin to understand that there is such a thing
 as the PSF in 2010 when I attended my first PyCon.
 
 The PSF has a very important but very much obscure role to maintain and
@@ -133,7 +133,7 @@ have access to a particular network.
 
 As of now, there are [8.2 million Python developers in the world](https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/#:~:text=According%20to%20SlashData%2C%20there%20are,and%207.1%20million%20Java%20developers.).
 In terms of developer population growth, the Asia Pacific region is showing the highest growth, with India taking over the US within the
-next five years. The Latin America region is showing the second largest growth for developer population. [^fn01]
+next five years. The Latin America region is showing the second largest growth for developer population. [^fn02]
 
 To achieve the target of increasing diversity in representation, we need to increase the overall voter base. This is a tangible
 and trackable goal, which we can bring back to the table every year and report on its progress back to the community.
@@ -230,7 +230,7 @@ future** instead of the present. Bigger investment shows committment, which
 breeds goodwill, trust and paves the way for a stronger relationship.
 
 The PSF is already heading in the right direction in this aspect, although I
-believe there are more ways we can improve, like the quantum of grant portions.[^fn02] [^fn03]
+believe there are more ways we can improve, like the quantum of grant portions.[^fn03] [^fn04]
 
 With better relationship, we should next try to expand the supporting members
 group, who directly contribute money to the PSF. I believe this is the one group
@@ -262,7 +262,7 @@ Now at the end of writing this post, I believe that it is the _only_ future for 
 *Thank you to [terapyon](https://twitter.com/terapyon) and [scari_net](https://twitter.com/scari_net) for proofreading
 and reviewing this post*
 
-
-[^fn01]:[How Many Software Developers Are There in the World?](https://www.daxx.com/blog/development-trends/number-software-developers-world)
-[^fn02]:[PSF Annual Report 2018](https://www.python.org/psf/annual-report/2019/)
-[^fn03]:[PSF Annual Report 2019](https://www.python.org/psf/annual-report/2020/)
+[^fn01]: Going forward the PSF is rebranding PyCon to PyCon US since they happen everywhere according to Ewa
+[^fn02]:[How Many Software Developers Are There in the World?](https://www.daxx.com/blog/development-trends/number-software-developers-world)
+[^fn03]:[PSF Annual Report 2018](https://www.python.org/psf/annual-report/2019/)
+[^fn04]:[PSF Annual Report 2019](https://www.python.org/psf/annual-report/2020/)
