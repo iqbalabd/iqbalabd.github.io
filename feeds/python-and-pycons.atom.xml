@@ -4,12 +4,12 @@ get our Python community in East/South/South East Asia (collectively called APAC
 more coherent direction together.&lt;/p&gt;
 &lt;p&gt;There were also plans for a poster session to introduce us to the wider North American and international community
 during the annual PyCon 2020 in Pittsburgh, but due to COVID-19, that unfortunately didn't happen.&lt;/p&gt;
-&lt;p&gt;PyCon is an annual Python programming language conference, which is organized by
+&lt;p&gt;PyCon US&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; is an annual Python programming language conference, which is organized by
 the Python Software Foundation (PSF) and at the same time is also its single biggest
 fundraising event.&lt;/p&gt;
 &lt;h1&gt;The Python Software Foundation (PSF)&lt;/h1&gt;
 &lt;p&gt;First, I have to admit: When I started using Python in 2002, I didn't know about
-the existance of the PSF. I only begin to understand that there is such a thing
+the existence of the PSF. I only begin to understand that there is such a thing
 as the PSF in 2010 when I attended my first PyCon.&lt;/p&gt;
 &lt;p&gt;The PSF has a very important but very much obscure role to maintain and
 safeguard the Python language, its ecosystems and the community that use and
@@ -36,7 +36,7 @@ director of the PSF and what that person does on a day-to-day basis, these resou
 &lt;/ul&gt;
 &lt;h3&gt;The results&lt;/h3&gt;
 &lt;p&gt;When the election results was announced, I was in 11th place out of 26
-nominees for the four board seats. 1,151 people were eligable to vote, while those that actually voted was 462 persons.
+nominees for the four board seats. 1,151 people were eligible to vote, while those that actually voted were 462 persons.
 The elected top four nominees was:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/nina-zakharenko/"&gt;Nina Zakharenko&lt;/a&gt;
@@ -65,7 +65,7 @@ She believes that &lt;a href="https://medium.com/@jackiekazil/elect-more-interna
 to help with the financial issues and risks the PSF will face when a PyCon is cancelled.&lt;/p&gt;
 &lt;p&gt;The points that they made really rang bells in my head. What we need is &lt;strong&gt;diversification&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3&gt;Diversification&lt;/h3&gt;
-&lt;p&gt;The overaching theme of what I preceive as an issue for the PSF right now is
+&lt;p&gt;The overarching theme of what I perceive as an issue for the PSF right now is
 diversification, both in the context of representation of who we are, and also in the
 context of financial support. In my view, these are inter-connected.&lt;/p&gt;
 &lt;h4&gt;In representation&lt;/h4&gt;
@@ -96,7 +96,7 @@ have access to a particular network.&lt;/p&gt;
 &lt;h3&gt;Increasing voter base&lt;/h3&gt;
 &lt;p&gt;As of now, there are &lt;a href="https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/#:~:text=According%20to%20SlashData%2C%20there%20are,and%207.1%20million%20Java%20developers."&gt;8.2 million Python developers in the world&lt;/a&gt;.
 In terms of developer population growth, the Asia Pacific region is showing the highest growth, with India taking over the US within the
-next five years. The Latin America region is showing the second largest growth for developer population. &lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+next five years. The Latin America region is showing the second largest growth for developer population. &lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;To achieve the target of increasing diversity in representation, we need to increase the overall voter base. This is a tangible
 and trackable goal, which we can bring back to the table every year and report on its progress back to the community.&lt;/p&gt;
 &lt;p&gt;I know many people in JP, TW, KR, MY, ID, TH and ID who contribute their time and energy to actively participate and manage
@@ -143,16 +143,16 @@ different parts of the world is great and shows that the PSF at least acknowledg
 and understand them better to carry on talking about the PSF long after &lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt;
 or &lt;a href="https://twitter.com/naomiceder"&gt;Naomi&lt;/a&gt; has flown back home.&lt;/p&gt;
 &lt;h4&gt;In finance&lt;/h4&gt;
-&lt;p&gt;Out of USD4.5MM of revenue for the PSF in 2019, over 80% of it came from PyCon.
+&lt;p&gt;Out of USD4.5MM of revenue for the PSF in 2019, around 63% of it came from PyCon.
 USD1.9MM was the costs of having PyCon, which means that for every dollar spent
-on PyCon, the PSF gets back 1.80 dollars. &lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Compare that to the other 20% of revenue from contributions, membership dues, and grants.
-What costs were involved to generate these revenue? If these are recurring
-revenue through already established processes, costs per dollar only diminishes
+on PyCon, the PSF gets back 1.50 dollars. &lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Compare that to the 32% of revenue from sponsorship fees, contributions, membership dues, and grants.
+What costs were involved to generate these revenue? &lt;sup id="fnref:fn04"&gt;&lt;a class="footnote-ref" href="#fn:fn04"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;If these are recurring revenue through already established processes, costs per dollar only diminishes
 for every dollar we get. I believe the return per dollar invested into them are higher than what
 PyCon brings in.&lt;/p&gt;
 &lt;p&gt;Perhaps a target of increasing the portion from the non-PyCon revenue even if
-the total amount of revenue are the same will make the PSF more resilient in the future againts
+the total amount of revenue are the same will make the PSF more resilient in the future against
 &lt;a href="https://pyfound.blogspot.com/2020/03/psfs-projected-2020-financial-outcome.html"&gt;shocks like what COVID-19 brought to us&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Increasing the portion of non-PyCon revenue will require more understanding and
 empathy from the wider base of our community. Who better can we tap other
@@ -166,22 +166,22 @@ their immediate communities.&lt;/p&gt;
 &lt;p&gt;Bigger investments in terms of bigger portion of grants given and time taken to
 reach out to non-US communities, especially to the growing communities in
 Asia and Latin America signals that the PSF is now shifting to investing &lt;strong&gt;for the
-future&lt;/strong&gt; instead of the present. Bigger investment shows committment, which
+future&lt;/strong&gt; instead of the present. Bigger investment shows commitment, which
 breeds goodwill, trust and paves the way for a stronger relationship.&lt;/p&gt;
 &lt;p&gt;The PSF is already heading in the right direction in this aspect, although I
-believe there are more ways we can improve, like the quantum of grant portions.&lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref2:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+believe there are more ways we can improve, like the quantum of grant portions.&lt;sup id="fnref2:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn06"&gt;&lt;a class="footnote-ref" href="#fn:fn06"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;With better relationship, we should next try to expand the supporting members
 group, who directly contribute money to the PSF. I believe this is the one group
 which we should really focus more on, as the returns from investing time and effort
 to increase this base come at multiple levels: Not only on the financial support
 that they give, but from the advocacy help that they will also bring.&lt;/p&gt;
-&lt;p&gt;In the context of commmercial support and donations, we can try to diversify income
+&lt;p&gt;In the context of commercial support and donations, we can try to diversify income
 to non-US based companies. Perhaps we can use the percentage of grants given to
 a certain region as a target for the amount of matching corporate sponsorships and
 individual membership fees that we can expect to get from that region. Again,
 in order for us to do that, we need a wider base of supporters on the ground
 from that region to make it work.&lt;/p&gt;
-&lt;p&gt;There are many successful local companies in each region and country that directly or indrectly
+&lt;p&gt;There are many successful local companies in each region and country that directly or indirectly
 use Python in their businesses. Only our community members in those countries can tell us who
 they are and connect us to them.&lt;/p&gt;
 &lt;h1&gt;In summary&lt;/h1&gt;
@@ -191,18 +191,27 @@ its community.&lt;/p&gt;
 &lt;p&gt;Now at the end of writing this post, I believe that it is the &lt;em&gt;only&lt;/em&gt; future for the PSF.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;em&gt;Thank you to &lt;a href="https://twitter.com/terapyon"&gt;terapyon&lt;/a&gt; and &lt;a href="https://twitter.com/scari_net"&gt;scari_net&lt;/a&gt; for proofreading
-and reviewing this post&lt;/em&gt;&lt;/p&gt;
+and reviewing this post. Thank you to &lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt; for proofreading and revewing the financial numbers&lt;/em&gt;&lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id="fn:fn01"&gt;
-&lt;p&gt;&lt;a href="https://www.daxx.com/blog/development-trends/number-software-developers-world"&gt;How Many Software Developers Are There in the World?&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Going forward the PSF is rebranding PyCon to PyCon US since they happen everywhere according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:fn02"&gt;
-&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2019/"&gt;PSF Annual Report 2018&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.daxx.com/blog/development-trends/number-software-developers-world"&gt;How Many Software Developers Are There in the World?&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:fn03"&gt;
-&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Total revenue in 2019 was $4,481,192 and $2,852,109 was from PyCon according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn04"&gt;
+&lt;p&gt;Contributions and Grants were $1,165,278. We can also factor in PSF sponsorship fees, which are another $248,343. If we factor that in, that is ~32% according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn04" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn05"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2019/"&gt;PSF Annual Report 2018&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn06"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn06" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content><category term="Python and PyCons"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="2020"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://thefortunate.blog/changing-the-world-one-pycon-at-a-time.html" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:thefortunate.blog,2017-06-15:/changing-the-world-one-pycon-at-a-time.html</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
