@@ -56,7 +56,7 @@ director of the PSF and what that person does on a day-to-day basis, these resou
 ### The results
 
 When the election results was announced, I was in 11th place out of 26
-nominees for the four board seats. 1,151 people were eligable to vote, while those that actually voted was 462 persons.
+nominees for the four board seats. 1,151 people were eligible to vote, while those that actually voted were 462 persons.
 The elected top four nominees was:
 
 - [Nina Zakharenko](https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/nina-zakharenko/)
@@ -92,7 +92,7 @@ The points that they made really rang bells in my head. What we need is **divers
 
 ### Diversification
 
-The overaching theme of what I preceive as an issue for the PSF right now is
+The overarching theme of what I perceive as an issue for the PSF right now is
 diversification, both in the context of representation of who we are, and also in the
 context of financial support. In my view, these are inter-connected.
 
@@ -210,7 +210,7 @@ for every dollar we get. I believe the return per dollar invested into them are 
 PyCon brings in.
 
 Perhaps a target of increasing the portion from the non-PyCon revenue even if
-the total amount of revenue are the same will make the PSF more resilient in the future againts
+the total amount of revenue are the same will make the PSF more resilient in the future against
 [shocks like what COVID-19 brought to us](https://pyfound.blogspot.com/2020/03/psfs-projected-2020-financial-outcome.html).
 
 Increasing the portion of non-PyCon revenue will require more understanding and
@@ -227,7 +227,7 @@ their immediate communities.
 Bigger investments in terms of bigger portion of grants given and time taken to
 reach out to non-US communities, especially to the growing communities in
 Asia and Latin America signals that the PSF is now shifting to investing **for the
-future** instead of the present. Bigger investment shows committment, which
+future** instead of the present. Bigger investment shows commitment, which
 breeds goodwill, trust and paves the way for a stronger relationship.
 
 The PSF is already heading in the right direction in this aspect, although I
@@ -239,14 +239,14 @@ which we should really focus more on, as the returns from investing time and eff
 to increase this base come at multiple levels: Not only on the financial support
 that they give, but from the advocacy help that they will also bring.
 
-In the context of commmercial support and donations, we can try to diversify income
+In the context of commercial support and donations, we can try to diversify income
 to non-US based companies. Perhaps we can use the percentage of grants given to
 a certain region as a target for the amount of matching corporate sponsorships and
 individual membership fees that we can expect to get from that region. Again,
 in order for us to do that, we need a wider base of supporters on the ground
 from that region to make it work.
 
-There are many successful local companies in each region and country that directly or indrectly
+There are many successful local companies in each region and country that directly or indirectly
 use Python in their businesses. Only our community members in those countries can tell us who
 they are and connect us to them.
 
