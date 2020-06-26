@@ -124,7 +124,7 @@ The question is not that the directors which was elected in this and past
 elections shouldn't be there: If they run and received the required votes, they of course should be there.
 I am sure anyone elected to the board will have the best interests of all of us at heart and will do their best.
 
-The question is: **Does the 462 voters fairly reflects the current state and future aspirations of our worldwide Python community?**
+The question is: **Does the 462 voters fairly reflect the current state and future aspirations of our worldwide Python community?**
 
 The PSF is in danger of being looked upon as being elitist, and is only open to a selected group of people who already
 have access to a particular network.
@@ -133,7 +133,7 @@ have access to a particular network.
 
 As of now, there are [8.2 million Python developers in the world](https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/#:~:text=According%20to%20SlashData%2C%20there%20are,and%207.1%20million%20Java%20developers.).
 In terms of developer population growth, the Asia Pacific region is showing the highest growth, with India taking over the US within the
-next five years. The Latin America region is showing the second largest growth for developer population. [^fn02]
+next five years. The Latin America region is showing the second largest growth for the developer population. [^fn02]
 
 To achieve the target of increasing diversity in representation, we need to increase the overall voter base. This is a tangible
 and trackable goal, which we can bring back to the table every year and report on its progress back to the community.
@@ -190,7 +190,7 @@ For example, we need to explain better how does
 affect our community, and most importantly how it will affect us in the future?
 
 Having someone come over from the US to talk about this and getting to know communities in
-different parts of the world is great and shows that the PSF at least acknowledges the existence of them.
+different parts of the world are great and shows that the PSF at least acknowledges the existence of them.
 
 But it is far much better when there is also someone that stays around these communities
 and understand them better to carry on talking about the PSF long after [Ewa](https://twitter.com/ewa_jodlowska)
