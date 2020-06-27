@@ -3,7 +3,7 @@ Slug: diversification-is-the-future-for-the-psf
 Lang: ja
 Date: 2020-06-20 16:05
 Modified: 2020-06-20 16:05
-Tags: psf；政治；コミュニティ；2020；
+Tags: psf; 政治; コミュニティ; 2020;
 Authors: iqbalabd
 Summary: Pythonソフトウェア財団（PSF）の2020年理事会選挙に立候補し落選して思うこと。
 
