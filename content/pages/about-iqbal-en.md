@@ -6,15 +6,19 @@ Authors: iqbalabd
 
 # Iqbal Abdullah
 
-![Iqbal Abdullah]({static}/images/iqbal-aug-2016-mugshot.png)
+![Iqbal Abdullah]({static}/images/iqbal-portrait-01-ai.png)
 
-In my day job I run [Xoxzo Inc.](https://info.xoxzo.com/) which provides a 
-simple web API platform for telephony services. I am a business founder, 
-a software engineer, founder and co-founders of [PyCon JP](https://pycon.jp/) 
+My latest enterprise is [LaLoka Labs](https://lalokalabs.co/). We build software with the hope to help people save time and
+money, and make them happier human beings. LaLoka Labs is also my platform to experiment with things which I find
+interesting.
+
+I am also founder and director for [Xoxzo Inc.](https://info.xoxzo.com/) which provides a 
+simple web API platform for telephony services. After 14 years of running the business, in October 2021, [I sold 67% stake of Xoxzo to Accrete Inc.](https://blog.xoxzo.com/en/2021/09/16/accrete-acquiring-xoxzo/)
+
+I am a business founder, a software engineer, founder and co-founders of [PyCon JP](https://pycon.jp/) 
 and [PyCon MY](https://pycon.my/).
 
-I am originally from Kuala Lumpur, Malaysia and has been a resident of Japan
-since 1997. I graduated from the Engineering Faculty, Saga University.
+I am originally from Kuala Lumpur, Malaysia and has been a resident of Japan since 1997. I graduated from the Engineering Faculty, Saga University.
 I am currently residing in Nerima-ku, Tokyo.
 
 I use git, practice design patterns and unit tests heavily.

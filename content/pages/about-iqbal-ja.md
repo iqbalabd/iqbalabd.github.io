@@ -6,11 +6,16 @@ Authors: iqbalabd
 
 # イクバル・アバドゥラ
 
-![Iqbal Abdullah]({static}/images/iqbal-aug-2016-mugshot.png)
+![Iqbal Abdullah]({static}/images/iqbal-portrait-01-ai.png)
 
 マレーシア首都のクアランプール出身。1997年から在日。佐賀大学理工学部卒。
 
-簡易テレフォニーWEB APIサービス提供する[Xoxzo Inc](https://info.xoxzo.com/)の代表。
+面白そうなことをやるためでもあるが、[「LaLoka Labs」(ラロカ・ラボという）](https://lalokalabs.co/)を立ち上げて代表を務める。
+ラロカ・ラボでは、お客様のお金と時間を節約できてもっと幸せな人生に貢献できたら、という目標を掲げている。
+
+簡易テレフォニーWEB APIサービス提供する[Xoxzo Inc](https://info.xoxzo.com/)の創業者と取締役でもある。
+[2021年10月に、会社設立してから14年、67%のXoxzoの株式を株式会社アクリートに譲渡した。](https://blog.xoxzo.com/ja/2021/09/16/accrete-acquiring-xoxzo/)
+
 積極的に Python 系のコミュニティーの参加、Djangoプロジェクトなど応援、貢献している。 
 2011年から2013年の PyCon JP の運営スタッフとして参加させていただき、
 以降[一般社団法人PyCon JP](http://pycon.jp/)の創業メンバーの一人として海外コミュニティーとの連携の強化に力入れている。
