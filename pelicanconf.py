@@ -23,7 +23,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ("LaLoka Labs", "https://lalokalabs.co/"),
-    ("GetOTP", "https://otp.dev/"),
+    ("GetOTP, the OTP API", "https://otp.dev/"),
 )
 
 # Social widget
