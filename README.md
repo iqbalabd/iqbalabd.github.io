@@ -3,7 +3,16 @@
 Notes so I remember what I needed to do to setup my personal blog site using
 Pelican and GitHub Pages.
 
-First, read [this](https://a-slide.github.io/blog/github-pelican) as a primer on how to use Pelican with GitHub Pages
+~~First, read [this](https://a-slide.github.io/blog/github-pelican) as a primer on how to use Pelican with GitHub
+Pages~~
+
+# Preparation
+
+These need to be installed first
+
+```
+$ pip install pelican markdown ghp-import shovel
+```
 
 # Basic branches
 
