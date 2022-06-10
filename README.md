@@ -36,6 +36,13 @@ $ git checkout main
 $ make github
 ```
 
+Download the themes and plugin repo
+
+```
+$ git clone git@github.com:getpelican/pelican-themes.git themes
+$ git clone git@github.com:getpelican/pelican-plugins.git plugins
+```
+
 ### CNAME file
 
 In order to use custom domains on GitHub Pages, you'll need to make sure the
