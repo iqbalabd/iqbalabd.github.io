@@ -32,8 +32,7 @@ Images go to `contents/images` while each directory represents a category
 When you're ready to push the changes to GitHub Pages and publish, do:
 
 ```
-$ git checkout main
-$ make github
+$ git checkout main; make github
 ```
 
 Download the themes and plugin repo
