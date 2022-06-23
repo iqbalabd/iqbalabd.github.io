@@ -11,7 +11,7 @@ Summary: A record number of people have raised their hands to serve on the PSF b
 
 *First of all, a disclaimer: I am also [running for a seat](https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/iqbal-abdullah/) this year.*
 
-We're seeing a [record number of nominees](https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/) raising their hands to serve on the board of the Python Software Foundation (PSF) this year. This is a very good thing for the Foundation and our community, but it might be a daunting for you who will be choosing the people you want to see in the board. I believe that most of the eligible voters have voted a few times, but there are some of us who will be voting the first time. Regardless, I hope this post will give you a hint on how to decide which nominees you should choose.
+We're seeing a [record number of nominees](https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/) raising their hands to serve on the board of the Python Software Foundation (PSF) this year. This is a very good thing for the Foundation and our community, but it might be daunting for you who will be choosing the people you want to see in the board. I believe that most of the eligible voters have voted a few times, but there are some of us who will be voting the first time. Regardless, I hope this post will give you a hint on how to decide which nominees you should choose.
 
 ## First, it's about you
 
