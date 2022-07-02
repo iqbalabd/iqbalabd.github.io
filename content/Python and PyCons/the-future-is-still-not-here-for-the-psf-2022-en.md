@@ -13,11 +13,12 @@ In June 2022 [I ran for the third time](https://twitter.com/iqbalabd/status/1535
 
 ## It didn't quite work out...
 
-First of, a big congratulations to the newly elected and returning Board members! They are 
+First of, a big congratulations to the newly elected and returning Board members! They are
+
 1. [@DawnWagesSays](https://twitter.com/DawnWagesSays) 
-2. [@simonw](https://twitter.com/simonw)
-3. [@kushaldas](https://twitter.com/kushaldas) 
-4. and [@jezdez](https://twitter.com/jezdez)
+1. [@simonw](https://twitter.com/simonw)
+1. [@kushaldas](https://twitter.com/kushaldas) 
+1. and [@jezdez](https://twitter.com/jezdez)
 
 Unfortunately, I was also not elected again this time.
 
@@ -27,15 +28,15 @@ We also had 5% less people who were eligible to vote, down to 1459 from 1538 in 
 
 But for me, the most worrying thing is that with Marlene exiting the Board, we are now [down to only two non-US/Europe directors on the Board](https://twitter.com/CodenameTim/status/1542895106918961154?s=20&t=KkwPKOrVlpC2fPUy26v8_g) out of 13. This doesn't look well if we want to talk about global representation and diversity. This condition slowly pushes us to a defensive narrative if questioned on our diversity and inclusion efforts.
 
-## But somethings *did* go well...
+## But other things *did* go well...
 
-But somethings did go well.
+Yes, other things did go well.
 
 When I announced my self nomination for the Board, I also sent an [email](https://groups.google.com/g/pycon-organizers-apac/c/3J9rLJT8LAo) to our APAC PyCon Organizers group urging for the rest of us to run alongside myself. This time I had another two influential contributors from my East Asia and South East Asia region to run with me, [Georgi](https://twitter.com/georgically1) and [Kwon Han](https://twitter.com/darjeelingt). We didn't have nominees from our region in the past other than myself, and I believe as little impact as it might have been, my work in promoting diversity, representation and involvement within the APAC community and the PSF have increased the visibility, interest and inspired others to also run for the Board elections.
 
-Of a particular note which I am proud to mention is the election results for Georgi. Although she was not elected, she did manage to get 6.29% of the total votes in her first election to the Board.  
+Of a particular note which I am proud to mention is the election results for Georgi. Although she was not elected, she did manage to get 6.29% of the total votes and was just shy of 14 votes to be elected in her first election to the Board. 
 
-Interest to serve the community through a seat on the Board continues to be strong. We had a record number of 26 nominees, similar to what we had in 2020. 
+Interest to serve the community through a seat on the Board continues to be strong. We had a record number of 26 nominees, similar to what we had in 2020. This is more than the 19 nominess we saw in 2021.
 
 I am also really happy to see that [Cristián](https://twitter.com/cmaureir/status/1542877794778087430?s=20&t=8qJW1ooFrjgWzPI4YZiOpw) continues to run advocating representation for Latin America, our Spanish speaking compatriots and i18n efforts for the PSF.
 
@@ -63,6 +64,26 @@ There are many other ways for us to contribute and make an impact. Some good sug
 
 But from experience, I'd think **the best way to make an impact is to join or start something within your own local area**. We never have enough people to organize meet-ups, start a local conference, do weekend hackathons, guide new comers to the community, or write and maintain software for the use of the local community.
 
-Finally, thank you to Dustin, David, Marc-Andre, Georgi, Kwon Han, Thomas, Wei Lee, Youggun, the D&I WG,
-PyCon JP and the PyCon APAC Organizers group for supporting my nomination. I'm sorry I let your folks down due
-to my own inabilities. Hopefully we'll see different outcomes in the future.
+## Credits go to
+
+Finally, **big thank yous** to (in no particular order)
+
+1. James
+1. Dustin
+1. David
+1. Marc-Andre
+1. Georgi
+1. Kwon Han
+1. Thomas
+1. Wei Lee
+1. Yuggun
+1. Aiko
+1. Kamal
+1. the D&I WG
+1. PyCon JP
+1. the kind folks on Twitter and LinkedIn that liked and shared my contents
+1. and the PyCon APAC Organizers group
+
+for supporting my nomination. I am only human, and forgive me if I missed you in the credits roll above. I am only human, and
+I'm sorry I let your folks down due to my own inabilities. But we are only human, and maybe we can try again in the
+future.
