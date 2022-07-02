@@ -50,7 +50,7 @@ To be fair though: At least since 2020 more people have pointed out to the probl
 
 After the 2020 elections, the PSF too has also put out a short and medium term [plan](https://pyfound.blogspot.com/2020/06/2020-python-software-foundation-board_26.html) to address this issue, which includes collecting location data on the voters themselves.
 
-As a nominee for the past three elections, having data on who our voters are is important. Without it, I do not know who I am talking to, and what is important to them. Even is the [8 million or so Python users](https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/) think any one person should be on the Board, if that person could not convince the 500 or so people who will be voting, then there's very slim chance of you getting elected. 
+As a nominee for the past three elections, having data on who our voters are is important. Without it, I do not know who I am talking to, and what is important to them. Even if the [8 million or so Python users](https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/) think any one person should be on the Board, if that person could not convince the 500 or so people who will be voting, then there's very slim chance of you getting elected. 
 
 Our work within the D&I WG also has led us to data collection to understand better who our community members are, although I suspect not many of them are voters (yet). From preliminary data, general apathy towards the work the PSF does and the elections in general (i.e why does it concern me?) seems to be the biggest hurdle we need to overcome to get more of our non-US/Europe community members to participate. 
 
@@ -82,8 +82,8 @@ Finally, **big thank yous** to (in no particular order)
 1. the D&I WG
 1. PyCon JP
 1. the kind folks on Twitter and LinkedIn that liked and shared my contents
+1. the folks who voted for me
 1. and the PyCon APAC Organizers group
 
-for supporting my nomination. I am only human, and forgive me if I missed you in the credits roll above. I am only human, and
-I'm sorry I let your folks down due to my own inabilities. But we are only human, and maybe we can try again in the
-future.
+for supporting my nomination and sharing my vision. I am only human, and forgive me if I missed you in the credits roll above. I am only human, and
+I'm sorry I dissapointed all of you due to my own inabilities. But we are only human, and maybe we can try again in the future.
