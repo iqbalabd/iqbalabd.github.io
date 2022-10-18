@@ -8,9 +8,7 @@ Authors: iqbalabd
 
 ![Iqbal Abdullah]({static}/images/iqbal-portrait-01-ai.png)
 
-My latest enterprise is [LaLoka Labs](https://lalokalabs.co/). We build software with the hope to help people save time and
-money, and make them happier human beings. LaLoka Labs is also my platform to experiment with things which I find
-interesting.
+My latest enterprise is [LaLoka Labs](https://lalokalabs.co/en/). We build software with the hope to make people happier human beings. LaLoka Labs is also my platform to experiment with things which I find interesting.
 
 I am also founder and director for [Xoxzo Inc.](https://info.xoxzo.com/) which provides a 
 simple web API platform for telephony services. After 14 years of running the business, in October 2021, [I sold 67% stake of Xoxzo to Accrete Inc.](https://blog.xoxzo.com/en/2021/09/16/accrete-acquiring-xoxzo/)
