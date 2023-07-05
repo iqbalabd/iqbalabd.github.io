@@ -7,9 +7,12 @@ Pelican and GitHub Pages.
 
 # Preparation
 
-These need to be installed first
+These need to be done and installed first:
 
 ```
+$ **virtualenv -p python3** venv
+$ source venv/bin/activate
+$ pip install -U pip
 $ pip install pelican markdown ghp-import shovel
 ```
 
@@ -29,11 +32,20 @@ published online. Treat `main` as the `master`.
 
 Images go to `contents/images` while each directory represents a category
 
+## master
+
+The `master` branch is not used directly, but is only used by GitHub Pages to
+publish the html files.
+
+# Publishing to production
+
 When you're ready to push the changes to GitHub Pages and publish, do:
 
 ```
 $ git checkout main; make github
 ```
+
+# Themes
 
 Download the themes and plugin repo
 
@@ -42,14 +54,9 @@ $ git clone git@github.com:getpelican/pelican-themes.git themes
 $ git clone git@github.com:getpelican/pelican-plugins.git plugins
 ```
 
-### CNAME file
+# CNAME file
 
 In order to use custom domains on GitHub Pages, you'll need to make sure the
 CNAME file gets published every time you do `make github`:
 
 https://stackoverflow.com/questions/33384328/how-can-i-add-a-cname-file-to-the-root-of-the-master
-
-## master
-
-The `master` branch is not used directly, but is only used by GitHub Pages to
-publish the html files.
