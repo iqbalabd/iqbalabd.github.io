@@ -2,7 +2,7 @@ Title: A step closer to the future for the Python Software Foundation (PSF)
 Slug: a-step-closer-to-the-future-for-the-psf-2023
 Lang: en
 Date: 2023-07-06 07:00
-Modified: 2023-07-06 07:00
+Modified: 2023-07-06 09:54
 Tags: psf; politics; community; elections; 2023;
 Authors: iqbalabd
 Summary: The 2023 PSF Board elections is closed and counted. I supported candidates in the elections, and based on the
@@ -26,7 +26,7 @@ Managing a worldwide non-profit requires a diverse set of skills and not only te
 
 ## Voter count
 
-There is one thing of concern though The voter count and voter turnout
+There is one thing of concern though: The voter count and voter turnout
 
 - In 2020, [1151 people were eligible to vote, with a voter turnout of 40%](https://thefortunate.blog/diversification-is-the-future-for-the-psf.html)
 - In 2021, [1538 people were eligible to vote (34% increase YoY) with a voter turnout of 38%](https://discuss.python.org/t/2021-python-software-foundation-board-of-directors-election-results/9418)
@@ -35,7 +35,7 @@ There is one thing of concern though The voter count and voter turnout
 
 Regardless of the efforts we're putting in, at least from within my community and also from within the [D&I Workgroup](https://wiki.python.org/psf/DiversityandInclusionWG) which I am part of, we can't seem to get a steadily increasing voter count year-over-year. Although we can never know _who_ voted, taking also into the fact that our voter turnout jumped to 70% when the vote count was its lowest in 2023 points out the possibility that the voters that vote in the yearly elections are a fixed group of people.
 
-As I [wrote in 2020](https://thefortunate.blog/diversification-is-the-future-for-the-psf.html), increasing the voter count by encouraging participation from much more diverse Python communities is still very much a work in progress, and, is taking a step backwards if we look at the 40% decrease year over year in 2023, it is taking a step backwards.
+As I [wrote in 2020](https://thefortunate.blog/diversification-is-the-future-for-the-psf.html), increasing the voter count by encouraging participation from much more diverse Python communities is still very much a work in progress, and, is taking a step backwards if we look at the 40% decrease year over year in 2023.
 
 A small win though: As I wrote above the amount of participation in the number of candidates related to my APAC region has increased. 
 
@@ -54,9 +54,9 @@ Now that we have a more diverse group of people now in the Board: The Board now 
 
 They, of course, can only do this if there are requests, nominations and commendations from the community itself, but they can help that by being present within these underrepresented communities and making sure that they are aware of all of these ways to acknowledge the wonderful work done by our diverse communities. Now with a more diverse Board that has stronger connections with these different communities, there is one less reason to not be able to find ways of doing so.
 
-The Board alone can't do all of these, of course. A group of 10 or 12 people can't represent a community of 8 million worldwide: The PSF has Workgroups at their disposal. There should be more listening and consultation with the community through these Workgroups. 
+At the same time, I do realize that the Board alone can't do all of these: A group of 10 or 12 people can't represent a community of 8 million worldwide. That said, the PSF Board has Workgroups at their disposal. There should be more listening and consultation with the community through these Workgroups. 
 
-The Workgroups have practical knowledge and connections to the different communities that they are in, and along with the Board of the PSF, they should work together to address the two items above.
+The Workgroups have practical knowledge and connections to the different communities that they are in, and along with the Board of the PSF and _in tandem with other Workgroups_, they should work together to address the two items above.
 
 If you're reading this and thinking, "I want to help", go on over to the list of [active Workgroups that the PSF has](https://www.python.org/psf/workgroups/) and find a WG that interests you most.
 
