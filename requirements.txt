@@ -1,0 +1,4 @@
+pelican
+markdown
+ghp-import
+pelican-i18n-subsites
