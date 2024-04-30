@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2020</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/2020.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>Diversification is the future for the Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;My thoughts after my failed attempt at running for the 2020 board of the Python Software Foundation (PSF).&lt;/p&gt;</summary><content type="html">&lt;h1&gt;The Premise&lt;/h1&gt;
+&lt;p&gt;Since 2019, I have been working on trying to
+get our Python community in East/South/South East Asia (collectively called APAC) to move towards a
+more coherent direction together.&lt;/p&gt;
+&lt;p&gt;There were also plans for a poster session to introduce us to the wider North American and international community
+during the annual PyCon 2020 in Pittsburgh, but due to COVID-19, that unfortunately didn't happen.&lt;/p&gt;
+&lt;p&gt;PyCon US&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; is an annual Python programming language conference, which is organized by
+the Python Software Foundation (PSF) and at the same time is also its single biggest
+fundraising event.&lt;/p&gt;
+&lt;h1&gt;The Python Software Foundation (PSF)&lt;/h1&gt;
+&lt;p&gt;First, I have to admit: When I started using Python in 2002, I didn't know about
+the existence of the PSF. I only begin to understand that there is such a thing
+as the PSF in 2010 when I attended my first PyCon.&lt;/p&gt;
+&lt;p&gt;The PSF has a very important but very much obscure role to maintain and
+safeguard the Python language, its ecosystems and the community that use and
+depends on it. Read more about what the PSF does &lt;a href="https://www.python.org/psf/#:~:text=The%20mission%20of%20the%20Python,international%20community%20of%20Python%20programmers."&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Running for a seat on the PSF board&lt;/h2&gt;
+&lt;p&gt;In June 2020, the Python Software Foundation (PSF) had four seats going vacant with
+directors fulfilling their term. After many years &lt;a href="https://iqbalabdullah.net/posts/2017/06/changing-the-world-one-pycon-at-a-time/"&gt;working with and building the community on this side of the planet&lt;/a&gt;
+I had a feeling that there is a gap between what the PSF, as a US-centric organization thinks it's doing, with what the rest
+of the growing community on our part of the world think that they are doing, so I
+decided to run for a seat, to at least represent a voice from E/S/SE Asia.&lt;/p&gt;
+&lt;p&gt;I have to admit that at that time, my motivations to run were still not very clear.&lt;/p&gt;
+&lt;p&gt;I do know that efforts to raise money will be important and I wanted to help: I
+have been advocating for us to spread financial love to open source (&lt;a href="https://blog.xoxzo.com/en/2018/05/02/annual-opensource-grant-for-2018/"&gt;here&lt;/a&gt;,
+&lt;a href="https://www.slideshare.net/xoxzo/lightning-talk-pycon-thailand-2019"&gt;my lightning talk in PyCon TH&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=7U2D5tcMZb4&amp;amp;feature=youtu.be&amp;amp;t=2107"&gt;my lightning talk in PyCon JP&lt;/a&gt;)
+for the past few years and is something which I would like to continue doing.&lt;/p&gt;
+&lt;p&gt;But I guess &lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;my feelings were much stronger to share values and give a greater voice
+to the communities which I am involved in&lt;/a&gt; with the greater Python community
+through the PSF.&lt;/p&gt;
+&lt;p&gt;If you're reading this because you're interested to know what are the responsibilities of a
+director of the PSF and what that person does on a day-to-day basis, these resources might be helpful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.python.org/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors"&gt;Duties &amp;amp; Responsibilities of PSF Directors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=ZLKj6FaQA4M"&gt;Life as a Python Software Foundation Director&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The results&lt;/h3&gt;
+&lt;p&gt;When the election results was announced, I was in 11th place out of 26
+nominees for the four board seats. 1,151 people were eligible to vote, while those that actually voted were 462 persons.
+The elected top four nominees was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/nina-zakharenko/"&gt;Nina Zakharenko&lt;/a&gt;
+with 263 votes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/dustin-ingram/"&gt;Dustin Ingram&lt;/a&gt;
+with 249 votes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/jeff-triplett/"&gt;Jeff Triplett&lt;/a&gt;
+with 240 votes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/thomas-wouters/"&gt;Thomas Wouters&lt;/a&gt;
+with 237 votes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After analyzing the results and reflecting on my own "campaign", it started to dawn on me
+the real issue which I wanted to address which I also strongly believe is the future
+for Python and its community.&lt;/p&gt;
+&lt;h2&gt;The Issue&lt;/h2&gt;
+&lt;p&gt;I had the opportunity to participate in a Q&amp;amp;A session question on Slack, which was to
+allow nominees or anyone else interested in the elections to ask questions to the
+current board members. One of the questions I asked was about "active concerns for the PSF or something that the PSF
+had wanted to achieve in the past two years or so".&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/glasnt"&gt;Katie McLaughlin&lt;/a&gt; responded that in the short term a lot of work is happening around diversifying
+the fundraising efforts especially given PyCon 2020 the biggest PSF fundraising event, didn't happen. In the longer term,
+a lot of the efforts should be around focusing on goals, and ensuring that these multi-year efforts have the momentum to
+continue and get completed.&lt;/p&gt;
+&lt;p&gt;Another insightful view was from &lt;a href="https://twitter.com/jackiekazil"&gt;Jacqueline Kazil&lt;/a&gt;, an outgoing PSF director.
+She believes that &lt;a href="https://medium.com/@jackiekazil/elect-more-international-representation-finance-focused-individuals-to-psf-3eedcf0a91a7"&gt;the board needs more international representation and also people from finance backgrounds&lt;/a&gt;
+to help with the financial issues and risks the PSF will face when a PyCon is cancelled.&lt;/p&gt;
+&lt;p&gt;The points that they made really rang bells in my head. What we need is &lt;strong&gt;diversification&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Diversification&lt;/h3&gt;
+&lt;p&gt;The overarching theme of what I perceive as an issue for the PSF right now is
+diversification, both in the context of representation of who we are, and also in the
+context of financial support. In my view, these are inter-connected.&lt;/p&gt;
+&lt;h4&gt;In representation&lt;/h4&gt;
+&lt;p&gt;It was unfortunate this time that &lt;a href="https://twitter.com/valerybriz"&gt;Valeria Calderon&lt;/a&gt;,
+a PyLadies organizer based in Mexico City missed a board seat by a few votes.
+Other non-US based nominees such as &lt;a href="https://twitter.com/reydelhumo"&gt;Manuel Kaufmann&lt;/a&gt; who is Latin America Python Ambassador
+and &lt;a href="https://twitter.com/muheuenga"&gt;Ngazetungue Muheue&lt;/a&gt; founder of Python
+Namibia also didn't make the cut. All of them had the potential of bringing
+fresh voices and views about the needs of communities that we have in different
+parts of the world.&lt;/p&gt;
+&lt;p&gt;Unlike the &lt;a href="https://realpython.com/lessons/python-steering-council/"&gt;Python Steering Council&lt;/a&gt;
+&lt;a href="https://www.python.org/dev/peps/pep-8101/"&gt;elections&lt;/a&gt; which has a technical and trust hurdle that is required for it to maintain
+its core technical competency, the PSF board is open for &lt;em&gt;anyone&lt;/em&gt; to run when there are vacant seats.
+The PSF board has a wider responsibility to use its resources for the betterment of the future of the
+language and the people that rely on it, and technical core competencies are just one part of what you might need.&lt;/p&gt;
+&lt;p&gt;This sends out a very important message: &lt;em&gt;We welcome you to help shape the future and aspirations
+of us, whoever and wherever you are.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;All of the people elected this year are active in communities and speakers at conferences,
+are authors of &lt;a href="https://www.python.org/dev/peps/pep-0001/#:~:text=PEP%20stands%20for%20Python%20Enhancement,a%20rationale%20for%20the%20feature."&gt;PEPs&lt;/a&gt; or writers of technical projects.
+Some are also Working Group (WG) members in the PSF and one person is a current Python Steering Council member. Half of the elected
+directors have directorship experience, one is a returning board member and all are US based persons.&lt;/p&gt;
+&lt;p&gt;The question is not that the directors which was elected in this and past
+elections shouldn't be there: If they run and received the required votes, they of course should be there.
+I am sure anyone elected to the board will have the best interests of all of us at heart and will do their best.&lt;/p&gt;
+&lt;p&gt;The question is: &lt;strong&gt;Does the 462 voters fairly reflect the current state and future aspirations of our worldwide Python community?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The PSF is in danger of being looked upon as being elitist, and is only open to a selected group of people who already
+have access to a particular network.&lt;/p&gt;
+&lt;h3&gt;Increasing voter base&lt;/h3&gt;
+&lt;p&gt;As of now, there are &lt;a href="https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/#:~:text=According%20to%20SlashData%2C%20there%20are,and%207.1%20million%20Java%20developers."&gt;8.2 million Python developers in the world&lt;/a&gt;.
+In terms of developer population growth, the Asia Pacific region is showing the highest growth, with India taking over the US within the
+next five years. The Latin America region is showing the second largest growth for the developer population. &lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;To achieve the target of increasing diversity in representation, we need to increase the overall voter base. This is a tangible
+and trackable goal, which we can bring back to the table every year and report on its progress back to the community.&lt;/p&gt;
+&lt;p&gt;I know many people in JP, TW, KR, MY, ID, TH and ID who contribute their time and energy to actively participate and manage
+meetups and conferences that support the ecosystem and would
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfwWBGkzvkWDZrxW3up_M_B7qgt1IWZlx9KJ0ucLA5WJP1vfA/viewform"&gt;qualify as contributing members&lt;/a&gt;
+but they are not reflected on our voter base.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Why is that?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Reflecting on my own experience, perhaps one of the biggest hurdle is &lt;strong&gt;indifference to the PSF within the Python community itself&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Tackling indifference&lt;/h3&gt;
+&lt;p&gt;Another admission from myself: Even after knowing about the PSF in 2010, I
+didn't seriously understand the relationship that the PSF could have with myself
+and my community. From my point of view, it was an organization in faraway USA,
+comprising mostly of white people who are mostly friends of each other and they attend PyCon in the US.&lt;/p&gt;
+&lt;p&gt;That point of view evolved when we started to apply for grants from the PSF for our own PyCons.
+At that point the PSF is now an organization in faraway USA, comprising mostly of white people who mostly friends of each other and they
+attend PyCon in the US that also gives out grants.&lt;/p&gt;
+&lt;p&gt;I was still not aware of the important work that the PSF was doing, like supporting our infrastructure through projects that it
+funds, or what initiatives it has to increase inclusivity within our community.&lt;/p&gt;
+&lt;p&gt;Increasing the voter base will directly result in community members which are
+invested in knowing about all of the good and important work done by the PSF.&lt;/p&gt;
+&lt;p&gt;The PSF has done a great job at &lt;a href="http://pyfound.blogspot.com/2015/02/enroll-as-psf-voting-member.html"&gt;opening up memberships&lt;/a&gt;.
+Other than the most obvious way of being a paying member to be a voting member, the revamped membership structure also
+allows members who are active in other ways such as writing code or managing meetups and conferences to also become a
+voting member.&lt;/p&gt;
+&lt;p&gt;The door has been set in place, so we next need to get people through that door.&lt;/p&gt;
+&lt;p&gt;The PSF should approach advocating about what it does like what tech companies do now days when they are hiring:
+By stressing the impact of and influence its work on how their customers live their lives.&lt;/p&gt;
+&lt;p&gt;Advocating about these should not only be left to the project maintainer,
+but everyone involved in the process from planning to approving the projects. In
+this regard, the board of the PSF plays an important role to advocate and
+market its role.&lt;/p&gt;
+&lt;p&gt;For example, we need to explain better how does&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Funding community initiatives to increase inclusivity like &lt;a href="https://en.wikipedia.org/wiki/PyLadies"&gt;PyLadies&lt;/a&gt; and
+  &lt;a href="https://us.pycon.org/2020/speaking/charlas/"&gt;PyCon Charlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Protecting the intellectual property of the PSF and it's communities worldwide, such as the name Python&lt;/li&gt;
+&lt;li&gt;The technical initiatives funded by the PSF like the &lt;a href="https://beeware.org/"&gt;Beeware project&lt;/a&gt; or
+&lt;a href="https://pypi.org/sponsor/"&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;affect our community, and most importantly how it will affect us in the future?&lt;/p&gt;
+&lt;p&gt;Having someone come over from the US to talk about this and getting to know communities in
+different parts of the world are great and shows that the PSF at least acknowledges the existence of them.&lt;/p&gt;
+&lt;p&gt;But it is far much better when there is also someone that stays around these communities
+and understand them better to carry on talking about the PSF long after &lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt;
+or &lt;a href="https://twitter.com/naomiceder"&gt;Naomi&lt;/a&gt; has flown back home.&lt;/p&gt;
+&lt;h4&gt;In finance&lt;/h4&gt;
+&lt;p&gt;Out of USD4.5MM of revenue for the PSF in 2019, around 63% of it came from PyCon.
+USD1.9MM was the costs of having PyCon, which means that for every dollar spent
+on PyCon, the PSF gets back 1.50 dollars. &lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Compare that to the 32% of revenue from sponsorship fees, contributions, membership dues, and grants.
+What costs were involved to generate these revenue? &lt;sup id="fnref:fn04"&gt;&lt;a class="footnote-ref" href="#fn:fn04"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;If these are recurring revenue through already established processes, costs per dollar only diminishes
+for every dollar we get. I believe the return per dollar invested into them are higher than what
+PyCon brings in.&lt;/p&gt;
+&lt;p&gt;Perhaps a target of increasing the portion from the non-PyCon revenue even if
+the total amount of revenue are the same will make the PSF more resilient in the future against
+&lt;a href="https://pyfound.blogspot.com/2020/03/psfs-projected-2020-financial-outcome.html"&gt;shocks like what COVID-19 brought to us&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Increasing the portion of non-PyCon revenue will require more understanding and
+empathy from the wider base of our community. Who better can we tap other
+than those who have already shown their commitment, either by the money they
+have paid or the time and effort they have put in. This means building a
+stronger relationship to the people that matter to us.&lt;/p&gt;
+&lt;p&gt;As written when &lt;a href="https://pycon.blogspot.com/2020/03/pycon-us-2020-in-pittsburgh.html"&gt;PyCon 2020 cancellation was announced&lt;/a&gt;, 
+some of the ways the community can help are getting employers involved in
+sponsorships. Having invested members will help us advocate our mission to the
+their immediate communities.&lt;/p&gt;
+&lt;p&gt;Bigger investments in terms of bigger portion of grants given and time taken to
+reach out to non-US communities, especially to the growing communities in
+Asia and Latin America signals that the PSF is now shifting to investing &lt;strong&gt;for the
+future&lt;/strong&gt; instead of the present. Bigger investment shows commitment, which
+breeds goodwill, trust and paves the way for a stronger relationship.&lt;/p&gt;
+&lt;p&gt;The PSF is already heading in the right direction in this aspect, although I
+believe there are more ways we can improve, like the quantum of grant portions.&lt;sup id="fnref2:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn06"&gt;&lt;a class="footnote-ref" href="#fn:fn06"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;With better relationship, we should next try to expand the supporting members
+group, who directly contribute money to the PSF. I believe this is the one group
+which we should really focus more on, as the returns from investing time and effort
+to increase this base come at multiple levels: Not only on the financial support
+that they give, but from the advocacy help that they will also bring.&lt;/p&gt;
+&lt;p&gt;In the context of commercial support and donations, we can try to diversify income
+to non-US based companies. Perhaps we can use the percentage of grants given to
+a certain region as a target for the amount of matching corporate sponsorships and
+individual membership fees that we can expect to get from that region. Again,
+in order for us to do that, we need a wider base of supporters on the ground
+from that region to make it work.&lt;/p&gt;
+&lt;p&gt;There are many successful local companies in each region and country that directly or indirectly
+use Python in their businesses. Only our community members in those countries can tell us who
+they are and connect us to them.&lt;/p&gt;
+&lt;h1&gt;In summary&lt;/h1&gt;
+&lt;p&gt;It all comes down to diversifying: To gain acceptance, understanding and finally
+support from a much wider base of people, fitting the PSF as a worldwide organization supporting
+its community.&lt;/p&gt;
+&lt;p&gt;Now at the end of writing this post, I believe that it is the &lt;em&gt;only&lt;/em&gt; future for the PSF.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Thank you to &lt;a href="https://twitter.com/terapyon"&gt;terapyon&lt;/a&gt; and &lt;a href="https://twitter.com/scari_net"&gt;scari_net&lt;/a&gt; for proofreading
+and reviewing this post. Thank you to &lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt; for proofreading and revewing the financial numbers&lt;/em&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:fn01"&gt;
+&lt;p&gt;Going forward the PSF is rebranding PyCon to PyCon US since they happen everywhere according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn02"&gt;
+&lt;p&gt;&lt;a href="https://www.daxx.com/blog/development-trends/number-software-developers-world"&gt;How Many Software Developers Are There in the World?&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn03"&gt;
+&lt;p&gt;Total revenue in 2019 was $4,481,192 and $2,852,109 was from PyCon according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn04"&gt;
+&lt;p&gt;Contributions and Grants were $1,165,278. We can also factor in PSF sponsorship fees, which are another $248,343. If we factor that in, that is ~32% according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn04" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn05"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2019/"&gt;PSF Annual Report 2018&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn06"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn06" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2020"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="2020"></category></entry></feed>

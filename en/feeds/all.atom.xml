@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/en/" rel="alternate"></link><link href="https://iqbalabdullah.net/en/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/en/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>Diversification is the future for the Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/en/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/en/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;My thoughts after my failed attempt at running for the 2020 board of the Python Software Foundation (PSF).&lt;/p&gt;</summary><content type="html">&lt;h1&gt;The Premise&lt;/h1&gt;
+&lt;p&gt;Since 2019, I have been working on trying to
+get our Python community in East/South/South East Asia (collectively called APAC) to move towards a
+more coherent direction together.&lt;/p&gt;
+&lt;p&gt;There were also plans for a poster session to introduce us to the wider North American and international community
+during the annual PyCon 2020 in Pittsburgh, but due to COVID-19, that unfortunately didn't happen.&lt;/p&gt;
+&lt;p&gt;PyCon US&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; is an annual Python programming language conference, which is organized by
+the Python Software Foundation (PSF) and at the same time is also its single biggest
+fundraising event.&lt;/p&gt;
+&lt;h1&gt;The Python Software Foundation (PSF)&lt;/h1&gt;
+&lt;p&gt;First, I have to admit: When I started using Python in 2002, I didn't know about
+the existence of the PSF. I only begin to understand that there is such a thing
+as the PSF in 2010 when I attended my first PyCon.&lt;/p&gt;
+&lt;p&gt;The PSF has a very important but very much obscure role to maintain and
+safeguard the Python language, its ecosystems and the community that use and
+depends on it. Read more about what the PSF does &lt;a href="https://www.python.org/psf/#:~:text=The%20mission%20of%20the%20Python,international%20community%20of%20Python%20programmers."&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Running for a seat on the PSF board&lt;/h2&gt;
+&lt;p&gt;In June 2020, the Python Software Foundation (PSF) had four seats going vacant with
+directors fulfilling their term. After many years &lt;a href="https://iqbalabdullah.net/en/posts/2017/06/changing-the-world-one-pycon-at-a-time/"&gt;working with and building the community on this side of the planet&lt;/a&gt;
+I had a feeling that there is a gap between what the PSF, as a US-centric organization thinks it's doing, with what the rest
+of the growing community on our part of the world think that they are doing, so I
+decided to run for a seat, to at least represent a voice from E/S/SE Asia.&lt;/p&gt;
+&lt;p&gt;I have to admit that at that time, my motivations to run were still not very clear.&lt;/p&gt;
+&lt;p&gt;I do know that efforts to raise money will be important and I wanted to help: I
+have been advocating for us to spread financial love to open source (&lt;a href="https://blog.xoxzo.com/en/2018/05/02/annual-opensource-grant-for-2018/"&gt;here&lt;/a&gt;,
+&lt;a href="https://www.slideshare.net/xoxzo/lightning-talk-pycon-thailand-2019"&gt;my lightning talk in PyCon TH&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=7U2D5tcMZb4&amp;amp;feature=youtu.be&amp;amp;t=2107"&gt;my lightning talk in PyCon JP&lt;/a&gt;)
+for the past few years and is something which I would like to continue doing.&lt;/p&gt;
+&lt;p&gt;But I guess &lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;my feelings were much stronger to share values and give a greater voice
+to the communities which I am involved in&lt;/a&gt; with the greater Python community
+through the PSF.&lt;/p&gt;
+&lt;p&gt;If you're reading this because you're interested to know what are the responsibilities of a
+director of the PSF and what that person does on a day-to-day basis, these resources might be helpful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.python.org/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors"&gt;Duties &amp;amp; Responsibilities of PSF Directors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=ZLKj6FaQA4M"&gt;Life as a Python Software Foundation Director&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The results&lt;/h3&gt;
+&lt;p&gt;When the election results was announced, I was in 11th place out of 26
+nominees for the four board seats. 1,151 people were eligible to vote, while those that actually voted were 462 persons.
+The elected top four nominees was:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/nina-zakharenko/"&gt;Nina Zakharenko&lt;/a&gt;
+with 263 votes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/dustin-ingram/"&gt;Dustin Ingram&lt;/a&gt;
+with 249 votes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/jeff-triplett/"&gt;Jeff Triplett&lt;/a&gt;
+with 240 votes&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/thomas-wouters/"&gt;Thomas Wouters&lt;/a&gt;
+with 237 votes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After analyzing the results and reflecting on my own "campaign", it started to dawn on me
+the real issue which I wanted to address which I also strongly believe is the future
+for Python and its community.&lt;/p&gt;
+&lt;h2&gt;The Issue&lt;/h2&gt;
+&lt;p&gt;I had the opportunity to participate in a Q&amp;amp;A session question on Slack, which was to
+allow nominees or anyone else interested in the elections to ask questions to the
+current board members. One of the questions I asked was about "active concerns for the PSF or something that the PSF
+had wanted to achieve in the past two years or so".&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/glasnt"&gt;Katie McLaughlin&lt;/a&gt; responded that in the short term a lot of work is happening around diversifying
+the fundraising efforts especially given PyCon 2020 the biggest PSF fundraising event, didn't happen. In the longer term,
+a lot of the efforts should be around focusing on goals, and ensuring that these multi-year efforts have the momentum to
+continue and get completed.&lt;/p&gt;
+&lt;p&gt;Another insightful view was from &lt;a href="https://twitter.com/jackiekazil"&gt;Jacqueline Kazil&lt;/a&gt;, an outgoing PSF director.
+She believes that &lt;a href="https://medium.com/@jackiekazil/elect-more-international-representation-finance-focused-individuals-to-psf-3eedcf0a91a7"&gt;the board needs more international representation and also people from finance backgrounds&lt;/a&gt;
+to help with the financial issues and risks the PSF will face when a PyCon is cancelled.&lt;/p&gt;
+&lt;p&gt;The points that they made really rang bells in my head. What we need is &lt;strong&gt;diversification&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Diversification&lt;/h3&gt;
+&lt;p&gt;The overarching theme of what I perceive as an issue for the PSF right now is
+diversification, both in the context of representation of who we are, and also in the
+context of financial support. In my view, these are inter-connected.&lt;/p&gt;
+&lt;h4&gt;In representation&lt;/h4&gt;
+&lt;p&gt;It was unfortunate this time that &lt;a href="https://twitter.com/valerybriz"&gt;Valeria Calderon&lt;/a&gt;,
+a PyLadies organizer based in Mexico City missed a board seat by a few votes.
+Other non-US based nominees such as &lt;a href="https://twitter.com/reydelhumo"&gt;Manuel Kaufmann&lt;/a&gt; who is Latin America Python Ambassador
+and &lt;a href="https://twitter.com/muheuenga"&gt;Ngazetungue Muheue&lt;/a&gt; founder of Python
+Namibia also didn't make the cut. All of them had the potential of bringing
+fresh voices and views about the needs of communities that we have in different
+parts of the world.&lt;/p&gt;
+&lt;p&gt;Unlike the &lt;a href="https://realpython.com/lessons/python-steering-council/"&gt;Python Steering Council&lt;/a&gt;
+&lt;a href="https://www.python.org/dev/peps/pep-8101/"&gt;elections&lt;/a&gt; which has a technical and trust hurdle that is required for it to maintain
+its core technical competency, the PSF board is open for &lt;em&gt;anyone&lt;/em&gt; to run when there are vacant seats.
+The PSF board has a wider responsibility to use its resources for the betterment of the future of the
+language and the people that rely on it, and technical core competencies are just one part of what you might need.&lt;/p&gt;
+&lt;p&gt;This sends out a very important message: &lt;em&gt;We welcome you to help shape the future and aspirations
+of us, whoever and wherever you are.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;All of the people elected this year are active in communities and speakers at conferences,
+are authors of &lt;a href="https://www.python.org/dev/peps/pep-0001/#:~:text=PEP%20stands%20for%20Python%20Enhancement,a%20rationale%20for%20the%20feature."&gt;PEPs&lt;/a&gt; or writers of technical projects.
+Some are also Working Group (WG) members in the PSF and one person is a current Python Steering Council member. Half of the elected
+directors have directorship experience, one is a returning board member and all are US based persons.&lt;/p&gt;
+&lt;p&gt;The question is not that the directors which was elected in this and past
+elections shouldn't be there: If they run and received the required votes, they of course should be there.
+I am sure anyone elected to the board will have the best interests of all of us at heart and will do their best.&lt;/p&gt;
+&lt;p&gt;The question is: &lt;strong&gt;Does the 462 voters fairly reflect the current state and future aspirations of our worldwide Python community?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The PSF is in danger of being looked upon as being elitist, and is only open to a selected group of people who already
+have access to a particular network.&lt;/p&gt;
+&lt;h3&gt;Increasing voter base&lt;/h3&gt;
+&lt;p&gt;As of now, there are &lt;a href="https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/#:~:text=According%20to%20SlashData%2C%20there%20are,and%207.1%20million%20Java%20developers."&gt;8.2 million Python developers in the world&lt;/a&gt;.
+In terms of developer population growth, the Asia Pacific region is showing the highest growth, with India taking over the US within the
+next five years. The Latin America region is showing the second largest growth for the developer population. &lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;To achieve the target of increasing diversity in representation, we need to increase the overall voter base. This is a tangible
+and trackable goal, which we can bring back to the table every year and report on its progress back to the community.&lt;/p&gt;
+&lt;p&gt;I know many people in JP, TW, KR, MY, ID, TH and ID who contribute their time and energy to actively participate and manage
+meetups and conferences that support the ecosystem and would
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfwWBGkzvkWDZrxW3up_M_B7qgt1IWZlx9KJ0ucLA5WJP1vfA/viewform"&gt;qualify as contributing members&lt;/a&gt;
+but they are not reflected on our voter base.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Why is that?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Reflecting on my own experience, perhaps one of the biggest hurdle is &lt;strong&gt;indifference to the PSF within the Python community itself&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Tackling indifference&lt;/h3&gt;
+&lt;p&gt;Another admission from myself: Even after knowing about the PSF in 2010, I
+didn't seriously understand the relationship that the PSF could have with myself
+and my community. From my point of view, it was an organization in faraway USA,
+comprising mostly of white people who are mostly friends of each other and they attend PyCon in the US.&lt;/p&gt;
+&lt;p&gt;That point of view evolved when we started to apply for grants from the PSF for our own PyCons.
+At that point the PSF is now an organization in faraway USA, comprising mostly of white people who mostly friends of each other and they
+attend PyCon in the US that also gives out grants.&lt;/p&gt;
+&lt;p&gt;I was still not aware of the important work that the PSF was doing, like supporting our infrastructure through projects that it
+funds, or what initiatives it has to increase inclusivity within our community.&lt;/p&gt;
+&lt;p&gt;Increasing the voter base will directly result in community members which are
+invested in knowing about all of the good and important work done by the PSF.&lt;/p&gt;
+&lt;p&gt;The PSF has done a great job at &lt;a href="http://pyfound.blogspot.com/2015/02/enroll-as-psf-voting-member.html"&gt;opening up memberships&lt;/a&gt;.
+Other than the most obvious way of being a paying member to be a voting member, the revamped membership structure also
+allows members who are active in other ways such as writing code or managing meetups and conferences to also become a
+voting member.&lt;/p&gt;
+&lt;p&gt;The door has been set in place, so we next need to get people through that door.&lt;/p&gt;
+&lt;p&gt;The PSF should approach advocating about what it does like what tech companies do now days when they are hiring:
+By stressing the impact of and influence its work on how their customers live their lives.&lt;/p&gt;
+&lt;p&gt;Advocating about these should not only be left to the project maintainer,
+but everyone involved in the process from planning to approving the projects. In
+this regard, the board of the PSF plays an important role to advocate and
+market its role.&lt;/p&gt;
+&lt;p&gt;For example, we need to explain better how does&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Funding community initiatives to increase inclusivity like &lt;a href="https://en.wikipedia.org/wiki/PyLadies"&gt;PyLadies&lt;/a&gt; and
+  &lt;a href="https://us.pycon.org/2020/speaking/charlas/"&gt;PyCon Charlas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Protecting the intellectual property of the PSF and it's communities worldwide, such as the name Python&lt;/li&gt;
+&lt;li&gt;The technical initiatives funded by the PSF like the &lt;a href="https://beeware.org/"&gt;Beeware project&lt;/a&gt; or
+&lt;a href="https://pypi.org/sponsor/"&gt;PyPI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;affect our community, and most importantly how it will affect us in the future?&lt;/p&gt;
+&lt;p&gt;Having someone come over from the US to talk about this and getting to know communities in
+different parts of the world are great and shows that the PSF at least acknowledges the existence of them.&lt;/p&gt;
+&lt;p&gt;But it is far much better when there is also someone that stays around these communities
+and understand them better to carry on talking about the PSF long after &lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt;
+or &lt;a href="https://twitter.com/naomiceder"&gt;Naomi&lt;/a&gt; has flown back home.&lt;/p&gt;
+&lt;h4&gt;In finance&lt;/h4&gt;
+&lt;p&gt;Out of USD4.5MM of revenue for the PSF in 2019, around 63% of it came from PyCon.
+USD1.9MM was the costs of having PyCon, which means that for every dollar spent
+on PyCon, the PSF gets back 1.50 dollars. &lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Compare that to the 32% of revenue from sponsorship fees, contributions, membership dues, and grants.
+What costs were involved to generate these revenue? &lt;sup id="fnref:fn04"&gt;&lt;a class="footnote-ref" href="#fn:fn04"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;If these are recurring revenue through already established processes, costs per dollar only diminishes
+for every dollar we get. I believe the return per dollar invested into them are higher than what
+PyCon brings in.&lt;/p&gt;
+&lt;p&gt;Perhaps a target of increasing the portion from the non-PyCon revenue even if
+the total amount of revenue are the same will make the PSF more resilient in the future against
+&lt;a href="https://pyfound.blogspot.com/2020/03/psfs-projected-2020-financial-outcome.html"&gt;shocks like what COVID-19 brought to us&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Increasing the portion of non-PyCon revenue will require more understanding and
+empathy from the wider base of our community. Who better can we tap other
+than those who have already shown their commitment, either by the money they
+have paid or the time and effort they have put in. This means building a
+stronger relationship to the people that matter to us.&lt;/p&gt;
+&lt;p&gt;As written when &lt;a href="https://pycon.blogspot.com/2020/03/pycon-us-2020-in-pittsburgh.html"&gt;PyCon 2020 cancellation was announced&lt;/a&gt;, 
+some of the ways the community can help are getting employers involved in
+sponsorships. Having invested members will help us advocate our mission to the
+their immediate communities.&lt;/p&gt;
+&lt;p&gt;Bigger investments in terms of bigger portion of grants given and time taken to
+reach out to non-US communities, especially to the growing communities in
+Asia and Latin America signals that the PSF is now shifting to investing &lt;strong&gt;for the
+future&lt;/strong&gt; instead of the present. Bigger investment shows commitment, which
+breeds goodwill, trust and paves the way for a stronger relationship.&lt;/p&gt;
+&lt;p&gt;The PSF is already heading in the right direction in this aspect, although I
+believe there are more ways we can improve, like the quantum of grant portions.&lt;sup id="fnref2:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn06"&gt;&lt;a class="footnote-ref" href="#fn:fn06"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;With better relationship, we should next try to expand the supporting members
+group, who directly contribute money to the PSF. I believe this is the one group
+which we should really focus more on, as the returns from investing time and effort
+to increase this base come at multiple levels: Not only on the financial support
+that they give, but from the advocacy help that they will also bring.&lt;/p&gt;
+&lt;p&gt;In the context of commercial support and donations, we can try to diversify income
+to non-US based companies. Perhaps we can use the percentage of grants given to
+a certain region as a target for the amount of matching corporate sponsorships and
+individual membership fees that we can expect to get from that region. Again,
+in order for us to do that, we need a wider base of supporters on the ground
+from that region to make it work.&lt;/p&gt;
+&lt;p&gt;There are many successful local companies in each region and country that directly or indirectly
+use Python in their businesses. Only our community members in those countries can tell us who
+they are and connect us to them.&lt;/p&gt;
+&lt;h1&gt;In summary&lt;/h1&gt;
+&lt;p&gt;It all comes down to diversifying: To gain acceptance, understanding and finally
+support from a much wider base of people, fitting the PSF as a worldwide organization supporting
+its community.&lt;/p&gt;
+&lt;p&gt;Now at the end of writing this post, I believe that it is the &lt;em&gt;only&lt;/em&gt; future for the PSF.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Thank you to &lt;a href="https://twitter.com/terapyon"&gt;terapyon&lt;/a&gt; and &lt;a href="https://twitter.com/scari_net"&gt;scari_net&lt;/a&gt; for proofreading
+and reviewing this post. Thank you to &lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt; for proofreading and revewing the financial numbers&lt;/em&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:fn01"&gt;
+&lt;p&gt;Going forward the PSF is rebranding PyCon to PyCon US since they happen everywhere according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn02"&gt;
+&lt;p&gt;&lt;a href="https://www.daxx.com/blog/development-trends/number-software-developers-world"&gt;How Many Software Developers Are There in the World?&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn03"&gt;
+&lt;p&gt;Total revenue in 2019 was $4,481,192 and $2,852,109 was from PyCon according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn04"&gt;
+&lt;p&gt;Contributions and Grants were $1,165,278. We can also factor in PSF sponsorship fees, which are another $248,343. If we factor that in, that is ~32% according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn04" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn05"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2019/"&gt;PSF Annual Report 2018&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn06"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn06" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2020"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="2020"></category></entry><entry><title>多様化がPythonソフトウェア財団（PSF）の将来像</title><link href="https://iqbalabdullah.net/ja/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/ja/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;Pythonソフトウェア財団（PSF）の2020年理事会選挙に立候補し落選して思うこと。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;前提&lt;/h1&gt;
+&lt;p&gt;2019年以降、私は東アジア、南アジア、東南アジア（まとめてAPACと呼ばれる）にあるPythonコミュニティがより一貫した方向に進めるよう尽力してきた。
+毎年北米で開催されるPyCon(今年はピッツバーグで開催)の期間中に、より広範な北米および国際コミュニティに
+紹介するコミュニティブースも予定されていたが、COVID-19のため残念ながら中止になった。
+PyCon US&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; とはPythonソフトウェア財団（PSF）が主催する年に1度のプログラミング言語Pythonに関するカンファレンスで、
+同時に唯一の大規模な資金調達イベントでもある。&lt;/p&gt;
+&lt;h1&gt;Pythonソフトウェア財団（PSF）とは&lt;/h1&gt;
+&lt;p&gt;まず、次のことを私は認めざるを得ない。2002年にPythonを使い始めたとき、PSFの存在については知らなかった。
+2010年にPyConに初めて参加し、PSFというものの存在を理解し始めた。&lt;/p&gt;
+&lt;p&gt;PSFは、Python言語、そのエコシステム、それを使用し依存しているコミュニティを維持し保護するために非常に重要な、
+しかし極めて一般的にあまり知られてないな役割を担っている。&lt;/p&gt;
+&lt;p&gt;PSFの取り組みについては&lt;a href="https://www.python.org/psf/#:~:text=The%20mission%20of%20the%20Python,international%20community%20of%20Python%20programmers."&gt;こちら&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;h2&gt;PSF理事会のポストに立候補&lt;/h2&gt;
+&lt;p&gt;2020年6月、任期が満了するPSFのディレクター(理事のこと)の4つの席が空席になる。
+長年、&lt;a href="https://iqbalabdullah.net/en/posts/2017/06/changing-the-world-one-pycon-at-a-time/"&gt;地球の裏側でコミュニティを構築するために働きながら&lt;/a&gt;
+私は米国中心の組織であるPSFが実行していると思っていることと、世界の他の場所で拡大しているコミュニティが実行していると思っていること
+の間にギャップがあると感じていたので、少なくとも東・南・東南アジアの声を代弁するため、ディレクターに立候補することを決心した。&lt;/p&gt;
+&lt;p&gt;正直に言うと、その時点でのモチベーションはそれほど明確ではなかった。&lt;/p&gt;
+&lt;p&gt;資金調達の努力が重要だと知っており、次のようなことを支援したかった。
+私は過去数年にわたり、オープンソースに対し金銭的な愛を広めるよう&lt;a href="https://blog.xoxzo.com/en/2018/05/02/annual-opensource-grant-for-2018/"&gt;ここで&lt;/a&gt;、&lt;a href="https://www.slideshare.net/xoxzo/lightning-talk-pycon-thailand-2019"&gt;PyCon THでのLTで&lt;/a&gt;および&lt;a href="https://www.youtube.com/watch?v=7U2D5tcMZb4&amp;amp;feature=youtu.be&amp;amp;t=2107"&gt;PyCon JPでのLTで&lt;/a&gt;)提唱してきたし、これからも続けたいと思っている。&lt;/p&gt;
+&lt;p&gt;しかし、PSFを通じてより大きなPythonコミュニティが一緒になれば&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;価値観を共有する私の思いはさらに強まり、関わっているコミュニティへの発言権ももっと大きくなった&lt;/a&gt;と思う。&lt;/p&gt;
+&lt;p&gt;ちなみに、PSFディレクターが担う責任と日常的な活動を知りたくてこれを読んでいるなら、次のリンクが役立つかもしれない。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.python.org/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors"&gt;PSFディレクターの任務と責任&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=ZLKj6FaQA4M"&gt;Pythonソフトウェア財団ディレクターとしての生活&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;選挙の結果&lt;/h3&gt;
+&lt;p&gt;選挙結果が発表され、私は空席4に対する候補者26人中11位だった。見事に落選 😅&lt;/p&gt;
+&lt;p&gt;投票権持つ1,151人のうち、実際に投票したのは462人だけだった。
+選出された上位4名は、以下のとおり。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/nina-zakharenko/"&gt;Nina Zakharenko&lt;/a&gt;
+得票数 263&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/dustin-ingram/"&gt;Dustin Ingram&lt;/a&gt;
+得票数 249&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/jeff-triplett/"&gt;Jeff Triplett&lt;/a&gt;
+得票数240&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/thomas-wouters/"&gt;Tomas Wouters&lt;/a&gt;
+得票数 237&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;結果を分析し自分自身の「選挙活動」を振り返った後、私がPythonとそのコミュニティの将来像だと強く確信し取り組みたいと考えていた、
+本当の課題が鮮明に見えてきた。&lt;/p&gt;
+&lt;h2&gt;その課題とは&lt;/h2&gt;
+&lt;p&gt;私はSlackでの質疑応答セッションに参加する機会があったが、そこでは立候補者または選挙に関心を持つほかの誰でも現在の理事会メンバーに
+質問することができた。&lt;/p&gt;
+&lt;p&gt;1つ私が尋ねたのは、「PSF、あるいは過去数年間PSFが達成を望んでいた事柄に関して今取り組んでいる懸念事項」のことだった。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/glasnt"&gt;Katie McLaughlin&lt;/a&gt;さんは、特に最大のPSF資金調達イベント、PyCon 2020が開催されなかったことを考えると、
+短期的には資金調達の努力を多様化するために多くの施策が行われている、と回答した。長期的には、多くの取り組みは目標に焦点を当て、
+この何年にもわたる努力が継続し完了するための勢いを確保するべきだ。&lt;/p&gt;
+&lt;p&gt;任期満了するもう一人のPSFディレクター&lt;a href="https://twitter.com/jackiekazil"&gt;Jacqueline Kazil&lt;/a&gt;さんからも、
+洞察力に富んだ別の見解をもらった。
+彼女は、PyConが中止された際PSFが直面する財務上の問題とリスクを支援するために、
+&lt;a href="https://medium.com/@jackiekazil/elect-more-international-representation-finance-focused-individuals-to-psf-3eedcf0a91a7"&gt;理事会はより国際的な代表の選出と、ファイナンス関連の知識を持つ人物を必要としている&lt;/a&gt;と考えている。&lt;/p&gt;
+&lt;p&gt;こうした主張を聞き、私たちに必要なのは&lt;strong&gt;多様化&lt;/strong&gt;であることピンときた。&lt;/p&gt;
+&lt;h3&gt;多様化&lt;/h3&gt;
+&lt;p&gt;私たちの代表を選出する点でも資金面のサポートという点でも、現時点でPSFの問題として私が把握した包括的なテーマは、多様化であること。
+私思うのは、この両方は相互に関連している。&lt;/p&gt;
+&lt;h4&gt;代表の選出&lt;/h4&gt;
+&lt;p&gt;今回PyLadiesのメキシコ拠点オーガナイザー、&lt;a href="https://twitter.com/valerybriz"&gt;Valeria Calderon&lt;/a&gt;さんが数票差で落選したのは残念だった。&lt;/p&gt;
+&lt;p&gt;その他米国以外の立候補者、中南米のPython Ambassadorである&lt;a href="https://twitter.com/reydelhumo"&gt;Manuel Kaufmann&lt;/a&gt;さんや、
+Python Namibiaの創立者&lt;a href="https://twitter.com/muheuenga"&gt;Ngazetungue Muheue&lt;/a&gt;さんなども落選した。&lt;/p&gt;
+&lt;p&gt;ちなみにManuelさんは&lt;a href="https://pycon.jp/2018/"&gt;PyCon JP 2018のキーノートスピーカの一人だった&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;これら全員が、世界のさまざまな地域に存在するコミュニティのニーズに関して新鮮な意見や見解を持ち込む可能性があった。&lt;/p&gt;
+&lt;p&gt;中核となる技術的コンピテンシーを維持するため求められる技術力と信頼性のハードルが高い&lt;a href="https://realpython.com/lessons/python-steering-council/"&gt;Python意思決定議会&lt;/a&gt;&lt;a href="https://www.python.org/dev/peps/pep-8101/"&gt;選挙&lt;/a&gt;とは異なり、
+PSF理事会は空席があれば誰でも立候補できる。&lt;/p&gt;
+&lt;p&gt;PSF理事会はこの言語とそれに依存する人々の将来を向上させるためにリソースをうまく活用する責任があり、
+技術的なコア・コンピテンシーは必要となるかもしれない素質の一部に過ぎない。&lt;/p&gt;
+&lt;p&gt;これは、非常に重要なメッセージを発信している。
+&lt;em&gt;あなたがどこにいる誰であっても、私たちの将来を形作り願望を実現する手助けは歓迎される。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;今年の当選者は全員コミュニティで活発に活動しており、カンファレンスのスピーカーであり、
+&lt;a href="https://www.python.org/dev/peps/pep-0001/#:~:text=PEP%20stands%20for%20Python%20Enhancement,a%20rationale%20for%20the%20feature."&gt;PEP&lt;/a&gt;の著者または技術プロジェクトのライターでもある。&lt;/p&gt;
+&lt;p&gt;PSFのワーキンググループ（WG）メンバーも数人おり、1人は現行のPython意思決定議会メンバーである。
+当選者の半分はディレクター業務の経験があり、1人は理事会メンバーへの復帰であり、全員が米国を拠点としている。&lt;/p&gt;
+&lt;p&gt;今回あるいは過去の選挙で当選したディレクターがふさわしいかどうかが問題なのではない。
+立候補し、必要な得票数に達していれば、当然ディレクターになるべき。
+私は選出された理事会メンバーが、私たち全員の利益を最優先に考え最善を尽くすことを確信している。&lt;/p&gt;
+&lt;p&gt;問題は、&lt;strong&gt;投票した462人というのは、世界中のPythonコミュニティが抱く将来への願望と現在の状況を公正に反映しているのか？&lt;/strong&gt;
+ということ。&lt;/p&gt;
+&lt;p&gt;PSFはエリートとみなされる危険があり、すでに特定のネットワーク関われている人々のグループに対してのみ開かれている。&lt;/p&gt;
+&lt;h3&gt;投票権持つ者のベースの拡大&lt;/h3&gt;
+&lt;p&gt;現在、世界には&lt;a href="https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/#:~:text=According%20to%20SlashData%2C%20there%20are,and%207.1%20million%20Java%20developers."&gt;820万人のPython開発者&lt;/a&gt;がいる。
+開発者人口の増加という点で、アジア太平洋地域は最高の成長率を示しており、インドは今後5年以内に米国に取って代わる。
+中南米地域は、2番目に高い開発者人口の成長率を示している。&lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;代表者の多様性を高めるという目標を達成するには、全体的な有権者ベースを増やす必要がある。毎年検討を繰り返し、
+進捗状況をコミュニティに報告すれば、これは目に見える追跡可能な目標である。&lt;/p&gt;
+&lt;p&gt;日本、台湾、韓国、マレーシア、インドネシア、タイ、フィリピンなどにいるたくさんの人材が、エコシステムをサポートする
+会合やカンファレンスに積極的に参加したり開催したりするため時間とエネルギーを費やしており、
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfwWBGkzvkWDZrxW3up_M_B7qgt1IWZlx9KJ0ucLA5WJP1vfA/viewform"&gt;補助メンバーとして適任である&lt;/a&gt;
+ことを私は知っているが、彼らは投票権持ってないし、このベースに反映されていない。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;どうしてでしょうか？&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;自分自身の経験を振り返ってみて、おそらく最大級のハードルは&lt;strong&gt;Pythonコミュニティ自体に内在するPSFに対する無関心&lt;/strong&gt;だろう。&lt;/p&gt;
+&lt;h3&gt;無関心への取り組み&lt;/h3&gt;
+&lt;p&gt;あともう一つのざんげ。
+2010年にPSFについて知ったにもかかわらず、PSFが自分自身とコミュニティにどう関係するのか、真剣に考えていなかった。&lt;/p&gt;
+&lt;p&gt;私の視点からは、米国のPyConに参加している大半が友達同士の白人たちで構成された、遠く離れた米国の組織だった。&lt;/p&gt;
+&lt;p&gt;その視点は自分たちのPyConのためにPSFの助成金を申請し始めたときに進化した。
+その時点においてPSFは助成金も出してくれる同じ組織であることを再確認された。&lt;/p&gt;
+&lt;p&gt;資金供給するプロジェクトを通して私たちのインフラをサポートしたり、コミュニティ内の参加性を促進する取り組みを率先したりといった、
+PSFが行っている重要な業務についてまだよく分かっていなかった。&lt;/p&gt;
+&lt;p&gt;有権者ベースの拡大は、投資を受けたコミュニティ・メンバーがPSFの行っている重要な業務すべてを知ることにそのままつながるのである。&lt;/p&gt;
+&lt;p&gt;PSFは&lt;a href="http://pyfound.blogspot.com/2015/02/enroll-as-psf-voting-member.html"&gt;会員制をオープンする&lt;/a&gt;にあたり、実に大きな前進だった。
+投票権を持つメンバーとなるために会費を支払うという最も分かりやすい方法に加え、
+刷新した会員制度ではコードを書いたり会合やカンファレンスを主催したりする活動的なメンバーにもまた投票権が与えられる。&lt;/p&gt;
+&lt;p&gt;扉は所定の位置に設置されているのだから、次にやるべきはその扉から入ってくるよう人々を促すことである。&lt;/p&gt;
+&lt;p&gt;PSFは、現在テクノロジー企業が採用の際に行っているようなことを提唱するアプローチを取る必要がある。
+顧客の生活に及ぼす効果や影響を強調することによってである。&lt;/p&gt;
+&lt;p&gt;こうしたことを提唱するにあたり、プロジェクト管理者に丸投げするべきでなく、
+プロジェクトの発案から承認に至るプロセスに関わった全員が行うべきだ。
+この点において、PSF理事会はその役割を提唱し売り込む上で重要な役割を担っている。&lt;/p&gt;
+&lt;p&gt;例えば、次のことをより詳しく説明する必要がある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/PyLadies"&gt;PyLadies&lt;/a&gt;や&lt;a href="https://us.pycon.org/2020/speaking/charlas/"&gt;PyCon Charlas&lt;/a&gt;など
+への参加性を促進するため資金調達においてコミュニティで率先すること&lt;/li&gt;
+&lt;li&gt;Pythonの名前など、PSFおよび世界中にあるコミュニティの知的財産を保護すること&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://beeware.org/"&gt;Beeware project&lt;/a&gt;や&lt;a href="https://pypi.org/sponsor/"&gt;PyPI&lt;/a&gt;など
+PSFが資金提供する技術的な取り組みが私たちのコミュニティに影響し、さらに重要なことに未来にどう影響するか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;米国から誰かを招いてこうしたことを話し合い、世界の他の場所にあるコミュニティについて知ることは重要であり、
+少なくともPSFはそのコミュニティの存在を認識していることを示せる。&lt;/p&gt;
+&lt;p&gt;とはいえそのようなコミュニティの近くにとどまり、コミュニティをよりよく理解し、&lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt;
+あるいは&lt;a href="https://twitter.com/naomiceder"&gt;Naomi&lt;/a&gt;が去った後もずっとPSFについて語り続けられる人物がいれば、
+そのほうがずっと良いだろう。&lt;/p&gt;
+&lt;h3&gt;財政に関して&lt;/h3&gt;
+&lt;p&gt;2019年のPSF収益USD450万のうち、その63%以上がPyConから得たものだった。
+PyCon開催費用の総額はUSD190万なので、つまりPSFがPyConに1ドルを投じること対して1.50ドルが戻ってくるという計算になる。
+&lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;これを、寄付、会員費、助成金から成る収益の残り32%と比較してみよう。その種の収益を得るのに、どれほどの費用がかかるだろうか。&lt;sup id="fnref:fn04"&gt;&lt;a class="footnote-ref" href="#fn:fn04"&gt;4&lt;/a&gt;&lt;/sup&gt;
+すでに確立されたプロセスを通した継続的な収益の場合、1ドルあたりの費用は収益を得るたびに減少する。&lt;/p&gt;
+&lt;p&gt;投資した1ドルあたりの利益率はPyConのそれより高いと思う。&lt;/p&gt;
+&lt;p&gt;総収益額が変わらずともPyCon以外からの収益を増やすという目標により、PSFは将来&lt;a href="https://pyfound.blogspot.com/2020/03/psfs-projected-2020-financial-outcome.html."&gt;COVID-19が与えたような衝撃&lt;/a&gt;に対してより柔軟に対応できるようになるだろう。&lt;/p&gt;
+&lt;p&gt;PyCon以外からの収益を増やすには、コミュニティのより広範なベースからの理解と共感を必要なのだ。
+認識して手を差し伸べないといけないのはお金や投入した時間と労力ですでに高い関心を示してくれてるコミュニティーの皆、他でもない。
+こうして、私たちにとって大切な人々とより強い関係を築くことになる。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pycon.blogspot.com/2020/03/pycon-us-2020-in-pittsburgh.html"&gt;PyCon 2020中止の発表&lt;/a&gt;に記載されているように、
+雇用主にスポンサーシップに参加してもらうことも関心が高いコミュニティができる支援策にもなれる。関心が高い、関わりたい気持ちを
+持つメンバーがいれば、彼らの身近なコミュニティに対し私たちの目標を提唱する助けになる。&lt;/p&gt;
+&lt;p&gt;米国以外のコミュニティ、特にアジアや南米の拡大しているコミュニティに手を差し伸べるため費やした助成金の大部分と
+時間という観点での大きな投資は、PSFが現在ではなく&lt;strong&gt;未来のため&lt;/strong&gt;投資していることを示している。&lt;/p&gt;
+&lt;p&gt;大きな投資は大きな関心を意味し、それが好意と信用を生み、より強固な関係への道を開く。&lt;/p&gt;
+&lt;p&gt;PSFはすでにこの面において正しい方向に向かっているが、助成金の配分量など、さらなる改善の余地があると思っている。&lt;sup id="fnref2:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn06"&gt;&lt;a class="footnote-ref" href="#fn:fn06"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;より良い関係を築くために、次はPSFへ直接資金援助してくれる支援メンバーのグループ拡大に尽力すべきだ。
+このグループを私たちが本当に重視すべきグループで、うまく拡大できれば、財政的なサポートだけでなく、
+彼らがもたらすアドボカシーからの支援も得られる。いろんなレベルでプラスになることだろう。&lt;/p&gt;
+&lt;p&gt;商業的なサポートと寄付という観点から、米国拠点ではない企業からの収益を多様化するよう尽力もできる。&lt;/p&gt;
+&lt;p&gt;具体的に理事会として特定の地域に与えられた助成金の割合を、その地域から得られる企業のスポンサーシップや個人の会費を同額になるよう、
+という目標を設定することも考えられる。&lt;/p&gt;
+&lt;p&gt;また、それを実行するにあたり、状況を有利に生かすためその地域に根付いたより広範な支援者ベースを必要とする。&lt;/p&gt;
+&lt;p&gt;各地域および国には、直接または間接的に事業でPythonを使う、成功した地元の企業が多数存在する。
+その国のコミュニティ・メンバーだけがそれを知っており、互いの架け橋となってくれる。&lt;/p&gt;
+&lt;h1&gt;結論&lt;/h1&gt;
+&lt;p&gt;すべては多様化に行き着くことになる。受容の幅を広げ、理解し、最終的に広範なベースの人々から支援されるため、
+コミュニティを支援する世界的な組織としてPSFを適合させていく。&lt;/p&gt;
+&lt;p&gt;この投稿を終えるにあたり、それがPSFにおける唯一の将来像であると確信している。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;この投稿をレビューしてくれた&lt;a href="https://twitter.com/terapyon"&gt;terapyon&lt;/a&gt;に感謝します&lt;/em&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:fn01"&gt;
+&lt;p&gt;Going forward the PSF is rebranding PyCon to PyCon US since they happen everywhere according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn02"&gt;
+&lt;p&gt;&lt;a href="https://www.daxx.com/blog/development-trends/number-software-developers-world"&gt;How Many Software Developers Are There in the World?&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn03"&gt;
+&lt;p&gt;Total revenue in 2019 was $4,481,192 and $2,852,109 was from PyCon according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn04"&gt;
+&lt;p&gt;Contributions and Grants were $1,165,278. We can also factor in PSF sponsorship fees, which are another $248,343. If we factor that in, that is ~32% according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn04" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn05"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2019/"&gt;PSF Annual Report 2018&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn06"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn06" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2020"></category><category term="psf"></category><category term="政治"></category><category term="コミュニティ"></category><category term="2020"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://iqbalabdullah.net/en/posts/2017/06/changing-the-world-one-pycon-at-a-time/" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-06-15:/en/posts/2017/06/changing-the-world-one-pycon-at-a-time/</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
+&lt;p&gt;As an engineer, programming languages are very important tools to solve the
+problems that you face. As an entrepreneur, they are also important tools to
+bring your imagination to life, to get that profit and making that difference.&lt;/p&gt;
+&lt;p&gt;Python is a magnificent programming language. Although first released in 1991, it &lt;em&gt;arguably&lt;/em&gt;
+only started to become mainstream&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; when
+&lt;a href="https://en.wikipedia.org/wiki/Guido_van_Rossum"&gt;Guido van Rossum&lt;/a&gt;, the creator of
+Python joined Google in 2005. That made many people start to notice how serious
+the tech giant was investing in Python. In the same year, the web framework
+Django which is written in Python was released, and that further pushed Python into the limelight.&lt;/p&gt;
+&lt;p&gt;Now, even our very much loved
+&lt;a href="https://thenewstack.io/instagram-makes-smooth-move-python-3/"&gt;Instagram uses python&lt;/a&gt; 
+to handle it's hundreds of millions of requests. Python are also used in
+scientific and academic fields&lt;/p&gt;
+&lt;p&gt;I have been using Python since 2002, and in many ways it has given me the
+intellectual challenge I craved, allowed me the freedom to bring my imagination
+to life, and through PyCon, has allowed me to meet wonderful people.&lt;/p&gt;
+&lt;h2&gt;My First PyCon, APAC 2010 in Singapore&lt;/h2&gt;
+&lt;p&gt;But a programming language is only as good as the people that uses it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Python_Conference"&gt;PyCon&lt;/a&gt; is in essence a conference
+centered around the Python programming language. It's roots started with the first PyCon in
+Washington D.C in 2003 and has expanded to many parts of the world, from Europe, Japan,
+China, India, HK, Taiwan, Australia, New Zealand, Singapore and also Malaysia.&lt;/p&gt;
+&lt;p&gt;Up until 2010, before attending my first PyCon, I had been using python for fun
+and profit for 8 years. I find the language easy to use, has design that fits
+with my mind and how I believe coding should be, and most importantly I enjoyed using
+it to build stuff.&lt;/p&gt;
+&lt;p&gt;So when I saw the poster for the first PyCon APAC in Singapore in 2010, I
+decided to meet the people behind it:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC 2010 Singapore" src="https://iqbalabdullah.net/en/images/pycons/pycon-apac-2010-poster.png"&gt;&lt;/p&gt;
+&lt;p&gt;I didn't know anyone there but I'd thought I'll just make new friends and see
+what other cool stuff everyone else was building. And made friends I did: I met up with
+three other participants from Japan: Manabu Terada
+(&lt;a href="https://twitter.com/terapyon?lang=en"&gt;@terapyon&lt;/a&gt;),
+Yasuhi Masuda(&lt;a href="https://twitter.com/whosaysni?lang=en"&gt;@whosaysni&lt;/a&gt;) and Ian
+Lewis(&lt;a href="https://twitter.com/ianmlewis?lang=en"&gt;@ianmlewis&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;And as it turns out, the chairperson for the first PyCon APAC in Singapore was Liew Beng Keat
+(&lt;a href="https://twitter.com/bengkeatliew"&gt;@bengkeatliew&lt;/a&gt;) a Malaysian from Kuala
+Lumpur. We have more in common than I thought!&lt;/p&gt;
+&lt;h2&gt;Bringing PyCon to the region&lt;/h2&gt;
+&lt;p&gt;It was then that Beng Keat was telling me the reason he wanted to organize a
+regional version of PyCon APAC: Beng Keat had the opportunity to attend PyCon in
+the United States, and although he enjoyed the conference and came back englightened,
+he also realized how prohibitive it is to travel from Asia to the United States
+and so he thought: &lt;em&gt;If we can't go to PyCon in the US, we'll bring
+PyCon here.&lt;/em&gt; And since Singapore was such a small place, it makes more sense to
+make it a regional conference instead of just a local conference.&lt;/p&gt;
+&lt;p&gt;The concept of having a regional PyCon is in essence a very simple one, with a
+well defined purpose: We understand that nearly all of the advances made in
+technology by the programming language, new concepts and philosophy in thinking about the
+language and even how communities are organized towards a greater good for
+everyone at large originate mostly in the United States and Europe.&lt;/p&gt;
+&lt;p&gt;If we cannot be in the United States to meet and listen to the great minds that shape
+the programming language, its community and its future, lets have those minds
+here instead.&lt;/p&gt;
+&lt;p&gt;And at that first APAC PyCon in Singapore, one of the keynote speakers was &lt;a href="https://github.com/holdenweb"&gt;Steve
+Holden&lt;/a&gt;, who was the chairman for PSF&lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;, 
+who later on was a pivotal figure for the growth of PyCon within APAC.&lt;/p&gt;
+&lt;h3&gt;Building the Japan PyCon community, circa 2011&lt;/h3&gt;
+&lt;p&gt;We invited Steve to come to Tokyo after APAC, and over dinner we talked about
+having an annual conference to get pythonistas from all over the country to come
+and share their work and discuss their ideas. Steve was instrumental in proding
+us, who had no experience at all running conferences, to actually take the idea
+seriously. Given also the fact that Python was still considered an obscure
+language in Japan as opposed to PHP, Java or Ruby, we were also sceptical that
+there will be any traction at all.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabdullah.net/en/images/pycons/steve-holden-in-tokyo-02.jpg"&gt;
+&lt;strong&gt;Dinner with Steve in Roppongi&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabdullah.net/en/images/pycons/steve-holden-in-tokyo-01.jpg"&gt;
+&lt;strong&gt;With Masuda-san and Takizawa-san&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Following that dinner with Steve, Terada-san, Masuda-san and myself met again on the
+1st of July 2010 in an underground Turkish restaurant in Shibuya and over dinner decided
+to have our first stab at a PyCon in Japan. We agreed to start small, and host
+APAC when we are ready.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Email calling for the first PyCon meeting" src="https://iqbalabdullah.net/en/images/pycons/shibuya-email.png"&gt;&lt;/p&gt;
+&lt;p&gt;We had our first &lt;a href="https://sites.google.com/site/pyconminijp/"&gt;&lt;em&gt;mini&lt;/em&gt; PyCon JP&lt;/a&gt; 
+on a cold January morning in 2011 at the Rakuten offices in Tokyo. I was 
+involved as the program manager, choosing talks and deciding the contents of the conference.
+130 people came for the mini conference, and we all had a great time listening
+to talks, learning and making new friends. The conference was free, and everyone
+had bento for lunch provided by our generous sponsors.&lt;/p&gt;
+&lt;p&gt;Encouraged by the turnout and how the first conferece went, we then decided to
+have a major PyCon JP for the first time in that summer of 2011.&lt;/p&gt;
+&lt;p&gt;PyCon JP have been held every year around summer since then, and in 2016 our
+attendees topped 700 people.&lt;/p&gt;
+&lt;p&gt;Back to 2012: An issue that we faced after the second PyCon in 2012 was that it was getting
+too big, and the left over money from sponsors was getting too much to handle
+out from an individual account. We also needed a face for the public, and a
+definate entity that will take responsibility for managing the annual conference
+in Japan. &lt;/p&gt;
+&lt;p&gt;Because of that, the non-profit PyCon JP was established in March 2013, which I
+am still currently serving as part of the board members.&lt;/p&gt;
+&lt;p&gt;To prepare to host APAC, since 2012 we needed to give an international flavour for the
+conference, and we made it a point to have at least one track which will be in
+English only. This has attracted participation from nearby countries, such as
+South Korea and Taiwan.&lt;/p&gt;
+&lt;p&gt;To also attract interest from the public, and due to the fact that our
+non-profit run on money gained from public interests, we also made it a point to
+have an open non-profit general meeting during the local PyCons. It is here
+where we met other people which are thinking or are interested in running their
+own PyCons.&lt;/p&gt;
+&lt;h3&gt;PyCon APAC in Japan, 2013&lt;/h3&gt;
+&lt;p&gt;Singapore had been organizing the APAC conference for 3 years in a row since
+2010, and following the model of PyCon US of moving the venue to different cities
+every two year, for 2013 they approached us in Japan to take over APAC and organize
+it in Japan.&lt;/p&gt;
+&lt;p&gt;We have been preparing for this since 2011, so we agreed. Our Taiwan counterpart
+was also keen on running APAC, but after discussions they agreed to bid for
+2014 instead. &lt;/p&gt;
+&lt;p&gt;This was good for us in the region on 2 accounts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The regional conference APAC has finally moved away from Singapore to a
+  different city&lt;/li&gt;
+&lt;li&gt;We have another host decided for 2014.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So in August 2013, we organized PyCon APAC in Shinjuku, Tokyo, and that is where
+we met all the many people that will spread PyCon across the region.&lt;/p&gt;
+&lt;h2&gt;The Asia Pacific Connection&lt;/h2&gt;
+&lt;p&gt;Regionally, we have a loosely knit community that drives PyCon APAC
+(Asia Pacific). Ideally, PyCon APAC is a regional conference that rotates
+between cities within the APAC region, and aims to be an international
+and bigger conference giving the opportunity to the regional python
+community to come together at a more accessible and affordable location compared to
+having to travel to the United States or Europe.&lt;/p&gt;
+&lt;p&gt;After the APAC conference in Tokyo in 2013, there was consensus from the regional
+community representatives such as Singapore and South Korea which we managed to
+get in touch with when they came to APAC in Tokyo, to move the APAC conference to Taipei.&lt;/p&gt;
+&lt;p&gt;Since there was no other community which has shown interest to host APAC for
+2015, the conference stayed in Taipi until 2015.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/en/images/pycons/pycon-apac-tw-06-2015.jpg"&gt;
+&lt;strong&gt;With Van Lindberg, Chairperson for the PSF, Beng Keat, and our friends and staff organizing
+PyCon APAC TW in 2015.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The South Korean community, after having their first local PyCon in
+2015 stepped up to the plate to host APAC in 2016, and was succesful with over 1000 attendees.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabdullah.net/en/images/pycons/apac-meeting-seoul-2015.jpg"&gt;
+&lt;strong&gt;A community meeting of representatives from the different countries in APAC
+during the 2016 APAC conference: KR, JP, VN, TW, PH, MY, HK and SG was present&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabdullah.net/en/images/pycons/pycon-apac-seoul-2016-group.jpg"&gt;
+&lt;strong&gt;Group picture after the community meeting&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The regional communities have done a wonderful job to boost their local PyCon
+conferences to be a well known annual event to gather and share knowledge among
+their Python users. The regional APAC conferences has also proved to be a
+platform where new community leaders from neighbouring countries come to connect
+and learn how to organize their own local PyCons.&lt;/p&gt;
+&lt;p&gt;We make it a point to reach out to fellow community members from countries which up until now
+have no representation in our loose group, like Myanmar or Vietnam.  I've seen fellow pythonistas
+who came to a PyCon APAC for the first time, and their eyes light up and they smile and say
+now they want to start something in their city and their community after
+experiencing the conference.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/en/images/pycons/dylan-jay-bangkok.jpg"&gt;
+&lt;strong&gt;Meeting up with Dylan Jay in Bangkok. Dylan is the former lead for the Sydney
+Python Users Group&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The collective knowledge of all of us help to remove some anxiety and help guide
+them on what are the points that they'll need to keep in mind to start something
+for their own city, from organizing know-how to even getting sponsorship
+funding. The PSF in this regard have been supportive in providing grants and
+also speakers to the APAC conferences.&lt;/p&gt;
+&lt;h3&gt;Connecting pythonistas in Malaysia&lt;/h3&gt;
+&lt;p&gt;After helping out with running PyCon in Japan, I realized that all the PyCons
+that we had in the APAC region has all been on the north-eastern part of Asia
+Pacific, with the exception of Singapore, but all of them were either cost or time
+prohibitive to the rest of Asia Pacific.&lt;/p&gt;
+&lt;p&gt;And that begin my next project: To kickstart an annual PyCon in Malaysia grown
+for the locals, from the locals, and bring APAC and the rest of the world to Kuala Lumpur.&lt;/p&gt;
+&lt;p&gt;My aim is to have an APAC conference here in Kuala Lumpur as I believe, compared
+to the north-east of Asia Pacific, a conference here will be more accessible to
+much more people.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If we can't go to PyCon, we'll get PyCon here.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In Malaysia, the history of PyCon started in 2014 where we had our
+first mini PyCon (1 day, single track and 70 people attended) and
+continued with PyCon MY 2015 (2 days, 2 tracks and around 140 people
+attended) and PyCon MY 2016 (2 days, 2 track and around 100 people
+attended). I was involved as the co-chair and finance person for the mini
+PyCon 2014, the chair for PyCon MY 2015, and co-chair again in 2016.&lt;/p&gt;
+&lt;p&gt;You can read more on us at &lt;a href="https://pycon.my/"&gt;https://pycon.my/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But before we start running an international conference like the APAC, we need
+to know &lt;em&gt;how&lt;/em&gt; to at least run a conference. Having local experienced people to organizing
+conferences will also allow us to convince the other regional members that we
+are up to the job.&lt;/p&gt;
+&lt;p&gt;In 2014 there was already a loose group of Python users, who had meetups once every
+2 or 3 months mainly around the Kuala Lumpur area, usually attended by more or less 10 people.
+As is common for any non-profit, grass-roots volunteer driven small meetups with no
+monetary or marketing support from commercial entities, these meetups were mostly
+attended by the same group of people and before long you'll have organizers burning out,
+running out of steam and also things to talk about.&lt;/p&gt;
+&lt;p&gt;The de-facto organizer for these meetups then was Swee Meng, and I met him the first
+time at one of Singapore's PyCon. When I suggested to him an annual PyCon for Malaysia,
+he was sceptical at first, given his bitter experience with user meetups. He was not convinced
+that people will come, but I told him that that is beside the point. If only 10 or
+20 people come, so be it. That will be our Malaysian PyCon. Either way it goes,
+that will be our learning experience, and we'll see where that leads us.&lt;/p&gt;
+&lt;p&gt;Since our first mini PyCon in 2014, many people have helped us, especially the
+kind generosity of venue providers, like iTrain, University Malaya and
+International University of Malaya-Wales. Nearly all the time we've had help
+from the academic staff of the universities who do use Python as a learning tool
+and wanted their own students to get involved in academic conferences like
+PyCon.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mini PyCon MY 2014" src="https://iqbalabdullah.net/en/images/pycons/mini-pycon-my-2014.jpg"&gt;
+&lt;strong&gt;Our keynote for mini PyCon MY, &lt;a href="http://ericholscher.com/"&gt;Eric Holscher&lt;/a&gt; giving
+his talk. Eric was in Kuala Lumpur for vacation and also decided to
+contribute.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/en/images/pycons/pycon-my-um-02-08-2015.jpg"&gt;
+&lt;strong&gt;Members of PyCon JP coming in to support our first PyCon MY in University
+Malaya&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://iqbalabdullah.net/en/images/pycons/pycon-my-2015-hello.jpg"&gt;
+&lt;strong&gt;Kicking off PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://iqbalabdullah.net/en/images/pycons/pycon-my-2015-group.jpg"&gt;
+&lt;strong&gt;A group picture at the end of PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2016" src="https://iqbalabdullah.net/en/images/pycons/pycon-my-2016-group.jpg"&gt;
+&lt;strong&gt;And the group picture at the end of PyCon MY 2016.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As if coming to a full circle, one of the keynote speaker for the first APAC in
+Singapore in 2010 (Steve Holden), and another keynote speaker for the first PyCon JP in 2011
+(&lt;a href="https://ziade.org/resume.html"&gt;Tarek Ziadé&lt;/a&gt;, who works remotely in the bushes of Dijon, for Mozilla)
+was our keynote speakers in 2016.&lt;/p&gt;
+&lt;p&gt;I am happy to report that Tarek enjoyed his first ever durian here in Kuala Lumpur when keynoting for us.&lt;/p&gt;
+&lt;p&gt;Following the model that we did in Japan, we have also setup a &lt;a href="https://pycon.my/about/pycon-my-plt/"&gt;partnership&lt;/a&gt;
+in Malaysia to facilitate managing funds and also as a public-facing entity to be
+responsible for managing PyCon in Malaysia.&lt;/p&gt;
+&lt;h4&gt;The local sponsors&lt;/h4&gt;
+&lt;p&gt;Our local sponsors who have supported us until now are mostly small companies with
+personal relations to one of the member of the staff, that uses Python in their
+products or day-to-day operations. These companies are the most generous. They
+do not sponsor large amounts, but they are always ready
+to give a helping hand. I believe they are the ones who truly understand
+and appreciate how difficult it is to organize such a conference, and the value
+that it will bring to them and to the community.&lt;/p&gt;
+&lt;p&gt;For our 1st local PyCon we did have big name companies that sponsored us, like
+Amazon Web Services (AWS) and &lt;a href="https://www.braintreepayments.com/"&gt;Braintree&lt;/a&gt; a 
+subsidiary of PayPal. But the young and still inexperienced Python crowd in Malaysia
+might not be a compelling reason yet for them to continue sponsoring.&lt;/p&gt;
+&lt;h2&gt;PyCon APAC in Kuala Lumpur&lt;/h2&gt;
+&lt;p&gt;For 2017, after making a proposal to the APAC community, we have been
+selected to hold the responsibility of having PyCon APAC 2017 in Kuala Lumpur,
+which will be held in August.&lt;/p&gt;
+&lt;p&gt;What I would like to take the opportunity to highlight here is the
+wonderful work the community has done to bring PyCon APAC 2017, from
+universities, student volunteers, local companies and most of all the
+people that make up the community itself.&lt;/p&gt;
+&lt;p&gt;Personally in the Malaysian context, I believe we need more makers or
+programmers in our ecosystem. I feel that we focus too much on the
+business side of things, with "business focused" conferences like
+match-making or raising venture capital. But these are all moot without the
+actual people and know-how to build what we want to sell. PyCon MY is
+that small ripple we're making to have a positive contribution to the
+overall builders and programming ecosystem.&lt;/p&gt;
+&lt;p&gt;With the title of being a regional conference, we now have the clout to invite
+successful technology practicioners from overseas to give talks and share their
+insights and ideas with the local crowd. This will hopefully spark interest and motivate
+them to further improve their skills and knowledge.&lt;/p&gt;
+&lt;h2&gt;Changing the world one PyCon at a time&lt;/h2&gt;
+&lt;p&gt;Through PyCon, the community also tries to practice common ground principles
+based on universally accepted ideas and ideals. All regional or local PyCons which requests
+grants from the PSF &lt;a href="http://pyfound.blogspot.jp/2012/12/psf-moves-to-require-code-of-conduct.html"&gt;are required to have a &lt;em&gt;Code Of Conduct&lt;/em&gt;&lt;/a&gt; that governs how they organizers manage the conference, &lt;em&gt;and&lt;/em&gt; 
+also how the attendess behave and interact with one another during the conference.&lt;/p&gt;
+&lt;p&gt;These Code Of Conducts reflect the values of the community and what they think
+is important. Not all talks during PyCons are about programming, web frameworks
+or libraries: Some of them are about the experiences of the speaker walking the
+path to become a female developer in an industry widely regarded as male dominated,
+or the need to have more diversity and how it's achieved through free community
+training programs.&lt;/p&gt;
+&lt;p&gt;Focused groups like PyLadies (python group focused on women),
+DjangoCon (Conference focused on the Django framework) and SciPy
+(Conference for the users of python in the academics and science
+fields) also all contribute to these same ideas and ideals while adding more
+spice to the already vibrant python community. In all this PyCon is the general
+conference that tries to cover many usages of Python.&lt;/p&gt;
+&lt;p&gt;Following the spirit of the community at large and the values and ideals that we
+try to have, for APAC this year and for the first time in the history of PyCon in Malaysia,
+we are trying a few new things, such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Financial Aid&lt;/li&gt;
+&lt;li&gt;Tie up with Women Who Code (WHC)&lt;/li&gt;
+&lt;li&gt;Having the conference at a commercial conference venue&lt;/li&gt;
+&lt;li&gt;Reducing waste&lt;/li&gt;
+&lt;li&gt;Subsidized ticketing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Financial Aid, tie up with WHC and subsidized ticketing all aims to increase
+participation from under represented groups who could not have attended the
+conference due to financial reasons, or also from female tech communities, which
+historically have little participation in tech conferences locally.&lt;/p&gt;
+&lt;p&gt;So in a way, PyCons are not &lt;em&gt;only just&lt;/em&gt; a technical conference that you might
+expect from practicioners of a certain technology: It's also sort of a social
+movement. Although in PyCons you do have booths for companies the commercial
+aspects are very much watered down (as opposed to RISE or Web Summit).&lt;/p&gt;
+&lt;p&gt;With the PyCon and it's culture blooming in this part of the world, I
+hope it will continue to be a place pythonistas regardless of experience
+continue to meet, exchange ideas, interact and grow.&lt;/p&gt;
+&lt;p&gt;In essence, the aim of a conference like a PyCon, similar to the experience museums
+or art galleries offer is to enlighten you and transform you to a different person intellectually
+from that person that you were before attending the conference. In the context of
+conferences, this is mostly achieved from the human interaction that you've
+achieved listening to and discussing about talks and interacting with other attendees.
+These transformations does not have to be huge leaps. Knowledge transfers take
+time and require us to work on the new information many times in our minds before we can fully
+appreciate and understand them.&lt;/p&gt;
+&lt;p&gt;Changing the world starts here, by us, one good idea at a time and through one PyCon at a time.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:fn01"&gt;
+&lt;p&gt;&lt;a href="https://softwareengineering.stackexchange.com/questions/27207/why-was-pythons-popularity-so-sudden"&gt;Why was Python's popularity so sudden?&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn02"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation, a non-profit in the US that holds the
+intellectual rights of Python&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2017"></category><category term="pycon"></category><category term="japan"></category><category term="malaysia"></category><category term="apac"></category><category term="community"></category><category term="kuala lumpur"></category></entry><entry><title>KTMB should follow right train of thought</title><link href="https://iqbalabdullah.net/en/posts/2009/12/ktmb-should-follow-right-train-of-thought/" rel="alternate"></link><published>2009-12-25T10:00:00+09:00</published><updated>2009-12-25T10:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2009-12-25:/en/posts/2009/12/ktmb-should-follow-right-train-of-thought/</id><summary type="html">&lt;p&gt;Why KTMB still in the red&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was an &lt;a href="http://bit.ly/TxHZCy"&gt;email&lt;/a&gt; I sent to The Star on Christmas Day 2009 about how terrible
+KTMB Komuter service was. I was pretty pissed at that time. I don't understand
+how KTMB cannot understand this very simple thing on providing a decent service to
+it's customers.&lt;/p&gt;
+&lt;p&gt;After I sent the email, I got a call from The Star while I was in Jaya Jusco in
+Malacca and the person wanted to confirm that what I wrote about KTMB's aim of
+getting MYR1 profit was correct before they published it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ON DEC 12, I took KTM’s Ekspres Sinaran Pagi from KL Sentral bound for
+Singapore, which was originally scheduled to depart at 8.30am.&lt;/p&gt;
+&lt;p&gt;While I waited at the terminal, the departure time was rescheduled to 8.40am
+and again to 8.55am. The train finally departed at 9am, and we reached
+Singapore one hour later than the scheduled time.&lt;/p&gt;
+&lt;p&gt;For the KTM Komuter from Mid Valley to Seremban (Rawang-Seremban route) on
+Dec 22, we waited from 9.10pm and the train arrived only at 9.40pm. We
+finally reached Seremban at around 11pm.&lt;/p&gt;
+&lt;p&gt;KTMB customers waiting at the Mid Valley station resigned themselves to the
+waiting, and some even opened up their work on the cement floor and tried to
+get something done.&lt;/p&gt;
+&lt;p&gt;The electronic signs at the platform were confusing and did not show correct
+information. We were not notified the reason for the delays.&lt;/p&gt;
+&lt;p&gt;Certain passengers were inconsiderate, refusing to allow passengers to alight
+first before boarding, pushing ahead with their big backpacks, having their
+handphone ringtones on full volume and refusing to give up their seats for a
+blind mother and child who boarded in Serdang.&lt;/p&gt;
+&lt;p&gt;The experience of taking the Komuter from Mid Valley to Seremban has left me
+tired. I felt I have grown older by 10 years and my will to live has gone.&lt;/p&gt;
+&lt;p&gt;There are two points that I wish to share with KTMB:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In today’s economy, KTMB must realise that it is not an operator of
+      railways. It must realise that it is a service provider, not much different
+      from taxis or retail outlets. It just so happens that the service provider
+      called KTMB is providing its service through railways.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The money is in transporting people, not goods. If KTMB truly wishes to
+   reach its stated target of even RM1 profit, stay there or even go beyond
+   that, it has to understand that the service of transporting people, in a
+   timely and comfortable manner, will be the single most important revenue
+   provider.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These are important concepts that everyone in KTMB must realise and
+understand, from the CEO down to the person maintaining the ticket machines
+at the stations.&lt;/p&gt;
+&lt;p&gt;From a layman’s point of view KTMB has great potential.&lt;/p&gt;
+&lt;p&gt;With highways being built every day and airline flights getting cheaper, it
+is more important than ever that KTMB realise its potential as a service
+provider, and the strength that its assets hold. KTMB owns tracks and
+stations which are not affected by traffic yet that go direct to the heart of
+towns.&lt;/p&gt;
+&lt;p&gt;Malaysia will change like other developed nations, where more and more people
+commute to work from out-of-state into Kuala Lumpur. We see this happening
+right here and now, and it is inevitable.&lt;/p&gt;
+&lt;p&gt;There are too many cars on the roads and everyone is tired of traffic jams in
+the city.&lt;/p&gt;
+&lt;p&gt;Everything is in place that will allow KTMB to be the leading transportation
+service provider. All that KTMB needs to do is to leverage these assets and
+by being reliable and punctual.&lt;/p&gt;
+&lt;p&gt;To be reliable and on time do not require KTMB to change its rolling stock
+immediately, nor does it require it to send its staff to Tokyo to study how
+JR (Japan Railways Group) does its job. All KTMB has to do is ride its own
+trains and make notes of what it’s doing right and what it’s doing wrong, and
+then fix them.&lt;/p&gt;
+&lt;p&gt;IQBAL ABDULLAH, 
+Petaling Jaya.&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="2009"></category><category term="current affairs"></category><category term="malaysia"></category><category term="public transportation"></category></entry></feed>

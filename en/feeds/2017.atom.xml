@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2017</title><link href="https://iqbalabdullah.net/en/" rel="alternate"></link><link href="https://iqbalabdullah.net/en/feeds/2017.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/en/</id><updated>2017-06-15T16:00:00+09:00</updated><entry><title>Changing the world one PyCon at a time</title><link href="https://iqbalabdullah.net/en/posts/2017/06/changing-the-world-one-pycon-at-a-time/" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-06-15:/en/posts/2017/06/changing-the-world-one-pycon-at-a-time/</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
+&lt;p&gt;As an engineer, programming languages are very important tools to solve the
+problems that you face. As an entrepreneur, they are also important tools to
+bring your imagination to life, to get that profit and making that difference.&lt;/p&gt;
+&lt;p&gt;Python is a magnificent programming language. Although first released in 1991, it &lt;em&gt;arguably&lt;/em&gt;
+only started to become mainstream&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; when
+&lt;a href="https://en.wikipedia.org/wiki/Guido_van_Rossum"&gt;Guido van Rossum&lt;/a&gt;, the creator of
+Python joined Google in 2005. That made many people start to notice how serious
+the tech giant was investing in Python. In the same year, the web framework
+Django which is written in Python was released, and that further pushed Python into the limelight.&lt;/p&gt;
+&lt;p&gt;Now, even our very much loved
+&lt;a href="https://thenewstack.io/instagram-makes-smooth-move-python-3/"&gt;Instagram uses python&lt;/a&gt; 
+to handle it's hundreds of millions of requests. Python are also used in
+scientific and academic fields&lt;/p&gt;
+&lt;p&gt;I have been using Python since 2002, and in many ways it has given me the
+intellectual challenge I craved, allowed me the freedom to bring my imagination
+to life, and through PyCon, has allowed me to meet wonderful people.&lt;/p&gt;
+&lt;h2&gt;My First PyCon, APAC 2010 in Singapore&lt;/h2&gt;
+&lt;p&gt;But a programming language is only as good as the people that uses it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Python_Conference"&gt;PyCon&lt;/a&gt; is in essence a conference
+centered around the Python programming language. It's roots started with the first PyCon in
+Washington D.C in 2003 and has expanded to many parts of the world, from Europe, Japan,
+China, India, HK, Taiwan, Australia, New Zealand, Singapore and also Malaysia.&lt;/p&gt;
+&lt;p&gt;Up until 2010, before attending my first PyCon, I had been using python for fun
+and profit for 8 years. I find the language easy to use, has design that fits
+with my mind and how I believe coding should be, and most importantly I enjoyed using
+it to build stuff.&lt;/p&gt;
+&lt;p&gt;So when I saw the poster for the first PyCon APAC in Singapore in 2010, I
+decided to meet the people behind it:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC 2010 Singapore" src="https://iqbalabdullah.net/en/images/pycons/pycon-apac-2010-poster.png"&gt;&lt;/p&gt;
+&lt;p&gt;I didn't know anyone there but I'd thought I'll just make new friends and see
+what other cool stuff everyone else was building. And made friends I did: I met up with
+three other participants from Japan: Manabu Terada
+(&lt;a href="https://twitter.com/terapyon?lang=en"&gt;@terapyon&lt;/a&gt;),
+Yasuhi Masuda(&lt;a href="https://twitter.com/whosaysni?lang=en"&gt;@whosaysni&lt;/a&gt;) and Ian
+Lewis(&lt;a href="https://twitter.com/ianmlewis?lang=en"&gt;@ianmlewis&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;And as it turns out, the chairperson for the first PyCon APAC in Singapore was Liew Beng Keat
+(&lt;a href="https://twitter.com/bengkeatliew"&gt;@bengkeatliew&lt;/a&gt;) a Malaysian from Kuala
+Lumpur. We have more in common than I thought!&lt;/p&gt;
+&lt;h2&gt;Bringing PyCon to the region&lt;/h2&gt;
+&lt;p&gt;It was then that Beng Keat was telling me the reason he wanted to organize a
+regional version of PyCon APAC: Beng Keat had the opportunity to attend PyCon in
+the United States, and although he enjoyed the conference and came back englightened,
+he also realized how prohibitive it is to travel from Asia to the United States
+and so he thought: &lt;em&gt;If we can't go to PyCon in the US, we'll bring
+PyCon here.&lt;/em&gt; And since Singapore was such a small place, it makes more sense to
+make it a regional conference instead of just a local conference.&lt;/p&gt;
+&lt;p&gt;The concept of having a regional PyCon is in essence a very simple one, with a
+well defined purpose: We understand that nearly all of the advances made in
+technology by the programming language, new concepts and philosophy in thinking about the
+language and even how communities are organized towards a greater good for
+everyone at large originate mostly in the United States and Europe.&lt;/p&gt;
+&lt;p&gt;If we cannot be in the United States to meet and listen to the great minds that shape
+the programming language, its community and its future, lets have those minds
+here instead.&lt;/p&gt;
+&lt;p&gt;And at that first APAC PyCon in Singapore, one of the keynote speakers was &lt;a href="https://github.com/holdenweb"&gt;Steve
+Holden&lt;/a&gt;, who was the chairman for PSF&lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;, 
+who later on was a pivotal figure for the growth of PyCon within APAC.&lt;/p&gt;
+&lt;h3&gt;Building the Japan PyCon community, circa 2011&lt;/h3&gt;
+&lt;p&gt;We invited Steve to come to Tokyo after APAC, and over dinner we talked about
+having an annual conference to get pythonistas from all over the country to come
+and share their work and discuss their ideas. Steve was instrumental in proding
+us, who had no experience at all running conferences, to actually take the idea
+seriously. Given also the fact that Python was still considered an obscure
+language in Japan as opposed to PHP, Java or Ruby, we were also sceptical that
+there will be any traction at all.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabdullah.net/en/images/pycons/steve-holden-in-tokyo-02.jpg"&gt;
+&lt;strong&gt;Dinner with Steve in Roppongi&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabdullah.net/en/images/pycons/steve-holden-in-tokyo-01.jpg"&gt;
+&lt;strong&gt;With Masuda-san and Takizawa-san&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Following that dinner with Steve, Terada-san, Masuda-san and myself met again on the
+1st of July 2010 in an underground Turkish restaurant in Shibuya and over dinner decided
+to have our first stab at a PyCon in Japan. We agreed to start small, and host
+APAC when we are ready.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Email calling for the first PyCon meeting" src="https://iqbalabdullah.net/en/images/pycons/shibuya-email.png"&gt;&lt;/p&gt;
+&lt;p&gt;We had our first &lt;a href="https://sites.google.com/site/pyconminijp/"&gt;&lt;em&gt;mini&lt;/em&gt; PyCon JP&lt;/a&gt; 
+on a cold January morning in 2011 at the Rakuten offices in Tokyo. I was 
+involved as the program manager, choosing talks and deciding the contents of the conference.
+130 people came for the mini conference, and we all had a great time listening
+to talks, learning and making new friends. The conference was free, and everyone
+had bento for lunch provided by our generous sponsors.&lt;/p&gt;
+&lt;p&gt;Encouraged by the turnout and how the first conferece went, we then decided to
+have a major PyCon JP for the first time in that summer of 2011.&lt;/p&gt;
+&lt;p&gt;PyCon JP have been held every year around summer since then, and in 2016 our
+attendees topped 700 people.&lt;/p&gt;
+&lt;p&gt;Back to 2012: An issue that we faced after the second PyCon in 2012 was that it was getting
+too big, and the left over money from sponsors was getting too much to handle
+out from an individual account. We also needed a face for the public, and a
+definate entity that will take responsibility for managing the annual conference
+in Japan. &lt;/p&gt;
+&lt;p&gt;Because of that, the non-profit PyCon JP was established in March 2013, which I
+am still currently serving as part of the board members.&lt;/p&gt;
+&lt;p&gt;To prepare to host APAC, since 2012 we needed to give an international flavour for the
+conference, and we made it a point to have at least one track which will be in
+English only. This has attracted participation from nearby countries, such as
+South Korea and Taiwan.&lt;/p&gt;
+&lt;p&gt;To also attract interest from the public, and due to the fact that our
+non-profit run on money gained from public interests, we also made it a point to
+have an open non-profit general meeting during the local PyCons. It is here
+where we met other people which are thinking or are interested in running their
+own PyCons.&lt;/p&gt;
+&lt;h3&gt;PyCon APAC in Japan, 2013&lt;/h3&gt;
+&lt;p&gt;Singapore had been organizing the APAC conference for 3 years in a row since
+2010, and following the model of PyCon US of moving the venue to different cities
+every two year, for 2013 they approached us in Japan to take over APAC and organize
+it in Japan.&lt;/p&gt;
+&lt;p&gt;We have been preparing for this since 2011, so we agreed. Our Taiwan counterpart
+was also keen on running APAC, but after discussions they agreed to bid for
+2014 instead. &lt;/p&gt;
+&lt;p&gt;This was good for us in the region on 2 accounts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The regional conference APAC has finally moved away from Singapore to a
+  different city&lt;/li&gt;
+&lt;li&gt;We have another host decided for 2014.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So in August 2013, we organized PyCon APAC in Shinjuku, Tokyo, and that is where
+we met all the many people that will spread PyCon across the region.&lt;/p&gt;
+&lt;h2&gt;The Asia Pacific Connection&lt;/h2&gt;
+&lt;p&gt;Regionally, we have a loosely knit community that drives PyCon APAC
+(Asia Pacific). Ideally, PyCon APAC is a regional conference that rotates
+between cities within the APAC region, and aims to be an international
+and bigger conference giving the opportunity to the regional python
+community to come together at a more accessible and affordable location compared to
+having to travel to the United States or Europe.&lt;/p&gt;
+&lt;p&gt;After the APAC conference in Tokyo in 2013, there was consensus from the regional
+community representatives such as Singapore and South Korea which we managed to
+get in touch with when they came to APAC in Tokyo, to move the APAC conference to Taipei.&lt;/p&gt;
+&lt;p&gt;Since there was no other community which has shown interest to host APAC for
+2015, the conference stayed in Taipi until 2015.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/en/images/pycons/pycon-apac-tw-06-2015.jpg"&gt;
+&lt;strong&gt;With Van Lindberg, Chairperson for the PSF, Beng Keat, and our friends and staff organizing
+PyCon APAC TW in 2015.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The South Korean community, after having their first local PyCon in
+2015 stepped up to the plate to host APAC in 2016, and was succesful with over 1000 attendees.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabdullah.net/en/images/pycons/apac-meeting-seoul-2015.jpg"&gt;
+&lt;strong&gt;A community meeting of representatives from the different countries in APAC
+during the 2016 APAC conference: KR, JP, VN, TW, PH, MY, HK and SG was present&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabdullah.net/en/images/pycons/pycon-apac-seoul-2016-group.jpg"&gt;
+&lt;strong&gt;Group picture after the community meeting&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The regional communities have done a wonderful job to boost their local PyCon
+conferences to be a well known annual event to gather and share knowledge among
+their Python users. The regional APAC conferences has also proved to be a
+platform where new community leaders from neighbouring countries come to connect
+and learn how to organize their own local PyCons.&lt;/p&gt;
+&lt;p&gt;We make it a point to reach out to fellow community members from countries which up until now
+have no representation in our loose group, like Myanmar or Vietnam.  I've seen fellow pythonistas
+who came to a PyCon APAC for the first time, and their eyes light up and they smile and say
+now they want to start something in their city and their community after
+experiencing the conference.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/en/images/pycons/dylan-jay-bangkok.jpg"&gt;
+&lt;strong&gt;Meeting up with Dylan Jay in Bangkok. Dylan is the former lead for the Sydney
+Python Users Group&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The collective knowledge of all of us help to remove some anxiety and help guide
+them on what are the points that they'll need to keep in mind to start something
+for their own city, from organizing know-how to even getting sponsorship
+funding. The PSF in this regard have been supportive in providing grants and
+also speakers to the APAC conferences.&lt;/p&gt;
+&lt;h3&gt;Connecting pythonistas in Malaysia&lt;/h3&gt;
+&lt;p&gt;After helping out with running PyCon in Japan, I realized that all the PyCons
+that we had in the APAC region has all been on the north-eastern part of Asia
+Pacific, with the exception of Singapore, but all of them were either cost or time
+prohibitive to the rest of Asia Pacific.&lt;/p&gt;
+&lt;p&gt;And that begin my next project: To kickstart an annual PyCon in Malaysia grown
+for the locals, from the locals, and bring APAC and the rest of the world to Kuala Lumpur.&lt;/p&gt;
+&lt;p&gt;My aim is to have an APAC conference here in Kuala Lumpur as I believe, compared
+to the north-east of Asia Pacific, a conference here will be more accessible to
+much more people.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If we can't go to PyCon, we'll get PyCon here.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In Malaysia, the history of PyCon started in 2014 where we had our
+first mini PyCon (1 day, single track and 70 people attended) and
+continued with PyCon MY 2015 (2 days, 2 tracks and around 140 people
+attended) and PyCon MY 2016 (2 days, 2 track and around 100 people
+attended). I was involved as the co-chair and finance person for the mini
+PyCon 2014, the chair for PyCon MY 2015, and co-chair again in 2016.&lt;/p&gt;
+&lt;p&gt;You can read more on us at &lt;a href="https://pycon.my/"&gt;https://pycon.my/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But before we start running an international conference like the APAC, we need
+to know &lt;em&gt;how&lt;/em&gt; to at least run a conference. Having local experienced people to organizing
+conferences will also allow us to convince the other regional members that we
+are up to the job.&lt;/p&gt;
+&lt;p&gt;In 2014 there was already a loose group of Python users, who had meetups once every
+2 or 3 months mainly around the Kuala Lumpur area, usually attended by more or less 10 people.
+As is common for any non-profit, grass-roots volunteer driven small meetups with no
+monetary or marketing support from commercial entities, these meetups were mostly
+attended by the same group of people and before long you'll have organizers burning out,
+running out of steam and also things to talk about.&lt;/p&gt;
+&lt;p&gt;The de-facto organizer for these meetups then was Swee Meng, and I met him the first
+time at one of Singapore's PyCon. When I suggested to him an annual PyCon for Malaysia,
+he was sceptical at first, given his bitter experience with user meetups. He was not convinced
+that people will come, but I told him that that is beside the point. If only 10 or
+20 people come, so be it. That will be our Malaysian PyCon. Either way it goes,
+that will be our learning experience, and we'll see where that leads us.&lt;/p&gt;
+&lt;p&gt;Since our first mini PyCon in 2014, many people have helped us, especially the
+kind generosity of venue providers, like iTrain, University Malaya and
+International University of Malaya-Wales. Nearly all the time we've had help
+from the academic staff of the universities who do use Python as a learning tool
+and wanted their own students to get involved in academic conferences like
+PyCon.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="mini PyCon MY 2014" src="https://iqbalabdullah.net/en/images/pycons/mini-pycon-my-2014.jpg"&gt;
+&lt;strong&gt;Our keynote for mini PyCon MY, &lt;a href="http://ericholscher.com/"&gt;Eric Holscher&lt;/a&gt; giving
+his talk. Eric was in Kuala Lumpur for vacation and also decided to
+contribute.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/en/images/pycons/pycon-my-um-02-08-2015.jpg"&gt;
+&lt;strong&gt;Members of PyCon JP coming in to support our first PyCon MY in University
+Malaya&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://iqbalabdullah.net/en/images/pycons/pycon-my-2015-hello.jpg"&gt;
+&lt;strong&gt;Kicking off PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://iqbalabdullah.net/en/images/pycons/pycon-my-2015-group.jpg"&gt;
+&lt;strong&gt;A group picture at the end of PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PyCon MY 2016" src="https://iqbalabdullah.net/en/images/pycons/pycon-my-2016-group.jpg"&gt;
+&lt;strong&gt;And the group picture at the end of PyCon MY 2016.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As if coming to a full circle, one of the keynote speaker for the first APAC in
+Singapore in 2010 (Steve Holden), and another keynote speaker for the first PyCon JP in 2011
+(&lt;a href="https://ziade.org/resume.html"&gt;Tarek Ziadé&lt;/a&gt;, who works remotely in the bushes of Dijon, for Mozilla)
+was our keynote speakers in 2016.&lt;/p&gt;
+&lt;p&gt;I am happy to report that Tarek enjoyed his first ever durian here in Kuala Lumpur when keynoting for us.&lt;/p&gt;
+&lt;p&gt;Following the model that we did in Japan, we have also setup a &lt;a href="https://pycon.my/about/pycon-my-plt/"&gt;partnership&lt;/a&gt;
+in Malaysia to facilitate managing funds and also as a public-facing entity to be
+responsible for managing PyCon in Malaysia.&lt;/p&gt;
+&lt;h4&gt;The local sponsors&lt;/h4&gt;
+&lt;p&gt;Our local sponsors who have supported us until now are mostly small companies with
+personal relations to one of the member of the staff, that uses Python in their
+products or day-to-day operations. These companies are the most generous. They
+do not sponsor large amounts, but they are always ready
+to give a helping hand. I believe they are the ones who truly understand
+and appreciate how difficult it is to organize such a conference, and the value
+that it will bring to them and to the community.&lt;/p&gt;
+&lt;p&gt;For our 1st local PyCon we did have big name companies that sponsored us, like
+Amazon Web Services (AWS) and &lt;a href="https://www.braintreepayments.com/"&gt;Braintree&lt;/a&gt; a 
+subsidiary of PayPal. But the young and still inexperienced Python crowd in Malaysia
+might not be a compelling reason yet for them to continue sponsoring.&lt;/p&gt;
+&lt;h2&gt;PyCon APAC in Kuala Lumpur&lt;/h2&gt;
+&lt;p&gt;For 2017, after making a proposal to the APAC community, we have been
+selected to hold the responsibility of having PyCon APAC 2017 in Kuala Lumpur,
+which will be held in August.&lt;/p&gt;
+&lt;p&gt;What I would like to take the opportunity to highlight here is the
+wonderful work the community has done to bring PyCon APAC 2017, from
+universities, student volunteers, local companies and most of all the
+people that make up the community itself.&lt;/p&gt;
+&lt;p&gt;Personally in the Malaysian context, I believe we need more makers or
+programmers in our ecosystem. I feel that we focus too much on the
+business side of things, with "business focused" conferences like
+match-making or raising venture capital. But these are all moot without the
+actual people and know-how to build what we want to sell. PyCon MY is
+that small ripple we're making to have a positive contribution to the
+overall builders and programming ecosystem.&lt;/p&gt;
+&lt;p&gt;With the title of being a regional conference, we now have the clout to invite
+successful technology practicioners from overseas to give talks and share their
+insights and ideas with the local crowd. This will hopefully spark interest and motivate
+them to further improve their skills and knowledge.&lt;/p&gt;
+&lt;h2&gt;Changing the world one PyCon at a time&lt;/h2&gt;
+&lt;p&gt;Through PyCon, the community also tries to practice common ground principles
+based on universally accepted ideas and ideals. All regional or local PyCons which requests
+grants from the PSF &lt;a href="http://pyfound.blogspot.jp/2012/12/psf-moves-to-require-code-of-conduct.html"&gt;are required to have a &lt;em&gt;Code Of Conduct&lt;/em&gt;&lt;/a&gt; that governs how they organizers manage the conference, &lt;em&gt;and&lt;/em&gt; 
+also how the attendess behave and interact with one another during the conference.&lt;/p&gt;
+&lt;p&gt;These Code Of Conducts reflect the values of the community and what they think
+is important. Not all talks during PyCons are about programming, web frameworks
+or libraries: Some of them are about the experiences of the speaker walking the
+path to become a female developer in an industry widely regarded as male dominated,
+or the need to have more diversity and how it's achieved through free community
+training programs.&lt;/p&gt;
+&lt;p&gt;Focused groups like PyLadies (python group focused on women),
+DjangoCon (Conference focused on the Django framework) and SciPy
+(Conference for the users of python in the academics and science
+fields) also all contribute to these same ideas and ideals while adding more
+spice to the already vibrant python community. In all this PyCon is the general
+conference that tries to cover many usages of Python.&lt;/p&gt;
+&lt;p&gt;Following the spirit of the community at large and the values and ideals that we
+try to have, for APAC this year and for the first time in the history of PyCon in Malaysia,
+we are trying a few new things, such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Financial Aid&lt;/li&gt;
+&lt;li&gt;Tie up with Women Who Code (WHC)&lt;/li&gt;
+&lt;li&gt;Having the conference at a commercial conference venue&lt;/li&gt;
+&lt;li&gt;Reducing waste&lt;/li&gt;
+&lt;li&gt;Subsidized ticketing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The Financial Aid, tie up with WHC and subsidized ticketing all aims to increase
+participation from under represented groups who could not have attended the
+conference due to financial reasons, or also from female tech communities, which
+historically have little participation in tech conferences locally.&lt;/p&gt;
+&lt;p&gt;So in a way, PyCons are not &lt;em&gt;only just&lt;/em&gt; a technical conference that you might
+expect from practicioners of a certain technology: It's also sort of a social
+movement. Although in PyCons you do have booths for companies the commercial
+aspects are very much watered down (as opposed to RISE or Web Summit).&lt;/p&gt;
+&lt;p&gt;With the PyCon and it's culture blooming in this part of the world, I
+hope it will continue to be a place pythonistas regardless of experience
+continue to meet, exchange ideas, interact and grow.&lt;/p&gt;
+&lt;p&gt;In essence, the aim of a conference like a PyCon, similar to the experience museums
+or art galleries offer is to enlighten you and transform you to a different person intellectually
+from that person that you were before attending the conference. In the context of
+conferences, this is mostly achieved from the human interaction that you've
+achieved listening to and discussing about talks and interacting with other attendees.
+These transformations does not have to be huge leaps. Knowledge transfers take
+time and require us to work on the new information many times in our minds before we can fully
+appreciate and understand them.&lt;/p&gt;
+&lt;p&gt;Changing the world starts here, by us, one good idea at a time and through one PyCon at a time.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:fn01"&gt;
+&lt;p&gt;&lt;a href="https://softwareengineering.stackexchange.com/questions/27207/why-was-pythons-popularity-so-sudden"&gt;Why was Python's popularity so sudden?&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn02"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/"&gt;Python Software Foundation, a non-profit in the US that holds the
+intellectual rights of Python&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2017"></category><category term="pycon"></category><category term="japan"></category><category term="malaysia"></category><category term="apac"></category><category term="community"></category><category term="kuala lumpur"></category></entry></feed>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2020</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/2020.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>多様化がPythonソフトウェア財団（PSF）の将来像</title><link href="https://iqbalabdullah.net/ja/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/ja/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;Pythonソフトウェア財団（PSF）の2020年理事会選挙に立候補し落選して思うこと。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;前提&lt;/h1&gt;
+&lt;p&gt;2019年以降、私は東アジア、南アジア、東南アジア（まとめてAPACと呼ばれる）にあるPythonコミュニティがより一貫した方向に進めるよう尽力してきた。
+毎年北米で開催されるPyCon(今年はピッツバーグで開催)の期間中に、より広範な北米および国際コミュニティに
+紹介するコミュニティブースも予定されていたが、COVID-19のため残念ながら中止になった。
+PyCon US&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; とはPythonソフトウェア財団（PSF）が主催する年に1度のプログラミング言語Pythonに関するカンファレンスで、
+同時に唯一の大規模な資金調達イベントでもある。&lt;/p&gt;
+&lt;h1&gt;Pythonソフトウェア財団（PSF）とは&lt;/h1&gt;
+&lt;p&gt;まず、次のことを私は認めざるを得ない。2002年にPythonを使い始めたとき、PSFの存在については知らなかった。
+2010年にPyConに初めて参加し、PSFというものの存在を理解し始めた。&lt;/p&gt;
+&lt;p&gt;PSFは、Python言語、そのエコシステム、それを使用し依存しているコミュニティを維持し保護するために非常に重要な、
+しかし極めて一般的にあまり知られてないな役割を担っている。&lt;/p&gt;
+&lt;p&gt;PSFの取り組みについては&lt;a href="https://www.python.org/psf/#:~:text=The%20mission%20of%20the%20Python,international%20community%20of%20Python%20programmers."&gt;こちら&lt;/a&gt;を参照してください。&lt;/p&gt;
+&lt;h2&gt;PSF理事会のポストに立候補&lt;/h2&gt;
+&lt;p&gt;2020年6月、任期が満了するPSFのディレクター(理事のこと)の4つの席が空席になる。
+長年、&lt;a href="https://iqbalabdullah.net/ja/drafts/changing-the-world-one-pycon-at-a-time-en.html"&gt;地球の裏側でコミュニティを構築するために働きながら&lt;/a&gt;
+私は米国中心の組織であるPSFが実行していると思っていることと、世界の他の場所で拡大しているコミュニティが実行していると思っていること
+の間にギャップがあると感じていたので、少なくとも東・南・東南アジアの声を代弁するため、ディレクターに立候補することを決心した。&lt;/p&gt;
+&lt;p&gt;正直に言うと、その時点でのモチベーションはそれほど明確ではなかった。&lt;/p&gt;
+&lt;p&gt;資金調達の努力が重要だと知っており、次のようなことを支援したかった。
+私は過去数年にわたり、オープンソースに対し金銭的な愛を広めるよう&lt;a href="https://blog.xoxzo.com/en/2018/05/02/annual-opensource-grant-for-2018/"&gt;ここで&lt;/a&gt;、&lt;a href="https://www.slideshare.net/xoxzo/lightning-talk-pycon-thailand-2019"&gt;PyCon THでのLTで&lt;/a&gt;および&lt;a href="https://www.youtube.com/watch?v=7U2D5tcMZb4&amp;amp;feature=youtu.be&amp;amp;t=2107"&gt;PyCon JPでのLTで&lt;/a&gt;)提唱してきたし、これからも続けたいと思っている。&lt;/p&gt;
+&lt;p&gt;しかし、PSFを通じてより大きなPythonコミュニティが一緒になれば&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;価値観を共有する私の思いはさらに強まり、関わっているコミュニティへの発言権ももっと大きくなった&lt;/a&gt;と思う。&lt;/p&gt;
+&lt;p&gt;ちなみに、PSFディレクターが担う責任と日常的な活動を知りたくてこれを読んでいるなら、次のリンクが役立つかもしれない。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wiki.python.org/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors"&gt;PSFディレクターの任務と責任&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=ZLKj6FaQA4M"&gt;Pythonソフトウェア財団ディレクターとしての生活&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;選挙の結果&lt;/h3&gt;
+&lt;p&gt;選挙結果が発表され、私は空席4に対する候補者26人中11位だった。見事に落選 😅&lt;/p&gt;
+&lt;p&gt;投票権持つ1,151人のうち、実際に投票したのは462人だけだった。
+選出された上位4名は、以下のとおり。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/nina-zakharenko/"&gt;Nina Zakharenko&lt;/a&gt;
+得票数 263&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/dustin-ingram/"&gt;Dustin Ingram&lt;/a&gt;
+得票数 249&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/jeff-triplett/"&gt;Jeff Triplett&lt;/a&gt;
+得票数240&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/thomas-wouters/"&gt;Tomas Wouters&lt;/a&gt;
+得票数 237&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;結果を分析し自分自身の「選挙活動」を振り返った後、私がPythonとそのコミュニティの将来像だと強く確信し取り組みたいと考えていた、
+本当の課題が鮮明に見えてきた。&lt;/p&gt;
+&lt;h2&gt;その課題とは&lt;/h2&gt;
+&lt;p&gt;私はSlackでの質疑応答セッションに参加する機会があったが、そこでは立候補者または選挙に関心を持つほかの誰でも現在の理事会メンバーに
+質問することができた。&lt;/p&gt;
+&lt;p&gt;1つ私が尋ねたのは、「PSF、あるいは過去数年間PSFが達成を望んでいた事柄に関して今取り組んでいる懸念事項」のことだった。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/glasnt"&gt;Katie McLaughlin&lt;/a&gt;さんは、特に最大のPSF資金調達イベント、PyCon 2020が開催されなかったことを考えると、
+短期的には資金調達の努力を多様化するために多くの施策が行われている、と回答した。長期的には、多くの取り組みは目標に焦点を当て、
+この何年にもわたる努力が継続し完了するための勢いを確保するべきだ。&lt;/p&gt;
+&lt;p&gt;任期満了するもう一人のPSFディレクター&lt;a href="https://twitter.com/jackiekazil"&gt;Jacqueline Kazil&lt;/a&gt;さんからも、
+洞察力に富んだ別の見解をもらった。
+彼女は、PyConが中止された際PSFが直面する財務上の問題とリスクを支援するために、
+&lt;a href="https://medium.com/@jackiekazil/elect-more-international-representation-finance-focused-individuals-to-psf-3eedcf0a91a7"&gt;理事会はより国際的な代表の選出と、ファイナンス関連の知識を持つ人物を必要としている&lt;/a&gt;と考えている。&lt;/p&gt;
+&lt;p&gt;こうした主張を聞き、私たちに必要なのは&lt;strong&gt;多様化&lt;/strong&gt;であることピンときた。&lt;/p&gt;
+&lt;h3&gt;多様化&lt;/h3&gt;
+&lt;p&gt;私たちの代表を選出する点でも資金面のサポートという点でも、現時点でPSFの問題として私が把握した包括的なテーマは、多様化であること。
+私思うのは、この両方は相互に関連している。&lt;/p&gt;
+&lt;h4&gt;代表の選出&lt;/h4&gt;
+&lt;p&gt;今回PyLadiesのメキシコ拠点オーガナイザー、&lt;a href="https://twitter.com/valerybriz"&gt;Valeria Calderon&lt;/a&gt;さんが数票差で落選したのは残念だった。&lt;/p&gt;
+&lt;p&gt;その他米国以外の立候補者、中南米のPython Ambassadorである&lt;a href="https://twitter.com/reydelhumo"&gt;Manuel Kaufmann&lt;/a&gt;さんや、
+Python Namibiaの創立者&lt;a href="https://twitter.com/muheuenga"&gt;Ngazetungue Muheue&lt;/a&gt;さんなども落選した。&lt;/p&gt;
+&lt;p&gt;ちなみにManuelさんは&lt;a href="https://pycon.jp/2018/"&gt;PyCon JP 2018のキーノートスピーカの一人だった&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;これら全員が、世界のさまざまな地域に存在するコミュニティのニーズに関して新鮮な意見や見解を持ち込む可能性があった。&lt;/p&gt;
+&lt;p&gt;中核となる技術的コンピテンシーを維持するため求められる技術力と信頼性のハードルが高い&lt;a href="https://realpython.com/lessons/python-steering-council/"&gt;Python意思決定議会&lt;/a&gt;&lt;a href="https://www.python.org/dev/peps/pep-8101/"&gt;選挙&lt;/a&gt;とは異なり、
+PSF理事会は空席があれば誰でも立候補できる。&lt;/p&gt;
+&lt;p&gt;PSF理事会はこの言語とそれに依存する人々の将来を向上させるためにリソースをうまく活用する責任があり、
+技術的なコア・コンピテンシーは必要となるかもしれない素質の一部に過ぎない。&lt;/p&gt;
+&lt;p&gt;これは、非常に重要なメッセージを発信している。
+&lt;em&gt;あなたがどこにいる誰であっても、私たちの将来を形作り願望を実現する手助けは歓迎される。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;今年の当選者は全員コミュニティで活発に活動しており、カンファレンスのスピーカーであり、
+&lt;a href="https://www.python.org/dev/peps/pep-0001/#:~:text=PEP%20stands%20for%20Python%20Enhancement,a%20rationale%20for%20the%20feature."&gt;PEP&lt;/a&gt;の著者または技術プロジェクトのライターでもある。&lt;/p&gt;
+&lt;p&gt;PSFのワーキンググループ（WG）メンバーも数人おり、1人は現行のPython意思決定議会メンバーである。
+当選者の半分はディレクター業務の経験があり、1人は理事会メンバーへの復帰であり、全員が米国を拠点としている。&lt;/p&gt;
+&lt;p&gt;今回あるいは過去の選挙で当選したディレクターがふさわしいかどうかが問題なのではない。
+立候補し、必要な得票数に達していれば、当然ディレクターになるべき。
+私は選出された理事会メンバーが、私たち全員の利益を最優先に考え最善を尽くすことを確信している。&lt;/p&gt;
+&lt;p&gt;問題は、&lt;strong&gt;投票した462人というのは、世界中のPythonコミュニティが抱く将来への願望と現在の状況を公正に反映しているのか？&lt;/strong&gt;
+ということ。&lt;/p&gt;
+&lt;p&gt;PSFはエリートとみなされる危険があり、すでに特定のネットワーク関われている人々のグループに対してのみ開かれている。&lt;/p&gt;
+&lt;h3&gt;投票権持つ者のベースの拡大&lt;/h3&gt;
+&lt;p&gt;現在、世界には&lt;a href="https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/#:~:text=According%20to%20SlashData%2C%20there%20are,and%207.1%20million%20Java%20developers."&gt;820万人のPython開発者&lt;/a&gt;がいる。
+開発者人口の増加という点で、アジア太平洋地域は最高の成長率を示しており、インドは今後5年以内に米国に取って代わる。
+中南米地域は、2番目に高い開発者人口の成長率を示している。&lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;代表者の多様性を高めるという目標を達成するには、全体的な有権者ベースを増やす必要がある。毎年検討を繰り返し、
+進捗状況をコミュニティに報告すれば、これは目に見える追跡可能な目標である。&lt;/p&gt;
+&lt;p&gt;日本、台湾、韓国、マレーシア、インドネシア、タイ、フィリピンなどにいるたくさんの人材が、エコシステムをサポートする
+会合やカンファレンスに積極的に参加したり開催したりするため時間とエネルギーを費やしており、
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfwWBGkzvkWDZrxW3up_M_B7qgt1IWZlx9KJ0ucLA5WJP1vfA/viewform"&gt;補助メンバーとして適任である&lt;/a&gt;
+ことを私は知っているが、彼らは投票権持ってないし、このベースに反映されていない。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;どうしてでしょうか？&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;自分自身の経験を振り返ってみて、おそらく最大級のハードルは&lt;strong&gt;Pythonコミュニティ自体に内在するPSFに対する無関心&lt;/strong&gt;だろう。&lt;/p&gt;
+&lt;h3&gt;無関心への取り組み&lt;/h3&gt;
+&lt;p&gt;あともう一つのざんげ。
+2010年にPSFについて知ったにもかかわらず、PSFが自分自身とコミュニティにどう関係するのか、真剣に考えていなかった。&lt;/p&gt;
+&lt;p&gt;私の視点からは、米国のPyConに参加している大半が友達同士の白人たちで構成された、遠く離れた米国の組織だった。&lt;/p&gt;
+&lt;p&gt;その視点は自分たちのPyConのためにPSFの助成金を申請し始めたときに進化した。
+その時点においてPSFは助成金も出してくれる同じ組織であることを再確認された。&lt;/p&gt;
+&lt;p&gt;資金供給するプロジェクトを通して私たちのインフラをサポートしたり、コミュニティ内の参加性を促進する取り組みを率先したりといった、
+PSFが行っている重要な業務についてまだよく分かっていなかった。&lt;/p&gt;
+&lt;p&gt;有権者ベースの拡大は、投資を受けたコミュニティ・メンバーがPSFの行っている重要な業務すべてを知ることにそのままつながるのである。&lt;/p&gt;
+&lt;p&gt;PSFは&lt;a href="http://pyfound.blogspot.com/2015/02/enroll-as-psf-voting-member.html"&gt;会員制をオープンする&lt;/a&gt;にあたり、実に大きな前進だった。
+投票権を持つメンバーとなるために会費を支払うという最も分かりやすい方法に加え、
+刷新した会員制度ではコードを書いたり会合やカンファレンスを主催したりする活動的なメンバーにもまた投票権が与えられる。&lt;/p&gt;
+&lt;p&gt;扉は所定の位置に設置されているのだから、次にやるべきはその扉から入ってくるよう人々を促すことである。&lt;/p&gt;
+&lt;p&gt;PSFは、現在テクノロジー企業が採用の際に行っているようなことを提唱するアプローチを取る必要がある。
+顧客の生活に及ぼす効果や影響を強調することによってである。&lt;/p&gt;
+&lt;p&gt;こうしたことを提唱するにあたり、プロジェクト管理者に丸投げするべきでなく、
+プロジェクトの発案から承認に至るプロセスに関わった全員が行うべきだ。
+この点において、PSF理事会はその役割を提唱し売り込む上で重要な役割を担っている。&lt;/p&gt;
+&lt;p&gt;例えば、次のことをより詳しく説明する必要がある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/PyLadies"&gt;PyLadies&lt;/a&gt;や&lt;a href="https://us.pycon.org/2020/speaking/charlas/"&gt;PyCon Charlas&lt;/a&gt;など
+への参加性を促進するため資金調達においてコミュニティで率先すること&lt;/li&gt;
+&lt;li&gt;Pythonの名前など、PSFおよび世界中にあるコミュニティの知的財産を保護すること&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://beeware.org/"&gt;Beeware project&lt;/a&gt;や&lt;a href="https://pypi.org/sponsor/"&gt;PyPI&lt;/a&gt;など
+PSFが資金提供する技術的な取り組みが私たちのコミュニティに影響し、さらに重要なことに未来にどう影響するか&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;米国から誰かを招いてこうしたことを話し合い、世界の他の場所にあるコミュニティについて知ることは重要であり、
+少なくともPSFはそのコミュニティの存在を認識していることを示せる。&lt;/p&gt;
+&lt;p&gt;とはいえそのようなコミュニティの近くにとどまり、コミュニティをよりよく理解し、&lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt;
+あるいは&lt;a href="https://twitter.com/naomiceder"&gt;Naomi&lt;/a&gt;が去った後もずっとPSFについて語り続けられる人物がいれば、
+そのほうがずっと良いだろう。&lt;/p&gt;
+&lt;h3&gt;財政に関して&lt;/h3&gt;
+&lt;p&gt;2019年のPSF収益USD450万のうち、その63%以上がPyConから得たものだった。
+PyCon開催費用の総額はUSD190万なので、つまりPSFがPyConに1ドルを投じること対して1.50ドルが戻ってくるという計算になる。
+&lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;これを、寄付、会員費、助成金から成る収益の残り32%と比較してみよう。その種の収益を得るのに、どれほどの費用がかかるだろうか。&lt;sup id="fnref:fn04"&gt;&lt;a class="footnote-ref" href="#fn:fn04"&gt;4&lt;/a&gt;&lt;/sup&gt;
+すでに確立されたプロセスを通した継続的な収益の場合、1ドルあたりの費用は収益を得るたびに減少する。&lt;/p&gt;
+&lt;p&gt;投資した1ドルあたりの利益率はPyConのそれより高いと思う。&lt;/p&gt;
+&lt;p&gt;総収益額が変わらずともPyCon以外からの収益を増やすという目標により、PSFは将来&lt;a href="https://pyfound.blogspot.com/2020/03/psfs-projected-2020-financial-outcome.html."&gt;COVID-19が与えたような衝撃&lt;/a&gt;に対してより柔軟に対応できるようになるだろう。&lt;/p&gt;
+&lt;p&gt;PyCon以外からの収益を増やすには、コミュニティのより広範なベースからの理解と共感を必要なのだ。
+認識して手を差し伸べないといけないのはお金や投入した時間と労力ですでに高い関心を示してくれてるコミュニティーの皆、他でもない。
+こうして、私たちにとって大切な人々とより強い関係を築くことになる。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pycon.blogspot.com/2020/03/pycon-us-2020-in-pittsburgh.html"&gt;PyCon 2020中止の発表&lt;/a&gt;に記載されているように、
+雇用主にスポンサーシップに参加してもらうことも関心が高いコミュニティができる支援策にもなれる。関心が高い、関わりたい気持ちを
+持つメンバーがいれば、彼らの身近なコミュニティに対し私たちの目標を提唱する助けになる。&lt;/p&gt;
+&lt;p&gt;米国以外のコミュニティ、特にアジアや南米の拡大しているコミュニティに手を差し伸べるため費やした助成金の大部分と
+時間という観点での大きな投資は、PSFが現在ではなく&lt;strong&gt;未来のため&lt;/strong&gt;投資していることを示している。&lt;/p&gt;
+&lt;p&gt;大きな投資は大きな関心を意味し、それが好意と信用を生み、より強固な関係への道を開く。&lt;/p&gt;
+&lt;p&gt;PSFはすでにこの面において正しい方向に向かっているが、助成金の配分量など、さらなる改善の余地があると思っている。&lt;sup id="fnref2:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn06"&gt;&lt;a class="footnote-ref" href="#fn:fn06"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;より良い関係を築くために、次はPSFへ直接資金援助してくれる支援メンバーのグループ拡大に尽力すべきだ。
+このグループを私たちが本当に重視すべきグループで、うまく拡大できれば、財政的なサポートだけでなく、
+彼らがもたらすアドボカシーからの支援も得られる。いろんなレベルでプラスになることだろう。&lt;/p&gt;
+&lt;p&gt;商業的なサポートと寄付という観点から、米国拠点ではない企業からの収益を多様化するよう尽力もできる。&lt;/p&gt;
+&lt;p&gt;具体的に理事会として特定の地域に与えられた助成金の割合を、その地域から得られる企業のスポンサーシップや個人の会費を同額になるよう、
+という目標を設定することも考えられる。&lt;/p&gt;
+&lt;p&gt;また、それを実行するにあたり、状況を有利に生かすためその地域に根付いたより広範な支援者ベースを必要とする。&lt;/p&gt;
+&lt;p&gt;各地域および国には、直接または間接的に事業でPythonを使う、成功した地元の企業が多数存在する。
+その国のコミュニティ・メンバーだけがそれを知っており、互いの架け橋となってくれる。&lt;/p&gt;
+&lt;h1&gt;結論&lt;/h1&gt;
+&lt;p&gt;すべては多様化に行き着くことになる。受容の幅を広げ、理解し、最終的に広範なベースの人々から支援されるため、
+コミュニティを支援する世界的な組織としてPSFを適合させていく。&lt;/p&gt;
+&lt;p&gt;この投稿を終えるにあたり、それがPSFにおける唯一の将来像であると確信している。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;この投稿をレビューしてくれた&lt;a href="https://twitter.com/terapyon"&gt;terapyon&lt;/a&gt;に感謝します&lt;/em&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:fn01"&gt;
+&lt;p&gt;Going forward the PSF is rebranding PyCon to PyCon US since they happen everywhere according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn02"&gt;
+&lt;p&gt;&lt;a href="https://www.daxx.com/blog/development-trends/number-software-developers-world"&gt;How Many Software Developers Are There in the World?&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn03"&gt;
+&lt;p&gt;Total revenue in 2019 was $4,481,192 and $2,852,109 was from PyCon according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn03" title="Jump back to footnote 3 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn04"&gt;
+&lt;p&gt;Contributions and Grants were $1,165,278. We can also factor in PSF sponsorship fees, which are another $248,343. If we factor that in, that is ~32% according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn04" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn05"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2019/"&gt;PSF Annual Report 2018&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:fn06"&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn06" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2020"></category><category term="psf"></category><category term="政治"></category><category term="コミュニティ"></category><category term="2020"></category></entry></feed>
