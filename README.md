@@ -35,8 +35,13 @@ Images go to `contents/images` while each directory represents a category
 
 ## Publishing to GitHub
 
-The Tips page [here](https://docs.getpelican.com/en/latest/tips.html#publishing-to-github-pages) explains how to publish
-to GitHub Pages. Since this blog uses `username.github.io`, [publishing to a user site](https://docs.getpelican.com/en/latest/tips.html#publishing-a-user-site-to-github-pages-from-a-branch) applies to us.
+- The Tips page [here](https://docs.getpelican.com/en/latest/tips.html#publishing-to-github-pages) explains how to publish
+to GitHub Pages.
+- Since this blog uses `username.github.io`, [publishing to a user site](https://docs.getpelican.com/en/latest/tips.html#publishing-a-user-site-to-github-pages-from-a-branch) applies to us.
+- Set your GitHub Pages repo, as written [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+- Remember to set the source to `Deploy from a branch` and the branch to `master` in your GitHub Pages settings, as
+  written
+  [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 When you're ready to push the changes to GitHub Pages and publish, do:
 
