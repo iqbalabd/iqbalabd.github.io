@@ -33,7 +33,7 @@ depends on it. Read more about what the PSF does [here](https://www.python.org/p
 ## Running for a seat on the PSF board
 
 In June 2020, the Python Software Foundation (PSF) had four seats going vacant with
-directors fulfilling their term. After many years [working with and building the community on this side of the planet]({filename}/articles/2017/changing-the-world-one-pycon-at-a-time-en.md)
+directors fulfilling their term. After many years [working with and building the community on this side of the planet]({filename}/posts/2017/changing-the-world-one-pycon-at-a-time-en.md)
 I had a feeling that there is a gap between what the PSF, as a US-centric organization thinks it's doing, with what the rest
 of the growing community on our part of the world think that they are doing, so I
 decided to run for a seat, to at least represent a voice from E/S/SE Asia.
