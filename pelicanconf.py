@@ -12,7 +12,7 @@ TIMEZONE = "Asia/Tokyo"
 # ARTICLE_SAVE_AS = "{lang}/{slug}.html"
 # PAGE_URL = "{lang}/{slug}/"
 
-PAGE_URL = "pages/{slug}/"
+# PAGE_URL = "pages/{slug}/" # For some reason, this doesn't work on GitHub
 # PAGE_SAVE_AS = "pages/{slug}.html"
 ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
 ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
