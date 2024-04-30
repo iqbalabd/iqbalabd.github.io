@@ -12,7 +12,7 @@ These need to be done and installed first:
 ```
 $ python -m venv .venv
 $ source .venv/bin/activate
-$ pip install pelican markdown pelican-i18n-subsites
+$ pip install pelican markdown ghp-import pelican-i18n-subsites
 ```
 
 ```
@@ -33,7 +33,10 @@ which will create the static HTML files and run the dev server listening on 8080
 
 Images go to `contents/images` while each directory represents a category
 
-## Publishing to production
+## Publishing to GitHub
+
+The Tips page [here](https://docs.getpelican.com/en/latest/tips.html#publishing-to-github-pages) explains how to publish
+to GitHub Pages. Since this blog uses `username.github.io`, [publishing to a user site](https://docs.getpelican.com/en/latest/tips.html#publishing-a-user-site-to-github-pages-from-a-branch) applies to us.
 
 When you're ready to push the changes to GitHub Pages and publish, do:
 
