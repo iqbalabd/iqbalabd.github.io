@@ -2,7 +2,7 @@ Title: KTMB should follow right train of thought
 Slug: ktmb-should-follow-right-train-of-thought
 Lang: en
 Date: 2009-12-25 10:00
-Tags: current affairs; malaysia; public transportation;
+Tags: current affairs; malaysia; public transportation; letters to the editor;
 Author: Iqbal Abdullah
 Summary: Why KTMB still in the red
 
