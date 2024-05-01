@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2017</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/2017.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2017-06-15T16:00:00+09:00</updated><entry><title>Changing the world one PyCon at a time</title><link href="https://iqbalabdullah.net/posts/2017/06/changing-the-world-one-pycon-at-a-time/" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-06-15:/posts/2017/06/changing-the-world-one-pycon-at-a-time/</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2017</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/2017.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2017-10-06T23:40:00+09:00</updated><entry><title>Your roots and your identity</title><link href="https://iqbalabdullah.net/posts/2017/10/your-root-and-your-identity/" rel="alternate"></link><published>2017-10-06T23:40:00+09:00</published><updated>2017-10-06T23:40:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-10-06:/posts/2017/10/your-root-and-your-identity/</id><summary type="html">&lt;p&gt;Your roots are not your identity; It does not define who you are.&lt;/p&gt;</summary><content type="html">&lt;p&gt;62-year old &lt;a href="https://en.wikipedia.org/wiki/Kazuo_Ishiguro"&gt;Kuzo Ishigoro&lt;/a&gt; &lt;a href="https://www.theguardian.com/books/2017/oct/05/kazuo-ishiguro-wins-the-nobel-prize-in-literature"&gt;won
+the Nobel Prize in Literature&lt;/a&gt;
+for 2017. I saw him on TV and he was talking about his Japanese roots,
+and that got me thinking about &lt;em&gt;roots&lt;/em&gt; and how we confuse it with our &lt;em&gt;identity&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Many upheaval caused by nationalist movements in the current world around us right
+now are symbols of the assertion of identity and stem from the need to differentiate. &lt;/p&gt;
+&lt;p&gt;I believe though, contrary to popular belief, your roots are not your identity.
+Our roots are our past and history, mostly events in our lives in which we do not
+have much say due to our dependence on our parents and immediate families.
+Our roots are emotional attachments and memories of the past, that allow us to
+return to a place where we came from, physically or emotionally.&lt;/p&gt;
+&lt;p&gt;Identity though, is forward-facing: Identity is who you are, or who you strive to be
+in the future. You can choose to identify yourself with someplace or something, like the
+town you're staying in or an idea that feels right to you.&lt;/p&gt;
+&lt;p&gt;Your identity is a conscious choice, for better or for worse, which you can define.&lt;/p&gt;
+&lt;p&gt;To be defined by your roots, and then have your identity set upon you based on
+some set values of your roots are just too inhumane and unfair.&lt;/p&gt;
+&lt;p&gt;Knowing where you come from does help in figuring out where you will be heading,
+but it does not define your destination.&lt;/p&gt;</content><category term="2017"></category><category term="identity"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://iqbalabdullah.net/posts/2017/06/changing-the-world-one-pycon-at-a-time/" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-06-15:/posts/2017/06/changing-the-world-one-pycon-at-a-time/</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
 &lt;p&gt;As an engineer, programming languages are very important tools to solve the
 problems that you face. As an entrepreneur, they are also important tools to
-bring your imagination to life, to get that profit and making that difference.&lt;/p&gt;
+bring your imagination to life, to get that profit and make that difference.&lt;/p&gt;
 &lt;p&gt;Python is a magnificent programming language. Although first released in 1991, it &lt;em&gt;arguably&lt;/em&gt;
 only started to become mainstream&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; when
 &lt;a href="https://en.wikipedia.org/wiki/Guido_van_Rossum"&gt;Guido van Rossum&lt;/a&gt;, the creator of
@@ -10,38 +28,38 @@ Python joined Google in 2005. That made many people start to notice how serious
 the tech giant was investing in Python. In the same year, the web framework
 Django which is written in Python was released, and that further pushed Python into the limelight.&lt;/p&gt;
 &lt;p&gt;Now, even our very much loved
-&lt;a href="https://thenewstack.io/instagram-makes-smooth-move-python-3/"&gt;Instagram uses python&lt;/a&gt; 
-to handle it's hundreds of millions of requests. Python are also used in
+&lt;a href="https://thenewstack.io/instagram-makes-smooth-move-python-3/"&gt;Instagram uses Python&lt;/a&gt; 
+to handle its hundreds of millions of requests. Python is also used in
 scientific and academic fields&lt;/p&gt;
-&lt;p&gt;I have been using Python since 2002, and in many ways it has given me the
+&lt;p&gt;I have been using Python since 2002, and in many ways, it has given me the
 intellectual challenge I craved, allowed me the freedom to bring my imagination
-to life, and through PyCon, has allowed me to meet wonderful people.&lt;/p&gt;
+to life, and PyCon, has allowed me to meet wonderful people.&lt;/p&gt;
 &lt;h2&gt;My First PyCon, APAC 2010 in Singapore&lt;/h2&gt;
-&lt;p&gt;But a programming language is only as good as the people that uses it.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Python_Conference"&gt;PyCon&lt;/a&gt; is in essence a conference
-centered around the Python programming language. It's roots started with the first PyCon in
+&lt;p&gt;But a programming language is only as good as the people who use it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Python_Conference"&gt;PyCon&lt;/a&gt; is, in essence, a conference
+centred around the Python programming language. Its roots started with the first PyCon in
 Washington D.C in 2003 and has expanded to many parts of the world, from Europe, Japan,
 China, India, HK, Taiwan, Australia, New Zealand, Singapore and also Malaysia.&lt;/p&gt;
-&lt;p&gt;Up until 2010, before attending my first PyCon, I had been using python for fun
-and profit for 8 years. I find the language easy to use, has design that fits
+&lt;p&gt;Up until 2010, before attending my first PyCon, I had been using Python for fun
+and profit for 8 years. I find the language easy to use, has a design that fits
 with my mind and how I believe coding should be, and most importantly I enjoyed using
 it to build stuff.&lt;/p&gt;
 &lt;p&gt;So when I saw the poster for the first PyCon APAC in Singapore in 2010, I
 decided to meet the people behind it:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC 2010 Singapore" src="https://iqbalabdullah.net/images/pycons/pycon-apac-2010-poster.png"&gt;&lt;/p&gt;
-&lt;p&gt;I didn't know anyone there but I'd thought I'll just make new friends and see
+&lt;p&gt;I didn't know anyone there but I thought I'd just make new friends and see
 what other cool stuff everyone else was building. And made friends I did: I met up with
 three other participants from Japan: Manabu Terada
 (&lt;a href="https://twitter.com/terapyon?lang=en"&gt;@terapyon&lt;/a&gt;),
 Yasuhi Masuda(&lt;a href="https://twitter.com/whosaysni?lang=en"&gt;@whosaysni&lt;/a&gt;) and Ian
 Lewis(&lt;a href="https://twitter.com/ianmlewis?lang=en"&gt;@ianmlewis&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;And as it turns out, the chairperson for the first PyCon APAC in Singapore was Liew Beng Keat
+&lt;p&gt;As it turns out, the chairperson for the first PyCon APAC in Singapore was Liew Beng Keat
 (&lt;a href="https://twitter.com/bengkeatliew"&gt;@bengkeatliew&lt;/a&gt;) a Malaysian from Kuala
 Lumpur. We have more in common than I thought!&lt;/p&gt;
 &lt;h2&gt;Bringing PyCon to the region&lt;/h2&gt;
 &lt;p&gt;It was then that Beng Keat was telling me the reason he wanted to organize a
 regional version of PyCon APAC: Beng Keat had the opportunity to attend PyCon in
-the United States, and although he enjoyed the conference and came back englightened,
+the United States, and although he enjoyed the conference and came back enlightened,
 he also realized how prohibitive it is to travel from Asia to the United States
 and so he thought: &lt;em&gt;If we can't go to PyCon in the US, we'll bring
 PyCon here.&lt;/em&gt; And since Singapore was such a small place, it makes more sense to
@@ -49,27 +67,27 @@ make it a regional conference instead of just a local conference.&lt;/p&gt;
 &lt;p&gt;The concept of having a regional PyCon is in essence a very simple one, with a
 well defined purpose: We understand that nearly all of the advances made in
 technology by the programming language, new concepts and philosophy in thinking about the
-language and even how communities are organized towards a greater good for
-everyone at large originate mostly in the United States and Europe.&lt;/p&gt;
+language and even how communities are organized towards the greater good for
+everyone at large originates mostly in the United States and Europe.&lt;/p&gt;
 &lt;p&gt;If we cannot be in the United States to meet and listen to the great minds that shape
-the programming language, its community and its future, lets have those minds
+the programming language, its community and its future, let us have those minds
 here instead.&lt;/p&gt;
 &lt;p&gt;And at that first APAC PyCon in Singapore, one of the keynote speakers was &lt;a href="https://github.com/holdenweb"&gt;Steve
 Holden&lt;/a&gt;, who was the chairman for PSF&lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;, 
-who later on was a pivotal figure for the growth of PyCon within APAC.&lt;/p&gt;
+who later on was a pivotal figure in the growth of PyCon within APAC.&lt;/p&gt;
 &lt;h3&gt;Building the Japan PyCon community, circa 2011&lt;/h3&gt;
-&lt;p&gt;We invited Steve to come to Tokyo after APAC, and over dinner we talked about
-having an annual conference to get pythonistas from all over the country to come
-and share their work and discuss their ideas. Steve was instrumental in proding
-us, who had no experience at all running conferences, to actually take the idea
-seriously. Given also the fact that Python was still considered an obscure
+&lt;p&gt;We invited Steve to come to Tokyo after APAC, and over dinner, we talked about
+having an annual conference to get Pythonistas from all over the country to come
+and share their work and discuss their ideas. Steve was instrumental in providing
+us, who had no experience at all running conferences, to take the idea
+seriously. Given the fact that Python was still considered an obscure
 language in Japan as opposed to PHP, Java or Ruby, we were also sceptical that
-there will be any traction at all.&lt;/p&gt;
+there would be any traction at all.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabdullah.net/images/pycons/steve-holden-in-tokyo-02.jpg"&gt;
 &lt;strong&gt;Dinner with Steve in Roppongi&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabdullah.net/images/pycons/steve-holden-in-tokyo-01.jpg"&gt;
 &lt;strong&gt;With Masuda-san and Takizawa-san&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Following that dinner with Steve, Terada-san, Masuda-san and myself met again on the
+&lt;p&gt;Following that dinner with Steve, Terada-san, Masuda-san and I met again on the
 1st of July 2010 in an underground Turkish restaurant in Shibuya and over dinner decided
 to have our first stab at a PyCon in Japan. We agreed to start small, and host
 APAC when we are ready.&lt;/p&gt;
@@ -77,34 +95,34 @@ APAC when we are ready.&lt;/p&gt;
 &lt;p&gt;We had our first &lt;a href="https://sites.google.com/site/pyconminijp/"&gt;&lt;em&gt;mini&lt;/em&gt; PyCon JP&lt;/a&gt; 
 on a cold January morning in 2011 at the Rakuten offices in Tokyo. I was 
 involved as the program manager, choosing talks and deciding the contents of the conference.
-130 people came for the mini conference, and we all had a great time listening
+130 people came for the mini-conference, and we all had a great time listening
 to talks, learning and making new friends. The conference was free, and everyone
 had bento for lunch provided by our generous sponsors.&lt;/p&gt;
-&lt;p&gt;Encouraged by the turnout and how the first conferece went, we then decided to
-have a major PyCon JP for the first time in that summer of 2011.&lt;/p&gt;
-&lt;p&gt;PyCon JP have been held every year around summer since then, and in 2016 our
+&lt;p&gt;Encouraged by the turnout and how the first conference went, we then decided to
+have a major PyCon JP for the first time in the summer of 2011.&lt;/p&gt;
+&lt;p&gt;PyCon JP has been held every year around summer since then and in 2016 our
 attendees topped 700 people.&lt;/p&gt;
 &lt;p&gt;Back to 2012: An issue that we faced after the second PyCon in 2012 was that it was getting
-too big, and the left over money from sponsors was getting too much to handle
-out from an individual account. We also needed a face for the public, and a
-definate entity that will take responsibility for managing the annual conference
+too big, and the leftover money from sponsors was getting too much to handle
+out from an individual account. We also needed a face for the public and a
+definite entity that will take responsibility for managing the annual conference
 in Japan. &lt;/p&gt;
-&lt;p&gt;Because of that, the non-profit PyCon JP was established in March 2013, which I
+&lt;p&gt;Because of that, the non-profit PyCon JP was established in March 2013, and I
 am still currently serving as part of the board members.&lt;/p&gt;
 &lt;p&gt;To prepare to host APAC, since 2012 we needed to give an international flavour for the
 conference, and we made it a point to have at least one track which will be in
 English only. This has attracted participation from nearby countries, such as
 South Korea and Taiwan.&lt;/p&gt;
-&lt;p&gt;To also attract interest from the public, and due to the fact that our
+&lt;p&gt;To also attract interest from the public, and because our
 non-profit run on money gained from public interests, we also made it a point to
 have an open non-profit general meeting during the local PyCons. It is here
-where we met other people which are thinking or are interested in running their
+where we met other people who are thinking or are interested in running their
 own PyCons.&lt;/p&gt;
 &lt;h3&gt;PyCon APAC in Japan, 2013&lt;/h3&gt;
-&lt;p&gt;Singapore had been organizing the APAC conference for 3 years in a row since
+&lt;p&gt;Singapore has been organizing the APAC conference for 3 years in a row since
 2010, and following the model of PyCon US of moving the venue to different cities
-every two year, for 2013 they approached us in Japan to take over APAC and organize
-it in Japan.&lt;/p&gt;
+every two years, 2013 they approached us in Japan to take over APAC and organize
+it is in Japan.&lt;/p&gt;
 &lt;p&gt;We have been preparing for this since 2011, so we agreed. Our Taiwan counterpart
 was also keen on running APAC, but after discussions they agreed to bid for
 2014 instead. &lt;/p&gt;
@@ -115,93 +133,92 @@ was also keen on running APAC, but after discussions they agreed to bid for
 &lt;li&gt;We have another host decided for 2014.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So in August 2013, we organized PyCon APAC in Shinjuku, Tokyo, and that is where
-we met all the many people that will spread PyCon across the region.&lt;/p&gt;
+we met all the many people who will spread PyCon across the region.&lt;/p&gt;
 &lt;h2&gt;The Asia Pacific Connection&lt;/h2&gt;
 &lt;p&gt;Regionally, we have a loosely knit community that drives PyCon APAC
 (Asia Pacific). Ideally, PyCon APAC is a regional conference that rotates
 between cities within the APAC region, and aims to be an international
-and bigger conference giving the opportunity to the regional python
+and bigger conference allowing the regional python
 community to come together at a more accessible and affordable location compared to
 having to travel to the United States or Europe.&lt;/p&gt;
 &lt;p&gt;After the APAC conference in Tokyo in 2013, there was consensus from the regional
 community representatives such as Singapore and South Korea which we managed to
 get in touch with when they came to APAC in Tokyo, to move the APAC conference to Taipei.&lt;/p&gt;
-&lt;p&gt;Since there was no other community which has shown interest to host APAC for
+&lt;p&gt;Since there was no other community which has shown interest in hosting APAC for
 2015, the conference stayed in Taipi until 2015.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/images/pycons/pycon-apac-tw-06-2015.jpg"&gt;
 &lt;strong&gt;With Van Lindberg, Chairperson for the PSF, Beng Keat, and our friends and staff organizing
 PyCon APAC TW in 2015.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The South Korean community, after having their first local PyCon in
-2015 stepped up to the plate to host APAC in 2016, and was succesful with over 1000 attendees.&lt;/p&gt;
+2015 stepped up to the plate to host APAC in 2016 and was successful with over 1000 attendees.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabdullah.net/images/pycons/apac-meeting-seoul-2015.jpg"&gt;
 &lt;strong&gt;A community meeting of representatives from the different countries in APAC
-during the 2016 APAC conference: KR, JP, VN, TW, PH, MY, HK and SG was present&lt;/strong&gt;&lt;/p&gt;
+during the 2016 APAC conference: KR, JP, VN, TW, PH, MY, HK and SG were present&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabdullah.net/images/pycons/pycon-apac-seoul-2016-group.jpg"&gt;
 &lt;strong&gt;Group picture after the community meeting&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The regional communities have done a wonderful job to boost their local PyCon
-conferences to be a well known annual event to gather and share knowledge among
-their Python users. The regional APAC conferences has also proved to be a
-platform where new community leaders from neighbouring countries come to connect
+&lt;p&gt;The regional communities have done a wonderful job of boosting their local PyCon
+conferences to be a well-known annual event to gather and share knowledge among
+their Python users. The regional APAC conferences have also proved to be a platform where new community leaders from neighbouring countries come to connect
 and learn how to organize their own local PyCons.&lt;/p&gt;
 &lt;p&gt;We make it a point to reach out to fellow community members from countries which up until now
-have no representation in our loose group, like Myanmar or Vietnam.  I've seen fellow pythonistas
+have no representation in our loose groups, like Myanmar or Vietnam.  I've seen fellow Pythonistas
 who came to a PyCon APAC for the first time, and their eyes light up and they smile and say
 now they want to start something in their city and their community after
 experiencing the conference.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/images/pycons/dylan-jay-bangkok.jpg"&gt;
 &lt;strong&gt;Meeting up with Dylan Jay in Bangkok. Dylan is the former lead for the Sydney
 Python Users Group&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The collective knowledge of all of us help to remove some anxiety and help guide
+&lt;p&gt;The collective knowledge of all of us helps to remove some anxiety and helps guide
 them on what are the points that they'll need to keep in mind to start something
-for their own city, from organizing know-how to even getting sponsorship
-funding. The PSF in this regard have been supportive in providing grants and
-also speakers to the APAC conferences.&lt;/p&gt;
-&lt;h3&gt;Connecting pythonistas in Malaysia&lt;/h3&gt;
+for their city, from organizing know-how to even getting sponsorship
+funding. The PSF in this regard has been supportive in providing grants and
+also speakers at the APAC conferences.&lt;/p&gt;
+&lt;h3&gt;Connecting Pythonistas in Malaysia&lt;/h3&gt;
 &lt;p&gt;After helping out with running PyCon in Japan, I realized that all the PyCons
 that we had in the APAC region has all been on the north-eastern part of Asia
-Pacific, with the exception of Singapore, but all of them were either cost or time
+Pacific, except Singapore, but all of them were either cost or time
 prohibitive to the rest of Asia Pacific.&lt;/p&gt;
-&lt;p&gt;And that begin my next project: To kickstart an annual PyCon in Malaysia grown
+&lt;p&gt;And that begins my next project: To kickstart an annual PyCon in Malaysia grown
 for the locals, from the locals, and bring APAC and the rest of the world to Kuala Lumpur.&lt;/p&gt;
-&lt;p&gt;My aim is to have an APAC conference here in Kuala Lumpur as I believe, compared
+&lt;p&gt;I aim to have an APAC conference here in Kuala Lumpur as I believe, compared
 to the north-east of Asia Pacific, a conference here will be more accessible to
 much more people.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;If we can't go to PyCon, we'll get PyCon here.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;In Malaysia, the history of PyCon started in 2014 where we had our
+&lt;p&gt;In Malaysia, the history of PyCon started in 2014 when we had our
 first mini PyCon (1 day, single track and 70 people attended) and
 continued with PyCon MY 2015 (2 days, 2 tracks and around 140 people
-attended) and PyCon MY 2016 (2 days, 2 track and around 100 people
+attended) and PyCon MY 2016 (2 days, 2 tracks and around 100 people
 attended). I was involved as the co-chair and finance person for the mini
 PyCon 2014, the chair for PyCon MY 2015, and co-chair again in 2016.&lt;/p&gt;
-&lt;p&gt;You can read more on us at &lt;a href="https://pycon.my/"&gt;https://pycon.my/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can read more about us at &lt;a href="https://pycon.my/"&gt;https://pycon.my/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;But before we start running an international conference like the APAC, we need
-to know &lt;em&gt;how&lt;/em&gt; to at least run a conference. Having local experienced people to organizing
+to know &lt;em&gt;how&lt;/em&gt; to at least run a conference. Having local experienced people to organise
 conferences will also allow us to convince the other regional members that we
 are up to the job.&lt;/p&gt;
 &lt;p&gt;In 2014 there was already a loose group of Python users, who had meetups once every
 2 or 3 months mainly around the Kuala Lumpur area, usually attended by more or less 10 people.
-As is common for any non-profit, grass-roots volunteer driven small meetups with no
+As is common for any non-profit, grass-roots volunteer-driven small meetups with no
 monetary or marketing support from commercial entities, these meetups were mostly
 attended by the same group of people and before long you'll have organizers burning out,
 running out of steam and also things to talk about.&lt;/p&gt;
-&lt;p&gt;The de-facto organizer for these meetups then was Swee Meng, and I met him the first
+&lt;p&gt;The de-facto organizer for these meetups then was Swee Meng, and I met him for the first
 time at one of Singapore's PyCon. When I suggested to him an annual PyCon for Malaysia,
 he was sceptical at first, given his bitter experience with user meetups. He was not convinced
-that people will come, but I told him that that is beside the point. If only 10 or
-20 people come, so be it. That will be our Malaysian PyCon. Either way it goes,
+that people would come, but I told him that that was beside the point. If only 10 or
+20 people come, so be it. That will be our Malaysian PyCon. Either way, it goes,
 that will be our learning experience, and we'll see where that leads us.&lt;/p&gt;
 &lt;p&gt;Since our first mini PyCon in 2014, many people have helped us, especially the
 kind generosity of venue providers, like iTrain, University Malaya and
 International University of Malaya-Wales. Nearly all the time we've had help
-from the academic staff of the universities who do use Python as a learning tool
-and wanted their own students to get involved in academic conferences like
+from the academic staff of the universities who use Python as a learning tool
+and wanted their students to get involved in academic conferences like
 PyCon.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="mini PyCon MY 2014" src="https://iqbalabdullah.net/images/pycons/mini-pycon-my-2014.jpg"&gt;
 &lt;strong&gt;Our keynote for mini PyCon MY, &lt;a href="http://ericholscher.com/"&gt;Eric Holscher&lt;/a&gt; giving
 his talk. Eric was in Kuala Lumpur for vacation and also decided to
 contribute.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/images/pycons/pycon-my-um-02-08-2015.jpg"&gt;
-&lt;strong&gt;Members of PyCon JP coming in to support our first PyCon MY in University
+&lt;strong&gt;Members of PyCon JP coming in to support our first PyCon MY in the University
 Malaya&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://iqbalabdullah.net/images/pycons/pycon-my-2015-hello.jpg"&gt;
 &lt;strong&gt;Kicking off PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
@@ -209,28 +226,28 @@ Malaya&lt;/strong&gt;&lt;/p&gt;
 &lt;strong&gt;A group picture at the end of PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon MY 2016" src="https://iqbalabdullah.net/images/pycons/pycon-my-2016-group.jpg"&gt;
 &lt;strong&gt;And the group picture at the end of PyCon MY 2016.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;As if coming to a full circle, one of the keynote speaker for the first APAC in
+&lt;p&gt;As if coming to a full circle, one of the keynote speakers for the first APAC in
 Singapore in 2010 (Steve Holden), and another keynote speaker for the first PyCon JP in 2011
 (&lt;a href="https://ziade.org/resume.html"&gt;Tarek Ziadé&lt;/a&gt;, who works remotely in the bushes of Dijon, for Mozilla)
-was our keynote speakers in 2016.&lt;/p&gt;
-&lt;p&gt;I am happy to report that Tarek enjoyed his first ever durian here in Kuala Lumpur when keynoting for us.&lt;/p&gt;
-&lt;p&gt;Following the model that we did in Japan, we have also setup a &lt;a href="https://pycon.my/about/pycon-my-plt/"&gt;partnership&lt;/a&gt;
+was our keynote speaker in 2016.&lt;/p&gt;
+&lt;p&gt;I am happy to report that Tarek enjoyed his first-ever durian here in Kuala Lumpur when keynoting for us.&lt;/p&gt;
+&lt;p&gt;Following the model that we did in Japan, we have also set up a &lt;a href="https://pycon.my/about/pycon-my-plt/"&gt;partnership&lt;/a&gt;
 in Malaysia to facilitate managing funds and also as a public-facing entity to be
 responsible for managing PyCon in Malaysia.&lt;/p&gt;
 &lt;h4&gt;The local sponsors&lt;/h4&gt;
 &lt;p&gt;Our local sponsors who have supported us until now are mostly small companies with
-personal relations to one of the member of the staff, that uses Python in their
+personal relations to one of the members of the staff, that uses Python in their
 products or day-to-day operations. These companies are the most generous. They
 do not sponsor large amounts, but they are always ready
 to give a helping hand. I believe they are the ones who truly understand
-and appreciate how difficult it is to organize such a conference, and the value
-that it will bring to them and to the community.&lt;/p&gt;
-&lt;p&gt;For our 1st local PyCon we did have big name companies that sponsored us, like
+and appreciate how difficult it is to organize such a conference and the value
+that it will bring to them and the community.&lt;/p&gt;
+&lt;p&gt;For our 1st local PyCon, we did have big-name companies that sponsored us, like
 Amazon Web Services (AWS) and &lt;a href="https://www.braintreepayments.com/"&gt;Braintree&lt;/a&gt; a 
-subsidiary of PayPal. But the young and still inexperienced Python crowd in Malaysia
+subsidiary of PayPal. However, the young and still inexperienced Python crowd in Malaysia
 might not be a compelling reason yet for them to continue sponsoring.&lt;/p&gt;
 &lt;h2&gt;PyCon APAC in Kuala Lumpur&lt;/h2&gt;
-&lt;p&gt;For 2017, after making a proposal to the APAC community, we have been
+&lt;p&gt;For 2017, after proposing the APAC community, we have been
 selected to hold the responsibility of having PyCon APAC 2017 in Kuala Lumpur,
 which will be held in August.&lt;/p&gt;
 &lt;p&gt;What I would like to take the opportunity to highlight here is the
@@ -239,31 +256,31 @@ universities, student volunteers, local companies and most of all the
 people that make up the community itself.&lt;/p&gt;
 &lt;p&gt;Personally in the Malaysian context, I believe we need more makers or
 programmers in our ecosystem. I feel that we focus too much on the
-business side of things, with "business focused" conferences like
+business side of things, with "business-focused" conferences like
 match-making or raising venture capital. But these are all moot without the
 actual people and know-how to build what we want to sell. PyCon MY is
 that small ripple we're making to have a positive contribution to the
 overall builders and programming ecosystem.&lt;/p&gt;
 &lt;p&gt;With the title of being a regional conference, we now have the clout to invite
-successful technology practicioners from overseas to give talks and share their
+successful technology practitioners from overseas to give talks and share their
 insights and ideas with the local crowd. This will hopefully spark interest and motivate
 them to further improve their skills and knowledge.&lt;/p&gt;
 &lt;h2&gt;Changing the world one PyCon at a time&lt;/h2&gt;
 &lt;p&gt;Through PyCon, the community also tries to practice common ground principles
-based on universally accepted ideas and ideals. All regional or local PyCons which requests
-grants from the PSF &lt;a href="http://pyfound.blogspot.jp/2012/12/psf-moves-to-require-code-of-conduct.html"&gt;are required to have a &lt;em&gt;Code Of Conduct&lt;/em&gt;&lt;/a&gt; that governs how they organizers manage the conference, &lt;em&gt;and&lt;/em&gt; 
-also how the attendess behave and interact with one another during the conference.&lt;/p&gt;
-&lt;p&gt;These Code Of Conducts reflect the values of the community and what they think
+based on universally accepted ideas and ideals. All regional or local PyCons which request
+grants from the PSF &lt;a href="http://pyfound.blogspot.jp/2012/12/psf-moves-to-require-code-of-conduct.html"&gt;are required to have a &lt;em&gt;Code Of Conduct&lt;/em&gt;&lt;/a&gt; that governs how the organizers manage the conference, &lt;em&gt;and&lt;/em&gt; 
+also how the attendees behave and interact with one another during the conference.&lt;/p&gt;
+&lt;p&gt;These Code Of Conduct (CoC) reflects the values of the community and what they think
 is important. Not all talks during PyCons are about programming, web frameworks
 or libraries: Some of them are about the experiences of the speaker walking the
-path to become a female developer in an industry widely regarded as male dominated,
+path to become a female developer in an industry widely regarded as male-dominated,
 or the need to have more diversity and how it's achieved through free community
 training programs.&lt;/p&gt;
-&lt;p&gt;Focused groups like PyLadies (python group focused on women),
+&lt;p&gt;Focused groups like PyLadies (a Python group focused on women),
 DjangoCon (Conference focused on the Django framework) and SciPy
-(Conference for the users of python in the academics and science
+(Conference for the users of Python in academics and science
 fields) also all contribute to these same ideas and ideals while adding more
-spice to the already vibrant python community. In all this PyCon is the general
+spice to the already vibrant Python community. In all this PyCon is the general
 conference that tries to cover many usages of Python.&lt;/p&gt;
 &lt;p&gt;Following the spirit of the community at large and the values and ideals that we
 try to have, for APAC this year and for the first time in the history of PyCon in Malaysia,
@@ -275,25 +292,25 @@ we are trying a few new things, such as&lt;/p&gt;
 &lt;li&gt;Reducing waste&lt;/li&gt;
 &lt;li&gt;Subsidized ticketing&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The Financial Aid, tie up with WHC and subsidized ticketing all aims to increase
-participation from under represented groups who could not have attended the
+&lt;p&gt;The Financial Aid, tie-up with WHC and subsidized ticketing all aim to increase
+participation from underrepresented groups who could not have attended the
 conference due to financial reasons, or also from female tech communities, which
 historically have little participation in tech conferences locally.&lt;/p&gt;
 &lt;p&gt;So in a way, PyCons are not &lt;em&gt;only just&lt;/em&gt; a technical conference that you might
-expect from practicioners of a certain technology: It's also sort of a social
+expect from practitioners of a certain technology: It's also sort of a social
 movement. Although in PyCons you do have booths for companies the commercial
 aspects are very much watered down (as opposed to RISE or Web Summit).&lt;/p&gt;
-&lt;p&gt;With the PyCon and it's culture blooming in this part of the world, I
-hope it will continue to be a place pythonistas regardless of experience
+&lt;p&gt;With the PyCon and its culture blooming in this part of the world, I
+hope it will continue to be a place Pythonistas regardless of experience
 continue to meet, exchange ideas, interact and grow.&lt;/p&gt;
 &lt;p&gt;In essence, the aim of a conference like a PyCon, similar to the experience museums
-or art galleries offer is to enlighten you and transform you to a different person intellectually
-from that person that you were before attending the conference. In the context of
+or art galleries offer is to enlighten you and transform you into a different person intellectually
+from the person that you were before attending the conference. In the context of
 conferences, this is mostly achieved from the human interaction that you've
-achieved listening to and discussing about talks and interacting with other attendees.
-These transformations does not have to be huge leaps. Knowledge transfers take
+achieved by listening to and discussing talks and interacting with other attendees.
+These transformations do not have to be huge leaps. Knowledge transfers take
 time and require us to work on the new information many times in our minds before we can fully
-appreciate and understand them.&lt;/p&gt;
+appreciate and understand it.&lt;/p&gt;
 &lt;p&gt;Changing the world starts here, by us, one good idea at a time and through one PyCon at a time.&lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
@@ -306,4 +323,268 @@ appreciate and understand them.&lt;/p&gt;
 intellectual rights of Python&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="2017"></category><category term="pycon"></category><category term="japan"></category><category term="malaysia"></category><category term="apac"></category><category term="community"></category><category term="kuala lumpur"></category></entry></feed>
+&lt;/div&gt;</content><category term="2017"></category><category term="pycon"></category><category term="japan"></category><category term="malaysia"></category><category term="apac"></category><category term="community work"></category><category term="kuala lumpur"></category></entry><entry><title>Disunity via Schools</title><link href="https://iqbalabdullah.net/posts/2017/05/disunity-in-malaysian-schools/" rel="alternate"></link><published>2017-05-28T11:40:00+09:00</published><updated>2017-05-28T11:40:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-05-28:/posts/2017/05/disunity-in-malaysian-schools/</id><summary type="html">&lt;p&gt;My thoughts after listening to BFM's TALKBACK THURSDAY: UNITY IN SCHOOLS&lt;/p&gt;</summary><content type="html">&lt;p&gt;The question of Malaysia's schools not doing its part in fostering unity among
+Malaysians have been brought up again due to TN50&lt;sup id="fnref:Ref1"&gt;&lt;a class="footnote-ref" href="#fn:Ref1"&gt;1&lt;/a&gt;&lt;/sup&gt;, and Business FM did a program to
+source opinions from the general public.&lt;/p&gt;
+&lt;p&gt;I followed the podcast on &lt;a href="http://www.bfm.my/talkback-thursday-unity-in-schools.html"&gt;BFM's TALKBACK THURSDAY: UNITY IN SCHOOLS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It was an enlightening podcast that puts light on the thoughts and feelings of the
+general public on where they think the schooling institutions in Malaysia should
+head in the context as a tool to promote social unity. &lt;/p&gt;
+&lt;p&gt;Read &lt;a href="https://en.wikipedia.org/wiki/Education_in_Malaysia"&gt;Education in Malaysia&lt;/a&gt; for a 
+quick primer on the history of schools in Malaysia, or search for &lt;a href="https://www.google.co.jp/search?q=controversy+vernacular+schools+malaysia&amp;amp;oq=controversy+vernacular+schools+malaysia&amp;amp;aqs=chrome..69i57.6788j0j7&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8#q=pros+and+cons+of+vernacular+school"&gt;controversy of vernacular schools 
+in Malaysia&lt;/a&gt;
+for some more background reading. The &lt;a href="http://penanginstitute.org/v3/resources/articles/statistics/714-demographics-of-a-diverse-malaysia"&gt;Penang
+Institute&lt;/a&gt;
+also has data on the diverse demographics of children attending the different
+schools. &lt;a href="https://en.wikipedia.org/wiki/Tony_Pua"&gt;Tony Pua&lt;/a&gt; also
+&lt;a href="http://educationmalaysia.blogspot.jp/2007/03/national-vs-vernacular-schools.html"&gt;wrote&lt;/a&gt;
+about vernacular schools with insights on how the vernacular school
+educationists look at the rhetoric of their schools being the reason for our
+disunity.&lt;/p&gt;
+&lt;h2&gt;The current times question the difference&lt;/h2&gt;
+&lt;p&gt;By and large, the callers supported a single-stream school, but many with
+caveats, such as pointing to the failures of the so-called national school to be
+to be regarded as a symbol of excellence and is part of to blame for the rise of
+so-called vernacular schools.&lt;/p&gt;
+&lt;p&gt;A Twitter poll by BFM also suggested that the majority who took the poll
+supported a single-stream school:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="BFM's Poll for Single Stream School" src="https://iqbalabdullah.net/images/bfm-single-stream-school-unity.png"&gt;&lt;/p&gt;
+&lt;p&gt;I have my thoughts on schools in Malaysia, and their perceived position as a
+tool for national unity.&lt;/p&gt;
+&lt;h2&gt;Why is education a partisan issue?&lt;/h2&gt;
+&lt;p&gt;Education for our children, by itself, is a subject that we should all agree on. &lt;em&gt;All&lt;/em&gt; of us want the best for our children. We want them to have
+good grades, enjoy school life, eat nutritional food at school and grow up a
+happy, compassionate, intelligent and balanced child. But this issue now has become a partisan
+issue.&lt;/p&gt;
+&lt;p&gt;I am also sure that we all agree that as a nation, a good education for our children is an
+an important part of building the future of our nation.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it has become a partisan issue when we take things which are not directly
+related to education that aims to develop our children into balanced human
+being, such as racial or religious identity into the equation.&lt;/p&gt;
+&lt;p&gt;Racial or religious identity is exclusive to a particular person or group in the society
+and these are the things that put us apart instead of bringing us together.
+When we bring these identities to the public sphere and relate to them it will
+of course, creates exclusivity and if it's something that not all of us can strive to be (like
+race for example) then it will eventually create resentment.&lt;/p&gt;
+&lt;p&gt;Of course, there is absolutely nothing wrong with being a Dayak who is a Buddhist
+a half-Thai half-Chinese Christian or a Javanese half-Bajau Muslim. All are
+Malaysians and all want a better future.&lt;/p&gt;
+&lt;p&gt;In the context of our children what is important is that they know that these people 
+exist in our society. They are our neighbours, the people that we see at shops, buy things
+from, and sell things to. They are the ones whom we should help when they ask for
+help, and they are also the ones who will help us when we need help.
+They too want their children to grow up compassionate, intelligent and healthy
+member of society.&lt;/p&gt;
+&lt;p&gt;Unless we can scientifically prove that excellence is born in a certain race, 
+it doesn't make any sense to insist a person of a certain skin colour is
+only eligible to run a certain public school. &lt;/p&gt;
+&lt;p&gt;Instead of trying to satisfy nonsense demands and requirements that do not
+improve the education level of our children, our public education should 
+refocus itself on what is universally important to the growth of a child to become 
+a young adult capable of thinking for herself what is good for her future, 
+regardless of skin colour or faith.&lt;/p&gt;
+&lt;h2&gt;The public school focus is on education, and not just a tool to unite society&lt;/h2&gt;
+&lt;p&gt;Look at it another way: The current rhetoric that we're seeing also
+says that part of the blame for our national disunity is on schools, but when in fact schools in
+Its pure form should only be focusing on giving education to our children.&lt;/p&gt;
+&lt;p&gt;The subject of national unity is &lt;em&gt;beyond&lt;/em&gt; our public schools and doesn't stop
+there. Our 7-year-old child starting her formal education doesn't care what skin
+colour she is, or what colour her new friend that'll be sitting next to her in
+class will be.&lt;/p&gt;
+&lt;h1&gt;Disunity is not a problem that the schools started&lt;/h1&gt;
+&lt;p&gt;Every child when born doesn't know what race or religion is. If they know that
+they are &lt;em&gt;different&lt;/em&gt; from other people and should only stick to their kind the time 
+they get to primary school, then the problem of disunity has started even before
+getting to the schools. How would we expect schools to solve a problem which it
+did not start?&lt;/p&gt;
+&lt;p&gt;Don't make our public schools one of the scapegoats of our inability to get our
+act together, and don't expect the schools to solve a problem it did not
+start.&lt;/p&gt;
+&lt;h1&gt;Focusing on good education and it's resources&lt;/h1&gt;
+&lt;p&gt;To achieve the level of education that we expect for our children requires us to
+step back and reassess the ability of us to educate them the way we want them to
+be. It is a fool's errand to say that we want the best when we are only willing
+or able to move forward at a mediocre level.&lt;/p&gt;
+&lt;p&gt;Having capable teachers, and teachers who can focus only on teaching without
+being burdened with administrative tasks is a no-brainer and I know we are aware 
+of the need to focus and fix these problems.&lt;/p&gt;
+&lt;p&gt;One other aspect that has not been discussed though is the fact that we're
+spreading our resources thin due to political pressure based on racial or
+religious identity instead of educational needs.&lt;/p&gt;
+&lt;p&gt;For example, if a child wants to learn a particular language, why would she
+need to go to a vernacular school to do so? Why shouldn't we allow &lt;em&gt;all&lt;/em&gt; our children to learn these different languages at any
+school that they go to?&lt;/p&gt;
+&lt;p&gt;The only obvious reason this is happening is that we don't
+have enough capable teachers to go around all of our schools.&lt;/p&gt;
+&lt;p&gt;It does not make rational or scientific sense to say we need a different
+school stream just to learn a language.&lt;/p&gt;
+&lt;p&gt;Instead of having teachers assigned to different schools all over the
+country, we should have a lesser amount of schools. The different languages, or
+subjects that are being taught differently at vernacular schools should be
+made available and taught at all the schools that we have.&lt;/p&gt;
+&lt;p&gt;What works at the better schools should be shared and emulated among other
+schools, increasing the education level bar evenly across all our schools.&lt;/p&gt;
+&lt;p&gt;Robin, one of the callers pointed out that vernacular schools strive because they do
+offer something or maybe even do something better which is missing from the national schools.
+We should figure this out, and emulate them in all our schools.&lt;/p&gt;
+&lt;p&gt;It makes sense to have a single-stream school, where everyone can learn all
+these different languages with everyone else. We will have a single budget, and
+a single focus on education, practicing best practices learned via a single way to run
+all our schools, with less overhead burden due to the different wants or
+political needs that have nothing to do with a good education. Our teaching resources will be
+more focused on teaching rather than being bogged down by non-educational matters.&lt;/p&gt;
+&lt;p&gt;Within the public education sphere, languages should be regarded as just
+another tool to communicate and to educate our children, and are
+just subjects to be learned instead of them being symbols of racial or religious
+identities.&lt;/p&gt;
+&lt;h2&gt;Mixed signals: It's confusing and it's insane&lt;/h2&gt;
+&lt;p&gt;Judging from the perspective that our general public is viewing our school
+system, we're not doing very well. Most of us complain that our children are
+being burdened by more and more things to learn, and at the same time, they are
+not getting to know one another any better.&lt;/p&gt;
+&lt;p&gt;Year in and year out, we focus on the amount of &lt;em&gt;As&lt;/em&gt; that our children get, how
+many did not get the scholarship that they wanted, how many couldn't speak good
+English, and how they are getting more and more polarised day by day.&lt;/p&gt;
+&lt;p&gt;But the fact is in essence we're not changing the way we're teaching our
+children. We think we educate them by adding all these new information
+and subjects at school for them to pass exams, and we think we're giving them
+"education", but are we?&lt;/p&gt;
+&lt;p&gt;When we read the news of children killing themselves because they did not get
+the results that they wanted, we raise our hands and say what have we done? &lt;/p&gt;
+&lt;p&gt;But we continue to demand as if this is the only way forward and complain
+when there are not enough places in the universities because tens of thousands of
+other children also received more &lt;em&gt;As&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The same goes for putting the schools as a scapegoat for our disunity. We say we want
+our people to unite and be treated as one and as equals, but when we say all our
+schools should be one and all our children learn under a single roof, we raise
+our hands and shout and say that &lt;em&gt;we need to protect culture&lt;/em&gt; and it's &lt;em&gt;racism
+and discrimination&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We are just making our children confused by saying something and doing something
+else. They will just grow up cynical and untrusting of the adults they see, and
+worse, they will grow up &lt;em&gt;into&lt;/em&gt; those same adults.&lt;/p&gt;
+&lt;p&gt;Now, sixty years down the road when we started with our current formula of
+education, have we achieved in terms of quality or strength among our society
+that we wanted to achieve at that time? Just judging from what our society is
+debating right now, it does not seem so. &lt;/p&gt;
+&lt;p&gt;If we expect different results now, but without changing the approach we have been
+taking all this while, we are insane!&lt;/p&gt;
+&lt;h2&gt;Our multiculturalism does not die with the schools.&lt;/h2&gt;
+&lt;p&gt;It dies when we only care about our lot.&lt;/p&gt;
+&lt;p&gt;Remove all references to a particular language or race type of school, 
+from vernacular schools, the Malay College to the MRSM schools by MARA&lt;sup id="fnref:footnote1"&gt;&lt;a class="footnote-ref" href="#fn:footnote1"&gt;2&lt;/a&gt;&lt;/sup&gt; 
+schools and make all these schools accessible without prejudice to any child of Malaysia.&lt;/p&gt;
+&lt;p&gt;If we want to play divisive politics and call out each other by their skin
+colour, fine. But leave our children and &lt;em&gt;their&lt;/em&gt; schools out of it.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:Ref1"&gt;
+&lt;p&gt;&lt;a href="https://mytn50.com/?language=eng"&gt;TN50&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:Ref1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:footnote1"&gt;
+&lt;p&gt;Ironically &lt;strong&gt;Majlis Amanah Rakyat&lt;/strong&gt;, despite it's name, doesn't seem to
+consider non-bumiputras as &lt;em&gt;rakyat&lt;/em&gt; to be helped as its mandate is focused only on helping bumiputras&amp;#160;&lt;a class="footnote-backref" href="#fnref:footnote1" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2017"></category><category term="malaysia"></category><category term="education"></category><category term="current affairs"></category><category term="national unity"></category><category term="bfm"></category></entry><entry><title>Malaysia's Brain Drain Dilemma</title><link href="https://iqbalabdullah.net/posts/2017/01/the-malaysian-brain-drain-dilemma/" rel="alternate"></link><published>2017-01-28T11:00:00+09:00</published><updated>2017-01-28T11:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-01-28:/posts/2017/01/the-malaysian-brain-drain-dilemma/</id><summary type="html">&lt;p&gt;My take on the Malaysian brain-drain dilemma&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is the original article which was published on 28th Feb 2017 in The Malay Mail Online
+titled &lt;a href="http://m.themalaymailonline.com/what-you-think/article/believing-in-malaysias-future-and-potential-iqbal-abdullah"&gt;Believing in Malaysia’s Future and
+potential&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://m.themalaymailonline.com/malaysia/article/the-other-side-of-malaysias-brain-drain-story"&gt;This&lt;/a&gt; 
+article concerning Malaysia's brain drain phenomena on The Malay Mail Online 
+brought me thinking on this fine Saturday morning on the 1st day of the
+New Lunar Year, and I want to write about what I think of the &lt;em&gt;Malaysian Brain Drain Dilemma&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Malaysia spends time, money and effort to attract Malaysians overseas to return
+to Malaysia and contribute back to the country. The idea of getting people to
+contribute to the development of the country is on the right track: Heck, it's
+the only track that we have! There are no alternatives to &lt;em&gt;not
+wanting people&lt;/em&gt; to contribute.&lt;/p&gt;
+&lt;p&gt;On the other hand, I do not see the point of getting &lt;em&gt;Malaysians to Malaysia&lt;/em&gt; to achieve that. I feel the narrative of showing better lives for
+Malaysians who returned home after years away, or Malaysians who succeeded
+&lt;em&gt;because&lt;/em&gt; they left home is missing the point.&lt;/p&gt;
+&lt;h2&gt;In the 21st century you can be anywhere and still contribute&lt;/h2&gt;
+&lt;p&gt;First, improvements in infrastructure, information technology and travel make
+it possible for any of us to be anywhere on this planet. In 8 hours you
+can be in Helsinki or if you spend 30 hours, you can be in Buenos Aires. You can
+communicate via email, share information on websites and discuss ideas face-to
+face via Hangouts or Facetime.&lt;/p&gt;
+&lt;p&gt;People who want to contribute to something are passionate about what they do and 
+will know that they want to contribute. The missing piece is the effort that we
+spend to identify these people, reach out to them and connect them to like-minded
+people or institutions that can help them amplify their contributions.&lt;/p&gt;
+&lt;p&gt;TalentCorp says they have approved 4000 people within 5 years since
+2011. Malaysians overseas are estimated at 1 million people, which translates to
+only 0.004%. Is 1000 per year of people enough to contribute? Is 0.004% an
+acceptable acceptance rate after 5 years? Are we doing too little, or is this too much?&lt;/p&gt;
+&lt;p&gt;Perhaps TalentCorp's mandate is to identify and attract talents with skills that
+can only be utilized if they are present in the country like surgeons to do
+surgery. But we know contributing to something is more than that, and we need all the help
+we can get, not only from the sciences but also from engineering and arts.&lt;/p&gt;
+&lt;p&gt;We also must not forget the homegrown talents and people that are doing
+wonderful jobs. Overseas Malaysians have different backgrounds, ideas and
+approaches to the same problem we all have and these differences are what we
+want to be accessible to our homegrown talents. They can learn from each other,
+improve and make something better together. Creating the missing piece of connecting
+these dots between locals and abroad Malaysiams is where we should put more effort in,
+regardless if the overseas talent will be coming home or not.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img alt="The writer checking email in front of Mont Saint Michel" src="https://iqbalabdullah.net/images/montsaintmichel.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;This is a picture of the writer checking his email taken in front of Mont Saint Michel&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Home is where the heart is&lt;/h2&gt;
+&lt;p&gt;The second part is the most important factor of all: Where we call home. &lt;/p&gt;
+&lt;p&gt;Home is not where we were born. Making a place home is a self-conscious
+decision based on the different situations, personalities and opportunities of any
+given individual. This should and must be the overarching target for any 
+returning program that we want to carry out: &lt;strong&gt;Making Malaysia home.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once someone calls a place home, the good and the bad will be taken in stride.
+It is human nature to better their own home, for themselves and the generations
+to come, and when we can get people who want to contribute calling Malaysia
+their home, it will be a sustainable success story.&lt;/p&gt;
+&lt;p&gt;However, based on the article above, some individuals would return 
+to Malaysia because they did not find the bed or roses they thought were waiting
+for them wherever they were:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Who cares if there’s corruption and crime in Malaysia? I just go back, make
+heaps of money, and then live in a condo with proper security. Solved. Whereas
+here, I’m just an average Joe, and I’m struggling just to keep my head above
+water".  - See more at:
+&lt;a href="//m.themalaymailonline.com/malaysia/article/the-other-side-of-Malaysia's-brain-drain-story#sthash.Z6zLaSYD.dpuf"&gt;http://m.themalaymailonline.com/malaysia/article/the-other-side-of-malaysias-brain-drain-story#sthash.Z6zLaSYD.dpuf&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;These people do not call Malaysia their home. Making money is their intention,
+and when there are better opportunities elsewhere, they move on. What we should
+focus on for the long term are the stayers, the builders and the committed.&lt;/p&gt;
+&lt;p&gt;Given this is what we agree to, to make Malaysia home, the next big question is: 
+&lt;em&gt;How do you convince people to call Malaysia their home?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;First, let's think of &lt;em&gt;what makes a good home?&lt;/em&gt;. You would not want to
+live in a home that is fighting all the time. You do not want to live in a home
+that is wrapped in poisonous polluting gasses. You &lt;em&gt;want&lt;/em&gt; to live in a home that
+is peaceful, clean and conducive to health.&lt;/p&gt;
+&lt;p&gt;We should accept and understand that the universal values that attract human beings 
+with a purpose applies and this is where we should concentrate our effort: 
+The values of justice, fairness, equality, fair reward for hard work, 
+a genuine effort for betterment, a chance to better oneself, rule of law: 
+Similar to the so-called &lt;strong&gt;The American Dream&lt;/strong&gt;, a slogan that made
+America is the place to be for all people having dreams of a better future.&lt;/p&gt;
+&lt;p&gt;We do have an upper hand over overseas Malaysians to call Malaysia home, as they 
+have family, roots and an eternal love for Malaysian food. But we should not take 
+those for granted. More things need to be done. &lt;/p&gt;
+&lt;h3&gt;And then it's not only Malaysians&lt;/h3&gt;
+&lt;p&gt;Let's face it: Globalisation means people, capital and goods will move around at
+a much easier and faster pace than it has ever before. Our competition is no
+longer our neighbours like Singapore, Thailand or Indonesia, but it's New York,
+Rio de Janeiro, Beirut, Paris or even Banjul. It's not countries anymore but cities: 
+Cities now try to attract the best people from anywhere around the world to come and live there.
+If people do not want to stay in Kuala Lumpur, all of these other cities will
+woo them and are more than happy to welcome their wealth, expertise and passion.
+The faster we realize this, the better it is for us.&lt;/p&gt;
+&lt;p&gt;The point here is that when we get our head around at aiming to make Malaysia our
+home, the universal values that apply to a good home will apply and attract many more
+people, regardless of nationality, colour and creed. This is what makes a
+country great: People believing in it and wanting to participate in its growth
+process. All these believers will come, and call Malaysia their home.&lt;/p&gt;
+&lt;p&gt;And when we reach this stage, we will be on a different playing field altogether. 
+It will no longer be what race we are, or who are sons of soil, or where we are
+from but we will be in the race to be the best in the world. &lt;/p&gt;
+&lt;p&gt;I believe in this vision of our country, where everyone wants to make it their
+home and believe in its potential and future. In the end, this is what we
+mostly desire now: Believers in our country, its potential and its future.&lt;/p&gt;</content><category term="2017"></category><category term="current affairs"></category><category term="malaysia"></category></entry></feed>

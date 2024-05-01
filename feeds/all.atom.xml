@@ -1,5 +1,168 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>Diversification is the future for the Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;My thoughts after my failed attempt at running for the 2020 board of the Python Software Foundation (PSF).&lt;/p&gt;</summary><content type="html">&lt;h1&gt;The Premise&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2023-07-06T09:54:00+09:00</updated><entry><title>A step closer to the Future for the Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2023/07/a-step-closer-to-the-future-for-the-psf-2023/" rel="alternate"></link><published>2023-07-06T07:00:00+09:00</published><updated>2023-07-06T09:54:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:iqbalabdullah.net,2023-07-06:/posts/2023/07/a-step-closer-to-the-future-for-the-psf-2023/</id><summary type="html">&lt;p&gt;The 2023 PSF Board elections are closed and counted. I supported candidates in the elections, and based on the voting results I wrote my thoughts on the future of the PSF.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;A step closer to the future for the PSF&lt;/h1&gt;
+&lt;h2&gt;It's the time of the year again!&lt;/h2&gt;
+&lt;p&gt;Four members of the board retire in 2023 paving the way for another election which represents an opportunity for us to have a more diverse representation on the board level of the PSF.&lt;/p&gt;
+&lt;p&gt;Since &lt;a href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html"&gt;participating in the elections in 2020&lt;/a&gt;, interest has been growing within the community in which I am involved, in particularly the APAC or Asia region, when we talk about diversification of ideas and people within the PSF specifically and the community in general.&lt;/p&gt;
+&lt;p&gt;In 2020, I was the only person from within the APAC region to run for election. Now in 2023, we have as many as 6 people, representing their communities in JP, KR, TH, IN and BD raising their hands and wanting to be counted and running for a seat on the Board.&lt;/p&gt;
+&lt;p&gt;I knew before the election that at least &lt;a href="https://www.python.org/nominations/elections/2023-python-software-foundation-board/nominees/"&gt;3 members of my community&lt;/a&gt; would be running for a seat on the board, and wasn't thinking of running. Unknown to me, Jannis nominated me and that got me thinking that it would be a good platform to help the campaigns of my fellow compatriots from my region to run, so I decided to accept the nomination and I use whatever exposure I get to campaign for them instead. &lt;/p&gt;
+&lt;p&gt;I am personally happy that all the three candidates that I supported in my own &lt;a href="https://www.python.org/nominations/elections/2023-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;nomination statement&lt;/a&gt; got elected to the Board.&lt;/p&gt;
+&lt;p&gt;Managing a worldwide non-profit requires a diverse set of skills and not only technical competency. We now have a much-needed diverse group of people within the PSF Board, not only within the region they are associated with but also the skillset they bring. &lt;/p&gt;
+&lt;h2&gt;Voter count&lt;/h2&gt;
+&lt;p&gt;There is one thing of concern though: The voter count and voter turnout&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In 2020, &lt;a href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html"&gt;1151 people were eligible to vote, with a voter turnout of 40%&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In 2021, &lt;a href="https://discuss.python.org/t/2021-python-software-foundation-board-of-directors-election-results/9418"&gt;1538 people were eligible to vote (34% increase YoY) with a voter turnout of 38%&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In 2022, we had &lt;a href="https://thefortunate.blog/the-future-is-still-not-here-for-the-psf-2022.html"&gt;1459 people eligible to vote (5% &lt;em&gt;decrease&lt;/em&gt; YoY) with a voter turnout of 39%&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For the 2023 elections, &lt;a href="https://pyfound.blogspot.com/2023/06/announcing-2023-psf-board-election.html"&gt;affirmed members who are eligible to vote was 877 (40% &lt;em&gt;decrease&lt;/em&gt; YoY) with a voter turnout of 70%&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regardless of the efforts we're putting in, at least from within my community and also from within the &lt;a href="https://wiki.python.org/psf/DiversityandInclusionWG"&gt;D&amp;amp;I Workgroup&lt;/a&gt; which I am part of, we can't seem to get a steadily increasing voter count year-over-year. Although we can never know &lt;em&gt;who&lt;/em&gt; voted, taking also into the fact that our voter turnout jumped to 70% when the vote count was its lowest in 2023 points out the possibility that the voters that vote in the yearly elections are a fixed group of people.&lt;/p&gt;
+&lt;p&gt;As I &lt;a href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html"&gt;wrote in 2020&lt;/a&gt;, increasing the voter count by encouraging participation from much more diverse Python communities is still very much a work in progress, and, is taking a step backwards if we look at the 40% decrease year over year in 2023.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The summary above is flawed. Read on in the Updates section below&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A small win though: As I wrote above the amount of participation in the number of candidates related to my APAC region has increased. &lt;/p&gt;
+&lt;p&gt;I still think that we need much more participation from community members that reside in non-West Europe and North American regions.&lt;/p&gt;
+&lt;p&gt;Special thanks go to Jay Miller for contributing to the election process for caring and &lt;a href="https://www.youtube.com/playlist?list=PL9MuO5r3rpXJ5k-NEI3Gc6S3CZU7mGwvP"&gt;creating videos&lt;/a&gt; for the candidate.&lt;/p&gt;
+&lt;h2&gt;So what's next?&lt;/h2&gt;
+&lt;p&gt;For 2023 and within the context of diversity and inclusion from within my region, we're seeing a step forward, we still have much work to do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Increasing the voter base and participation in the elections&lt;/li&gt;
+&lt;li&gt;Better distribution of grants, Fellow memberships and awards (i.e &lt;a href="https://lalokalabs.co/en/2023/04/attending-pycon-us-2023/"&gt;only 2% of grants go to the Euroasia/Asia continent&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now that we have a more diverse group of people now in the Board: The Board now needs to deliver by coming back to the community and showing results such as a better distribution of grants, Fellow memberships and also awards. &lt;/p&gt;
+&lt;p&gt;They, of course, can only do this if there are requests, nominations and commendations from the community itself, but they can help that by being present within these underrepresented communities and making sure that they are aware of all of these ways to acknowledge the wonderful work done by our diverse communities. Now with a more diverse Board that has stronger connections with these different communities, there is one less reason to not be able to find ways of doing so.&lt;/p&gt;
+&lt;p&gt;At the same time, I do realize that the Board alone can't do all of these: A group of 10 or 12 people can't represent a community of 8 million worldwide. That said, the PSF Board has Workgroups at their disposal. There should be more listening and consultation with the community through these Workgroups. &lt;/p&gt;
+&lt;p&gt;The Workgroups have practical knowledge and connections to the different communities that they are in, and along with the Board of the PSF and &lt;em&gt;in tandem with other Workgroups&lt;/em&gt;, they should work together to address the two items above.&lt;/p&gt;
+&lt;p&gt;If you're reading this and thinking, "I want to help", go on over to the list of &lt;a href="https://www.python.org/psf/workgroups/"&gt;active Workgroups that the PSF has&lt;/a&gt; and find a WG that interests you most.&lt;/p&gt;
+&lt;p&gt;As it is though, I am excited to see the new Board for this year and wish them all the best. Hopefully, we'll get to meet again at the next PyCon somewhere. &lt;/p&gt;
+&lt;h1&gt;Updates 2023-07-06&lt;/h1&gt;
+&lt;p&gt;After putting out the above post, I received &lt;a href="https://discuss.python.org/t/psf-board-election-dates-for-2023/26699/29/"&gt;a comment from C.A.M Gerlach&lt;/a&gt; about how I'm misinterpreting the numbers of the election results.&lt;/p&gt;
+&lt;p&gt;The main point is that starting from the 2023 elections, &lt;a href="https://discuss.python.org/t/important-affirm-your-psf-membership-voting-status/27502/"&gt;how "eligible voter" is counted has changed&lt;/a&gt;. This is because the PSF needs to protect its quorum to satisfy its bylaws. In the past, this was not enforced due to technical reasons.&lt;/p&gt;
+&lt;p&gt;Before 2023, I have personally taken the number of eligible voters as a proxy to gauge participation in the community, through registrations as Fellows, Managing, Supporting and Contributing Members. This is the most important number, at least for me regardless of actual participation in the election itself. Because how we count the number of "eligible voters" has changed, using this number as the proxy for participation is no longer valid. The decrease in 40% YoY vs. 2022 of people voting, as it is, doesn't mean anything as we're not comparing to the same thing.&lt;/p&gt;
+&lt;p&gt;There is also good news. C.A.M Gerlach also pointed out data which I did not look at: The cumulative increase in the absolute number of people voting. &lt;strong&gt;It has increased 33% from 460 in 2020 to 614 in 2023.&lt;/strong&gt; . We are getting more people involved, at least where the election is concerned, and voting for a more diverse group of people, at least from what we see in the 2023 elections.&lt;/p&gt;
+&lt;p&gt;I would like to believe that, the work done by me and my compatriots in the D&amp;amp;I WG as also those from within my APAC/Asia community contributed in part to this.&lt;/p&gt;
+&lt;p&gt;I'm leaving the original article I wrote above as it is so that it will be beneficial in the future if I need to do a &lt;em&gt;diff&lt;/em&gt; on what and why I wrote and thought about something.&lt;/p&gt;</content><category term="2023"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="elections"></category><category term="2023"></category></entry><entry><title>The future is still not here for the Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2022/07/the-future-is-still-not-here-for-the-psf-2022/" rel="alternate"></link><published>2022-07-02T10:30:00+09:00</published><updated>2022-07-02T16:42:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:iqbalabdullah.net,2022-07-02:/posts/2022/07/the-future-is-still-not-here-for-the-psf-2022/</id><summary type="html">&lt;p&gt;The 2022 PSF Board elections is closed and counted. I failed to make the cut, and so wrote my thoughts down in this post.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;The future is still not here for the Python Software Foundation (PSF)&lt;/h1&gt;
+&lt;p&gt;In June 2022 &lt;a href="https://twitter.com/iqbalabd/status/1535270196654575616?s=20&amp;amp;t=KkwPKOrVlpC2fPUy26v8_g"&gt;I ran for the third time&lt;/a&gt; for a seat in the Python Software Foundation (PSF) Board of directors. Initially I wasn't thinking of running, but &lt;a href="https://twitter.com/di_codes"&gt;Dustin Ingram of PyPi&lt;/a&gt; encouraged me to run again at the last minute and so I did. &lt;/p&gt;
+&lt;h2&gt;It didn't quite work out...&lt;/h2&gt;
+&lt;p&gt;First of, a big congratulations to the newly elected and returning Board members! They are&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/DawnWagesSays"&gt;@DawnWagesSays&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/simonw"&gt;@simonw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://twitter.com/kushaldas"&gt;@kushaldas&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;and &lt;a href="https://twitter.com/jezdez"&gt;@jezdez&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Unfortunately, I was also not elected again this time.&lt;/p&gt;
+&lt;p&gt;Although the &lt;a href="https://thefortunate.blog/psf-board-2022-nomination-statement.html"&gt;agenda and vision that I put forth for the 2022 elections&lt;/a&gt; remain the &lt;a href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html"&gt;same as the 2020&lt;/a&gt; and &lt;a href="https://www.python.org/nominations/elections/2021-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;2021&lt;/a&gt; elections, out of the total 4115 votes given to all the nominees, I only had 250 which is 6.08%. This was less than the 7.34% which I had in the 2021 elections. As a note I managed to only get 4.78% votes in the 2020 elections.&lt;/p&gt;
+&lt;p&gt;We also had 5% less people who were eligible to vote, down to 1459 from 1538 in the 2021 elections. Those that &lt;em&gt;actually&lt;/em&gt; vote though basically remained the same, at around 39% voter turnout.&lt;/p&gt;
+&lt;p&gt;But for me, the most worrying thing is that with Marlene exiting the Board, we are now &lt;a href="https://twitter.com/CodenameTim/status/1542895106918961154?s=20&amp;amp;t=KkwPKOrVlpC2fPUy26v8_g"&gt;down to only two non-US/Europe directors on the Board&lt;/a&gt; out of 13. This doesn't look well if we want to talk about global representation and diversity. This condition slowly pushes us to a defensive narrative if questioned on our diversity and inclusion efforts.&lt;/p&gt;
+&lt;h2&gt;But other things &lt;em&gt;did&lt;/em&gt; go well...&lt;/h2&gt;
+&lt;p&gt;Yes, other things did go well.&lt;/p&gt;
+&lt;p&gt;When I announced my self nomination for the Board, I also sent an &lt;a href="https://groups.google.com/g/pycon-organizers-apac/c/3J9rLJT8LAo"&gt;email&lt;/a&gt; to our APAC PyCon Organizers group urging for the rest of us to run alongside myself. This time I had another two influential contributors from my East Asia and South East Asia region to run with me, &lt;a href="https://twitter.com/georgically1"&gt;Georgi&lt;/a&gt; and &lt;a href="https://twitter.com/darjeelingt"&gt;Kwon Han&lt;/a&gt;. We didn't have nominees from our region in the past other than myself, and I believe as little impact as it might have been, my work in promoting diversity, representation and involvement within the APAC community and the PSF have increased the visibility, interest and inspired others to also run for the Board elections.&lt;/p&gt;
+&lt;p&gt;Of a particular note which I am proud to mention is the election results for Georgi. Although she was not elected, she did manage to get 6.29% of the total votes and was just shy of 14 votes to be elected in her first election to the Board. &lt;/p&gt;
+&lt;p&gt;Interest to serve the community through a seat on the Board continues to be strong. We had a record number of 26 nominees, similar to what we had in 2020. This is more than the 19 nominess we saw in 2021.&lt;/p&gt;
+&lt;p&gt;I am also really happy to see that &lt;a href="https://twitter.com/cmaureir/status/1542877794778087430?s=20&amp;amp;t=8qJW1ooFrjgWzPI4YZiOpw"&gt;Cristián&lt;/a&gt; continues to run advocating representation for Latin America, our Spanish speaking compatriots and i18n efforts for the PSF.&lt;/p&gt;
+&lt;p&gt;There seem to be more nominees which have openly championing diversity in representation within the PSF Board of directors and less reliance to the PyCon US for financing, more than we have seen in the past&lt;/p&gt;
+&lt;h2&gt;To sum up&lt;/h2&gt;
+&lt;p&gt;To be honest, I did not expect to get elected this time because nothing much has significantly changed since the last two elections, either on my end or through any initiaitves by the PSF or the community to address the perceived lack of global representation on the PSF Board.&lt;/p&gt;
+&lt;p&gt;To be fair though: At least since 2020 more people have pointed out to the problem of a skewed representation within the Board. Some say it's the way the elections are done, and there are &lt;a href="https://discuss.python.org/t/psf-Board-election-reform/4527"&gt;suggestions on changing the way the voting is done&lt;/a&gt; for the elections. &lt;/p&gt;
+&lt;p&gt;After the 2020 elections, the PSF too has also put out a short and medium term &lt;a href="https://pyfound.blogspot.com/2020/06/2020-python-software-foundation-board_26.html"&gt;plan&lt;/a&gt; to address this issue, which includes collecting location data on the voters themselves.&lt;/p&gt;
+&lt;p&gt;As a nominee for the past three elections, having data on who our voters are is important. Without it, I do not know who I am talking to, and what is important to them. Even if the &lt;a href="https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones/"&gt;8 million or so Python users&lt;/a&gt; think any one person should be on the Board, if that person could not convince the 500 or so people who will be voting, then there's very slim chance of you getting elected. &lt;/p&gt;
+&lt;p&gt;Our work within the D&amp;amp;I WG also has led us to data collection to understand better who our community members are, although I suspect not many of them are voters (yet). From preliminary data, general apathy towards the work the PSF does and the elections in general (i.e why does it concern me?) seems to be the biggest hurdle we need to overcome to get more of our non-US/Europe community members to participate. &lt;/p&gt;
+&lt;p&gt;As it is, I can also honestly say that taking part, being active and visible to the US Python community specifically seems to be a pre-requisite to be succesfull to be elected to the PSF Board. &lt;/p&gt;
+&lt;h3&gt;Not only as Board member&lt;/h3&gt;
+&lt;p&gt;So what happens to you, the avid Python user/developer/organizer that is burning with the desire to help your fellow community members, but so happens to be having a life in an area which &lt;em&gt;is not&lt;/em&gt; the 10% of the world's landmass that is the United States or Europe?&lt;/p&gt;
+&lt;p&gt;There are many other ways for us to contribute and make an impact. Some good suggestions are listed &lt;a href="https://www.python.org/psf/get-involved/"&gt;here&lt;/a&gt; on the PSF's website. If you're interested in a very specific cause, there are the &lt;a href="https://www.python.org/psf/committees/"&gt;PSF Working Groups&lt;/a&gt; (also know as committees) that you can ask to join and participate in. I am currently participating in the Trademark WG and the D&amp;amp;I WG, which has given me knowledge from diversity policies, trademark law, other Python communities in the world and opportunities to learn from those more experienced and knowledgeable than myself. &lt;/p&gt;
+&lt;p&gt;But from experience, I'd think &lt;strong&gt;the best way to make an impact is to join or start something within your own local area&lt;/strong&gt;. We never have enough people to organize meet-ups, start a local conference, do weekend hackathons, guide new comers to the community, or write and maintain software for the use of the local community.&lt;/p&gt;
+&lt;h2&gt;Credits go to&lt;/h2&gt;
+&lt;p&gt;Finally, &lt;strong&gt;big thank yous&lt;/strong&gt; to (in no particular order)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;James&lt;/li&gt;
+&lt;li&gt;Dustin&lt;/li&gt;
+&lt;li&gt;David&lt;/li&gt;
+&lt;li&gt;Marc-Andre&lt;/li&gt;
+&lt;li&gt;Georgi&lt;/li&gt;
+&lt;li&gt;Kwon Han&lt;/li&gt;
+&lt;li&gt;Thomas&lt;/li&gt;
+&lt;li&gt;Wei Lee&lt;/li&gt;
+&lt;li&gt;Yuggun&lt;/li&gt;
+&lt;li&gt;Aiko&lt;/li&gt;
+&lt;li&gt;Kamal&lt;/li&gt;
+&lt;li&gt;the D&amp;amp;I WG&lt;/li&gt;
+&lt;li&gt;PyCon JP&lt;/li&gt;
+&lt;li&gt;the kind folks on Twitter and LinkedIn that liked and shared my contents&lt;/li&gt;
+&lt;li&gt;the folks who voted for me&lt;/li&gt;
+&lt;li&gt;and the PyCon APAC Organizers group&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;for supporting my nomination and sharing my vision. I am only human, and forgive me if I missed you in the credits roll above. I am only human, and
+I'm sorry I dissapointed all of you due to my own inabilities. But we are only human, and maybe we can try again in the future.&lt;/p&gt;</content><category term="2022"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="elections"></category><category term="2022"></category></entry><entry><title>A guide to the PSF board elections 2022: How should you decide?</title><link href="https://iqbalabdullah.net/posts/2022/06/guide-for-the-psf-board-elections-2022-how-to-decide/" rel="alternate"></link><published>2022-06-22T22:00:00+09:00</published><updated>2022-06-22T22:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:iqbalabdullah.net,2022-06-22:/posts/2022/06/guide-for-the-psf-board-elections-2022-how-to-decide/</id><summary type="html">&lt;p&gt;A record number of people have raised their hands to serve on the PSF board this year. How do you choose? Who do you choose?&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Choosing the nominees for the PSF board elections 2022&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;First of all, a disclaimer: I am also &lt;a href="https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;running for a seat&lt;/a&gt; this year.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We're seeing a &lt;a href="https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/"&gt;record number of nominees&lt;/a&gt; raising their hands to serve on the board of the Python Software Foundation (PSF) this year. This is a very good thing for the Foundation and our community, but it might be daunting for you who will be choosing the people you want to see in the board. I believe that most of the eligible voters have voted a few times, but there are some of us who will be voting the first time. Regardless, I hope this post will give you a hint on how to decide which nominees you should choose.&lt;/p&gt;
+&lt;h2&gt;First, it's about you&lt;/h2&gt;
+&lt;p&gt;Yes, first and foremost, it's about &lt;em&gt;you&lt;/em&gt;. How do &lt;em&gt;you&lt;/em&gt; see the PSF? What future would &lt;em&gt;you&lt;/em&gt; like the PSF and the Python community to have? What do &lt;em&gt;you&lt;/em&gt; think?&lt;/p&gt;
+&lt;p&gt;Having some time to sit down and think of what I wanted to see for the PSF, I have decided to focus on these three, which are loosely based on my &lt;a href="https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;nomination statement&lt;/a&gt; and my &lt;a href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html"&gt;thoughts on the previous election&lt;/a&gt; which I took part in:&lt;/p&gt;
+&lt;h3&gt;Opportunities&lt;/h3&gt;
+&lt;p&gt;I believe this is what we can never have enough of. We need more opportunities for the different types of people in our community to participate in the many different things, from technical stuff to community building, that we have and revolves around the Python language. Having a chance to get through the door is the first step to grow and later on open more doors for the people after one selves.&lt;/p&gt;
+&lt;p&gt;How would a nominee increase opportunities within our community? This is a question I ask myself.&lt;/p&gt;
+&lt;h3&gt;Diversity&lt;/h3&gt;
+&lt;p&gt;The Python community is colourful. It's not only painted in the colours of black or white, the Americas or West Europe, or technical and PEPs. Does our board, that represents us through the PSF truly represents us? Do we have the diversity in the people, diversity in the skills, diversity in the thoughts and ideas that will make us stronger and go further? &lt;/p&gt;
+&lt;p&gt;Diversity is closely related to the opportunities above but distinctive on it's own. I believe a diverse community will naturally create more opportunities and vice versa.&lt;/p&gt;
+&lt;h3&gt;Experience&lt;/h3&gt;
+&lt;p&gt;Finally, &lt;a href="https://wiki.python.org/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors"&gt;the PSF board has many duties and responsibilities&lt;/a&gt;. I would want people who are capable and understand what it takes to work together in an organization to represent us and help our community and our language to evolve and grow. This requires experience. Having said that, having the same group of people to continuously represent us does not help to create opportunities nor a diverse representation, so how do we balance the above two with experience? For me, this is a fine line that is the most difficult part to decide.&lt;/p&gt;
+&lt;h3&gt;There are of course others...&lt;/h3&gt;
+&lt;p&gt;There are of course other valid points that we can think of. Perhaps you would like to see a PSF that has bigger financial resources and can help more communities. Or a PSF that puts more effort in solving packaging issues for Python. Or a PSF that for once and for all solve the issue of a "slow" Python. Or even a PSF that has ambitions to send a rocket to Mars because that's where you believe the future of mankind is.&lt;/p&gt;
+&lt;p&gt;Regardless of what they are, having an idea of what you'd think is important to &lt;em&gt;you&lt;/em&gt; will be the first step.&lt;/p&gt;
+&lt;h2&gt;Then, it's about the nominees&lt;/h2&gt;
+&lt;p&gt;Next, we move on to the nominees. These are the people that will work with you to achieve the important things you have decided above. So what do we look for in these nominees? &lt;/p&gt;
+&lt;p&gt;Well, for starters we have their nomination statements.&lt;/p&gt;
+&lt;p&gt;The way I do it, I will assign some amount of points to each nominee depending on the four items I focus below. There is a maximum amount of points that each item can have, depending on how important a particular item is. The maximum number of points that a nominee can have is 10. At the end of it, I will choose any nominee with 6 or more points to the board.&lt;/p&gt;
+&lt;p&gt;You can always tweak the points system to your taste. You might want more points for a particular item that is close
+to your heart, and less for those which you think are less important to you. You might want to lower the bar by choosing
+anyone that has more than 4 points, or raise the bar to anyone that has more than 8 points.&lt;/p&gt;
+&lt;p&gt;These are the four items I focus on:&lt;/p&gt;
+&lt;h3&gt;Who are they&lt;/h3&gt;
+&lt;p&gt;This will of course be the first thing that I will read. Who are they? What's their name? Have you heard of them before? What community are they from? What's their background? Nearly all nominees will do a good job explaining this.&lt;/p&gt;
+&lt;p&gt;(Maximum 1 point)&lt;/p&gt;
+&lt;h3&gt;What do they want to achieve&lt;/h3&gt;
+&lt;p&gt;This is where you can see if a particular nominee is trying to push agendas which are similar or close to those that you think are important above. Why are they running? What are they trying to change? What are they trying to improve? Who are they representing?&lt;/p&gt;
+&lt;p&gt;This is an important part of the nomination statement, so we should read these carefully, and should be a big consideration on your part when choosing a nominee. &lt;/p&gt;
+&lt;p&gt;(Maximum 3 points)&lt;/p&gt;
+&lt;h3&gt;Their progression&lt;/h3&gt;
+&lt;p&gt;A nominee's progression represents their history in working towards a particular point in time. What have they been doing up until this point? Were they committing code to GitHub as a core dev? Were they presenting quality ideas to the community? Were they fund raising to help other communities to do their work?  Were they organizing people for PyCon's? &lt;/p&gt;
+&lt;p&gt;Remember that serving on the PSF board is not the only way to have impact on the community or the language. Maintaining a library is one way to do it. We already have the &lt;a href="https://peps.python.org/pep-0013/"&gt;steering council&lt;/a&gt; that will have a more direct impact on how the language evolves. &lt;a href="http://kit.pyladies.com/en/latest/prospective/index.html"&gt;Organizing your local PyLadies&lt;/a&gt; or &lt;a href="https://organize.djangogirls.org/"&gt;DjangoGirls&lt;/a&gt; chapter will have more impact in opening doors to underrepresented people.&lt;/p&gt;
+&lt;p&gt;There are also the many &lt;a href="https://www.python.org/psf/committees/"&gt;PSF Workgroups&lt;/a&gt; with various objectives that you can participate in, having a more direct way to have an impact and help shape the future of Python.&lt;/p&gt;
+&lt;p&gt;In fact, I put progression higher than their reason to run. In my line of work, we have this saying: "What matters is not what the customers are saying; It's what they are doing". More importantly though, it always makes me happy to see the many achievements my fellow compatriots have achieved, and helps me want to do more.&lt;/p&gt;
+&lt;p&gt;(Maximum 4 points)&lt;/p&gt;
+&lt;h3&gt;What other people have to say about them&lt;/h3&gt;
+&lt;p&gt;Finally, we have the section where someone else will have a good word or two for the nominee. Acknowledgement of work and character by a different person is always a positive thing. &lt;/p&gt;
+&lt;p&gt;If that acknowledgement is done by someone you know, respect and trust, then perhaps this is a nominee which you would want to pay attention to. More often than not, it usually means that the nominee holds values that you too consider important.&lt;/p&gt;
+&lt;p&gt;(Maximum 2 points)&lt;/p&gt;
+&lt;h4&gt;What if there are no nominees that champion what you think is important?&lt;/h4&gt;
+&lt;p&gt;Then it's time for you to be a nominee yourself.&lt;/p&gt;
+&lt;h2&gt;Finally, it's about the process&lt;/h2&gt;
+&lt;p&gt;But above all, enjoy the process of having to choose between many different capable people within our community to represent us in the board. The way the voting process works, you can choose multiple people to the board. The nominees that gets the top votes will be elected to the board equal to the amount of vacant seats for that particular year. As the voter, you have multiple choices to support different agendas and nominees and it's not a "this-or-that" choice. &lt;/p&gt;
+&lt;p&gt;In the end, it's a free democratic process, and like any other free democratic process, you are free to choose whomever you like. You never have to justify your choices to anyone else other than yourself, and you are not obliged to answer who you choose even if asked. Your vote is secret, and only known to you.&lt;/p&gt;
+&lt;p&gt;So before we part ways, I hope you don't think too hard, enjoy the process and enjoy the opportunity to take part. The above thoughts on how to choose a nominee are only mine, and you should have yours too. Choose whoever you feel like choosing. There will always be next year for you to vote again, and I am confident that there will be continued interest to help out with the PSF board in the many more years to come, and many more nominees to choose from. &lt;/p&gt;
+&lt;p&gt;In the end, this is what matters most.&lt;/p&gt;</content><category term="2022"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="elections"></category><category term="2022"></category></entry><entry><title>Nomination statement for the 2022 Python Software Foundation Board Election</title><link href="https://iqbalabdullah.net/posts/2022/06/psf-board-2022-nomination-statement/" rel="alternate"></link><published>2022-06-10T22:00:00+09:00</published><updated>2022-06-10T22:00:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:iqbalabdullah.net,2022-06-10:/posts/2022/06/psf-board-2022-nomination-statement/</id><summary type="html">&lt;p&gt;My self-nomination statement for the 2022 Python Software Foundation (PSF) Board Election&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Who&lt;/h2&gt;
+&lt;p&gt;My name is &lt;a href="https://twitter.com/iqbalabd/"&gt;Iqbal Abdullah&lt;/a&gt;. I am a Malaysian, based in Japan and have been actively participating with the Python communities around the East Asia and South East Asia region. I understand fluently three natural languages and am a basic at one. I am a Supporting and Managing Member of the PSF.
+I make a living by running a small technology company called &lt;a href="https://lalokalabs.co/en/"&gt;LaLoka Labs&lt;/a&gt; which I am also happy to mention uses &lt;strong&gt;a lot&lt;/strong&gt; of Python.&lt;/p&gt;
+&lt;h2&gt;Why&lt;/h2&gt;
+&lt;p&gt;I first ran for a seat on the PSF board in &lt;a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;2020&lt;/a&gt;. I received 11th place out of 26 nominees with 4.78% of the votes. Looking at the results, I realized how little representation the PSF has from the different communities in other parts of the world beyond the United States and Western Europe, even though a significant portion of community work and possible opportunities for technical expertise would come from these communities. I wrote an essay about in my blog titled &lt;a href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html"&gt;Diversification is the Future for the PSF&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I ran again in &lt;a href="https://www.python.org/nominations/elections/2021-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;2021&lt;/a&gt; with a clearer direction on what I think is needed for the PSF, based largely on my thoughts from that essay. To sum it up, in 2021 I wanted to:
+- Increase representation and acknowledgement of the diverse communities that we have
+- Increase the portion of the PSF revenues from non-PyCon US, specifically from non-US and non-Western Europe sources.&lt;/p&gt;
+&lt;p&gt;For 2021, I came in 7th place with 7.34% of the votes. It was an improvement, but not good enough.&lt;/p&gt;
+&lt;p&gt;This will be my third time running for a seat on the PSF board. &lt;/p&gt;
+&lt;p&gt;Not much has changed within the past one year, and my objectives running for a seat in 2022 still remains the &lt;a href="https://www.python.org/nominations/elections/2021-python-software-foundation-board/nominees/iqbal-abdullah/"&gt;same as 2021&lt;/a&gt;. I believe these are still relevant and needed to be worked upon. &lt;/p&gt;
+&lt;p&gt;In fact, I am hoping to use my platform as a PSF director, if elected, to accelerate interest within the East Asia and South East Asia region on what and how we can contribute more to the Python community. &lt;/p&gt;
+&lt;p&gt;We need more people who can be community leaders to give ideas and manage programs, more people that understand how to manage money to support open source, more people that understand law to help support our intellectual properties, and most importantly, more people that care.&lt;/p&gt;
+&lt;h2&gt;What&lt;/h2&gt;
+&lt;p&gt;Other than help managing cooperation between the different Python and PyCon organizing communities within the Asia Pacific region, I am still serving as a member of the  &lt;a href="https://pyfound.blogspot.com/2020/12/announcing-psf-diversity-and-inclusion.html"&gt;Diversity &amp;amp; Inclusion (D&amp;amp;I) Working Group&lt;/a&gt; and the &lt;a href="https://www.python.org/psf/committees/#trademarks-work-group"&gt;Trademarks Work Group&lt;/a&gt; of the PSF.&lt;/p&gt;
+&lt;p&gt;I was the chairperson for &lt;a href="https://pycon.my/2015/08/31/pycon-my-2015/"&gt;PyCon MY in 2015&lt;/a&gt;, the chairperson for &lt;a href="https://pycon.my/2017/09/01/pycon-apac-2017-its-a-wrap/"&gt;PyCon APAC 2017&lt;/a&gt; and served on the board for &lt;a href="https://www.pycon.jp/committee/english.html"&gt;PyCon JP&lt;/a&gt; from founding in 2013 until 2018.&lt;/p&gt;
+&lt;p&gt;I was one of the panelist for the &lt;a href="https://lalokalabs.co/en/events/diversity-inclusion-workgroup-panel-at-pycon-apac/"&gt;panel discussion for the Diversity and Inclusion WG for PyCon APAC 2021&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Saying thank you&lt;/h3&gt;
+&lt;p&gt;I was also given the honour to give a keynote for &lt;a href="https://hamburg.python.pizza/"&gt;Python Pizza Hamburg&lt;/a&gt; where I addressed the issue of open source volunteers being taken for granted and more acknowledgement (including helping them with more money and paying our share) that needs to be done. This is an important topic close to our hearts, so within another business I founded, &lt;a href="https://blog.xoxzo.com/en/tag/annual-open-source-grant/"&gt;we annually give out grants to open source projects, including to the Python Software Foundation&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;If you've read this far&lt;/h2&gt;
+&lt;p&gt;For 2022, &lt;em&gt;even if not elected&lt;/em&gt;, I will be happy if I can get a higher result than my previous elections. This will at least mean that the message and ideas I'm trying to bring has gained some traction among the people that matters and are invested: Those of you who will be voting. I can then bring this along with me in the future and tell my story to anyone that wants to listen with hope.&lt;/p&gt;
+&lt;p&gt;At the very least, regardless of the results, I hope my experience in participating in the elections will open the minds and hearts of the people around me, and doors for them, as by the people that have gone before me have done for me.&lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;</content><category term="2022"></category><category term="psf"></category><category term="politics"></category><category term="community"></category><category term="elections"></category><category term="2022"></category></entry><entry><title>Diversification is the future for the Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;My thoughts after my failed attempt at running for the 2020 board of the Python Software Foundation (PSF).&lt;/p&gt;</summary><content type="html">&lt;h1&gt;The Premise&lt;/h1&gt;
 &lt;p&gt;Since 2019, I have been working on trying to
 get our Python community in East/South/South East Asia (collectively called APAC) to move towards a
 more coherent direction together.&lt;/p&gt;
@@ -392,10 +555,165 @@ PyCon開催費用の総額はUSD190万なので、つまりPSFがPyConに1ドル
 &lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn06" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="2020"></category><category term="psf"></category><category term="政治"></category><category term="コミュニティ"></category><category term="2020"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://iqbalabdullah.net/posts/2017/06/changing-the-world-one-pycon-at-a-time/" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-06-15:/posts/2017/06/changing-the-world-one-pycon-at-a-time/</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
+&lt;/div&gt;</content><category term="2020"></category><category term="psf"></category><category term="政治"></category><category term="コミュニティ"></category><category term="2020"></category></entry><entry><title>Digital IDs for Malaysia</title><link href="https://iqbalabdullah.net/posts/2018/10/digital-ids-for-malaysia/" rel="alternate"></link><published>2018-10-21T18:40:00+09:00</published><updated>2018-10-21T18:40:00+09:00</updated><author><name>iqbalabd</name></author><id>tag:iqbalabdullah.net,2018-10-21:/posts/2018/10/digital-ids-for-malaysia/</id><summary type="html">&lt;p&gt;Digital IDs to verify identities will propel us forward&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is an article on my opinion concerning the plan for digital IDs for
+Malaysians. It was not published&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;Bringing back the idea&lt;/h1&gt;
+&lt;p&gt;Since Minister Gobind brought back the idea of a &lt;a href="http://www.bernama.com/en/news.php?id=1651523"&gt;digital ID for
+Malaysians&lt;/a&gt;, we are
+seeing a healthy debate going on concerning the feasibility or even
+the need of a national digital ID. I would like to also contribute to
+this debate.&lt;/p&gt;
+&lt;h1&gt;I am who I say I am&lt;/h1&gt;
+&lt;p&gt;The internet was originally designed in such a way that it's
+"stateless", which basically means it has no memory. This means that
+if you visit a website and come again 3 seconds later that website
+will treat you like a totally new person on your second and subsequent
+visits.&lt;/p&gt;
+&lt;p&gt;This is obviously an issue when you need to get things done: You
+won't have shopping carts, Instagram timelines, or friends on Facebook
+because the internet can't differentiate between you and your
+grandmother.&lt;/p&gt;
+&lt;p&gt;Along the way innovative ways was invented to workaround this
+limitation, such as "cookies" and sessions, which has evolved to
+produce the user registration, username and password combination that
+we so much love today.&lt;/p&gt;
+&lt;p&gt;One problem with this method is that no one is vouching for you: You
+come up saying "this is who I am, and I'm vouching for myself that
+this is true". For Facebook or Instagram where the most complex every
+day use case is sharing pictures of cats or your rented Chanel
+handbags, this is all fine, but if you need to do anything more that
+comes with responsibilities and social consequences like registering
+your new born child, renewing your business
+license or making a loan application, someone needs to make sure that
+you are who you say you are.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This should be the MAIN and ONLY purpose a national ID program should
+perform: Verifying that you are who you say you are or in other words,
+creating a "platform of trust" as termed by Minister Gobind.&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;I don't trust you, but I trust that person that you trust&lt;/h1&gt;
+&lt;p&gt;By design and nature of the internet I cannot trust you, but the funny
+thing is I will trust something that you also trust. This "something"
+naturally will fall to some central authority like the government,
+because they are the issuer of identities.&lt;/p&gt;
+&lt;p&gt;It is interesting to note that this concept is not new: We are already
+using it in the HTTPS/TLS scheme (the padlock that you see in your
+browser address bar to make sure you're accessing a secure site)&lt;/p&gt;
+&lt;p&gt;Private entities like banks are also able to connect to this central
+system. Using the state-issued ID card, you can access the myriad of
+private services
+that connects to the state and can verify that you are who you are. Once they
+know who you are, you are then authorized to carry out actions based on the
+services that you're currently accessing, like making money transfers
+from your bank account, or renewing your driving license.&lt;/p&gt;
+&lt;p&gt;A platform of trust based on officially sanctioned national-ID to
+directly verify identity is more meaningful than indirect methods such
+as sending SMS to mobile numbers that proves possession than identity.&lt;/p&gt;
+&lt;p&gt;At the same time, the central authority should not (or MUST not) have access
+to whatever you're doing online once you're passed the verification
+phase. What you do, once you're verified, will only be between you and
+the services you're utilizing.&lt;/p&gt;
+&lt;h1&gt;A paper photostated IC is not "verification"&lt;/h1&gt;
+&lt;p&gt;The current way of doing things by the majority of Malaysians in regards of
+identity verification is broken to say the best. We take our physical
+ID and make physical paper copies of it to sign-up for services from
+opening bank accounts to subscribing to mobile plans. This is far from
+secure nor it is an effective form of identity verification and can be
+easily abused. We have read of many cases where someone else have
+signed up for something which the real owner of that identity doesn't
+know of and instead is paying for.&lt;/p&gt;
+&lt;p&gt;An online platform of trust will help us reduce the likelihood of abuse by
+taking away the physical aspect of the identity verification, which will also
+lead to a more efficient workflow since data can be processed much
+more easily than physical record.&lt;/p&gt;
+&lt;p&gt;But having said that, we also must understand and appreciate this: No
+technology is perfect.&lt;/p&gt;
+&lt;h1&gt;It's not if but WHEN&lt;/h1&gt;
+&lt;p&gt;The fear that a central authority being hacked is justified and it is
+a risk which needs to be mitigated.&lt;/p&gt;
+&lt;p&gt;In the technology context, we mitigate this risk by increasing the hurdles
+before any hacked data is made usable, and minimize the damage &lt;strong&gt;WHEN&lt;/strong&gt;
+(and not if) there is data breach.&lt;/p&gt;
+&lt;p&gt;We do this by ensuring that the hacked data is unusable without a
+second factor, such as an encrypted physical ID which is not connected
+in any way to the central system. Those physical ID can also be locked
+by passwords which are stored on the ID itself, and supposedly known
+only to the ID holder.&lt;/p&gt;
+&lt;p&gt;This means that if an aspiring hacker wants to steal the data of the
+citizens of Malaysia, they need to hack the central system, and steal
+30 million ID cards AND also figure out the password to access that
+physical device. At the same time, third-parties like banks which access
+the central system to verify identity will not have the identity verification
+information on them, which means if the banks are hacked, the hacker will
+know how much money an account has but will not know who that account
+belongs to.&lt;/p&gt;
+&lt;h1&gt;Estonia's E-Residency programme&lt;/h1&gt;
+&lt;p&gt;I am enrolled in the Estonian E-Residency program, where the state
+vouches for you and issues a state sanctioned ID card which you can
+use to connect to state services online. The ID card does not have my
+picture on it, and is not valid as a self-identification document in
+the physical world. Estonia's E-Residency system employs the same
+scheme for personal verification and authentication I have explained
+above. It is also used by her 1.3 million citizens to access
+government services, other than e-residents (which can access the same
+services too!).&lt;/p&gt;
+&lt;p&gt;Thousands of kilometers away, day or night, in my living room or in my
+favorite local cafe, I can sign agreements, check the status of my
+applications and operate my business and get on with my life without
+having to wait in line or getting stuck in traffic because all the
+different moving parts that I need to interact with know with a very
+high probability and confidence that I am who I say I am.&lt;/p&gt;
+&lt;p&gt;Well, I know 1.3 million people versus Malaysia's 30 million people is
+a huge difference, but that is the beauty of technology: You can scale it.&lt;/p&gt;
+&lt;h1&gt;So..&lt;/h1&gt;
+&lt;p&gt;Do we need this? I truly believe so. In fact, I believe it is inevitable. The
+technology is already there, it is open and we have no need to invent
+anything new. The actual example of implementing it state wide is also
+there (Estonia) as well as any leanings or know-how. It has been done
+and it has been proven.&lt;/p&gt;
+&lt;p&gt;The right to be connected online is now starting to be accepted as a
+universal human right. Coupled with the constant business needs to get
+better efficency and savings, being able to do work and business
+online will become more and more of a necessity.&lt;/p&gt;
+&lt;p&gt;Allowing us to do business and deal with bureaucracy online will free up
+tremendous amount of time that we can use to enrich ourselves in many other
+ways. This is in the end what technology is supposed to be about:
+Empowering us human beings by allowing us to regain back our most
+valuable resource: time.&lt;/p&gt;
+&lt;p&gt;The more relevant and important question is when?&lt;/p&gt;
+&lt;p&gt;Obviously as a country of limited resources there is the question of
+prioritization. I will leave that question as a homework to be
+answered by our elected representatives.&lt;/p&gt;
+&lt;p&gt;But before go forth, an important issue we must address before we
+embark on this project, as &lt;a href="https://www.malaymail.com/s/1683682/dear-politicians-digital-ids-are-a-terrible-idea"&gt;pointed out by Ms. Erna Mahyuni in her
+piece&lt;/a&gt;,
+is that Malaysia does not have a good track record of enforcing
+privacy laws, and top top that off a very low understanding of privacy
+and privacy rights. This is a larger issue which should be addressed,
+regardless of having a national digital ID or not, as it is effecting
+us all, right here, right now.&lt;/p&gt;
+&lt;p&gt;But I believe the creation of a national digital ID as a base for a
+platform of trust to empower citizens of Malaysia is inevitable in
+order to continue to being relevant and competitive.&lt;/p&gt;</content><category term="2018"></category><category term="current affairs"></category><category term="malaysia"></category><category term="estonia"></category><category term="2018"></category></entry><entry><title>Your roots and your identity</title><link href="https://iqbalabdullah.net/posts/2017/10/your-root-and-your-identity/" rel="alternate"></link><published>2017-10-06T23:40:00+09:00</published><updated>2017-10-06T23:40:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-10-06:/posts/2017/10/your-root-and-your-identity/</id><summary type="html">&lt;p&gt;Your roots are not your identity; It does not define who you are.&lt;/p&gt;</summary><content type="html">&lt;p&gt;62-year old &lt;a href="https://en.wikipedia.org/wiki/Kazuo_Ishiguro"&gt;Kuzo Ishigoro&lt;/a&gt; &lt;a href="https://www.theguardian.com/books/2017/oct/05/kazuo-ishiguro-wins-the-nobel-prize-in-literature"&gt;won
+the Nobel Prize in Literature&lt;/a&gt;
+for 2017. I saw him on TV and he was talking about his Japanese roots,
+and that got me thinking about &lt;em&gt;roots&lt;/em&gt; and how we confuse it with our &lt;em&gt;identity&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Many upheaval caused by nationalist movements in the current world around us right
+now are symbols of the assertion of identity and stem from the need to differentiate. &lt;/p&gt;
+&lt;p&gt;I believe though, contrary to popular belief, your roots are not your identity.
+Our roots are our past and history, mostly events in our lives in which we do not
+have much say due to our dependence on our parents and immediate families.
+Our roots are emotional attachments and memories of the past, that allow us to
+return to a place where we came from, physically or emotionally.&lt;/p&gt;
+&lt;p&gt;Identity though, is forward-facing: Identity is who you are, or who you strive to be
+in the future. You can choose to identify yourself with someplace or something, like the
+town you're staying in or an idea that feels right to you.&lt;/p&gt;
+&lt;p&gt;Your identity is a conscious choice, for better or for worse, which you can define.&lt;/p&gt;
+&lt;p&gt;To be defined by your roots, and then have your identity set upon you based on
+some set values of your roots are just too inhumane and unfair.&lt;/p&gt;
+&lt;p&gt;Knowing where you come from does help in figuring out where you will be heading,
+but it does not define your destination.&lt;/p&gt;</content><category term="2017"></category><category term="identity"></category></entry><entry><title>Changing the world one PyCon at a time</title><link href="https://iqbalabdullah.net/posts/2017/06/changing-the-world-one-pycon-at-a-time/" rel="alternate"></link><published>2017-06-15T16:00:00+09:00</published><updated>2017-06-15T16:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-06-15:/posts/2017/06/changing-the-world-one-pycon-at-a-time/</id><summary type="html">&lt;p&gt;Thinking back on what I've done through PyCon and how it all started in the first place.&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Changing the world one PyCon at a time&lt;/h1&gt;
 &lt;p&gt;As an engineer, programming languages are very important tools to solve the
 problems that you face. As an entrepreneur, they are also important tools to
-bring your imagination to life, to get that profit and making that difference.&lt;/p&gt;
+bring your imagination to life, to get that profit and make that difference.&lt;/p&gt;
 &lt;p&gt;Python is a magnificent programming language. Although first released in 1991, it &lt;em&gt;arguably&lt;/em&gt;
 only started to become mainstream&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; when
 &lt;a href="https://en.wikipedia.org/wiki/Guido_van_Rossum"&gt;Guido van Rossum&lt;/a&gt;, the creator of
@@ -403,38 +721,38 @@ Python joined Google in 2005. That made many people start to notice how serious
 the tech giant was investing in Python. In the same year, the web framework
 Django which is written in Python was released, and that further pushed Python into the limelight.&lt;/p&gt;
 &lt;p&gt;Now, even our very much loved
-&lt;a href="https://thenewstack.io/instagram-makes-smooth-move-python-3/"&gt;Instagram uses python&lt;/a&gt; 
-to handle it's hundreds of millions of requests. Python are also used in
+&lt;a href="https://thenewstack.io/instagram-makes-smooth-move-python-3/"&gt;Instagram uses Python&lt;/a&gt; 
+to handle its hundreds of millions of requests. Python is also used in
 scientific and academic fields&lt;/p&gt;
-&lt;p&gt;I have been using Python since 2002, and in many ways it has given me the
+&lt;p&gt;I have been using Python since 2002, and in many ways, it has given me the
 intellectual challenge I craved, allowed me the freedom to bring my imagination
-to life, and through PyCon, has allowed me to meet wonderful people.&lt;/p&gt;
+to life, and PyCon, has allowed me to meet wonderful people.&lt;/p&gt;
 &lt;h2&gt;My First PyCon, APAC 2010 in Singapore&lt;/h2&gt;
-&lt;p&gt;But a programming language is only as good as the people that uses it.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Python_Conference"&gt;PyCon&lt;/a&gt; is in essence a conference
-centered around the Python programming language. It's roots started with the first PyCon in
+&lt;p&gt;But a programming language is only as good as the people who use it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Python_Conference"&gt;PyCon&lt;/a&gt; is, in essence, a conference
+centred around the Python programming language. Its roots started with the first PyCon in
 Washington D.C in 2003 and has expanded to many parts of the world, from Europe, Japan,
 China, India, HK, Taiwan, Australia, New Zealand, Singapore and also Malaysia.&lt;/p&gt;
-&lt;p&gt;Up until 2010, before attending my first PyCon, I had been using python for fun
-and profit for 8 years. I find the language easy to use, has design that fits
+&lt;p&gt;Up until 2010, before attending my first PyCon, I had been using Python for fun
+and profit for 8 years. I find the language easy to use, has a design that fits
 with my mind and how I believe coding should be, and most importantly I enjoyed using
 it to build stuff.&lt;/p&gt;
 &lt;p&gt;So when I saw the poster for the first PyCon APAC in Singapore in 2010, I
 decided to meet the people behind it:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC 2010 Singapore" src="https://iqbalabdullah.net/images/pycons/pycon-apac-2010-poster.png"&gt;&lt;/p&gt;
-&lt;p&gt;I didn't know anyone there but I'd thought I'll just make new friends and see
+&lt;p&gt;I didn't know anyone there but I thought I'd just make new friends and see
 what other cool stuff everyone else was building. And made friends I did: I met up with
 three other participants from Japan: Manabu Terada
 (&lt;a href="https://twitter.com/terapyon?lang=en"&gt;@terapyon&lt;/a&gt;),
 Yasuhi Masuda(&lt;a href="https://twitter.com/whosaysni?lang=en"&gt;@whosaysni&lt;/a&gt;) and Ian
 Lewis(&lt;a href="https://twitter.com/ianmlewis?lang=en"&gt;@ianmlewis&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;And as it turns out, the chairperson for the first PyCon APAC in Singapore was Liew Beng Keat
+&lt;p&gt;As it turns out, the chairperson for the first PyCon APAC in Singapore was Liew Beng Keat
 (&lt;a href="https://twitter.com/bengkeatliew"&gt;@bengkeatliew&lt;/a&gt;) a Malaysian from Kuala
 Lumpur. We have more in common than I thought!&lt;/p&gt;
 &lt;h2&gt;Bringing PyCon to the region&lt;/h2&gt;
 &lt;p&gt;It was then that Beng Keat was telling me the reason he wanted to organize a
 regional version of PyCon APAC: Beng Keat had the opportunity to attend PyCon in
-the United States, and although he enjoyed the conference and came back englightened,
+the United States, and although he enjoyed the conference and came back enlightened,
 he also realized how prohibitive it is to travel from Asia to the United States
 and so he thought: &lt;em&gt;If we can't go to PyCon in the US, we'll bring
 PyCon here.&lt;/em&gt; And since Singapore was such a small place, it makes more sense to
@@ -442,27 +760,27 @@ make it a regional conference instead of just a local conference.&lt;/p&gt;
 &lt;p&gt;The concept of having a regional PyCon is in essence a very simple one, with a
 well defined purpose: We understand that nearly all of the advances made in
 technology by the programming language, new concepts and philosophy in thinking about the
-language and even how communities are organized towards a greater good for
-everyone at large originate mostly in the United States and Europe.&lt;/p&gt;
+language and even how communities are organized towards the greater good for
+everyone at large originates mostly in the United States and Europe.&lt;/p&gt;
 &lt;p&gt;If we cannot be in the United States to meet and listen to the great minds that shape
-the programming language, its community and its future, lets have those minds
+the programming language, its community and its future, let us have those minds
 here instead.&lt;/p&gt;
 &lt;p&gt;And at that first APAC PyCon in Singapore, one of the keynote speakers was &lt;a href="https://github.com/holdenweb"&gt;Steve
 Holden&lt;/a&gt;, who was the chairman for PSF&lt;sup id="fnref:fn02"&gt;&lt;a class="footnote-ref" href="#fn:fn02"&gt;2&lt;/a&gt;&lt;/sup&gt;, 
-who later on was a pivotal figure for the growth of PyCon within APAC.&lt;/p&gt;
+who later on was a pivotal figure in the growth of PyCon within APAC.&lt;/p&gt;
 &lt;h3&gt;Building the Japan PyCon community, circa 2011&lt;/h3&gt;
-&lt;p&gt;We invited Steve to come to Tokyo after APAC, and over dinner we talked about
-having an annual conference to get pythonistas from all over the country to come
-and share their work and discuss their ideas. Steve was instrumental in proding
-us, who had no experience at all running conferences, to actually take the idea
-seriously. Given also the fact that Python was still considered an obscure
+&lt;p&gt;We invited Steve to come to Tokyo after APAC, and over dinner, we talked about
+having an annual conference to get Pythonistas from all over the country to come
+and share their work and discuss their ideas. Steve was instrumental in providing
+us, who had no experience at all running conferences, to take the idea
+seriously. Given the fact that Python was still considered an obscure
 language in Japan as opposed to PHP, Java or Ruby, we were also sceptical that
-there will be any traction at all.&lt;/p&gt;
+there would be any traction at all.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabdullah.net/images/pycons/steve-holden-in-tokyo-02.jpg"&gt;
 &lt;strong&gt;Dinner with Steve in Roppongi&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Steve Holden in Tokyo" src="https://iqbalabdullah.net/images/pycons/steve-holden-in-tokyo-01.jpg"&gt;
 &lt;strong&gt;With Masuda-san and Takizawa-san&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Following that dinner with Steve, Terada-san, Masuda-san and myself met again on the
+&lt;p&gt;Following that dinner with Steve, Terada-san, Masuda-san and I met again on the
 1st of July 2010 in an underground Turkish restaurant in Shibuya and over dinner decided
 to have our first stab at a PyCon in Japan. We agreed to start small, and host
 APAC when we are ready.&lt;/p&gt;
@@ -470,34 +788,34 @@ APAC when we are ready.&lt;/p&gt;
 &lt;p&gt;We had our first &lt;a href="https://sites.google.com/site/pyconminijp/"&gt;&lt;em&gt;mini&lt;/em&gt; PyCon JP&lt;/a&gt; 
 on a cold January morning in 2011 at the Rakuten offices in Tokyo. I was 
 involved as the program manager, choosing talks and deciding the contents of the conference.
-130 people came for the mini conference, and we all had a great time listening
+130 people came for the mini-conference, and we all had a great time listening
 to talks, learning and making new friends. The conference was free, and everyone
 had bento for lunch provided by our generous sponsors.&lt;/p&gt;
-&lt;p&gt;Encouraged by the turnout and how the first conferece went, we then decided to
-have a major PyCon JP for the first time in that summer of 2011.&lt;/p&gt;
-&lt;p&gt;PyCon JP have been held every year around summer since then, and in 2016 our
+&lt;p&gt;Encouraged by the turnout and how the first conference went, we then decided to
+have a major PyCon JP for the first time in the summer of 2011.&lt;/p&gt;
+&lt;p&gt;PyCon JP has been held every year around summer since then and in 2016 our
 attendees topped 700 people.&lt;/p&gt;
 &lt;p&gt;Back to 2012: An issue that we faced after the second PyCon in 2012 was that it was getting
-too big, and the left over money from sponsors was getting too much to handle
-out from an individual account. We also needed a face for the public, and a
-definate entity that will take responsibility for managing the annual conference
+too big, and the leftover money from sponsors was getting too much to handle
+out from an individual account. We also needed a face for the public and a
+definite entity that will take responsibility for managing the annual conference
 in Japan. &lt;/p&gt;
-&lt;p&gt;Because of that, the non-profit PyCon JP was established in March 2013, which I
+&lt;p&gt;Because of that, the non-profit PyCon JP was established in March 2013, and I
 am still currently serving as part of the board members.&lt;/p&gt;
 &lt;p&gt;To prepare to host APAC, since 2012 we needed to give an international flavour for the
 conference, and we made it a point to have at least one track which will be in
 English only. This has attracted participation from nearby countries, such as
 South Korea and Taiwan.&lt;/p&gt;
-&lt;p&gt;To also attract interest from the public, and due to the fact that our
+&lt;p&gt;To also attract interest from the public, and because our
 non-profit run on money gained from public interests, we also made it a point to
 have an open non-profit general meeting during the local PyCons. It is here
-where we met other people which are thinking or are interested in running their
+where we met other people who are thinking or are interested in running their
 own PyCons.&lt;/p&gt;
 &lt;h3&gt;PyCon APAC in Japan, 2013&lt;/h3&gt;
-&lt;p&gt;Singapore had been organizing the APAC conference for 3 years in a row since
+&lt;p&gt;Singapore has been organizing the APAC conference for 3 years in a row since
 2010, and following the model of PyCon US of moving the venue to different cities
-every two year, for 2013 they approached us in Japan to take over APAC and organize
-it in Japan.&lt;/p&gt;
+every two years, 2013 they approached us in Japan to take over APAC and organize
+it is in Japan.&lt;/p&gt;
 &lt;p&gt;We have been preparing for this since 2011, so we agreed. Our Taiwan counterpart
 was also keen on running APAC, but after discussions they agreed to bid for
 2014 instead. &lt;/p&gt;
@@ -508,93 +826,92 @@ was also keen on running APAC, but after discussions they agreed to bid for
 &lt;li&gt;We have another host decided for 2014.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So in August 2013, we organized PyCon APAC in Shinjuku, Tokyo, and that is where
-we met all the many people that will spread PyCon across the region.&lt;/p&gt;
+we met all the many people who will spread PyCon across the region.&lt;/p&gt;
 &lt;h2&gt;The Asia Pacific Connection&lt;/h2&gt;
 &lt;p&gt;Regionally, we have a loosely knit community that drives PyCon APAC
 (Asia Pacific). Ideally, PyCon APAC is a regional conference that rotates
 between cities within the APAC region, and aims to be an international
-and bigger conference giving the opportunity to the regional python
+and bigger conference allowing the regional python
 community to come together at a more accessible and affordable location compared to
 having to travel to the United States or Europe.&lt;/p&gt;
 &lt;p&gt;After the APAC conference in Tokyo in 2013, there was consensus from the regional
 community representatives such as Singapore and South Korea which we managed to
 get in touch with when they came to APAC in Tokyo, to move the APAC conference to Taipei.&lt;/p&gt;
-&lt;p&gt;Since there was no other community which has shown interest to host APAC for
+&lt;p&gt;Since there was no other community which has shown interest in hosting APAC for
 2015, the conference stayed in Taipi until 2015.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/images/pycons/pycon-apac-tw-06-2015.jpg"&gt;
 &lt;strong&gt;With Van Lindberg, Chairperson for the PSF, Beng Keat, and our friends and staff organizing
 PyCon APAC TW in 2015.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The South Korean community, after having their first local PyCon in
-2015 stepped up to the plate to host APAC in 2016, and was succesful with over 1000 attendees.&lt;/p&gt;
+2015 stepped up to the plate to host APAC in 2016 and was successful with over 1000 attendees.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabdullah.net/images/pycons/apac-meeting-seoul-2015.jpg"&gt;
 &lt;strong&gt;A community meeting of representatives from the different countries in APAC
-during the 2016 APAC conference: KR, JP, VN, TW, PH, MY, HK and SG was present&lt;/strong&gt;&lt;/p&gt;
+during the 2016 APAC conference: KR, JP, VN, TW, PH, MY, HK and SG were present&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC meeting in Seoul 2016" src="https://iqbalabdullah.net/images/pycons/pycon-apac-seoul-2016-group.jpg"&gt;
 &lt;strong&gt;Group picture after the community meeting&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The regional communities have done a wonderful job to boost their local PyCon
-conferences to be a well known annual event to gather and share knowledge among
-their Python users. The regional APAC conferences has also proved to be a
-platform where new community leaders from neighbouring countries come to connect
+&lt;p&gt;The regional communities have done a wonderful job of boosting their local PyCon
+conferences to be a well-known annual event to gather and share knowledge among
+their Python users. The regional APAC conferences have also proved to be a platform where new community leaders from neighbouring countries come to connect
 and learn how to organize their own local PyCons.&lt;/p&gt;
 &lt;p&gt;We make it a point to reach out to fellow community members from countries which up until now
-have no representation in our loose group, like Myanmar or Vietnam.  I've seen fellow pythonistas
+have no representation in our loose groups, like Myanmar or Vietnam.  I've seen fellow Pythonistas
 who came to a PyCon APAC for the first time, and their eyes light up and they smile and say
 now they want to start something in their city and their community after
 experiencing the conference.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/images/pycons/dylan-jay-bangkok.jpg"&gt;
 &lt;strong&gt;Meeting up with Dylan Jay in Bangkok. Dylan is the former lead for the Sydney
 Python Users Group&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The collective knowledge of all of us help to remove some anxiety and help guide
+&lt;p&gt;The collective knowledge of all of us helps to remove some anxiety and helps guide
 them on what are the points that they'll need to keep in mind to start something
-for their own city, from organizing know-how to even getting sponsorship
-funding. The PSF in this regard have been supportive in providing grants and
-also speakers to the APAC conferences.&lt;/p&gt;
-&lt;h3&gt;Connecting pythonistas in Malaysia&lt;/h3&gt;
+for their city, from organizing know-how to even getting sponsorship
+funding. The PSF in this regard has been supportive in providing grants and
+also speakers at the APAC conferences.&lt;/p&gt;
+&lt;h3&gt;Connecting Pythonistas in Malaysia&lt;/h3&gt;
 &lt;p&gt;After helping out with running PyCon in Japan, I realized that all the PyCons
 that we had in the APAC region has all been on the north-eastern part of Asia
-Pacific, with the exception of Singapore, but all of them were either cost or time
+Pacific, except Singapore, but all of them were either cost or time
 prohibitive to the rest of Asia Pacific.&lt;/p&gt;
-&lt;p&gt;And that begin my next project: To kickstart an annual PyCon in Malaysia grown
+&lt;p&gt;And that begins my next project: To kickstart an annual PyCon in Malaysia grown
 for the locals, from the locals, and bring APAC and the rest of the world to Kuala Lumpur.&lt;/p&gt;
-&lt;p&gt;My aim is to have an APAC conference here in Kuala Lumpur as I believe, compared
+&lt;p&gt;I aim to have an APAC conference here in Kuala Lumpur as I believe, compared
 to the north-east of Asia Pacific, a conference here will be more accessible to
 much more people.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;If we can't go to PyCon, we'll get PyCon here.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;In Malaysia, the history of PyCon started in 2014 where we had our
+&lt;p&gt;In Malaysia, the history of PyCon started in 2014 when we had our
 first mini PyCon (1 day, single track and 70 people attended) and
 continued with PyCon MY 2015 (2 days, 2 tracks and around 140 people
-attended) and PyCon MY 2016 (2 days, 2 track and around 100 people
+attended) and PyCon MY 2016 (2 days, 2 tracks and around 100 people
 attended). I was involved as the co-chair and finance person for the mini
 PyCon 2014, the chair for PyCon MY 2015, and co-chair again in 2016.&lt;/p&gt;
-&lt;p&gt;You can read more on us at &lt;a href="https://pycon.my/"&gt;https://pycon.my/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can read more about us at &lt;a href="https://pycon.my/"&gt;https://pycon.my/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;But before we start running an international conference like the APAC, we need
-to know &lt;em&gt;how&lt;/em&gt; to at least run a conference. Having local experienced people to organizing
+to know &lt;em&gt;how&lt;/em&gt; to at least run a conference. Having local experienced people to organise
 conferences will also allow us to convince the other regional members that we
 are up to the job.&lt;/p&gt;
 &lt;p&gt;In 2014 there was already a loose group of Python users, who had meetups once every
 2 or 3 months mainly around the Kuala Lumpur area, usually attended by more or less 10 people.
-As is common for any non-profit, grass-roots volunteer driven small meetups with no
+As is common for any non-profit, grass-roots volunteer-driven small meetups with no
 monetary or marketing support from commercial entities, these meetups were mostly
 attended by the same group of people and before long you'll have organizers burning out,
 running out of steam and also things to talk about.&lt;/p&gt;
-&lt;p&gt;The de-facto organizer for these meetups then was Swee Meng, and I met him the first
+&lt;p&gt;The de-facto organizer for these meetups then was Swee Meng, and I met him for the first
 time at one of Singapore's PyCon. When I suggested to him an annual PyCon for Malaysia,
 he was sceptical at first, given his bitter experience with user meetups. He was not convinced
-that people will come, but I told him that that is beside the point. If only 10 or
-20 people come, so be it. That will be our Malaysian PyCon. Either way it goes,
+that people would come, but I told him that that was beside the point. If only 10 or
+20 people come, so be it. That will be our Malaysian PyCon. Either way, it goes,
 that will be our learning experience, and we'll see where that leads us.&lt;/p&gt;
 &lt;p&gt;Since our first mini PyCon in 2014, many people have helped us, especially the
 kind generosity of venue providers, like iTrain, University Malaya and
 International University of Malaya-Wales. Nearly all the time we've had help
-from the academic staff of the universities who do use Python as a learning tool
-and wanted their own students to get involved in academic conferences like
+from the academic staff of the universities who use Python as a learning tool
+and wanted their students to get involved in academic conferences like
 PyCon.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="mini PyCon MY 2014" src="https://iqbalabdullah.net/images/pycons/mini-pycon-my-2014.jpg"&gt;
 &lt;strong&gt;Our keynote for mini PyCon MY, &lt;a href="http://ericholscher.com/"&gt;Eric Holscher&lt;/a&gt; giving
 his talk. Eric was in Kuala Lumpur for vacation and also decided to
 contribute.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon APAC dinner in Taipei" src="https://iqbalabdullah.net/images/pycons/pycon-my-um-02-08-2015.jpg"&gt;
-&lt;strong&gt;Members of PyCon JP coming in to support our first PyCon MY in University
+&lt;strong&gt;Members of PyCon JP coming in to support our first PyCon MY in the University
 Malaya&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon MY 2015" src="https://iqbalabdullah.net/images/pycons/pycon-my-2015-hello.jpg"&gt;
 &lt;strong&gt;Kicking off PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
@@ -602,28 +919,28 @@ Malaya&lt;/strong&gt;&lt;/p&gt;
 &lt;strong&gt;A group picture at the end of PyCon MY 2015.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon MY 2016" src="https://iqbalabdullah.net/images/pycons/pycon-my-2016-group.jpg"&gt;
 &lt;strong&gt;And the group picture at the end of PyCon MY 2016.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;As if coming to a full circle, one of the keynote speaker for the first APAC in
+&lt;p&gt;As if coming to a full circle, one of the keynote speakers for the first APAC in
 Singapore in 2010 (Steve Holden), and another keynote speaker for the first PyCon JP in 2011
 (&lt;a href="https://ziade.org/resume.html"&gt;Tarek Ziadé&lt;/a&gt;, who works remotely in the bushes of Dijon, for Mozilla)
-was our keynote speakers in 2016.&lt;/p&gt;
-&lt;p&gt;I am happy to report that Tarek enjoyed his first ever durian here in Kuala Lumpur when keynoting for us.&lt;/p&gt;
-&lt;p&gt;Following the model that we did in Japan, we have also setup a &lt;a href="https://pycon.my/about/pycon-my-plt/"&gt;partnership&lt;/a&gt;
+was our keynote speaker in 2016.&lt;/p&gt;
+&lt;p&gt;I am happy to report that Tarek enjoyed his first-ever durian here in Kuala Lumpur when keynoting for us.&lt;/p&gt;
+&lt;p&gt;Following the model that we did in Japan, we have also set up a &lt;a href="https://pycon.my/about/pycon-my-plt/"&gt;partnership&lt;/a&gt;
 in Malaysia to facilitate managing funds and also as a public-facing entity to be
 responsible for managing PyCon in Malaysia.&lt;/p&gt;
 &lt;h4&gt;The local sponsors&lt;/h4&gt;
 &lt;p&gt;Our local sponsors who have supported us until now are mostly small companies with
-personal relations to one of the member of the staff, that uses Python in their
+personal relations to one of the members of the staff, that uses Python in their
 products or day-to-day operations. These companies are the most generous. They
 do not sponsor large amounts, but they are always ready
 to give a helping hand. I believe they are the ones who truly understand
-and appreciate how difficult it is to organize such a conference, and the value
-that it will bring to them and to the community.&lt;/p&gt;
-&lt;p&gt;For our 1st local PyCon we did have big name companies that sponsored us, like
+and appreciate how difficult it is to organize such a conference and the value
+that it will bring to them and the community.&lt;/p&gt;
+&lt;p&gt;For our 1st local PyCon, we did have big-name companies that sponsored us, like
 Amazon Web Services (AWS) and &lt;a href="https://www.braintreepayments.com/"&gt;Braintree&lt;/a&gt; a 
-subsidiary of PayPal. But the young and still inexperienced Python crowd in Malaysia
+subsidiary of PayPal. However, the young and still inexperienced Python crowd in Malaysia
 might not be a compelling reason yet for them to continue sponsoring.&lt;/p&gt;
 &lt;h2&gt;PyCon APAC in Kuala Lumpur&lt;/h2&gt;
-&lt;p&gt;For 2017, after making a proposal to the APAC community, we have been
+&lt;p&gt;For 2017, after proposing the APAC community, we have been
 selected to hold the responsibility of having PyCon APAC 2017 in Kuala Lumpur,
 which will be held in August.&lt;/p&gt;
 &lt;p&gt;What I would like to take the opportunity to highlight here is the
@@ -632,31 +949,31 @@ universities, student volunteers, local companies and most of all the
 people that make up the community itself.&lt;/p&gt;
 &lt;p&gt;Personally in the Malaysian context, I believe we need more makers or
 programmers in our ecosystem. I feel that we focus too much on the
-business side of things, with "business focused" conferences like
+business side of things, with "business-focused" conferences like
 match-making or raising venture capital. But these are all moot without the
 actual people and know-how to build what we want to sell. PyCon MY is
 that small ripple we're making to have a positive contribution to the
 overall builders and programming ecosystem.&lt;/p&gt;
 &lt;p&gt;With the title of being a regional conference, we now have the clout to invite
-successful technology practicioners from overseas to give talks and share their
+successful technology practitioners from overseas to give talks and share their
 insights and ideas with the local crowd. This will hopefully spark interest and motivate
 them to further improve their skills and knowledge.&lt;/p&gt;
 &lt;h2&gt;Changing the world one PyCon at a time&lt;/h2&gt;
 &lt;p&gt;Through PyCon, the community also tries to practice common ground principles
-based on universally accepted ideas and ideals. All regional or local PyCons which requests
-grants from the PSF &lt;a href="http://pyfound.blogspot.jp/2012/12/psf-moves-to-require-code-of-conduct.html"&gt;are required to have a &lt;em&gt;Code Of Conduct&lt;/em&gt;&lt;/a&gt; that governs how they organizers manage the conference, &lt;em&gt;and&lt;/em&gt; 
-also how the attendess behave and interact with one another during the conference.&lt;/p&gt;
-&lt;p&gt;These Code Of Conducts reflect the values of the community and what they think
+based on universally accepted ideas and ideals. All regional or local PyCons which request
+grants from the PSF &lt;a href="http://pyfound.blogspot.jp/2012/12/psf-moves-to-require-code-of-conduct.html"&gt;are required to have a &lt;em&gt;Code Of Conduct&lt;/em&gt;&lt;/a&gt; that governs how the organizers manage the conference, &lt;em&gt;and&lt;/em&gt; 
+also how the attendees behave and interact with one another during the conference.&lt;/p&gt;
+&lt;p&gt;These Code Of Conduct (CoC) reflects the values of the community and what they think
 is important. Not all talks during PyCons are about programming, web frameworks
 or libraries: Some of them are about the experiences of the speaker walking the
-path to become a female developer in an industry widely regarded as male dominated,
+path to become a female developer in an industry widely regarded as male-dominated,
 or the need to have more diversity and how it's achieved through free community
 training programs.&lt;/p&gt;
-&lt;p&gt;Focused groups like PyLadies (python group focused on women),
+&lt;p&gt;Focused groups like PyLadies (a Python group focused on women),
 DjangoCon (Conference focused on the Django framework) and SciPy
-(Conference for the users of python in the academics and science
+(Conference for the users of Python in academics and science
 fields) also all contribute to these same ideas and ideals while adding more
-spice to the already vibrant python community. In all this PyCon is the general
+spice to the already vibrant Python community. In all this PyCon is the general
 conference that tries to cover many usages of Python.&lt;/p&gt;
 &lt;p&gt;Following the spirit of the community at large and the values and ideals that we
 try to have, for APAC this year and for the first time in the history of PyCon in Malaysia,
@@ -668,25 +985,25 @@ we are trying a few new things, such as&lt;/p&gt;
 &lt;li&gt;Reducing waste&lt;/li&gt;
 &lt;li&gt;Subsidized ticketing&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The Financial Aid, tie up with WHC and subsidized ticketing all aims to increase
-participation from under represented groups who could not have attended the
+&lt;p&gt;The Financial Aid, tie-up with WHC and subsidized ticketing all aim to increase
+participation from underrepresented groups who could not have attended the
 conference due to financial reasons, or also from female tech communities, which
 historically have little participation in tech conferences locally.&lt;/p&gt;
 &lt;p&gt;So in a way, PyCons are not &lt;em&gt;only just&lt;/em&gt; a technical conference that you might
-expect from practicioners of a certain technology: It's also sort of a social
+expect from practitioners of a certain technology: It's also sort of a social
 movement. Although in PyCons you do have booths for companies the commercial
 aspects are very much watered down (as opposed to RISE or Web Summit).&lt;/p&gt;
-&lt;p&gt;With the PyCon and it's culture blooming in this part of the world, I
-hope it will continue to be a place pythonistas regardless of experience
+&lt;p&gt;With the PyCon and its culture blooming in this part of the world, I
+hope it will continue to be a place Pythonistas regardless of experience
 continue to meet, exchange ideas, interact and grow.&lt;/p&gt;
 &lt;p&gt;In essence, the aim of a conference like a PyCon, similar to the experience museums
-or art galleries offer is to enlighten you and transform you to a different person intellectually
-from that person that you were before attending the conference. In the context of
+or art galleries offer is to enlighten you and transform you into a different person intellectually
+from the person that you were before attending the conference. In the context of
 conferences, this is mostly achieved from the human interaction that you've
-achieved listening to and discussing about talks and interacting with other attendees.
-These transformations does not have to be huge leaps. Knowledge transfers take
+achieved by listening to and discussing talks and interacting with other attendees.
+These transformations do not have to be huge leaps. Knowledge transfers take
 time and require us to work on the new information many times in our minds before we can fully
-appreciate and understand them.&lt;/p&gt;
+appreciate and understand it.&lt;/p&gt;
 &lt;p&gt;Changing the world starts here, by us, one good idea at a time and through one PyCon at a time.&lt;/p&gt;
 &lt;div class="footnote"&gt;
 &lt;hr&gt;
@@ -699,7 +1016,349 @@ appreciate and understand them.&lt;/p&gt;
 intellectual rights of Python&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn02" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content><category term="2017"></category><category term="pycon"></category><category term="japan"></category><category term="malaysia"></category><category term="apac"></category><category term="community"></category><category term="kuala lumpur"></category></entry><entry><title>KTMB should follow right train of thought</title><link href="https://iqbalabdullah.net/posts/2009/12/ktmb-should-follow-right-train-of-thought/" rel="alternate"></link><published>2009-12-25T10:00:00+09:00</published><updated>2009-12-25T10:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2009-12-25:/posts/2009/12/ktmb-should-follow-right-train-of-thought/</id><summary type="html">&lt;p&gt;Why KTMB still in the red&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was an &lt;a href="http://bit.ly/TxHZCy"&gt;email&lt;/a&gt; I sent to The Star on Christmas Day 2009 about how terrible
+&lt;/div&gt;</content><category term="2017"></category><category term="pycon"></category><category term="japan"></category><category term="malaysia"></category><category term="apac"></category><category term="community work"></category><category term="kuala lumpur"></category></entry><entry><title>Disunity via Schools</title><link href="https://iqbalabdullah.net/posts/2017/05/disunity-in-malaysian-schools/" rel="alternate"></link><published>2017-05-28T11:40:00+09:00</published><updated>2017-05-28T11:40:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-05-28:/posts/2017/05/disunity-in-malaysian-schools/</id><summary type="html">&lt;p&gt;My thoughts after listening to BFM's TALKBACK THURSDAY: UNITY IN SCHOOLS&lt;/p&gt;</summary><content type="html">&lt;p&gt;The question of Malaysia's schools not doing its part in fostering unity among
+Malaysians have been brought up again due to TN50&lt;sup id="fnref:Ref1"&gt;&lt;a class="footnote-ref" href="#fn:Ref1"&gt;1&lt;/a&gt;&lt;/sup&gt;, and Business FM did a program to
+source opinions from the general public.&lt;/p&gt;
+&lt;p&gt;I followed the podcast on &lt;a href="http://www.bfm.my/talkback-thursday-unity-in-schools.html"&gt;BFM's TALKBACK THURSDAY: UNITY IN SCHOOLS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It was an enlightening podcast that puts light on the thoughts and feelings of the
+general public on where they think the schooling institutions in Malaysia should
+head in the context as a tool to promote social unity. &lt;/p&gt;
+&lt;p&gt;Read &lt;a href="https://en.wikipedia.org/wiki/Education_in_Malaysia"&gt;Education in Malaysia&lt;/a&gt; for a 
+quick primer on the history of schools in Malaysia, or search for &lt;a href="https://www.google.co.jp/search?q=controversy+vernacular+schools+malaysia&amp;amp;oq=controversy+vernacular+schools+malaysia&amp;amp;aqs=chrome..69i57.6788j0j7&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8#q=pros+and+cons+of+vernacular+school"&gt;controversy of vernacular schools 
+in Malaysia&lt;/a&gt;
+for some more background reading. The &lt;a href="http://penanginstitute.org/v3/resources/articles/statistics/714-demographics-of-a-diverse-malaysia"&gt;Penang
+Institute&lt;/a&gt;
+also has data on the diverse demographics of children attending the different
+schools. &lt;a href="https://en.wikipedia.org/wiki/Tony_Pua"&gt;Tony Pua&lt;/a&gt; also
+&lt;a href="http://educationmalaysia.blogspot.jp/2007/03/national-vs-vernacular-schools.html"&gt;wrote&lt;/a&gt;
+about vernacular schools with insights on how the vernacular school
+educationists look at the rhetoric of their schools being the reason for our
+disunity.&lt;/p&gt;
+&lt;h2&gt;The current times question the difference&lt;/h2&gt;
+&lt;p&gt;By and large, the callers supported a single-stream school, but many with
+caveats, such as pointing to the failures of the so-called national school to be
+to be regarded as a symbol of excellence and is part of to blame for the rise of
+so-called vernacular schools.&lt;/p&gt;
+&lt;p&gt;A Twitter poll by BFM also suggested that the majority who took the poll
+supported a single-stream school:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="BFM's Poll for Single Stream School" src="https://iqbalabdullah.net/images/bfm-single-stream-school-unity.png"&gt;&lt;/p&gt;
+&lt;p&gt;I have my thoughts on schools in Malaysia, and their perceived position as a
+tool for national unity.&lt;/p&gt;
+&lt;h2&gt;Why is education a partisan issue?&lt;/h2&gt;
+&lt;p&gt;Education for our children, by itself, is a subject that we should all agree on. &lt;em&gt;All&lt;/em&gt; of us want the best for our children. We want them to have
+good grades, enjoy school life, eat nutritional food at school and grow up a
+happy, compassionate, intelligent and balanced child. But this issue now has become a partisan
+issue.&lt;/p&gt;
+&lt;p&gt;I am also sure that we all agree that as a nation, a good education for our children is an
+an important part of building the future of our nation.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it has become a partisan issue when we take things which are not directly
+related to education that aims to develop our children into balanced human
+being, such as racial or religious identity into the equation.&lt;/p&gt;
+&lt;p&gt;Racial or religious identity is exclusive to a particular person or group in the society
+and these are the things that put us apart instead of bringing us together.
+When we bring these identities to the public sphere and relate to them it will
+of course, creates exclusivity and if it's something that not all of us can strive to be (like
+race for example) then it will eventually create resentment.&lt;/p&gt;
+&lt;p&gt;Of course, there is absolutely nothing wrong with being a Dayak who is a Buddhist
+a half-Thai half-Chinese Christian or a Javanese half-Bajau Muslim. All are
+Malaysians and all want a better future.&lt;/p&gt;
+&lt;p&gt;In the context of our children what is important is that they know that these people 
+exist in our society. They are our neighbours, the people that we see at shops, buy things
+from, and sell things to. They are the ones whom we should help when they ask for
+help, and they are also the ones who will help us when we need help.
+They too want their children to grow up compassionate, intelligent and healthy
+member of society.&lt;/p&gt;
+&lt;p&gt;Unless we can scientifically prove that excellence is born in a certain race, 
+it doesn't make any sense to insist a person of a certain skin colour is
+only eligible to run a certain public school. &lt;/p&gt;
+&lt;p&gt;Instead of trying to satisfy nonsense demands and requirements that do not
+improve the education level of our children, our public education should 
+refocus itself on what is universally important to the growth of a child to become 
+a young adult capable of thinking for herself what is good for her future, 
+regardless of skin colour or faith.&lt;/p&gt;
+&lt;h2&gt;The public school focus is on education, and not just a tool to unite society&lt;/h2&gt;
+&lt;p&gt;Look at it another way: The current rhetoric that we're seeing also
+says that part of the blame for our national disunity is on schools, but when in fact schools in
+Its pure form should only be focusing on giving education to our children.&lt;/p&gt;
+&lt;p&gt;The subject of national unity is &lt;em&gt;beyond&lt;/em&gt; our public schools and doesn't stop
+there. Our 7-year-old child starting her formal education doesn't care what skin
+colour she is, or what colour her new friend that'll be sitting next to her in
+class will be.&lt;/p&gt;
+&lt;h1&gt;Disunity is not a problem that the schools started&lt;/h1&gt;
+&lt;p&gt;Every child when born doesn't know what race or religion is. If they know that
+they are &lt;em&gt;different&lt;/em&gt; from other people and should only stick to their kind the time 
+they get to primary school, then the problem of disunity has started even before
+getting to the schools. How would we expect schools to solve a problem which it
+did not start?&lt;/p&gt;
+&lt;p&gt;Don't make our public schools one of the scapegoats of our inability to get our
+act together, and don't expect the schools to solve a problem it did not
+start.&lt;/p&gt;
+&lt;h1&gt;Focusing on good education and it's resources&lt;/h1&gt;
+&lt;p&gt;To achieve the level of education that we expect for our children requires us to
+step back and reassess the ability of us to educate them the way we want them to
+be. It is a fool's errand to say that we want the best when we are only willing
+or able to move forward at a mediocre level.&lt;/p&gt;
+&lt;p&gt;Having capable teachers, and teachers who can focus only on teaching without
+being burdened with administrative tasks is a no-brainer and I know we are aware 
+of the need to focus and fix these problems.&lt;/p&gt;
+&lt;p&gt;One other aspect that has not been discussed though is the fact that we're
+spreading our resources thin due to political pressure based on racial or
+religious identity instead of educational needs.&lt;/p&gt;
+&lt;p&gt;For example, if a child wants to learn a particular language, why would she
+need to go to a vernacular school to do so? Why shouldn't we allow &lt;em&gt;all&lt;/em&gt; our children to learn these different languages at any
+school that they go to?&lt;/p&gt;
+&lt;p&gt;The only obvious reason this is happening is that we don't
+have enough capable teachers to go around all of our schools.&lt;/p&gt;
+&lt;p&gt;It does not make rational or scientific sense to say we need a different
+school stream just to learn a language.&lt;/p&gt;
+&lt;p&gt;Instead of having teachers assigned to different schools all over the
+country, we should have a lesser amount of schools. The different languages, or
+subjects that are being taught differently at vernacular schools should be
+made available and taught at all the schools that we have.&lt;/p&gt;
+&lt;p&gt;What works at the better schools should be shared and emulated among other
+schools, increasing the education level bar evenly across all our schools.&lt;/p&gt;
+&lt;p&gt;Robin, one of the callers pointed out that vernacular schools strive because they do
+offer something or maybe even do something better which is missing from the national schools.
+We should figure this out, and emulate them in all our schools.&lt;/p&gt;
+&lt;p&gt;It makes sense to have a single-stream school, where everyone can learn all
+these different languages with everyone else. We will have a single budget, and
+a single focus on education, practicing best practices learned via a single way to run
+all our schools, with less overhead burden due to the different wants or
+political needs that have nothing to do with a good education. Our teaching resources will be
+more focused on teaching rather than being bogged down by non-educational matters.&lt;/p&gt;
+&lt;p&gt;Within the public education sphere, languages should be regarded as just
+another tool to communicate and to educate our children, and are
+just subjects to be learned instead of them being symbols of racial or religious
+identities.&lt;/p&gt;
+&lt;h2&gt;Mixed signals: It's confusing and it's insane&lt;/h2&gt;
+&lt;p&gt;Judging from the perspective that our general public is viewing our school
+system, we're not doing very well. Most of us complain that our children are
+being burdened by more and more things to learn, and at the same time, they are
+not getting to know one another any better.&lt;/p&gt;
+&lt;p&gt;Year in and year out, we focus on the amount of &lt;em&gt;As&lt;/em&gt; that our children get, how
+many did not get the scholarship that they wanted, how many couldn't speak good
+English, and how they are getting more and more polarised day by day.&lt;/p&gt;
+&lt;p&gt;But the fact is in essence we're not changing the way we're teaching our
+children. We think we educate them by adding all these new information
+and subjects at school for them to pass exams, and we think we're giving them
+"education", but are we?&lt;/p&gt;
+&lt;p&gt;When we read the news of children killing themselves because they did not get
+the results that they wanted, we raise our hands and say what have we done? &lt;/p&gt;
+&lt;p&gt;But we continue to demand as if this is the only way forward and complain
+when there are not enough places in the universities because tens of thousands of
+other children also received more &lt;em&gt;As&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The same goes for putting the schools as a scapegoat for our disunity. We say we want
+our people to unite and be treated as one and as equals, but when we say all our
+schools should be one and all our children learn under a single roof, we raise
+our hands and shout and say that &lt;em&gt;we need to protect culture&lt;/em&gt; and it's &lt;em&gt;racism
+and discrimination&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We are just making our children confused by saying something and doing something
+else. They will just grow up cynical and untrusting of the adults they see, and
+worse, they will grow up &lt;em&gt;into&lt;/em&gt; those same adults.&lt;/p&gt;
+&lt;p&gt;Now, sixty years down the road when we started with our current formula of
+education, have we achieved in terms of quality or strength among our society
+that we wanted to achieve at that time? Just judging from what our society is
+debating right now, it does not seem so. &lt;/p&gt;
+&lt;p&gt;If we expect different results now, but without changing the approach we have been
+taking all this while, we are insane!&lt;/p&gt;
+&lt;h2&gt;Our multiculturalism does not die with the schools.&lt;/h2&gt;
+&lt;p&gt;It dies when we only care about our lot.&lt;/p&gt;
+&lt;p&gt;Remove all references to a particular language or race type of school, 
+from vernacular schools, the Malay College to the MRSM schools by MARA&lt;sup id="fnref:footnote1"&gt;&lt;a class="footnote-ref" href="#fn:footnote1"&gt;2&lt;/a&gt;&lt;/sup&gt; 
+schools and make all these schools accessible without prejudice to any child of Malaysia.&lt;/p&gt;
+&lt;p&gt;If we want to play divisive politics and call out each other by their skin
+colour, fine. But leave our children and &lt;em&gt;their&lt;/em&gt; schools out of it.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:Ref1"&gt;
+&lt;p&gt;&lt;a href="https://mytn50.com/?language=eng"&gt;TN50&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:Ref1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:footnote1"&gt;
+&lt;p&gt;Ironically &lt;strong&gt;Majlis Amanah Rakyat&lt;/strong&gt;, despite it's name, doesn't seem to
+consider non-bumiputras as &lt;em&gt;rakyat&lt;/em&gt; to be helped as its mandate is focused only on helping bumiputras&amp;#160;&lt;a class="footnote-backref" href="#fnref:footnote1" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2017"></category><category term="malaysia"></category><category term="education"></category><category term="current affairs"></category><category term="national unity"></category><category term="bfm"></category></entry><entry><title>Malaysia's Brain Drain Dilemma</title><link href="https://iqbalabdullah.net/posts/2017/01/the-malaysian-brain-drain-dilemma/" rel="alternate"></link><published>2017-01-28T11:00:00+09:00</published><updated>2017-01-28T11:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2017-01-28:/posts/2017/01/the-malaysian-brain-drain-dilemma/</id><summary type="html">&lt;p&gt;My take on the Malaysian brain-drain dilemma&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;This is the original article which was published on 28th Feb 2017 in The Malay Mail Online
+titled &lt;a href="http://m.themalaymailonline.com/what-you-think/article/believing-in-malaysias-future-and-potential-iqbal-abdullah"&gt;Believing in Malaysia’s Future and
+potential&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://m.themalaymailonline.com/malaysia/article/the-other-side-of-malaysias-brain-drain-story"&gt;This&lt;/a&gt; 
+article concerning Malaysia's brain drain phenomena on The Malay Mail Online 
+brought me thinking on this fine Saturday morning on the 1st day of the
+New Lunar Year, and I want to write about what I think of the &lt;em&gt;Malaysian Brain Drain Dilemma&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Malaysia spends time, money and effort to attract Malaysians overseas to return
+to Malaysia and contribute back to the country. The idea of getting people to
+contribute to the development of the country is on the right track: Heck, it's
+the only track that we have! There are no alternatives to &lt;em&gt;not
+wanting people&lt;/em&gt; to contribute.&lt;/p&gt;
+&lt;p&gt;On the other hand, I do not see the point of getting &lt;em&gt;Malaysians to Malaysia&lt;/em&gt; to achieve that. I feel the narrative of showing better lives for
+Malaysians who returned home after years away, or Malaysians who succeeded
+&lt;em&gt;because&lt;/em&gt; they left home is missing the point.&lt;/p&gt;
+&lt;h2&gt;In the 21st century you can be anywhere and still contribute&lt;/h2&gt;
+&lt;p&gt;First, improvements in infrastructure, information technology and travel make
+it possible for any of us to be anywhere on this planet. In 8 hours you
+can be in Helsinki or if you spend 30 hours, you can be in Buenos Aires. You can
+communicate via email, share information on websites and discuss ideas face-to
+face via Hangouts or Facetime.&lt;/p&gt;
+&lt;p&gt;People who want to contribute to something are passionate about what they do and 
+will know that they want to contribute. The missing piece is the effort that we
+spend to identify these people, reach out to them and connect them to like-minded
+people or institutions that can help them amplify their contributions.&lt;/p&gt;
+&lt;p&gt;TalentCorp says they have approved 4000 people within 5 years since
+2011. Malaysians overseas are estimated at 1 million people, which translates to
+only 0.004%. Is 1000 per year of people enough to contribute? Is 0.004% an
+acceptable acceptance rate after 5 years? Are we doing too little, or is this too much?&lt;/p&gt;
+&lt;p&gt;Perhaps TalentCorp's mandate is to identify and attract talents with skills that
+can only be utilized if they are present in the country like surgeons to do
+surgery. But we know contributing to something is more than that, and we need all the help
+we can get, not only from the sciences but also from engineering and arts.&lt;/p&gt;
+&lt;p&gt;We also must not forget the homegrown talents and people that are doing
+wonderful jobs. Overseas Malaysians have different backgrounds, ideas and
+approaches to the same problem we all have and these differences are what we
+want to be accessible to our homegrown talents. They can learn from each other,
+improve and make something better together. Creating the missing piece of connecting
+these dots between locals and abroad Malaysiams is where we should put more effort in,
+regardless if the overseas talent will be coming home or not.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img alt="The writer checking email in front of Mont Saint Michel" src="https://iqbalabdullah.net/images/montsaintmichel.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;This is a picture of the writer checking his email taken in front of Mont Saint Michel&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Home is where the heart is&lt;/h2&gt;
+&lt;p&gt;The second part is the most important factor of all: Where we call home. &lt;/p&gt;
+&lt;p&gt;Home is not where we were born. Making a place home is a self-conscious
+decision based on the different situations, personalities and opportunities of any
+given individual. This should and must be the overarching target for any 
+returning program that we want to carry out: &lt;strong&gt;Making Malaysia home.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Once someone calls a place home, the good and the bad will be taken in stride.
+It is human nature to better their own home, for themselves and the generations
+to come, and when we can get people who want to contribute calling Malaysia
+their home, it will be a sustainable success story.&lt;/p&gt;
+&lt;p&gt;However, based on the article above, some individuals would return 
+to Malaysia because they did not find the bed or roses they thought were waiting
+for them wherever they were:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Who cares if there’s corruption and crime in Malaysia? I just go back, make
+heaps of money, and then live in a condo with proper security. Solved. Whereas
+here, I’m just an average Joe, and I’m struggling just to keep my head above
+water".  - See more at:
+&lt;a href="//m.themalaymailonline.com/malaysia/article/the-other-side-of-Malaysia's-brain-drain-story#sthash.Z6zLaSYD.dpuf"&gt;http://m.themalaymailonline.com/malaysia/article/the-other-side-of-malaysias-brain-drain-story#sthash.Z6zLaSYD.dpuf&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;These people do not call Malaysia their home. Making money is their intention,
+and when there are better opportunities elsewhere, they move on. What we should
+focus on for the long term are the stayers, the builders and the committed.&lt;/p&gt;
+&lt;p&gt;Given this is what we agree to, to make Malaysia home, the next big question is: 
+&lt;em&gt;How do you convince people to call Malaysia their home?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;First, let's think of &lt;em&gt;what makes a good home?&lt;/em&gt;. You would not want to
+live in a home that is fighting all the time. You do not want to live in a home
+that is wrapped in poisonous polluting gasses. You &lt;em&gt;want&lt;/em&gt; to live in a home that
+is peaceful, clean and conducive to health.&lt;/p&gt;
+&lt;p&gt;We should accept and understand that the universal values that attract human beings 
+with a purpose applies and this is where we should concentrate our effort: 
+The values of justice, fairness, equality, fair reward for hard work, 
+a genuine effort for betterment, a chance to better oneself, rule of law: 
+Similar to the so-called &lt;strong&gt;The American Dream&lt;/strong&gt;, a slogan that made
+America is the place to be for all people having dreams of a better future.&lt;/p&gt;
+&lt;p&gt;We do have an upper hand over overseas Malaysians to call Malaysia home, as they 
+have family, roots and an eternal love for Malaysian food. But we should not take 
+those for granted. More things need to be done. &lt;/p&gt;
+&lt;h3&gt;And then it's not only Malaysians&lt;/h3&gt;
+&lt;p&gt;Let's face it: Globalisation means people, capital and goods will move around at
+a much easier and faster pace than it has ever before. Our competition is no
+longer our neighbours like Singapore, Thailand or Indonesia, but it's New York,
+Rio de Janeiro, Beirut, Paris or even Banjul. It's not countries anymore but cities: 
+Cities now try to attract the best people from anywhere around the world to come and live there.
+If people do not want to stay in Kuala Lumpur, all of these other cities will
+woo them and are more than happy to welcome their wealth, expertise and passion.
+The faster we realize this, the better it is for us.&lt;/p&gt;
+&lt;p&gt;The point here is that when we get our head around at aiming to make Malaysia our
+home, the universal values that apply to a good home will apply and attract many more
+people, regardless of nationality, colour and creed. This is what makes a
+country great: People believing in it and wanting to participate in its growth
+process. All these believers will come, and call Malaysia their home.&lt;/p&gt;
+&lt;p&gt;And when we reach this stage, we will be on a different playing field altogether. 
+It will no longer be what race we are, or who are sons of soil, or where we are
+from but we will be in the race to be the best in the world. &lt;/p&gt;
+&lt;p&gt;I believe in this vision of our country, where everyone wants to make it their
+home and believe in its potential and future. In the end, this is what we
+mostly desire now: Believers in our country, its potential and its future.&lt;/p&gt;</content><category term="2017"></category><category term="current affairs"></category><category term="malaysia"></category></entry><entry><title>Yang di-Pertuan Agong is not "king".</title><link href="https://iqbalabdullah.net/posts/2016/12/agong-and-not-king/" rel="alternate"></link><published>2016-12-05T10:00:00+09:00</published><updated>2016-12-05T10:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2016-12-05:/posts/2016/12/agong-and-not-king/</id><summary type="html">&lt;p&gt;Malaysians do not have a king, but the Yang di-Pertuan Agong.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was an email I sent to The Star on referring to the Malaysian Head of State
+using the appropriate proper noun. It was not published.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I refer to your news article on 16th Nov 2016 with the title
+&lt;a href="http://www.thestar.com.my/news/nation/2016/11/16/king-and-queen-attend-parade-of-thanks-for-14th-yang-dipertuan-agong/"&gt;King and Queen attend parade of thanks for 14th Yang di-Pertuan
+Agong&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Every time I read in your paper news about our Yang di-Pertuan Agong
+and your paper refers to him as King and his consort as Queen, I
+cringe.&lt;/p&gt;
+&lt;p&gt;We Malaysians do not have a king. Spain has a king. Sweden has a king.
+Monaco has a king. Japan has an emperor, while we Malaysian have our
+Agong.&lt;/p&gt;
+&lt;p&gt;It is a unique position even within this small world of ours. A king
+generally implies a hereditary line of monarchs with power passed down
+between families. Our Yang di-Pertuan Agong is elected and even has a
+deputy which are not from the same family unlike kings which have
+crown princes which are nearly the time sons of the same family.&lt;/p&gt;
+&lt;p&gt;Our passports also refers to the Agong as "His Majesty the Yang
+di-Pertuan Agong of Malaysia".&lt;/p&gt;
+&lt;p&gt;The Agong is not a hereditary role, is a proper noun and referring to
+a specific and important role in our country. There is no equivalent
+english translation for our Agong, as the English language came from a
+region and time where a ruler is a king and have absolute powers.&lt;/p&gt;
+&lt;p&gt;As an alternative, you can refer to our Agong by addressing him by
+"His Majesty" and his consort as "Her Majesty", or even the "Supreme
+Commander of the Malaysian Armed Forces" if you'd like.&lt;/p&gt;
+&lt;p&gt;As one of the few English papers with wide circulation in the country,
+we can assume that your good paper will be read by many foreigners
+visiting our shores. It would be best to give the proper introduction
+to them concerning our Yang di-Pertuan Agong, by correctly referring
+to our unique elected Head of State lest they'l have the impression
+that the Federation of Malaysia have "kings".&lt;/p&gt;
+&lt;/blockquote&gt;</content><category term="2016"></category><category term="current affairs"></category><category term="malaysia"></category><category term="politics"></category></entry><entry><title>Let's stop saying hello</title><link href="https://iqbalabdullah.net/posts/2016/11/no-greeting-condo/" rel="alternate"></link><published>2016-11-09T08:30:00+09:00</published><updated>2016-11-09T08:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2016-11-09:/posts/2016/11/no-greeting-condo/</id><summary type="html">&lt;p&gt;The cutting edge on living together in a condo&lt;/p&gt;</summary><content type="html">&lt;p&gt;So I saw this on Twitter:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Letter to the editor on no greeting condo" src="https://iqbalabdullah.net/images/no-aisatsu-twitter.png"&gt;&lt;/p&gt;
+&lt;p&gt;A person wrote to the local newspaper telling the story of his condominium making a new rule to not allow greeting each other. &lt;/p&gt;
+&lt;p&gt;As the story goes, one of the parents was telling the management committee that they were teaching their children to not greet anyone that they know, and since it's difficult for children to know whether a person is an occupant of the condo complex or not, the parents were asking the committee to make a rule to not allow greetings in the condo complex.&lt;/p&gt;
+&lt;p&gt;At the same time, one of the older occupants was also saying that since their greetings always go unanswered and don't make them feel any better, why not we just stop with all the greetings altogether? &lt;/p&gt;
+&lt;p&gt;And so the occupants have reached an agreement not to greet each other, and now they need to publish the new rule so that the rest of the condo complex occupants know and follow it.&lt;/p&gt;</content><category term="2016"></category><category term="everyday life"></category><category term="japan"></category><category term="comedy"></category></entry><entry><title>あいさつをやめましょう。</title><link href="https://iqbalabdullah.net/ja/posts/2016/11/no-greeting-condo/" rel="alternate"></link><published>2016-11-09T08:30:00+09:00</published><updated>2016-11-09T08:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2016-11-09:/ja/posts/2016/11/no-greeting-condo/</id><summary type="html">&lt;p&gt;日本の近所付き合いの最先端だそうです。&lt;/p&gt;</summary><content type="html">&lt;p&gt;Twitterで以下の投稿を見かけたが、&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Letter to the editor on no greeting condo" src="https://iqbalabdullah.net/images/no-aisatsu-twitter.png"&gt;&lt;/p&gt;
+&lt;p&gt;読んでビックリした。教育上だからと言って周りの社会まで巻き込んで近所の付き合い方（というか防犯対策上も問題になりそうだが）を根本的に変えちゃう
+というのはどうかと思うけど。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「マンション内のあいさつは禁止」&lt;/strong&gt; という張り紙でもだすのでしょうか。やっぱりこっちも理解苦しんでいるわ。&lt;/p&gt;</content><category term="2016"></category><category term="近所付き合い"></category><category term="マンション生活"></category><category term="喜劇"></category></entry><entry><title>Can Entrepreneurship Be Taught?</title><link href="https://iqbalabdullah.net/posts/2015/03/can-entrepreneurship-be-taught/" rel="alternate"></link><published>2015-03-12T10:00:00+09:00</published><updated>2015-03-12T10:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2015-03-12:/posts/2015/03/can-entrepreneurship-be-taught/</id><summary type="html">&lt;p&gt;My story on learning how to be an entrepreneur&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="http://www.mymagic.my/about/"&gt;MaGIC&lt;/a&gt;'s &lt;a href="https://cherylyeoh.com/"&gt;Cheryl Yeoh&lt;/a&gt; 
+gave her views on whether entrepreneurship can be taught in &lt;a href="http://bit.ly/1FbbK89"&gt;The Star, March 3
+2015&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I would like to add my comments, based on my different experiences and motivation from the context of teaching entrepreneurship.&lt;/p&gt;
+&lt;p&gt;My views on entrepreneurship are purely based on experience. I did not have any
+formal education on entrepreneurship, (I am trained as an engineer) nor my immediate family members have been examples of entrepreneurship. As it is now, out of my siblings and my parents, only I am currently earning a living from a business that I run.&lt;/p&gt;
+&lt;p&gt;From these experiences of mine, I believe that entrepreneurship is not dissimilar to fado, the traditional music of Lisbon. You can nurture the feel for fado (having many fado houses and public performances, as well as exposure from the media), you can learn how to write and perform fado (by watching and learning from the great fado maestros on how they perform their art) but alas you cannot teach fado. There will be pointers on techniques which you can pass on, but you can't teach "how to fado". This sentiment is echoed by all the great fado players, and I am very sure it is the same for any art form.&lt;/p&gt;
+&lt;p&gt;Which brings me to an interesting take on entrepreneurship that I believe in: That it is a mix of science and art forms. It is science from the way that you measure success: Because it is a business, you can measure what is the profit margin, or the earnings per stock, or valuation or market capitalization. Based on these numbers, so-called investors will tell you if a business is growing, stagnating or losing ground and if you should invest in a certain business. The more these numbers show a positive trend, the better it is for the business.&lt;/p&gt;
+&lt;p&gt;But how do you get to that measurable success is, at the very best, not measurable. Best practices from a certain market, when brought over might not work the same way in a different market. The best we have is the franchise types turn-key model which implements best practices but by different people, but even that still doesn't work the same all the time everywhere.&lt;/p&gt;
+&lt;p&gt;Successful entrepreneurship requires more than understanding the numbers and theories like what we learn in a business school sitting for an MBA. Business and entrepreneurship are two different animals: A successful entrepreneur can create a successful business, but a successful business might not create the successful entrepreneur.&lt;/p&gt;
+&lt;p&gt;In that context, I very much agree with what Cheryl has pointed out: The Stanford Technology Ventures Program (STVP) does not look at purely the numbers of startup companies created. A performance indicator to gauge if entrepreneurship is taking hold based on the number of companies created is nonsensical.&lt;/p&gt;
+&lt;p&gt;It doesn't make sense and it doesn't show anything other than, well, the amount of companies created.&lt;/p&gt;
+&lt;p&gt;A top-down approach stating a target of so and so amount of companies should be created to boost entrepreneurship, which I have noticed we, from time and time again prefer to do, will only lead to more insubstantial companies and nonsense capital distribution, with very little impact on creating resilient and successful entrepreneurs.&lt;/p&gt;
+&lt;p&gt;Instead, a much more pedal-to-steel indicator that directly connects to the would-be entrepreneurs will serve this purpose better. We can learn from Stanford on how they use the amount of students who oversubscribe to their courses or the ratings the students have given. Entrepreneurship is a career path; For me, it is a way to live.&lt;/p&gt;
+&lt;p&gt;We should treat entrepreneurship like any other career path. Students from young should know that being an entrepreneur is also a viable career, like being a policewoman, a mechanic, a pilot, a lawyer or a doctor. But unlike a policewoman who enforces the law a pilot who flies a plane, an entrepreneur creates value to the public and her customers by solving problems with a purpose that will be sustainable for her, her family and her employees.&lt;/p&gt;
+&lt;p&gt;But in the end, it is up to the entrepreneur why she decides to become one. For the pilot, it might be the blue skies and travelling the world. For the policewoman, it might be because of her sense of justice and conviction. This reason or purpose, in the end, is the single most important driver behind successful entrepreneurs.&lt;/p&gt;
+&lt;p&gt;Knowing wanting to achieve this goal and being able to do so by creating sustainable value is the first step of being an entrepreneur. Unfortunately, this cannot be taught. What we, as a society and the education system, can best do is to say that these goals can be achieved and have tangible tools like infrastructure and access to human and monetary capital accessible.&lt;/p&gt;
+&lt;p&gt;Like any good artist, give them the tools, step back and watch them work! &lt;/p&gt;</content><category term="2015"></category><category term="current affairs"></category><category term="malaysia"></category><category term="entrepreneurship"></category></entry><entry><title>So you're CEO</title><link href="https://iqbalabdullah.net/posts/2012/10/so-you-are-ceo/" rel="alternate"></link><published>2012-10-21T10:20:00+09:00</published><updated>2012-10-21T10:20:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2012-10-21:/posts/2012/10/so-you-are-ceo/</id><summary type="html">&lt;p&gt;Being CEO is a maximizing your balancing act and not a zero-sum game&lt;/p&gt;</summary><content type="html">&lt;p&gt;On my flight on Singapore Airlines from Changi to KLIA I read an interesting
+interview of &lt;a href="https://en.wikipedia.org/wiki/Tan_Suee_Chieh"&gt;Tan Suee Chieh&lt;/a&gt; in The Straits Times Opinion section (Fri Oct 19
+2012 edition).&lt;/p&gt;
+&lt;p&gt;In that interview, Tan talks about going "from well to good", and how this is a departure from how he usually did things before going on board as head of Singapore's NTUC.&lt;/p&gt;
+&lt;p&gt;I find this excerpt of the interview particularly interesting:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"I worked in commercial companies for 25 years. My job as CEO of a listed
+company has always been to maximise profits. And my obligation is to give as
+little as possible to the customer, subject to market share and profit
+considerations. But my job at NTUC Income is to give as much as possible to the
+policyholders as a group. It's two different mindsets."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Of course, as an outfit out to make a profit everything is subject to profit considerations. But I feel that being CEO or the leader even for an unlisted, 3-person family business, with obligations to &lt;em&gt;give as little as possible to the customer&lt;/em&gt; while in the same stride talking about &lt;em&gt;maximising profits&lt;/em&gt; is misguided at best.&lt;/p&gt;
+&lt;p&gt;Is this how our Asian CEOs in this part of the world generally think what their mandate is all about?&lt;/p&gt;
+&lt;p&gt;In my role as a leader, in a nutshell, my work boils down to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Give good returns to shareholders by maximizing profits, as they are the ones taking the risk to put up the money for the business in the first place.&lt;/li&gt;
+&lt;li&gt;Stand in the customer's shoes and give them as much as possible making them happy, which will get you more money to do point 1 above. You are where you are because your customers are. &lt;/li&gt;
+&lt;li&gt;Empower your employees and then stand out of their way so that they can please your customer which will lead to point 2 above and consequently to point 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It should not be (and it never is) a zero-sum game. Maximising profits does not mean giving as little as possible to your customer.&lt;/p&gt;</content><category term="2012"></category><category term="asian business"></category><category term="leadership"></category><category term="entrepreneurship"></category></entry><entry><title>KTMB should follow right train of thought</title><link href="https://iqbalabdullah.net/posts/2009/12/ktmb-should-follow-right-train-of-thought/" rel="alternate"></link><published>2009-12-25T10:00:00+09:00</published><updated>2009-12-25T10:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2009-12-25:/posts/2009/12/ktmb-should-follow-right-train-of-thought/</id><summary type="html">&lt;p&gt;Why KTMB still in the red&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was an &lt;a href="http://bit.ly/TxHZCy"&gt;email&lt;/a&gt; I sent to The Star on Christmas Day 2009 about how terrible
 KTMB Komuter service was. I was pretty pissed at that time. I don't understand
 how KTMB cannot understand this very simple thing on providing a decent service to
 it's customers.&lt;/p&gt;
@@ -766,4 +1425,95 @@ trains and make notes of what it’s doing right and what it’s doing wrong, an
 then fix them.&lt;/p&gt;
 &lt;p&gt;IQBAL ABDULLAH, 
 Petaling Jaya.&lt;/p&gt;
-&lt;/blockquote&gt;</content><category term="2009"></category><category term="current affairs"></category><category term="malaysia"></category><category term="public transportation"></category></entry></feed>
+&lt;/blockquote&gt;</content><category term="2009"></category><category term="current affairs"></category><category term="malaysia"></category><category term="public transportation"></category><category term="letters to the editor"></category></entry><entry><title>Meritokrasi ubat pahit tetapi mujarab</title><link href="https://iqbalabdullah.net/posts/2001/08/meritokrasi-ubat-pahit-tetapi-mujarab/" rel="alternate"></link><published>2001-08-09T10:20:00+09:00</published><updated>2010-10-04T18:40:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2001-08-09:/posts/2001/08/meritokrasi-ubat-pahit-tetapi-mujarab/</id><summary type="html">&lt;p&gt;An opinion letter published in Utusan Malaysia concerning meritocracy in schools.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is an opinion letter I wrote when I was staying in Higashi-Kawaguchi, fresh
+out of college during the summer of my first job at Sun Microsystems. It was published in 
+&lt;a href="http://ww1.utusan.com.my/utusan/info.asp?y=2001&amp;amp;dt=0809&amp;amp;pub=Utusan_Malaysia&amp;amp;sec=Rencana&amp;amp;pg=re_06.htm"&gt;Utusan Malaysia&lt;/a&gt;
+on 9th August 2001:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Saya percaya dengan tahap teknologi dan capaian media kita sekarang, seseorang
+itu tidak perlu lagi lulus universiti untuk mendapatkan kebolehan baik di dalam
+bidang tertentu, terutamanya sains maklumat.&lt;/p&gt;
+&lt;p&gt;Tetapi pokoknya ia bukan sahaja mengenai minat atau kebolehan, tetapi mentaliti
+dan disiplin pelajar Melayu kita. Oleh sebab untuk membaiki mentaliti dan
+disiplin pelajar Melayu ini juga, maka Perdana Menteri, Datuk Seri Dr. Mahathir
+mencadangkan pelaksanaan sistem meritokrasi (walaupun sebagai eksperimen) mulai
+sesi pengambilan pelajar akan datang.&lt;/p&gt;
+&lt;p&gt;Setelah melalui kehidupan belajar di universiti (walaupun saya belajar di salah
+sebuah universiti awam di Jepun), saya dapat memahami jika dikatakan, walaupun
+kelulusan yang baik itu penting, tetapi sebenarnya pembelajaran di univerisiti
+adalah lebih daripada itu. Jika dibandingkan dengan kursus-kursus lain, kita
+sedia maklum memang pembelajaran di universiti lebih susah dan membebankan,
+kerana salah satu sebabnya ialah terdapat subjek-subjek lain yang langsung tiada
+kaitan dengan kursus seseorang itu, tetapi ia harus diambil bagi memenuhi syarat
+kreditnya untuk menamatkan kursus.&lt;/p&gt;
+&lt;p&gt;Tetapi tidakkah kita terfikir, jika sistem pendidikan kita mahu menghasilkan
+seorang programmer atau seorang jurutera, mengapa tidak dari awal lagi gaya
+pembelajaran di univerisiti diubah? Ini kerana institut universiti itu bukan
+hanya mahu menghasilkan seorang programmer atau jurutera tetapi seorang
+profesional semua bidang, yang berdisiplin dan berwibawa.&lt;/p&gt;
+&lt;p&gt;Tidak ada gunanya jika seseorang itu boleh menulis kod program yang cukup bagus
+tetapi masih tidak memahami sejarah negaranya, oleh itu tiada sikap patriotik.&lt;/p&gt;
+&lt;p&gt;Bertahan selama empat tahun di universiti dan berhadapan dengan segala macam
+masalah, kebanyakan bergantung dari dalam diri sendiri dan selebihnya dari luar,
+telah mengajar saya pelbagai perkara. Bukan tidak pernah semasa di universiti,
+saya menangis seorang diri di belakang dewan kuliah kerana rasa terlalu tertekan
+untuk mendapatkan gred bagus dalam satu subjek yang saya langsung tidak
+mempunyai minat.&lt;/p&gt;
+&lt;p&gt;Bukan tidak pernah dalam empat tahun itu saya terfikir untuk berhenti sahaja
+belajar di universiti kerana saya rasa minat saya tidak ada dalam bidang
+tertentu, dan saya percaya kebolehan diri untuk melakukan apa yang saya minat.
+Pernah semasa saya di tahun dua, saya berdiri di hadapan pensyarah selama lebih
+dua jam, sambil diherdik dan dimarahi kerana tugasan saya yang dikatakannya
+tidak berapa elok walaupun saya bersengkang mata lebih tiga hari tiga malam
+untuk menyiapkannya. Pada masa itu hanya Tuhan sahaja yang tahu betapa sakitnya
+hati saya dan betapa mahu saya pulang saja ke Malaysia kerana tidak tahan lagi
+dengan satu sistem pembelajaran yang apa-kenapa-dan-bagaimananya langsung
+tidak saya fahami.&lt;/p&gt;
+&lt;p&gt;Semasa saya di tahun empat, pernah saya diminta oleh pensyarah untuk melakukan
+pembentangan mengenai kajian yang sedang saya lakukan. Setelah membuat
+pembentangan tersebut, saya telah dimarahi kerana pembentangan saya itu tidak
+berapa memuaskan. Pensyarah tersebut berkata, Kenapa kamu tidak lakukan
+seperti saya, dengan membuat nota dan rajah yang teliti, seperti saya lakukan
+setiap kali kuliah? Saya berkata oleh kerana profesor adalah seorang
+profesional dalam bidang tersebut, maka perkara itu sudah menjadi satu benda
+yang biasa, dan tidak pula bagi saya.&lt;/p&gt;
+&lt;p&gt;Tetapi beliau kemudian menjawab, Habis, kenapa kamu hadir di univerisiti?
+Bukankah untuk menjadi seorang profesional? Saya terdiam. Memang benar kata
+pensyarah saya itu.&lt;/p&gt;
+&lt;p&gt;Setelah memasuki alam pekerjaan, saya dapati sebenarnya apa yang diutamakan oleh
+orang Jepun di sini bukanlah kelulusan peperiksaan ataupun kemahiran (walaupun
+ia penting) tetapi kendiri dan sikap seseorang itu terhadap pekerjaannya.&lt;/p&gt;
+&lt;p&gt;Kerana belajar itu suatu perkara yang tidak akan habis sehinggalah kita mati,
+maka kemahiran dan pengetahuan masih boleh kita timba walaupun setelah tamat
+universiti. Tetapi sikap itu harus dipupuk dari muda, bak kata pepatah,
+Meluntur buluh biar dari rebungnya.&lt;/p&gt;
+&lt;p&gt;Empat tahun di universiti mengajar kita untuk bersikap profesional, berdisiplin
+untuk mengikut sistem, tidak anti-establishment, sabar, gigih, bersemangat dan
+bercita-cita tinggi. Apa yang tersurat di atas segulung ijazah itu tidak dapat
+menggambarkan seribu satu perkara yang tersirat. Tetapi malangnya jika dilihat
+fenomena pelajar Melayu kita di universiti sekarang, mereka seperti hilang punca
+tentang mengapa mereka di sana.&lt;/p&gt;
+&lt;p&gt;Mungkin pelajar Melayu kita, seperti juga remaja Jepun sekarang, yang terlalu
+mewah atas titik peluh generasi sebelumnya, tidak faham akan apa itu erti
+kesusahan, lantas hilang fokus dan lupa akan matlamat diri sebagai pemuda-pemudi
+bangsa.&lt;/p&gt;
+&lt;p&gt;Jika seperti selalu, jalan keluar yang senang dan cepat diberikan, sehingga
+kiamat pun, orang Melayu kita akan tetap mencari jalan mudah untuk keluar
+daripada segala macam masalah.&lt;/p&gt;
+&lt;p&gt;Tidak semua orang boleh menjadi genius kerana itu adalah anugerah Tuhan, tetapi
+semua orang boleh bersikap profesional dan berdisiplin, kerana sikap itu boleh
+dipupuk.&lt;/p&gt;
+&lt;p&gt;Kita harus mempunyai keyakinan terhadap pemuda-pemudi Melayu kita yang walaupun
+tanpa bantuan kerajaan, masih boleh menunjukkan kelayakan cukup bagus sehingga
+boleh memberi persaingan kepada kaum-kaum lain.&lt;/p&gt;
+&lt;p&gt;Lebih baik sistem meritokrasi ini dilaksanakan dalam keadaan kita berkuasa dan
+boleh mengubahnya semula kepada sistem kuota jika ia tidak mencapai matlamat,
+daripada ia dilakukan pada masa kita tiada kuasa dan tidak berkuasa untuk
+memperbetulkan keadaan. Pelaksanaan sistem meritokrasi ini, walaupun ia pedih
+dan pahit, tetapi saya percaya ia akan memberi ubat yang paling mujarab bagi
+pewaris bangsa dan negara kita. Tabik saya kepada bakal mahasiswa Melayu yang
+sanggup menerima cabaran ini. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IQBAL ABDULLAH, Kawaguchi, Jepun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</content><category term="2001"></category><category term="current affairs"></category><category term="malaysia"></category><category term="education"></category><category term="letters to the editor"></category></entry></feed>
