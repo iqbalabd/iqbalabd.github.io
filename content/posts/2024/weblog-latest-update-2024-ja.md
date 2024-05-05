@@ -9,7 +9,7 @@ Summary: 2024年のウェブログの更新と5年日記
 
 # ウェブログの更新
 
-ついにこのウェブログの更新に取り組みました。私は多くを書きますが、ほとんどは仕事関連で、[Kafkai blog](https://kafkai.com/en/blog/)、[GetOTP blog](https://otp.dev/en/blog/)、[LaLoka Labs's blog](https://lalokalabs.co/en/blog/)などの各個別ブログにアップしています。
+ついにこのウェブログの更新に取り組みました。私は多くを書きますが、ほとんどは仕事関連で、[Kafkaiブログ](https://kafkai.com/ja/blog/)、[GetOTPブログ](https://otp.dev/ja/blog/)、[LaLoka Labs's ブログ](https://lalokalabs.co/ja/blog/)などの各個別ブログにアップしています。
 そのすべてを終えた後は、より個人的なことを書く時間がもうなくなった。
 
 ## 5年日記から始まった
