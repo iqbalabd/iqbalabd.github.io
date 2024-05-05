@@ -59,4 +59,20 @@ At the same time, I do realize that the Board alone can't do all of these: A gro
 
 The Workgroups have practical knowledge and connections to the different communities that they are in, and along with the Board of the PSF and _in tandem with other Workgroups_, they should work together to address the two items above.
 
-If you're reading this and thinking, "I want to help," go on over to the list of [active Workgroups that the PSF has](https://www.python.org/psf/workgroups/) and find a
+If you're reading this and thinking, "I want to help", go on over to the list of [active Workgroups that the PSF has](https://www.python.org/psf/workgroups/) and find a WG that interests you most.
+
+As it is though, I am excited to see the new Board for this year and wish them all the best. Hopefully, we'll get to meet again at the next PyCon somewhere. 
+
+# Updates 2023-07-06
+
+After putting out the above post, I received [a comment from C.A.M Gerlach](https://discuss.python.org/t/psf-board-election-dates-for-2023/26699/29/) about how I'm misinterpreting the numbers of the election results.
+
+The main point is that starting from the 2023 elections, [how "eligible voter" is counted has changed](https://discuss.python.org/t/important-affirm-your-psf-membership-voting-status/27502/). This is because the PSF needs to protect its quorum to satisfy its bylaws. In the past, this was not enforced due to technical reasons.
+
+Before 2023, I have personally taken the number of eligible voters as a proxy to gauge participation in the community, through registrations as Fellows, Managing, Supporting and Contributing Members. This is the most important number, at least for me regardless of actual participation in the election itself. Because how we count the number of "eligible voters" has changed, using this number as the proxy for participation is no longer valid. The decrease in 40% YoY vs. 2022 of people voting, as it is, doesn't mean anything as we're not comparing to the same thing.
+
+There is also good news. C.A.M Gerlach also pointed out data which I did not look at: The cumulative increase in the absolute number of people voting. **It has increased 33% from 460 in 2020 to 614 in 2023.** . We are getting more people involved, at least where the election is concerned, and voting for a more diverse group of people, at least from what we see in the 2023 elections.
+
+I would like to believe that, the work done by me and my compatriots in the D&I WG as also those from within my APAC/Asia community contributed in part to this.
+
+I'm leaving the original article I wrote above as it is so that it will be beneficial in the future if I need to do a _diff_ on what and why I wrote and thought about something.
