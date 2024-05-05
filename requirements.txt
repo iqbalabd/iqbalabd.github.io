@@ -2,3 +2,9 @@ pelican
 markdown
 ghp-import
 pelican-i18n-subsites
+llama-cpp-python
+python-dotenv
+black
+isort
+flake8
+ipdb

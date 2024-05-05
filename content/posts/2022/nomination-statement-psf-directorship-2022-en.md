@@ -3,8 +3,8 @@ Slug: psf-board-2022-nomination-statement
 Lang: en
 Date: 2022-06-10 22:00
 Modified: 2022-06-10 22:00
-Tags: psf; politics; community; elections; 2022;
-Authors: iqbalabd
+Tags: psf; politics; community work; elections; python community;
+Authors: Iqbal Abdullah
 Summary: My self-nomination statement for the 2022 Python Software Foundation (PSF) Board Election
 
 ## Who

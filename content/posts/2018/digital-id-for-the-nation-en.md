@@ -2,8 +2,8 @@ Title: Digital IDs for Malaysia
 Slug: digital-ids-for-malaysia
 Lang: en
 Date: 2018-10-21 18:40
-Tags: current affairs; malaysia; estonia; 2018;
-Author: iqbalabd
+Tags: current affairs; malaysia; estonia; tech;
+Authors: Iqbal Abdullah
 Summary: Digital IDs to verify identities will propel us forward
 
 _This is an article on my opinion concerning the plan for digital IDs for

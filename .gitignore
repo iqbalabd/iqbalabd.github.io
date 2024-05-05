@@ -33,3 +33,4 @@ themes/
 # Environment and temporary variables
 .flake8
 *.swp
+.env

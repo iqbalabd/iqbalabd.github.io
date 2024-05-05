@@ -3,8 +3,8 @@ Slug: guide-for-the-psf-board-elections-2022-how-to-decide
 Lang: en
 Date: 2022-06-22 22:00
 Modified: 2022-06-22 22:00
-Tags: psf; politics; community; elections; 2022;
-Authors: iqbalabd
+Tags: psf; politics; community work; elections; python community;
+Authors: Iqbal Abdullah
 Summary: A record number of people have raised their hands to serve on the PSF board this year. How do you choose? Who do you choose?
 
 # Choosing the nominees for the PSF board elections 2022

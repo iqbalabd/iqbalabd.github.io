@@ -75,3 +75,14 @@ Not all themes can handle i18n, so we need to test and use only those that can.
 
 In order to use custom domains on GitHub Pages, you'll need to make sure the
 CNAME file [gets published every time you do `make github`](https://stackoverflow.com/questions/33384328/how-can-i-add-a-cname-file-to-the-root-of-the-master)
+
+# Llama
+
+Build llama-cpp-python with CUDA to enable GPU usage
+```
+CMAKE_ARGS="-DLLAMA_CUDA=on" pip install --upgrade --force-reinstall --no-cache-dir llama-cpp-python
+```
+
+[`meta-llama-3-8b-instruct.Q3_K_M.gguf`](https://huggingface.co/SanctumAI/Meta-Llama-3-8B-Instruct-GGUF/blob/main/meta-llama-3-8b-instruct.Q3_K_M.gguf) works best
+
+Tried [`mistral-7b-instruct-v0.2.BF16.gguf`](https://huggingface.co/jartine/Mistral-7B-Instruct-v0.2-llamafile/blob/main/mistral-7b-instruct-v0.2.BF16.gguf) the model was loaded but it didn't follow instructions.

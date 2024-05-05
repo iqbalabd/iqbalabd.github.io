@@ -3,8 +3,8 @@ Slug: the-future-is-still-not-here-for-the-psf-2022
 Lang: en
 Date: 2022-07-02 10:30
 Modified: 2022-07-02 16:42
-Tags: psf; politics; community; elections; 2022;
-Authors: iqbalabd
+Tags: psf; politics; community work; elections; python community;
+Authors: Iqbal Abdullah
 Summary: The 2022 PSF Board elections is closed and counted. I failed to make the cut, and so wrote my thoughts down in this post.
 
 # The future is still not here for the Python Software Foundation (PSF)
