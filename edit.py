@@ -1,20 +1,28 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+A script to help edit blog posts for grammar errors.
+"""
+
 import os
+import re
 from llama_cpp import Llama
 import argparse
 from dotenv import load_dotenv
 
 from prompts import FIX_CONTENT_PROMPT, TRANSLATE_CONTENT_TO_JA
 
+SEPERATOR = "<!-- EDPART -->"
 
-def edit_content(text, n_ctx=5120, n_threads=8, use_gpu=False, translate=None):
-    """Fixes the grammar of the given text
+
+def edit_content(text_list, n_ctx=5120, n_threads=8, use_gpu=False, translate=None):
+    """Fixes the grammar of the given list of text
 
     n_ctx is the context window in tokens
     n_threads sets the amount of CPU threads to use
-    n_gpu_layers sets the GPU acceleration to use
+    use_gpu sets if GPU is to be used. If not set, CPU will be used
+    translate sets if translation is to be done
     """
 
     if use_gpu:
@@ -38,31 +46,40 @@ def edit_content(text, n_ctx=5120, n_threads=8, use_gpu=False, translate=None):
         use_gpu=use_gpu,
     )
 
-    messages = list()
-    if translate == "ja":
-        for m in TRANSLATE_CONTENT_TO_JA:
-            messages.append(m)
-    else:
-        for m in FIX_CONTENT_PROMPT:
-            messages.append(m)
+    output_list = list()
+    _cnt = 0
+    for _part in text_list:
 
-    # The final_message is defined here because input_text is defined here
-    final_message = {
-        "role": "user",
-        "content": f"{text}",
-    }
-    messages.append(final_message)
+        messages = list()
+        if translate == "ja":
+            for m in TRANSLATE_CONTENT_TO_JA:
+                messages.append(m)
+        else:
+            for m in FIX_CONTENT_PROMPT:
+                messages.append(m)
 
-    chat_output = llm.create_chat_completion(
-        messages=messages,
-        temperature=0.7,
-        top_p=0.1,
-        top_k=40,
-    )
-    try:
-        _output = chat_output["choices"][0]["message"]["content"]
-    except Exception:
-        pass
+        # The final_message is defined here because input_text is defined here
+        final_message = {
+            "role": "user",
+            "content": f"{_part.strip()}",
+        }
+        messages.append(final_message)
+
+        chat_output = llm.create_chat_completion(
+            messages=messages,
+            temperature=1.0,
+            top_p=0.1,
+            top_k=40,
+        )
+        try:
+            _edited_output = chat_output["choices"][0]["message"]["content"]
+            output_list.append(_edited_output)
+            print(f"DONE {_cnt}/{len(text_list)}")
+            _cnt += 1
+        except Exception:
+            pass
+
+    _output = f"\n\n{SEPERATOR}\n\n".join(output_list)
 
     return _output.strip()
 
@@ -72,10 +89,14 @@ def process_file(input_file, output_file, translation=None, gpu=None):
     with open(input_file, "r", encoding="utf-8") as file:
         content = file.read()
 
-    if gpu:
-        processed_content = edit_content(content, use_gpu=True, translate=translation)
+    content_parts = re.split(r"<!-- EDPART -->", content)
+
+    if gpu.lower() == "y":
+        processed_content = edit_content(
+            content_parts, use_gpu=True, translate=translation
+        )
     else:
-        processed_content = edit_content(content, translate=translation)
+        processed_content = edit_content(content_parts, translate=translation)
 
     # Write to the output file
     with open(output_file, "w", encoding="utf-8") as file:
