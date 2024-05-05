@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>多様化がPythonソフトウェア財団（PSF）の将来像</title><link href="https://iqbalabdullah.net/ja/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/ja/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;Pythonソフトウェア財団（PSF）の2020年理事会選挙に立候補し落選して思うこと。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;前提&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2024-05-01T13:22:00+09:00</updated><entry><title>ウェブログの更新 (ついに!)</title><link href="https://iqbalabdullah.net/ja/posts/2024/05/weblog-latest-update-2024/" rel="alternate"></link><published>2024-05-01T13:22:00+09:00</published><updated>2024-05-01T13:22:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-01:/ja/posts/2024/05/weblog-latest-update-2024/</id><summary type="html">&lt;p&gt;2024年のウェブログの更新と5年日記&lt;/p&gt;</summary><content type="html">&lt;h1&gt;ウェブログの更新&lt;/h1&gt;
+&lt;p&gt;ついにこのウェブログの更新に取り組みました。私は多くを書きますが、ほとんどは仕事関連で、&lt;a href="https://kafkai.com/en/blog/"&gt;Kafkai blog&lt;/a&gt;、&lt;a href="https://otp.dev/en/blog/"&gt;GetOTP blog&lt;/a&gt;、&lt;a href="https://lalokalabs.co/en/blog/"&gt;LaLoka Labs's blog&lt;/a&gt;などの各個別ブログにアップしています。
+そのすべてを終えた後は、より個人的なことを書く時間がもうなくなった。&lt;/p&gt;
+&lt;h2&gt;5年日記から始まった&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="俺の5年連用日記" src="https://iqbalabdullah.net/ja/images/5-year-diary.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;アフィザは私の47歳の誕生日プレゼントとして「5年日記」をくれました。彼女は日記に書くことを楽しんでおり、現在の1冊目の日記をほぼ完成させています。
+友人に勧められたそうで、今では私にもおすすめしてくれました。毎日の終わりに2、3分費やして、その日に起こったランダムなことを書き始めたところ、仕事のことを考えずに、もっと長い考えを書きたくなりました。
+それがこの個人ウェブログを更新するきっかけになりました。&lt;/p&gt;
+&lt;h2&gt;修正点&lt;/h2&gt;
+&lt;p&gt;更新するなら、途中で修正点もチェックしておくべきですよね。&lt;/p&gt;
+&lt;h3&gt;カテゴリ&lt;/h3&gt;
+&lt;p&gt;これまで多くを書いてきて気づいたのは、投稿をある特定の方法でカテゴライズする必要があったことが、実は私の書く自由を制限していたということです。私は上から下に考える人間なんだから、
+仕事で書く場合はカテゴリがあると役立ちますね。目標とするアウトカムがあり、構造を与えてくれます。でも個人的な書き物の場合は、かえって邪魔になるのです。&lt;/p&gt;
+&lt;p&gt;そこで、投稿はすべて書いた年でファイルし、緩やかな分類法として&lt;a href="https://iqbalabdullah.net/tags.html"&gt;タグ&lt;/a&gt;を使うことにしました。&lt;/p&gt;
+&lt;h4&gt;Pelicanでの非翻訳カテゴリ&lt;/h4&gt;
+&lt;p&gt;もう一つ、投稿を別の言語に翻訳することもあって、このウェブログにはPelicanを使っています。Pelicanは&lt;a href="https://qiita.com/agektrombala/items/bc0da1f2bdf9e1f35aeb"&gt;i8n_subsites plugin&lt;/a&gt;を使って、
+さまざまな言語で確実に公開してくれますが、カテゴリ(ディレクトリを作成するときに決まるもの)を翻訳する方法は見つかりませんでした。だから、年ごとにするだけなら翻訳の必要がありません。&lt;/p&gt;
+&lt;h3&gt;新ドメイン&lt;/h3&gt;
+&lt;p&gt;そして最後に、このウェブログには新しいドメインが付きました。私の良く読むブログの人たち、例えば&lt;a href="https://ziade.org/"&gt;Tarek Ziade&lt;/a&gt;や&lt;a href="https://simonwillison.net/"&gt;Simon Willison&lt;/a&gt;のように、
+インターネット上の自分を反映するドメインを持つのが私にはより合理的だと思います。&lt;/p&gt;</content><category term="2024"></category><category term="日常の出来事"></category><category term="執筆"></category><category term="ブログ"></category></entry><entry><title>Weblog Update (Finally!)</title><link href="https://iqbalabdullah.net/en/posts/2024/05/weblog-latest-update-2024/" rel="alternate"></link><published>2024-05-01T13:22:00+09:00</published><updated>2024-05-01T13:22:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-01:/en/posts/2024/05/weblog-latest-update-2024/</id><summary type="html">&lt;p&gt;Updating this weblog for 2024 and my 5-year diary&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Weblog Update&lt;/h1&gt;
+&lt;p&gt;I finally sat down and got to updating this weblog. I write a lot, but most of my writing is work-related and will go to
+their respective blogs such as &lt;a href="https://kafkai.com/en/blog/"&gt;Kafkai blog&lt;/a&gt;, &lt;a href="https://otp.dev/en/blog/"&gt;GetOTP blog&lt;/a&gt; or &lt;a href="https://lalokalabs.co/en/blog/"&gt;LaLoka Labs's blog&lt;/a&gt;
+and after all of that there wasn't enough time for me to write things which are more personal.&lt;/p&gt;
+&lt;h2&gt;Started by a 5-Year Diary&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="My 5-year diary" src="https://iqbalabdullah.net/ja/images/5-year-diary.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Afiza gave me a "5-year diary" present for my 47th birthday. She enjoyed writing things on it and nearly finished her current diary.
+She was recommended to it by a friend, and now she has also recommended it to me. I've started spending two or three minutes at the end of my
+day every day to write random things that happened that day in it, and realized the urge to write longer thoughts without thinking about work too much.
+That brought me around to updating this personal weblog.&lt;/p&gt;
+&lt;h2&gt;Some Fixes&lt;/h2&gt;
+&lt;p&gt;Well, no point in updating something without fixing things along the way, right?&lt;/p&gt;
+&lt;h3&gt;Categories&lt;/h3&gt;
+&lt;p&gt;I realized after all the time I've spent writing that my posts needed to be categorized in a particular way was actually restricting my writing.
+I have always been a person who thinks from top to bottom. Categories help if I'm writing for work because we usually have an outcome we want to
+achieve and it gives me structure, but when it comes to personal writing, this gets in the way.&lt;/p&gt;
+&lt;p&gt;So, I've decided to just file all my posts under the year they were written and use &lt;a href="https://iqbalabdullah.net/tags.html"&gt;tags&lt;/a&gt; instead as a loose form
+of categorization.&lt;/p&gt;
+&lt;h4&gt;Non-Translatable Categories in Pelican&lt;/h4&gt;
+&lt;p&gt;Another thing is that sometimes I translate my posts to different languages and I'm using Pelican for this weblog. Pelican does a great job at publishing the
+different languages through the &lt;a href="https://qiita.com/agektrombala/items/bc0da1f2bdf9e1f35aeb"&gt;i8n_subsites plugin&lt;/a&gt;, but I haven't found a way to have the categories
+(which are decided when you create directories) in Pelican translated. So, just having them as years doesn't require translation.&lt;/p&gt;
+&lt;h3&gt;New Domain&lt;/h3&gt;
+&lt;p&gt;And finally, this weblog has a new domain. Just like the weblogs of people I read frequently, such as &lt;a href="https://ziade.org/"&gt;Tarek Ziade&lt;/a&gt; and
+&lt;a href="https://simonwillison.net/"&gt;Simon Willison&lt;/a&gt;, it just makes more sense to me to have a domain that reflects myself on the internet.&lt;/p&gt;</content><category term="2024"></category><category term="daily stuff"></category><category term="writing"></category><category term="blogging"></category></entry><entry><title>多様化がPythonソフトウェア財団（PSF）の将来像</title><link href="https://iqbalabdullah.net/ja/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/ja/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;Pythonソフトウェア財団（PSF）の2020年理事会選挙に立候補し落選して思うこと。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;前提&lt;/h1&gt;
 &lt;p&gt;2019年以降、私は東アジア、南アジア、東南アジア（まとめてAPACと呼ばれる）にあるPythonコミュニティがより一貫した方向に進めるよう尽力してきた。
 毎年北米で開催されるPyCon(今年はピッツバーグで開催)の期間中に、より広範な北米および国際コミュニティに
 紹介するコミュニティブースも予定されていたが、COVID-19のため残念ながら中止になった。

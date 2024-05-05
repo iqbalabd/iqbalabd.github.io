@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2024</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/2024.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2024-05-01T13:22:00+09:00</updated><entry><title>ウェブログの更新 (ついに!)</title><link href="https://iqbalabdullah.net/ja/posts/2024/05/weblog-latest-update-2024/" rel="alternate"></link><published>2024-05-01T13:22:00+09:00</published><updated>2024-05-01T13:22:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-01:/ja/posts/2024/05/weblog-latest-update-2024/</id><summary type="html">&lt;p&gt;2024年のウェブログの更新と5年日記&lt;/p&gt;</summary><content type="html">&lt;h1&gt;ウェブログの更新&lt;/h1&gt;
+&lt;p&gt;ついにこのウェブログの更新に取り組みました。私は多くを書きますが、ほとんどは仕事関連で、&lt;a href="https://kafkai.com/en/blog/"&gt;Kafkai blog&lt;/a&gt;、&lt;a href="https://otp.dev/en/blog/"&gt;GetOTP blog&lt;/a&gt;、&lt;a href="https://lalokalabs.co/en/blog/"&gt;LaLoka Labs's blog&lt;/a&gt;などの各個別ブログにアップしています。
+そのすべてを終えた後は、より個人的なことを書く時間がもうなくなった。&lt;/p&gt;
+&lt;h2&gt;5年日記から始まった&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="俺の5年連用日記" src="https://iqbalabdullah.net/ja/images/5-year-diary.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;アフィザは私の47歳の誕生日プレゼントとして「5年日記」をくれました。彼女は日記に書くことを楽しんでおり、現在の1冊目の日記をほぼ完成させています。
+友人に勧められたそうで、今では私にもおすすめしてくれました。毎日の終わりに2、3分費やして、その日に起こったランダムなことを書き始めたところ、仕事のことを考えずに、もっと長い考えを書きたくなりました。
+それがこの個人ウェブログを更新するきっかけになりました。&lt;/p&gt;
+&lt;h2&gt;修正点&lt;/h2&gt;
+&lt;p&gt;更新するなら、途中で修正点もチェックしておくべきですよね。&lt;/p&gt;
+&lt;h3&gt;カテゴリ&lt;/h3&gt;
+&lt;p&gt;これまで多くを書いてきて気づいたのは、投稿をある特定の方法でカテゴライズする必要があったことが、実は私の書く自由を制限していたということです。私は上から下に考える人間なんだから、
+仕事で書く場合はカテゴリがあると役立ちますね。目標とするアウトカムがあり、構造を与えてくれます。でも個人的な書き物の場合は、かえって邪魔になるのです。&lt;/p&gt;
+&lt;p&gt;そこで、投稿はすべて書いた年でファイルし、緩やかな分類法として&lt;a href="https://iqbalabdullah.net/tags.html"&gt;タグ&lt;/a&gt;を使うことにしました。&lt;/p&gt;
+&lt;h4&gt;Pelicanでの非翻訳カテゴリ&lt;/h4&gt;
+&lt;p&gt;もう一つ、投稿を別の言語に翻訳することもあって、このウェブログにはPelicanを使っています。Pelicanは&lt;a href="https://qiita.com/agektrombala/items/bc0da1f2bdf9e1f35aeb"&gt;i8n_subsites plugin&lt;/a&gt;を使って、
+さまざまな言語で確実に公開してくれますが、カテゴリ(ディレクトリを作成するときに決まるもの)を翻訳する方法は見つかりませんでした。だから、年ごとにするだけなら翻訳の必要がありません。&lt;/p&gt;
+&lt;h3&gt;新ドメイン&lt;/h3&gt;
+&lt;p&gt;そして最後に、このウェブログには新しいドメインが付きました。私の良く読むブログの人たち、例えば&lt;a href="https://ziade.org/"&gt;Tarek Ziade&lt;/a&gt;や&lt;a href="https://simonwillison.net/"&gt;Simon Willison&lt;/a&gt;のように、
+インターネット上の自分を反映するドメインを持つのが私にはより合理的だと思います。&lt;/p&gt;</content><category term="2024"></category><category term="日常の出来事"></category><category term="執筆"></category><category term="ブログ"></category></entry></feed>
