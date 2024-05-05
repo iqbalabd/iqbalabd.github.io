@@ -91,7 +91,7 @@ def process_file(input_file, output_file, translation=None, gpu=None):
 
     content_parts = re.split(r"<!-- EDPART -->", content)
 
-    if gpu.lower() == "y":
+    if gpu and gpu.lower() == "y":
         processed_content = edit_content(
             content_parts, use_gpu=True, translate=translation
         )
