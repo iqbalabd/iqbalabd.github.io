@@ -15,6 +15,8 @@ and after all of that there wasn't enough time for me to write things which are 
 
 ## Started by a 5-Year Diary
 
+![My 5-year diary]({static}/images/5-year-diary.jpg)
+
 Afiza gave me a "5-year diary" present for my 47th birthday. She enjoyed writing things on it and nearly finished her current diary.
 She was recommended to it by a friend, and now she has also recommended it to me. I've started spending two or three minutes at the end of my
 day every day to write random things that happened that day in it, and realized the urge to write longer thoughts without thinking about work too much.

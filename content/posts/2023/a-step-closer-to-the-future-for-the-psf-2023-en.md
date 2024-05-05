@@ -13,7 +13,7 @@ Summary: The 2023 PSF Board elections are closed and counted. I supported candid
 
 Four members of the board retire in 2023, paving the way for another election, which represents an opportunity for us to have a more diverse representation on the board level of the PSF.
 
-Since [participating in the elections in 2020](https://thefortunate.blog/diversification-is-the-future-for-the-psf.html), interest has been growing within the community in which I am involved, particularly the APAC or Asia region, when we talk about diversification of ideas and people within the PSF specifically and the community in general.
+Since [participating in the elections in 2020]({filename}/posts/2020/diversification-is-the-future-for-the-psf-en.md), interest has been growing within the community in which I am involved, particularly the APAC or Asia region, when we talk about diversification of ideas and people within the PSF specifically and the community in general.
 
 In 2020, I was the only person from within the APAC region to run for election. Now in 2023, we have as many as six people, representing their communities in JP, KR, TH, IN, and BD raising their hands and wanting to be counted and running for a seat on the Board.
 
