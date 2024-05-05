@@ -8,7 +8,7 @@ Summary: Digital IDs to verify identities will propel us forward.
 
 <!-- EDPART -->
 
-This is an article on my opinion concerning the plan for digital IDs for Malaysians. It was not published.
+*This is an article on my opinion concerning the plan for digital IDs for Malaysians. It was not published.*
 
 <!-- EDPART -->
 
