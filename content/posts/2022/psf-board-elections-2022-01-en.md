@@ -17,19 +17,17 @@ We're seeing a [record number of nominees](https://www.python.org/nominations/el
 
 Yes, first and foremost, it's about *you*. How do *you* see the PSF? What future would *you* like the PSF and the Python community to have? What do *you* think?
 
-Having some time to sit down and think of what I wanted to see for the PSF, I have decided to focus on these three, which are loosely based on my [nomination statement](https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/iqbal-abdullah/) and my [thoughts on the previous election](https://thefortunate.blog/diversification-is-the-future-for-the-psf.html) which I took part in:
+Having some time to sit down and think of what I wanted to see for the PSF, I have decided to focus on these three, which are loosely based on
+my [nomination statement](https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/iqbal-abdullah/) and my
+[thoughts on the previous election]({filename}/posts/2020/diversification-is-the-future-for-the-psf-en.md) which I took part in:
 
 ### Opportunities
 
 I believe this is what we can never have enough of. We need more opportunities for the different types of people in our community to participate in the many different things, from technical stuff to community building, that we have and revolves around the Python language. Having a chance to get through the door is the first step to grow and later on open more doors for the people after one selves.
 
-How would a nominee increase opportunities within our community? This is a question I ask myself.
-
 ### Diversity
 
-The Python community is colourful. It's not only painted in the colours of black or white, the Americas or West Europe, or technical and PEPs. Does our board, that represents us through the PSF truly represents us? Do we have the diversity in the people, diversity in the skills, diversity in the thoughts and ideas that will make us stronger and go further? 
-
-Diversity is closely related to the opportunities above but distinctive on it's own. I believe a diverse community will naturally create more opportunities and vice versa.
+The Python community is colourful. It's not only painted in the colours of black or white, the Americas or West Europe, or technical and PEPs. Does our board, that represents us through the PSF truly represent us? Do we have the diversity in the people, diversity in the skills, diversity in the thoughts and ideas that will make us stronger and go further?
 
 ### Experience
 
@@ -43,15 +41,13 @@ Regardless of what they are, having an idea of what you'd think is important to 
 
 ## Then, it's about the nominees
 
-Next, we move on to the nominees. These are the people that will work with you to achieve the important things you have decided above. So what do we look for in these nominees? 
+Next, we move on to the nominees. These are the people that will work with you to achieve the important things you have decided above. So what do we look for in these nominees?
 
 Well, for starters we have their nomination statements.
 
 The way I do it, I will assign some amount of points to each nominee depending on the four items I focus below. There is a maximum amount of points that each item can have, depending on how important a particular item is. The maximum number of points that a nominee can have is 10. At the end of it, I will choose any nominee with 6 or more points to the board.
 
-You can always tweak the points system to your taste. You might want more points for a particular item that is close
-to your heart, and less for those which you think are less important to you. You might want to lower the bar by choosing
-anyone that has more than 4 points, or raise the bar to anyone that has more than 8 points.
+You can always tweak the points system to your taste. You might want more points for a particular item that is close to your heart, and less for those which you think are less important to you. You might want to lower the bar by choosing anyone that has more than 4 points, or raise the bar to anyone that has more than 8 points.
 
 These are the four items I focus on:
 
@@ -65,13 +61,11 @@ This will of course be the first thing that I will read. Who are they? What's th
 
 This is where you can see if a particular nominee is trying to push agendas which are similar or close to those that you think are important above. Why are they running? What are they trying to change? What are they trying to improve? Who are they representing?
 
-This is an important part of the nomination statement, so we should read these carefully, and should be a big consideration on your part when choosing a nominee. 
-
 (Maximum 3 points)
 
 ### Their progression
 
-A nominee's progression represents their history in working towards a particular point in time. What have they been doing up until this point? Were they committing code to GitHub as a core dev? Were they presenting quality ideas to the community? Were they fund raising to help other communities to do their work?  Were they organizing people for PyCon's? 
+A nominee's progression represents their history in working towards a particular point in time. What have they been doing up until this point? Were they committing code to GitHub as a core dev? Were they presenting quality ideas to the community? Were they fund raising to help other communities to do their work?  Were they organizing people for PyCon's?
 
 Remember that serving on the PSF board is not the only way to have impact on the community or the language. Maintaining a library is one way to do it. We already have the [steering council](https://peps.python.org/pep-0013/) that will have a more direct impact on how the language evolves. [Organizing your local PyLadies](http://kit.pyladies.com/en/latest/prospective/index.html) or [DjangoGirls](https://organize.djangogirls.org/) chapter will have more impact in opening doors to underrepresented people.
 
@@ -95,10 +89,16 @@ Then it's time for you to be a nominee yourself.
 
 ## Finally, it's about the process
 
-But above all, enjoy the process of having to choose between many different capable people within our community to represent us in the board. The way the voting process works, you can choose multiple people to the board. The nominees that gets the top votes will be elected to the board equal to the amount of vacant seats for that particular year. As the voter, you have multiple choices to support different agendas and nominees and it's not a "this-or-that" choice. 
+But above all, enjoy the process of having to choose between many different capable people within our community to represent us in the board.
+The way the voting process works, you can choose multiple people to the board. The nominees that gets the top votes will be elected to the board equal
+to the amount of vacant seats for that particular year. As the voter, you have multiple choices to support different agendas and nominees and it's not a "this-or-that" choice. 
 
-In the end, it's a free democratic process, and like any other free democratic process, you are free to choose whomever you like. You never have to justify your choices to anyone else other than yourself, and you are not obliged to answer who you choose even if asked. Your vote is secret, and only known to you.
+In the end, it's a free democratic process, and like any other free democratic process, you are free to choose whomever you like.
+You never have to justify your choices to anyone else other than yourself, and you are not obliged to answer who you choose even if asked.
+Your vote is secret, and only known to you.
 
-So before we part ways, I hope you don't think too hard, enjoy the process and enjoy the opportunity to take part. The above thoughts on how to choose a nominee are only mine, and you should have yours too. Choose whoever you feel like choosing. There will always be next year for you to vote again, and I am confident that there will be continued interest to help out with the PSF board in the many more years to come, and many more nominees to choose from. 
+So before we part ways, I hope you don't think too hard, enjoy the process and enjoy the opportunity to take part. The above thoughts on how to choose a
+nominee are only mine, and you should have yours too. Choose whoever you feel like choosing. There will always be next year for you to vote again, and I am
+confident that there will be continued interest to help out with the PSF board in the many more years to come, and many more nominees to choose from. 
 
 In the end, this is what matters most.

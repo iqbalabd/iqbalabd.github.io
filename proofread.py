@@ -55,7 +55,9 @@ def edit_content(text, n_ctx=5120, n_threads=8, use_gpu=False, translate=None):
 
     chat_output = llm.create_chat_completion(
         messages=messages,
-        temperature=1.0,
+        temperature=0.7,
+        top_p=0.1,
+        top_k=40,
     )
     try:
         _output = chat_output["choices"][0]["message"]["content"]
