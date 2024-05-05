@@ -22,11 +22,11 @@ FIX_CONTENT_PROMPT = [
         "agreement mistakes, adding missing verbs, adding missing articles, removing redundancy, removing "
         "unnecessary verbs, correcting quantifier usage, and replacing words to make the sentences easier "
         "to understand. Remember that the text is written in Markdown and may contain URLs to web pages, "
-        "URLs to images and symbols that define headers and format in Markdown. You will ignore these "
-        "and not correct them. There are also reserved words that define how the Markdown is translated "
-        "to the final blog post such as Title, Slug, Lang, Date, Modified, Tags, Author and Summary. "
-        "You will ignore these reserved words. Return the whole given text regardless if they are fixed "
-        "or not.",
+        "paths to files, URLs to images and symbols that define headers and format in Markdown. Keep these "
+        "as they are and do not change them. There are also reserved words that define how the Markdown "
+        "is translated to the final blog post such as Title, Slug, Lang, Date, Modified, Tags, Author and "
+        "Summary. You will ignore these reserved words. Make sure to return the whole given text regardless "
+        "if there are corrections.",
     },
     {
         "role": "user",
