@@ -29,9 +29,14 @@ make html
 pelican -l -p 8080
 ```
 
-which will create the static HTML files and run the dev server listening on 8080
+or just
 
-Images go to `contents/images` while each directory represents a category
+```
+make devserver PORT=8080
+```
+
+which will create the static HTML files and run the dev server listening on 8080.
+Images go to `contents/images` while each directory represents a category.
 
 ## Publishing to GitHub
 
@@ -43,11 +48,18 @@ to GitHub Pages.
   written
   [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-When you're ready to push the changes to GitHub Pages and publish, do:
+### Publishing flow
 
-```
-$ git checkout main; make github
-```
+This is a sample publishing flow for the blog
+
+1. Checkout a new branch (optional)
+1. Write your content
+1. Compress your images to reduce load time
+1. Proofread the content (optional)
+1. `make devserver PORT=8080` and preview the post
+1. Merge branch to main (if you did it on a new branch)
+1. `git fetch`
+1. `make github`
 
 # Plugins
 
@@ -62,11 +74,16 @@ Included in this is the `i18n_subsites` which is needed for an internationalized
 
 # Themes
 
-Live theme samples can be seen [here](https://pelicanthemes.com/).
-Download the themes and plugin repo
+The Pelican themes repo is [here](https://github.com/getpelican/pelican-themes). Live theme samples can be seen [here](https://pelicanthemes.com/).
 
+We can download the themes as it is like
 ```
 $ git clone --recursive https://github.com/getpelican/pelican-themes themes
+```
+
+But since we most probably want to make changes to the theme, we should use our own fork:
+```
+$ git clone git@github.com:iqbalabd/pelican-themes.git themes
 ```
 
 Not all themes can handle i18n, so we need to test and use only those that can.
@@ -76,7 +93,9 @@ Not all themes can handle i18n, so we need to test and use only those that can.
 In order to use custom domains on GitHub Pages, you'll need to make sure the
 CNAME file [gets published every time you do `make github`](https://stackoverflow.com/questions/33384328/how-can-i-add-a-cname-file-to-the-root-of-the-master)
 
-# Llama
+# おまけ
+
+## proofread with Llama
 
 Build llama-cpp-python with CUDA to enable GPU usage
 ```
@@ -84,5 +103,4 @@ CMAKE_ARGS="-DLLAMA_CUDA=on" pip install --upgrade --force-reinstall --no-cache-
 ```
 
 [`meta-llama-3-8b-instruct.Q3_K_M.gguf`](https://huggingface.co/SanctumAI/Meta-Llama-3-8B-Instruct-GGUF/blob/main/meta-llama-3-8b-instruct.Q3_K_M.gguf) works best
-
 Tried [`mistral-7b-instruct-v0.2.BF16.gguf`](https://huggingface.co/jartine/Mistral-7B-Instruct-v0.2-llamafile/blob/main/mistral-7b-instruct-v0.2.BF16.gguf) the model was loaded but it didn't follow instructions.
