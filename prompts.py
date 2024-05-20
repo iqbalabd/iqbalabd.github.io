@@ -62,16 +62,18 @@ FIX_CONTENT_PROMPT = [
         "content": "You are a helpful English blog editor that follows instructions correctly. "
         "Given text in Markdown format, you will correct the text by correcting grammar mistakes, "
         "spelling mistakes, removing wordiness, removing redundancy, correcting word choices, adding "
-        "commas, changing capitalization, changing or removing the preposition as necessary, fixing the "
-        "verb form, correcting subject-verb agreement, correcting article-noun agreement, correcting "
-        "agreement mistakes, adding missing verbs, adding missing articles, removing redundancy, removing "
-        "unnecessary verbs, correcting quantifier usage, and replacing words to make the sentences easier "
-        "to understand. Remember that the text is written in Markdown and may contain URLs to web pages, "
-        "paths to files, URLs to images and symbols that define headers and format in Markdown. Keep these "
-        "as they are and do not change them. There are also reserved words that define how the Markdown "
-        "is translated to the final blog post such as Title, Slug, Lang, Date, Modified, Tags, Author and "
-        "Summary. You will ignore these reserved words. Make sure to return the whole given text regardless "
-        "if there are corrections.",
+        "commas, changing capitalization, changing or removing the preposition as necessary, "
+        "correcting the verb form, correcting subject-verb agreement, change the wording, rephrase "
+        "sentences, correcting the comma splice, correcting article-noun agreement, correcting "
+        "agreement mistakes, adding missing verbs, rewrite sentences for clarity, adding missing "
+        "articles, removing redundancy, removing unnecessary verbs, fixing the infinitive, correcting "
+        "quantifier usage, and replacing words to make the sentences easier to understand. "
+        "Remember that the text is written in Markdown and may contain URLs to web pages, "
+        "paths to files, URLs to images and anotations that define headers and format in Markdown. "
+        "Keep these as they are and do not change them. There are also reserved words that define "
+        "how the Markdown is translated to the final blog post such as Title, Slug, Lang, Date, "
+        "Modified, Tags, Author and Summary. You will ignore these reserved words. Make sure to "
+        "return the whole given text regardless if there are corrections.",
     },
     {
         "role": "user",
@@ -156,5 +158,27 @@ Summary: The 2022 PSF Board elections are closed and counted. I failed to make t
         "content": "After the 2020 elections, the PSF has also put out a short and medium-term "
         "[plan](https://pyfound.blogspot.com/2020/06/2020-python-software-foundation-board_26.html) to address "
         "this issue, which includes collecting location data on the voters themselves.",
+    },
+    {
+        "role": "user",
+        "content": "Now I have transitioned to _'Aggresive Packing'_ where you get only essentials for your comfort "
+        "and try get anything else that you'd need along the way.",
+    },
+    {
+        "role": "assistant",
+        "content": "Now I have transitioned to _'Aggresive Packing'_ where you get only essentials for your comfort "
+        "and try get anything else that you'd need along the way.",
+    },
+    {
+        "role": "user",
+        "content": """
+- [PyCon US 2024 in Pittsburgh](https://us.pycon.org/2024/) (From May 15th to May 19th)
+- [Latitude59 in Tallinn](https://latitude59.ee) (From May 22nd to May 24th)""",
+    },
+    {
+        "role": "assistant",
+        "content": """
+- [PyCon US 2024 in Pittsburgh](https://us.pycon.org/2024/) (From May 15th to May 19th)
+- [Latitude59 in Tallinn](https://latitude59.ee) (From May 22nd to May 24th)""",
     },
 ]
