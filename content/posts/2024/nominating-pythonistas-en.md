@@ -112,9 +112,12 @@ You can of course self-nominate, but I personally find this a very difficult thi
 
 Finally, you can help increase awareness of such opportunities to recognize, acknowledge, and elevate your fellow Pythonistas through these nominations: When I'm at PyCon or a Python meetup, I've started to include the amount of nominations I've made in my self-introduction, something like:
 
-Hey, my name is Iqbal. I sometimes help around here, and have nominated xxx people to the PSF Fellow and xxx for the CSA. Would you like to know more about that?
+> Hey, my name is Iqbal. I sometimes help around here, and have nominated xxx people to the PSF Fellow and xxx for the CSA. Would you like to know more about that?
 
 and sometimes I'll be pleasantly surprised that the person I'm talking to will know the person I nominated, and that becomes a great conversation.
+
+If you have someone in mind that should be recognized but you still don't know how to do it, you can just quickly drop
+me a message through my [Mastodon](https://mtd.pythonasia.org/@iqbalabd), [X](https://x.com/iqbalabd) or [LinkedIn](linkedin.com/in/iqbalabd/) and I'll be happy to help whatever I can.
 
 <!-- EDPART -->
 
