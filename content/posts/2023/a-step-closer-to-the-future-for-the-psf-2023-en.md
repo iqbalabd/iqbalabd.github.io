@@ -27,9 +27,9 @@ Managing a worldwide non-profit requires a diverse set of skills and not only te
 
 There is one thing of concern though: The voter count and voter turnout
 
-* In 2020, [1151 people were eligible to vote, with a voter turnout of 40%](https://thefortunate.blog/diversification-is-the-future-for-the-psf.html)
+* In 2020, [1151 people were eligible to vote, with a voter turnout of 40%]({filename}/posts/2020/diversification-is-the-future-for-the-psf-en.md)
 * In 2021, [1538 people were eligible to vote (34% increase YoY) with a voter turnout of 38%](https://discuss.python.org/t/2021-python-software-foundation-board-of-directors-election-results/9418)
-* In 2022, we had [1459 people eligible to vote (5% decrease YoY) with a voter turnout of 39%](https://thefortunate.blog/the-future-is-still-not-here-for-the-psf-2022.html)
+* In 2022, we had [1459 people eligible to vote (5% decrease YoY) with a voter turnout of 39%]({filename}/posts/2022/the-future-is-still-not-here-for-the-psf-2022-en.md)
 * For the 2023 elections, [affirmed members who are eligible to vote was 877 (40% decrease YoY) with a voter turnout of 70%](https://pyfound.blogspot.com/2023/06/announcing-2023-psf-board-election.html)
 
 Regardless of the efforts we're putting in, at least from within my community and also from within the [D&I Workgroup](https://wiki.python.org/psf/DiversityandInclusionWG) which I am part of, we can't seem to get a steadily increasing voter count year-over-year. Although we can never know _who_ voted, taking into account that our voter turnout jumped to 70% when the vote count was its lowest in 2023 points out the possibility that the voters that vote in the yearly elections are a fixed group of people.
