@@ -1,5 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2024-05-01T13:22:00+09:00</updated><entry><title>ウェブログの更新 (ついに!)</title><link href="https://iqbalabdullah.net/ja/posts/2024/05/weblog-latest-update-2024/" rel="alternate"></link><published>2024-05-01T13:22:00+09:00</published><updated>2024-05-01T13:22:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-01:/ja/posts/2024/05/weblog-latest-update-2024/</id><summary type="html">&lt;p&gt;2024年のウェブログの更新と5年日記&lt;/p&gt;</summary><content type="html">&lt;h1&gt;ウェブログの更新&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2024-05-23T07:36:00+09:00</updated><entry><title>Python Software Foundation (PSF) で Pythonista をノミネートしよう</title><link href="https://iqbalabdullah.net/ja/posts/2024/05/nominating-pythonistas-at-the-psf/" rel="alternate"></link><published>2024-05-20T09:20:00+09:00</published><updated>2024-05-23T07:36:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-20:/ja/posts/2024/05/nominating-pythonistas-at-the-psf/</id><summary type="html">&lt;p&gt;PSF で仲間の Pythonista をノミネートするための README&lt;/p&gt;</summary><content type="html">&lt;p&gt;PSF であなたの好きな頑張っている人やグループをノミネートして、彼らの仕事を認めることができるって知っていましたか？しかもこれがすべて無料でできるんです！（無料と言っても無料のお茶みたいな感じで）&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h1&gt;彼らを認めて感謝しよう: 仲間の Pythonista をノミネートする&lt;/h1&gt;
+&lt;p&gt;2014 年以前、Python Software Foundation (PSF) には正式なノミネーションプロセスや基準がありませんでした。PSF がオープンメンバーシップ組織に移行したとき（基本的に誰でも PSF のメンバーになれるという意味です）、コミュニティのメンバーに特別な認識を与えるための正式なノミネーションプロセスが作られました。&lt;/p&gt;
+&lt;p&gt;2024 年の PyCon US では、私の経験を共有し、このトピックに関する質問に答えるためにオープンスペースを行いました。会議の閉会時に、PSF のエグゼクティブディレクターである &lt;a href="https://www.linkedin.com/in/denicholson/"&gt;Deb Nicholson&lt;/a&gt; さんがステージに上がり、今年はノミネーションが不足しているため、コミュニティサービス賞 (CSA) を授与できなかったことを指摘しました。毎年たくさんの素晴らしいことが行われているのに、誰も CSA に値しないとは考えにくいので、私たちのコミュニティがこのようなノミネーションができることを十分に認識していないのだと思います。&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;何をノミネートできるの？&lt;/h2&gt;
+&lt;p&gt;CSA だけじゃありません。仲間の Pythonista を以下のようなものにノミネートできます：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PSF フェロー&lt;/strong&gt;: PSF フェローメンバーシップは、Python コミュニティに重要な貢献をした個人に与えられる特別なメンバーシップです。これには、Python の開発への貢献、インフラのサポート、イベントの企画、その他の影響力のある活動が含まれます。PSF フェローのノミネーションは &lt;a href="https://wiki.python.org/psf/FellowWG/Charter"&gt;PSF フェロー ワークグループ&lt;/a&gt; によって処理され、決定されます。詳細は &lt;a href="https://www.python.org/psf/fellows/"&gt;PSF フェローメンバーシップページ&lt;/a&gt; をご覧ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PSF コミュニティサービス賞&lt;/strong&gt;: これが CSA です。Python コミュニティのために特別なボランティアサービスを行った個人やグループを認めます。イベントの企画、教育リソースへの貢献、コミュニティイニシアティブのサポートなど、さまざまな方法でコミュニティを改善するために多大な時間と労力を費やした人々を称賛します。CSA の授与は PSF ボードによって決定されます。詳細は &lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSF コミュニティサービス賞ページ&lt;/a&gt; にあります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Outstanding PyLady Award&lt;/strong&gt;: この賞は、Python コミュニティ内で多様性を促進し、女性や性別少数派を支援する PyLadies コミュニティに重要な貢献をした個人に与えられます。メンタリング、イベントの企画、包括的な環境の育成において卓越した活動を行った人々を称えます。Outstanding PyLady Award の授与は PyLadies グローバルカウンシルによって決定されます。この賞についての詳細は &lt;a href="https://kit.pyladies.com/en/latest/global/award.html"&gt;こちら&lt;/a&gt; をご覧ください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これらの賞と認識は、世界中の Pythonista の貴重な貢献を強調し、祝う素晴らしい方法です。&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PSF ボードディレクターシップ&lt;/strong&gt;: これは賞ではなく責任ですが、ディレクターシップへのノミネートも意味があります。PSF ボードオブディレクターは、財団の活動を監督し、その使命が効果的に実行されるようにします。ボードディレクターは PSF メンバーシップによって選出され、戦略的な意思決定とガバナンスにおいて重要な役割を果たします。詳細は &lt;a href="https://www.python.org/nominations/elections/"&gt;PSF ボード選挙ページ&lt;/a&gt; をご覧ください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;なぜノミネートするべきなの？&lt;/h2&gt;
+&lt;p&gt;Python Software Foundation (PSF) 内で誰かをノミネートすることは、ただの形式ではありません。これは、Python コミュニティのメンバーがエコシステムに投資した努力と献身を祝福し、認める強力な方法です。個人やグループを認めることは：&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ポジティブなコミュニティ精神を促進&lt;/strong&gt;: 貢献を認めることで、感謝とモチベーションの文化を育て、より多くの人々がコミュニティに参加し、貢献することを奨励します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多様な貢献を強調&lt;/strong&gt;: 異なる個人の仕事を認めることで、コード、コミュニティの組織化、教育、アドボカシーなど、人々が貢献できるさまざまな方法を示します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;継続的な関与を奨励&lt;/strong&gt;: コミュニティメンバーに賞を与えることで、彼らの仕事が評価され、注目されていることを知り、努力を続ける動機になります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;強いネットワークを構築&lt;/strong&gt;: 成果を祝うことで、コミュニティ内のつながりを強化し、メンバー間の協力とサポートを促進します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;私たちはギフトエコノミーの中で生きています。ギフトが私たちの世界を動かしています。オープンソースはギフトです。オープンソースを支えるために人々が行う無償の労働もギフトです。年齢、性別、経済状況、教育レベルに関係なく、人々を私たちのコミュニティに歓迎することもギフトです。コミュニティの仲間に感謝し、認めることも彼らへの恩返しとなるギフトです。Naomi Ceder は彼女の &lt;a href="https://www.naomiceder.tech/posts/pycon_keynote_2022/"&gt;A Time of Gifts キーノート&lt;/a&gt; でこれを最もよく表現しています。&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;しかし、認識プロセスが包括的であり、多様な Python グローバルコミュニティを代表するものであることが重要です。特定のグループは、技術とコミュニティリーダーシップの役割で過小評価されてきました。例えば、私の地域（東アジア、南アジア、東南アジア）のコミュニティは、約 500 人の PSF フェローと約 100 人の CSA 受賞者のうち、18 の PSF フェローシップと 2 人の CSA 受賞者（1 グループを代表する）しかいませんでした。これは全体の約 4% と 2% にすぎません。世界中に約 &lt;a href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html"&gt;820 万人の Python 開発者またはユーザーがいる&lt;/a&gt; と考えると、私の地域での最大の成長があるとき、それは明らかに過小評価されています。&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;どのようにノミネートするの？&lt;/h2&gt;
+&lt;p&gt;PSF で誰かを認識するためにノミネートするプロセスは簡単です：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;カテゴリーを特定する&lt;/strong&gt;: ノミネートしたい個人やグループに最も適した賞や認識を決定します。これには、PSF フェロー、コミュニティサービス賞、ボードディレクターシップ、または Outstanding PyLady Award が含まれます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ノミネーションを準備する&lt;/strong&gt;: ノミネートする人の情報を集めます。これには、Python コミュニティへの貢献、具体的な業績、その他関連する詳細が含まれます。ノミネーションは、なぜその人が認識に値するのかを強調するべきです。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ノミネーションを提出する&lt;/strong&gt;:&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PSF フェロー&lt;/strong&gt; のノミネーションはメールで提出できます。詳細は PSF フェローメンバーシップページでご覧ください &lt;a href="https://www.python.org/psf/fellows/"&gt;こちら&lt;/a&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;コミュニティサービス賞&lt;/strong&gt; の詳細と提出手順は、&lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSF コミュニティサービス賞ページ&lt;/a&gt; にあります。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PSF ボードディレクターシップ&lt;/strong&gt; のノミネーションは通常、年次選挙プロセスの一部です。詳細は &lt;a href="https://www.python.org/nominations/elections/"&gt;PSF ボード選挙ページ&lt;/a&gt; をご覧ください。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Outstanding PyLady Award&lt;/strong&gt; の詳細は &lt;a href="https://kit.pyladies.com/en/latest/global/award.html"&gt;こちら&lt;/a&gt; で確認できます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;より良い代表性の必要性&lt;/h2&gt;
+&lt;p&gt;PSF は、&lt;a href="https://wiki.python.org/psf/DiversityandInclusionWG"&gt;D&amp;amp;I ワークグループ&lt;/a&gt; の設立や、2023 年にアフリカおよびアジアのコミュニティへの助成金の増加など、多様性と包括性の促進に向けた大きな進展を遂げましたが、個人やグループの仕事を認める上で、世界中の異なるコミュニティからのより良い代表性が必要です。多くの地域が PSF のリーダーシップと認識プログラムにおいて過小評価されています。この代表性の欠如は、新しい貢献者の参入障壁を生み出し、コミュニティ内のアイデアと視点の多様性を制限する可能性があります。&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;これに対処するために、以下のことを行う必要があります：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;意識の向上&lt;/strong&gt;: 過小評価されているグループの間で、ノミネーションプロセスと認識の機会についての認識を高める。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;サポートの提供&lt;/strong&gt;: 多様な背景を持つ個人がノミネーションプロセスをナビゲートし、コミュニティと関わるのを助けるリソースとサポートを提供する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多様なノミネーションを奨励する&lt;/strong&gt;: 過小評価されている地域や背景を持つ個人のノミネーションを積極的に探し、奨励する。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;メンターシッププログラム&lt;/strong&gt;: 多様なコミュニティからの新しい貢献者を支援し、彼らが Python エコシステム内での旅を案内するメンターシッププログラムを確立する。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;これらのステップを踏むことで、PSF が Python コミュニティのグローバルで多様な性質を真に反映し、すべての貢献が評価され認識される包括的な環境を育むことができます。&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;何ができるの？&lt;/h2&gt;
+&lt;p&gt;たくさんあります！&lt;/p&gt;
+&lt;p&gt;まず、まだ PSF のメンバーでない場合は、&lt;a href="https://www.python.org/psf/membership/"&gt;こちら&lt;/a&gt; からサインアップしましょう。コミュニティのために行った仕事が &lt;a href="https://psfmember.org/civicrm/contribute/transact/?reset=1&amp;amp;id=32"&gt;Managing, Contributing, または Supporting メンバー&lt;/a&gt; に該当する場合は、そのように認識されることを確認してください。&lt;/p&gt;
+&lt;p&gt;次に、誰かをノミネートできます！コミュニティに長くいるなら、この記事を読んでいる間に思い浮かぶ人がいるはずです。誰もいない？本当に？例えば、新しい都市やコミュニティに来たときに、何人かの人に新人が関与するのに最適な人は誰かを尋ねてみます。そして、もし 75% の人が同じ名前を挙げるなら、その人はおそらく PSF フェローにふさわしい人物でしょう。その人を知り、彼らが行った仕事について話し始めることができます。&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;コミュニティサービス賞（CSA）は理解しやすい基準がありますが、受け入れられるためのハードルは依然として高いです。一例として、私が行った PyCon JP 協会のノミネーションがあります（詳細は &lt;a href="https://www.python.org/psf/records/board/resolutions/"&gt;こちら&lt;/a&gt; と &lt;a href="https://www.python.org/community/awards/psf-awards/#december-2021"&gt;こちら&lt;/a&gt; をご覧ください）。これはパンデミックの影響で財政的に大打撃を受けた PSF のために資金を集めるためのチャリティトークイベントを開催したことに対するものです。もう一つの最近の例は、&lt;a href="https://www.python.org/psf/records/board/minutes/2024-03-13/#new-business"&gt;Leonard Richardson, Lais Cavalho と Raquel Dou が CSA を受け取ったことを認める&lt;/a&gt;もので、彼らが構築し維持してきたソフトウェアやコミュニティが全体としてのコミュニティに利益をもたらしたためです。&lt;/p&gt;
+&lt;p&gt;もちろん、自己推薦することもできますが、私は個人的にはこれを非常に難しく、非常に退屈だと感じるので、それをすることには興味がありません。他の人について書く方が楽しいです！&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;最後に、これらのノミネーションを通じて、Pythonista の仲間を認識し、評価し、高める機会の認識を高める手助けをすることができます。PyCon や Python ミートアップにいるとき、自己紹介にこれまでに行ったノミネーションの数を含めるようにしています。例えば：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;こんにちは、私は Iqbal です。ここで時々手伝っています。これまでに xxx 人を PSF フェローに、xxx 人を CSA にノミネートしました。それについてもっと知りたいですか？&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;そして、時々話している人が私がノミネートした人を知っていて、素晴らしい会話が生まれます。&lt;/p&gt;
+&lt;p&gt;誰かを認識するべきだと思っているけれど、まだ方法がわからない場合は、&lt;a href="https://mtd.pythonasia.org/@iqbalabd"&gt;Mastodon&lt;/a&gt;、&lt;a href="https://x.com/iqbalabd"&gt;X&lt;/a&gt; または &lt;a href="linkedin.com/in/iqbalabd/"&gt;LinkedIn&lt;/a&gt; を通じて私にメッセージを送っていただければ、できる限りお手伝いします。&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;FAQ&lt;/h2&gt;
+&lt;p&gt;PSF ノミネーションについてのオープンスペースでの質問は以下の通りです：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;自己推薦できますか？&lt;/strong&gt; - はい&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;コミュニティサービス賞（CSA）と PSF フェローの違いは何ですか？&lt;/strong&gt; - CSA が何のためのものかについての公式説明は &lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;こちら&lt;/a&gt; を、PSF フェローについては &lt;a href="https://www.python.org/psf/fellows/"&gt;こちら&lt;/a&gt; をご覧ください。簡単に言えば、CSA は特定の奉仕行為を祝うものであり、PSF フェローメンバーシップは Python エコシステムとコミュニティへの包括的で顕著な貢献を認識するものです。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PSF フェローに誰かをノミネートするための要件は何ですか？&lt;/strong&gt; - 明確な要件はありませんが、通常のオーガナイザーや貢献者を超えた貢献が必要です。良い例は、PSF フェローノミネーションのために公開されているノミネーション文自体であり、&lt;a href="https://wiki.python.org/moin/PythonSoftwareFoundation/FellowNominations"&gt;こちら&lt;/a&gt; に掲載されています。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;これらのノミネーションはどのように決定されますか？&lt;/strong&gt; - 誰でも誰かをノミネートできますが、ノミネーションは PSF 内の異なるグループによって審議され、受け入れられるか拒否されます。PSF フェローノミネーションは &lt;a href="https://wiki.python.org/psf/FellowWG/Charter"&gt;PSF フェローワークグループ&lt;/a&gt; によって決定され、CSA は &lt;a href="https://www.python.org/psf/board/"&gt;PSF ボード&lt;/a&gt; によって、そして Outstanding PyLady Award は &lt;a href="https://pyladies.com/blog/Announcing-the-Inaugural-PyLadies-Global-Council/inaugural-pyladies-council/"&gt;PyLadies Global Council&lt;/a&gt; によって決定されます。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;この投稿をレビューしてくれた &lt;a href="https://x.com/cheukting_ho"&gt;Cheuk&lt;/a&gt; に感謝します&lt;/em&gt;&lt;/p&gt;</content><category term="2024"></category><category term="pycon"></category><category term="psf"></category><category term="コミュニティ"></category></entry><entry><title>Nominating Pythonistas For Stuff At The Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/en/posts/2024/05/nominating-pythonistas-at-the-psf/" rel="alternate"></link><published>2024-05-20T09:20:00+09:00</published><updated>2024-05-23T07:36:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-20:/en/posts/2024/05/nominating-pythonistas-at-the-psf/</id><summary type="html">&lt;p&gt;A README to nominating your fellow Pythonistas for stuff at the PSF&lt;/p&gt;</summary><content type="html">&lt;p&gt;Do you know that you can nominate your favorite hardworking person or group for stuff and recognize them for their work at the PSF, and do all this for &lt;em&gt;free&lt;/em&gt;? (i.e., free as in free tea)&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h1&gt;Acknowledge And Thank Them: Nominating Your Fellow Pythonistas&lt;/h1&gt;
+&lt;p&gt;Before 2014, the Python Software Foundation (PSF) didn't have a formal nomination process or criteria. When they moved to an open membership organization (basically meaning anyone can join as a member of the PSF), they created formal processes for nomination and granting special recognition to members of its community.&lt;/p&gt;
+&lt;p&gt;I did an Open Space during PyCon US 2024 in Pittsburgh to exactly share my experiences and answer questions on this topic. During the closing of the conference, &lt;a href="https://www.linkedin.com/in/denicholson/"&gt;Deb Nicholson&lt;/a&gt; – who is the Executive Director of the PSF – got on stage and pointed out that we've had no Community Service Award (CSA) to present this year due to a lack of nominations. With all the great things everyone is working on in any particular year, it's really difficult to think that no one deserves the CSA; so the only possible thing is that our community just aren't aware enough that they can do such nominations.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;What Can You Nominate For?&lt;/h2&gt;
+&lt;p&gt;It's more than just the CSA. You can nominate your fellow Pythonistas for these:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PSF Fellow&lt;/strong&gt;: The PSF Fellow membership is a special membership awarded to individuals who have made significant contributions to the Python community through their work, including contributions to the development of Python, supporting the infrastructure, organizing events, and other impactful activities. PSF Fellow nominations are handled and decided upon by the &lt;a href="https://wiki.python.org/psf/FellowWG/Charter"&gt;PSF Fellow Workgroup&lt;/a&gt;. More details can be found on the &lt;a href="https://www.python.org/psf/fellows/"&gt;PSF Fellow Membership page&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PSF Community Service Award&lt;/strong&gt;: This is the CSA. It recognizes individuals or groups that have performed exceptional volunteer service for the Python community. It highlights those who have dedicated significant time and effort to improve the community through various means, such as organizing events, contributing to educational resources, or supporting community initiatives. The decision to award the CSA to an individual or a group is decided by the PSF Board. Details are available on the &lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSF Community Service Award page&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Outstanding PyLady Award&lt;/strong&gt;: This award is given to individuals who have made significant contributions to the PyLadies community, which is dedicated to promoting diversity and supporting women and gender minorities in the Python community. It celebrates those who have gone above and beyond in mentoring, organizing events, and fostering an inclusive environment. The decisions on awarding the Outstanding PyLady Award are done by the PyLadies Global Council. You can learn more about this award &lt;a href="https://kit.pyladies.com/en/latest/global/award.html"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These awards and recognitions are excellent ways to highlight and celebrate the invaluable contributions of Pythonistas around the world.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PSF Board Directorship&lt;/strong&gt;: Although a responsibility, not an award, nominating someone for Directorship is still meaningful. The PSF Board of Directors oversees the Foundation's activities and ensures its mission is carried out effectively. Board Directors are elected by the PSF membership and play a crucial role in strategic decision-making and governance. Read more on the &lt;a href="https://www.python.org/nominations/elections/"&gt;PSF Board Elections page&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;Why Should You Nominate?&lt;/h2&gt;
+&lt;p&gt;Nominating someone for recognition within the Python Software Foundation (PSF) is not just a formality – it's a powerful way to celebrate and acknowledge the hard work and dedication that Python community members invest in the ecosystem. Recognizing individuals and groups:&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Promotes Positive Community Spirit&lt;/strong&gt;: By acknowledging contributions, we foster a culture of appreciation and motivation, which encourages more people to get involved and contribute to the community.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Highlights Diverse Contributions&lt;/strong&gt;: Recognizing the work of different individuals showcases the variety of ways people can contribute, whether through code, community organizing, education, or advocacy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Encourages Continued Involvement&lt;/strong&gt;: Awarding community members can incentivize them to continue their efforts, knowing that their work is valued and noticed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Builds a Stronger Network&lt;/strong&gt;: Celebrating achievements helps build stronger connections within the community, facilitating collaboration and support among members.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're living in the gift economy. Gifts turn the wheels in our world. Open source is a gift. The unpaid labor that people do to support the community around open source is a gift. Welcoming people into our community regardless of age, gender, economic status or education level is a gift. Saying thank you and acknowledging our peers in the community is also a gift that pays them back. Naomi Ceder says this best in her &lt;a href="https://www.naomiceder.tech/posts/pycon_keynote_2022/"&gt;A Time of Gifts keynote&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;However, it's crucial to ensure that the recognition process is inclusive and represents the diverse Python global community. Certain groups have been underrepresented in technology and community leadership roles. For example, the communities from my region (the East Asia, South Asia and Southeast Asia) only had 18 PSF Fellow memberships and 2 CSA recipients (one representing a group), out of around a total of 500 PSF Fellows and around 100 individuals for the CSA. That's just around 4% and 2% of the total recipients. When we consider there are around &lt;a href="https://thefortunate.blog/diversification-is-the-future-for-the-psf.html"&gt;8.2 million Python developers or users worldwide&lt;/a&gt; and the biggest growth is within my region, &lt;em&gt;that is&lt;/em&gt; underrepresentation.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;How Do You Nominate?&lt;/h2&gt;
+&lt;p&gt;The process for nominating someone for recognition at the PSF is straightforward:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Identify the Category&lt;/strong&gt;: Determine which award or recognition is most appropriate for the individual or group you want to nominate. This could be a PSF Fellow, Community Service Award, Board Directorship, or Outstanding PyLady Award.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Prepare the Nomination&lt;/strong&gt;: Collect information about the nominee, including their contributions to the Python community, specific achievements, and any other relevant details. The nomination should highlight why the nominee deserves the recognition.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Submit the Nomination&lt;/strong&gt;: &lt;ul&gt;
+&lt;li&gt;For &lt;strong&gt;PSF Fellow&lt;/strong&gt; nominations, you can submit via email. Read more on the PSF Fellow membership page &lt;a href="https://www.python.org/psf/fellows/"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;For the &lt;strong&gt;Community Service Award&lt;/strong&gt;, details and submission instructions can be found on the &lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSF Community Service Award page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Nominations for &lt;strong&gt;PSF Board Directorship&lt;/strong&gt; are typically part of the annual election process. More information can be found on the &lt;a href="https://www.python.org/nominations/elections/"&gt;PSF Board Elections page&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;Outstanding PyLady Award&lt;/strong&gt; details can be found &lt;a href="https://kit.pyladies.com/en/latest/global/award.html"&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;The Need for Better Representation&lt;/h2&gt;
+&lt;p&gt;While the PSF has made significant strides in promoting diversity and inclusion, such as the creation of the &lt;a href="https://wiki.python.org/psf/DiversityandInclusionWG"&gt;D&amp;amp;I Workgroup&lt;/a&gt; and granting more grants to the African and Asian communities in 2023, there is still a need for better representation from different communities around the world in terms of acknowledging the work of individuals and groups. Many regions are underrepresented in PSF leadership and recognition programs. This lack of representation can create barriers to entry for new contributors and limit the diversity of ideas and perspectives within the community.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;To address this, we need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Promote Awareness&lt;/strong&gt;: Increase awareness about the nomination processes and opportunities for recognition among underrepresented groups.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provide Support&lt;/strong&gt;: Offer resources and support to help individuals from diverse backgrounds navigate the nomination process and engage with the community.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Encourage Diverse Nominations&lt;/strong&gt;: Actively seek out and encourage nominations of individuals from underrepresented regions and backgrounds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mentorship Programs&lt;/strong&gt;: Establish mentorship programs to guide and support new contributors from diverse communities in their journey within the Python ecosystem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;By taking these steps, we can ensure that the PSF truly reflects the global and diverse nature of the Python community, fostering an inclusive environment in which all contributions are valued and recognized.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;What Can I Do?&lt;/h2&gt;
+&lt;p&gt;Plenty!&lt;/p&gt;
+&lt;p&gt;First, if you're not a PSF member yet, sign up &lt;a href="https://www.python.org/psf/membership/"&gt;here&lt;/a&gt;. If you've done work for the community that makes you eligible to be a &lt;a href="https://psfmember.org/civicrm/contribute/transact/?reset=1&amp;amp;id=32"&gt;Managing, Contributing or Supporting member&lt;/a&gt;, make sure you're recognized as such too.&lt;/p&gt;
+&lt;p&gt;Next, you can nominate someone! If you've been in your community long enough, I'm sure by the time you're reading this, you'll have the person(s) in mind right now. No one? Are you sure? Well, one example I can give is when I get to a new city or community, I ask a few people who would be the best person to talk to for a newcomer to get involved, and if let's say 75% of them give me the same name, then that person would probably be PSF Fellow material. You can then start by getting to know that person and talking about the work they have done.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;Community Service Awards (CSA) have an easier criteria to understand, but still a high hurdle to be accepted. An example is the nomination that I made for the PyCon JP Association (read more &lt;a href="https://www.python.org/psf/records/board/resolutions/"&gt;here&lt;/a&gt; and &lt;a href="https://www.python.org/community/awards/psf-awards/#december-2021"&gt;here&lt;/a&gt;, for the charity talks event that they did to raise money for the PSF on the wake of the pandemic, which had disastrous effects on the PSF financially. Another more recent example is the recognition by the board for &lt;a href="https://www.python.org/psf/records/board/minutes/2024-03-13/#new-business"&gt;Leonard Richardson, Lais Cavalho and Raquel Dou to receive the CSA&lt;/a&gt; for the software or community that they have built and maintained, which benefited the community at large.&lt;/p&gt;
+&lt;p&gt;You can of course self-nominate, but I personally find this a very difficult thing to do and very boring, so I'm not interested in doing that. It's more fun to write about other people!&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;Finally, you can help increase awareness of such opportunities to recognize, acknowledge, and elevate your fellow Pythonistas through these nominations: When I'm at PyCon or a Python meetup, I've started to include the amount of nominations I've made in my self-introduction, something like:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hey, my name is Iqbal. I sometimes help around here, and have nominated xxx people to the PSF Fellow and xxx for the CSA. Would you like to know more about that?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;and sometimes I'll be pleasantly surprised that the person I'm talking to will know the person I nominated, and that becomes a great conversation.&lt;/p&gt;
+&lt;p&gt;If you have someone in mind that should be recognized but you still don't know how to do it, you can just quickly drop
+me a message through my &lt;a href="https://mtd.pythonasia.org/@iqbalabd"&gt;Mastodon&lt;/a&gt;, &lt;a href="https://x.com/iqbalabd"&gt;X&lt;/a&gt; or &lt;a href="linkedin.com/in/iqbalabd/"&gt;LinkedIn&lt;/a&gt; and I'll be happy to help whatever I can.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;FAQ&lt;/h2&gt;
+&lt;p&gt;During my Open Space about PSF Nominations, these are some of the questions we had:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Can you self-nominate?&lt;/strong&gt; - Yes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What's the difference between the Community Service Award (CSA) and PSF Fellow?&lt;/strong&gt; - You can read the official description of what the CSA is for &lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;here&lt;/a&gt; and the PSF Fellow &lt;a href="https://www.python.org/psf/fellows/"&gt;here&lt;/a&gt;. In a nutshell, the CSA celebrates particular acts of service, while the PSF Fellow membership recognizes an individual's comprehensive and distinguished contribution to the Python ecosystems and community.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What's the requirement to nominate someone for the PSF Fellow?&lt;/strong&gt; - There are no hard requirements, but contributions that clearly go beyond your casual organizer or contributor. A good place to get examples are the nomination statements themselves, which are published &lt;a href="https://wiki.python.org/moin/PythonSoftwareFoundation/FellowNominations"&gt;here&lt;/a&gt; for the PSF Fellow nominations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How do these nominations get decided upon?&lt;/strong&gt; - Anyone can nominate someone, but the nominations are deliberated, accepted or rejected by different groups within the PSF. The PSF Fellow nominations are decided by the &lt;a href="https://wiki.python.org/psf/FellowWG/Charter"&gt;PSF Fellow Workgroup&lt;/a&gt;, the CSA by the &lt;a href="https://www.python.org/psf/board/"&gt;PSF Board&lt;/a&gt; while the Outstanding PyLady Award by the &lt;a href="https://pyladies.com/blog/Announcing-the-Inaugural-PyLadies-Global-Council/inaugural-pyladies-council/"&gt;PyLadies Global Council&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Thank you to &lt;a href="https://x.com/cheukting_ho"&gt;Cheuk&lt;/a&gt; for reviewing this post&lt;/em&gt;&lt;/p&gt;</content><category term="2024"></category><category term="pycon"></category><category term="psf"></category><category term="community"></category></entry><entry><title>ウェブログの更新 (ついに!)</title><link href="https://iqbalabdullah.net/ja/posts/2024/05/weblog-latest-update-2024/" rel="alternate"></link><published>2024-05-01T13:22:00+09:00</published><updated>2024-05-01T13:22:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-01:/ja/posts/2024/05/weblog-latest-update-2024/</id><summary type="html">&lt;p&gt;2024年のウェブログの更新と5年日記&lt;/p&gt;</summary><content type="html">&lt;h1&gt;ウェブログの更新&lt;/h1&gt;
 &lt;p&gt;ついにこのウェブログの更新に取り組みました。私は多くを書きますが、ほとんどは仕事関連で、&lt;a href="https://kafkai.com/ja/blog/"&gt;Kafkaiブログ&lt;/a&gt;、&lt;a href="https://otp.dev/ja/blog/"&gt;GetOTPブログ&lt;/a&gt;、&lt;a href="https://lalokalabs.co/ja/blog/"&gt;LaLoka Labs's ブログ&lt;/a&gt;などの各個別ブログにアップしています。
 そのすべてを終えた後は、より個人的なことを書く時間がもうなくなった。&lt;/p&gt;
 &lt;h2&gt;5年日記から始まった&lt;/h2&gt;
