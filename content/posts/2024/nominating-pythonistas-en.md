@@ -2,7 +2,7 @@ Title: Nominating Pythonistas For Stuff At The Python Software Foundation (PSF)
 Slug: nominating-pythonistas-at-the-psf
 Lang: en
 Date: 2024-05-20 09:20
-Modified: 2024-05-20 09:20
+Modified: 2024-05-23 07:36
 Tags: pycon; psf; community;
 Authors: Iqbal Abdullah
 Summary: A README to nominating your fellow Pythonistas for stuff at the PSF
@@ -129,3 +129,5 @@ During my Open Space about PSF Nominations, these are some of the questions we h
 - **What's the difference between the Community Service Award (CSA) and PSF Fellow?** - You can read the official description of what the CSA is for [here](https://www.python.org/community/awards/psf-awards/) and the PSF Fellow [here](https://www.python.org/psf/fellows/). In a nutshell, the CSA celebrates particular acts of service, while the PSF Fellow membership recognizes an individual's comprehensive and distinguished contribution to the Python ecosystems and community.
 - **What's the requirement to nominate someone for the PSF Fellow?** - There are no hard requirements, but contributions that clearly go beyond your casual organizer or contributor. A good place to get examples are the nomination statements themselves, which are published [here](https://wiki.python.org/moin/PythonSoftwareFoundation/FellowNominations) for the PSF Fellow nominations.
 - **How do these nominations get decided upon?** - Anyone can nominate someone, but the nominations are deliberated, accepted or rejected by different groups within the PSF. The PSF Fellow nominations are decided by the [PSF Fellow Workgroup](https://wiki.python.org/psf/FellowWG/Charter), the CSA by the [PSF Board](https://www.python.org/psf/board/) while the Outstanding PyLady Award by the [PyLadies Global Council](https://pyladies.com/blog/Announcing-the-Inaugural-PyLadies-Global-Council/inaugural-pyladies-council/).
+
+_Thank you to [Cheuk](https://x.com/cheukting_ho) for reviewing this post_
