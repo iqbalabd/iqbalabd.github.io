@@ -31,6 +31,8 @@ It's more than just the CSA. You can nominate your fellow Pythonistas for these:
 
 -  **Outstanding PyLady Award**: This award is given to individuals who have made significant contributions to the PyLadies community, which is dedicated to promoting diversity and supporting women and gender minorities in the Python community. It celebrates those who have gone above and beyond in mentoring, organizing events, and fostering an inclusive environment. The decisions on awarding the Outstanding PyLady Award are done by the PyLadies Global Council. You can learn more about this award [here](https://kit.pyladies.com/en/latest/global/award.html).
 
+-  **PSF Distinguished Service Award**: This is the Foundation's highest award. The Distinguished Service Award is an offer of recognition for sustained exemplary contributions to the Python community. This award is given for actions which carry significant impact that shapes the Python world, whether through contributions of code, efforts in community action, or otherwise. As with the Community Service Award, the intention is to demonstrate that such service to the community does lead to recognition and reward, rather than to provide a direct incentive to contributors. You can learn more about this award [here](https://www.python.org/community/awards/psf-distinguished-awards/).
+
 These awards and recognitions are excellent ways to highlight and celebrate the invaluable contributions of Pythonistas around the world.
 
 <!-- EDPART -->
@@ -105,6 +107,12 @@ Next, you can nominate someone! If you've been in your community long enough, I'
 <!-- EDPART -->
 
 Community Service Awards (CSA) have an easier criteria to understand, but still a high hurdle to be accepted. An example is the nomination that I made for the PyCon JP Association (read more [here](https://www.python.org/psf/records/board/resolutions/) and [here](https://www.python.org/community/awards/psf-awards/#december-2021), for the charity talks event that they did to raise money for the PSF on the wake of the pandemic, which had disastrous effects on the PSF financially. Another more recent example is the recognition by the board for [Leonard Richardson, Lais Cavalho and Raquel Dou to receive the CSA](https://www.python.org/psf/records/board/minutes/2024-03-13/#new-business) for the software or community that they have built and maintained, which benefited the community at large.
+
+The Distinguished Service Award (DSA) has a much higher hurdle to clear. Since given out in 2012, only 7 people have
+received it. Sometimes a CSA nomination can lead to a DSA being awarded, but that is up to the PSF Board to decide. You
+can read on the reasons for the DSA to be awarded [here](https://www.python.org/community/awards/psf-distinguished-awards/) and if you have someone that you think deserves to stand as
+tall as these other recepients, that please make a nomination. Nominations can be sent confidentially by email to the
+PSF Board as written [here](https://www.python.org/community/awards/psf-distinguished-awards/).
 
 You can of course self-nominate, but I personally find this a very difficult thing to do and very boring, so I'm not interested in doing that. It's more fun to write about other people!
 

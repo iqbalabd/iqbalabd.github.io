@@ -31,6 +31,8 @@ CSA だけじゃありません。仲間の Pythonista を以下のようなも�
 
 - **Outstanding PyLady Award**: この賞は、Python コミュニティ内で多様性を促進し、女性や性別少数派を支援する PyLadies コミュニティに重要な貢献をした個人に与えられます。メンタリング、イベントの企画、包括的な環境の育成において卓越した活動を行った人々を称えます。Outstanding PyLady Award の授与は PyLadies グローバルカウンシルによって決定されます。この賞についての詳細は [こちら](https://kit.pyladies.com/en/latest/global/award.html) をご覧ください。
 
+- **PSF 功労賞**: これは財団の最高賞です。PSF 功労賞は、Python コミュニティへの継続的な模範的貢献に対する認識の申し出です。この賞は、コードの貢献、コミュニティ活動への努力、その他の手段を通じて Python の世界を形作る重要な影響を与える行動に対して授与されます。コミュニティサービス賞と同様に、コミュニティへのこのようなサービスが認識と報酬につながることを示すことが意図されており、貢献者に直接的なインセンティブを提供することが目的ではありません。この賞について詳しくは[こちら](https://www.python.org/community/awards/psf-distinguished-awards/)をご覧ください。
+
 これらの賞と認識は、世界中の Pythonista の貴重な貢献を強調し、祝う素晴らしい方法です。
 
 <!-- EDPART -->
@@ -105,6 +107,8 @@ PSF は、[D&I ワークグループ](https://wiki.python.org/psf/DiversityandIn
 <!-- EDPART -->
 
 コミュニティサービス賞（CSA）は理解しやすい基準がありますが、受け入れられるためのハードルは依然として高いです。一例として、私が行った PyCon JP 協会のノミネーションがあります（詳細は [こちら](https://www.python.org/psf/records/board/resolutions/) と [こちら](https://www.python.org/community/awards/psf-awards/#december-2021) をご覧ください）。これはパンデミックの影響で財政的に大打撃を受けた PSF のために資金を集めるためのチャリティトークイベントを開催したことに対するものです。もう一つの最近の例は、[Leonard Richardson, Lais Cavalho と Raquel Dou が CSA を受け取ったことを認める](https://www.python.org/psf/records/board/minutes/2024-03-13/#new-business)もので、彼らが構築し維持してきたソフトウェアやコミュニティが全体としてのコミュニティに利益をもたらしたためです。
+
+功労賞 (DSA) は、はるかに高いハードルがあります。2012年にはじめて授与されて以来、これまでに7人しか受賞していません。時には CSA のノミネーションが DSA 授与につながることもありますが、それは PSF 理事会の判断に委ねられています。DSA が授与される理由については[こちら](https://www.python.org/community/awards/psf-distinguished-awards/)をお読みいただき、他の受賞者と肩を並べるにふさわしいと思う方がいれば、ぜひノミネーションを行ってください。ノミネーションは[こちら](https://www.python.org/community/awards/psf-distinguished-awards/)に記載されているように、PSF 理事会に電子メールでノミネートすることができます。
 
 もちろん、自己推薦することもできますが、私は個人的にはこれを非常に難しく、非常に退屈だと感じるので、それをすることには興味がありません。他の人について書く方が楽しいです！
 
