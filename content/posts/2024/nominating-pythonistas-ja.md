@@ -75,6 +75,7 @@ PSF で誰かを認識するためにノミネートするプロセスは簡単�
     - **コミュニティサービス賞** の詳細と提出手順は、[PSF コミュニティサービス賞ページ](https://www.python.org/community/awards/psf-awards/) にあります。
     - **PSF ボードディレクターシップ** のノミネーションは通常、年次選挙プロセスの一部です。詳細は [PSF ボード選挙ページ](https://www.python.org/nominations/elections/) をご覧ください。
     - **Outstanding PyLady Award** の詳細は [こちら](https://kit.pyladies.com/en/latest/global/award.html) で確認できます。
+    - **PSF Distinguished Service Award** の詳細は[こちら](https://www.python.org/community/awards/psf-distinguished-awards/) から確認できます。
 
 <!-- EDPART -->
 

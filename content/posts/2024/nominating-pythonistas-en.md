@@ -75,6 +75,7 @@ The process for nominating someone for recognition at the PSF is straightforward
     - For the **Community Service Award**, details and submission instructions can be found on the [PSF Community Service Award page](https://www.python.org/community/awards/psf-awards/).
     - Nominations for **PSF Board Directorship** are typically part of the annual election process. More information can be found on the [PSF Board Elections page](https://www.python.org/nominations/elections/).
     - The **Outstanding PyLady Award** details can be found [here](https://kit.pyladies.com/en/latest/global/award.html).
+    - The **PSF Distinguished Service Award** details can be found [here](https://www.python.org/community/awards/psf-distinguished-awards/).
 
 <!-- EDPART -->
 
