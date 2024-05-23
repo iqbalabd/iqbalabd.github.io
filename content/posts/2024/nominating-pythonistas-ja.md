@@ -2,7 +2,7 @@ Title: Python Software Foundation (PSF) で Pythonista をノミネートしよ�
 Slug: nominating-pythonistas-at-the-psf
 Lang: ja
 Date: 2024-05-20 09:20
-Modified: 2024-05-23 07:36
+Modified: 2024-05-23 20:27
 Tags: pycon; psf; コミュニティ;
 Authors: Iqbal Abdullah
 Summary: PSF で仲間の Pythonista をノミネートするための README

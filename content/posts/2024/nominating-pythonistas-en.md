@@ -2,7 +2,7 @@ Title: Nominating Pythonistas For Stuff At The Python Software Foundation (PSF)
 Slug: nominating-pythonistas-at-the-psf
 Lang: en
 Date: 2024-05-20 09:20
-Modified: 2024-05-23 07:36
+Modified: 2024-05-23 20:27
 Tags: pycon; psf; community;
 Authors: Iqbal Abdullah
 Summary: A README to nominating your fellow Pythonistas for stuff at the PSF
