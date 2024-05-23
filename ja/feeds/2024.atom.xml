@@ -20,7 +20,12 @@
 &lt;!-- EDPART --&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Outstanding PyLady Award&lt;/strong&gt;: この賞は、Python コミュニティ内で多様性を促進し、女性や性別少数派を支援する PyLadies コミュニティに重要な貢献をした個人に与えられます。メンタリング、イベントの企画、包括的な環境の育成において卓越した活動を行った人々を称えます。Outstanding PyLady Award の授与は PyLadies グローバルカウンシルによって決定されます。この賞についての詳細は &lt;a href="https://kit.pyladies.com/en/latest/global/award.html"&gt;こちら&lt;/a&gt; をご覧ください。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Outstanding PyLady Award&lt;/strong&gt;: この賞は、Python コミュニティ内で多様性を促進し、女性や性別少数派を支援する PyLadies コミュニティに重要な貢献をした個人に与えられます。メンタリング、イベントの企画、包括的な環境の育成において卓越した活動を行った人々を称えます。Outstanding PyLady Award の授与は PyLadies グローバルカウンシルによって決定されます。この賞についての詳細は &lt;a href="https://kit.pyladies.com/en/latest/global/award.html"&gt;こちら&lt;/a&gt; をご覧ください。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PSF 功労賞&lt;/strong&gt;: これは財団の最高賞です。PSF 功労賞は、Python コミュニティへの継続的な模範的貢献に対する認識の申し出です。この賞は、コードの貢献、コミュニティ活動への努力、その他の手段を通じて Python の世界を形作る重要な影響を与える行動に対して授与されます。コミュニティサービス賞と同様に、コミュニティへのこのようなサービスが認識と報酬につながることを示すことが意図されており、貢献者に直接的なインセンティブを提供することが目的ではありません。この賞について詳しくは&lt;a href="https://www.python.org/community/awards/psf-distinguished-awards/"&gt;こちら&lt;/a&gt;をご覧ください。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;これらの賞と認識は、世界中の Pythonista の貴重な貢献を強調し、祝う素晴らしい方法です。&lt;/p&gt;
 &lt;!-- EDPART --&gt;
@@ -64,6 +69,7 @@
 &lt;li&gt;&lt;strong&gt;コミュニティサービス賞&lt;/strong&gt; の詳細と提出手順は、&lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSF コミュニティサービス賞ページ&lt;/a&gt; にあります。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;PSF ボードディレクターシップ&lt;/strong&gt; のノミネーションは通常、年次選挙プロセスの一部です。詳細は &lt;a href="https://www.python.org/nominations/elections/"&gt;PSF ボード選挙ページ&lt;/a&gt; をご覧ください。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Outstanding PyLady Award&lt;/strong&gt; の詳細は &lt;a href="https://kit.pyladies.com/en/latest/global/award.html"&gt;こちら&lt;/a&gt; で確認できます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PSF Distinguished Service Award&lt;/strong&gt; の詳細は&lt;a href="https://www.python.org/community/awards/psf-distinguished-awards/"&gt;こちら&lt;/a&gt; から確認できます。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -92,6 +98,7 @@
 &lt;!-- EDPART --&gt;
 
 &lt;p&gt;コミュニティサービス賞（CSA）は理解しやすい基準がありますが、受け入れられるためのハードルは依然として高いです。一例として、私が行った PyCon JP 協会のノミネーションがあります（詳細は &lt;a href="https://www.python.org/psf/records/board/resolutions/"&gt;こちら&lt;/a&gt; と &lt;a href="https://www.python.org/community/awards/psf-awards/#december-2021"&gt;こちら&lt;/a&gt; をご覧ください）。これはパンデミックの影響で財政的に大打撃を受けた PSF のために資金を集めるためのチャリティトークイベントを開催したことに対するものです。もう一つの最近の例は、&lt;a href="https://www.python.org/psf/records/board/minutes/2024-03-13/#new-business"&gt;Leonard Richardson, Lais Cavalho と Raquel Dou が CSA を受け取ったことを認める&lt;/a&gt;もので、彼らが構築し維持してきたソフトウェアやコミュニティが全体としてのコミュニティに利益をもたらしたためです。&lt;/p&gt;
+&lt;p&gt;功労賞 (DSA) は、はるかに高いハードルがあります。2012年にはじめて授与されて以来、これまでに7人しか受賞していません。時には CSA のノミネーションが DSA 授与につながることもありますが、それは PSF 理事会の判断に委ねられています。DSA が授与される理由については&lt;a href="https://www.python.org/community/awards/psf-distinguished-awards/"&gt;こちら&lt;/a&gt;をお読みいただき、他の受賞者と肩を並べるにふさわしいと思う方がいれば、ぜひノミネーションを行ってください。ノミネーションは&lt;a href="https://www.python.org/community/awards/psf-distinguished-awards/"&gt;こちら&lt;/a&gt;に記載されているように、PSF 理事会に電子メールでノミネートすることができます。&lt;/p&gt;
 &lt;p&gt;もちろん、自己推薦することもできますが、私は個人的にはこれを非常に難しく、非常に退屈だと感じるので、それをすることには興味がありません。他の人について書く方が楽しいです！&lt;/p&gt;
 &lt;!-- EDPART --&gt;
 
