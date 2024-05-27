@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2024-05-23T20:27:00+09:00</updated><entry><title>Nominating Pythonistas For Stuff At The Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/" rel="alternate"></link><published>2024-05-20T09:20:00+09:00</published><updated>2024-05-23T20:27:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-20:/posts/2024/05/nominating-pythonistas-at-the-psf/</id><summary type="html">&lt;p&gt;A README to nominating your fellow Pythonistas for stuff at the PSF&lt;/p&gt;</summary><content type="html">&lt;p&gt;Do you know that you can nominate your favorite hardworking person or group for stuff and recognize them for their work at the PSF, and do all this for &lt;em&gt;free&lt;/em&gt;? (i.e., free as in free tea)&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2024-05-27T11:50:00+09:00</updated><entry><title>Nominating Pythonistas For Stuff At The Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/" rel="alternate"></link><published>2024-05-20T09:20:00+09:00</published><updated>2024-05-23T20:27:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-20:/posts/2024/05/nominating-pythonistas-at-the-psf/</id><summary type="html">&lt;p&gt;A README to nominating your fellow Pythonistas for stuff at the PSF&lt;/p&gt;</summary><content type="html">&lt;p&gt;Do you know that you can nominate your favorite hardworking person or group for stuff and recognize them for their work at the PSF, and do all this for &lt;em&gt;free&lt;/em&gt;? (i.e., free as in free tea)&lt;/p&gt;
 &lt;!-- EDPART --&gt;
 
 &lt;h1&gt;Acknowledge And Thank Them: Nominating Your Fellow Pythonistas&lt;/h1&gt;
@@ -242,7 +242,88 @@ me a message through my &lt;a href="https://mtd.pythonasia.org/@iqbalabd"&gt;Mas
 &lt;li&gt;&lt;strong&gt;PSF フェローに誰かをノミネートするための要件は何ですか？&lt;/strong&gt; - 明確な要件はありませんが、通常のオーガナイザーや貢献者を超えた貢献が必要です。良い例は、PSF フェローノミネーションのために公開されているノミネーション文自体であり、&lt;a href="https://wiki.python.org/moin/PythonSoftwareFoundation/FellowNominations"&gt;こちら&lt;/a&gt; に掲載されています。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;これらのノミネーションはどのように決定されますか？&lt;/strong&gt; - 誰でも誰かをノミネートできますが、ノミネーションは PSF 内の異なるグループによって審議され、受け入れられるか拒否されます。PSF フェローノミネーションは &lt;a href="https://wiki.python.org/psf/FellowWG/Charter"&gt;PSF フェローワークグループ&lt;/a&gt; によって決定され、CSA は &lt;a href="https://www.python.org/psf/board/"&gt;PSF ボード&lt;/a&gt; によって、そして Outstanding PyLady Award は &lt;a href="https://pyladies.com/blog/Announcing-the-Inaugural-PyLadies-Global-Council/inaugural-pyladies-council/"&gt;PyLadies Global Council&lt;/a&gt; によって決定されます。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;この投稿をレビューしてくれた &lt;a href="https://x.com/cheukting_ho"&gt;Cheuk&lt;/a&gt; に感謝します&lt;/em&gt;&lt;/p&gt;</content><category term="2024"></category><category term="pycon"></category><category term="psf"></category><category term="コミュニティ"></category></entry><entry><title>Weblog Update (Finally!)</title><link href="https://iqbalabdullah.net/posts/2024/05/weblog-latest-update-2024/" rel="alternate"></link><published>2024-05-01T13:22:00+09:00</published><updated>2024-05-01T13:22:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-01:/posts/2024/05/weblog-latest-update-2024/</id><summary type="html">&lt;p&gt;Updating this weblog for 2024 and my 5-year diary&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Weblog Update&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;この投稿をレビューしてくれた &lt;a href="https://x.com/cheukting_ho"&gt;Cheuk&lt;/a&gt; に感謝します&lt;/em&gt;&lt;/p&gt;</content><category term="2024"></category><category term="pycon"></category><category term="psf"></category><category term="コミュニティ"></category></entry><entry><title>Going To PyCon US 2024 - Heading To Pittsburgh (Part 1)</title><link href="https://iqbalabdullah.net/posts/2024/05/going-to-pycon-us-2024-in-pittsburgh-part-1/" rel="alternate"></link><published>2024-05-09T22:20:00+09:00</published><updated>2024-05-27T11:50:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-09:/posts/2024/05/going-to-pycon-us-2024-in-pittsburgh-part-1/</id><summary type="html">&lt;p&gt;The first part of my journey across the world in May/June 2024.&lt;/p&gt;</summary><content type="html">&lt;!-- EDPART --&gt;
+
+&lt;h1&gt;First Stop: PyCon US 2024 via New York&lt;/h1&gt;
+&lt;p&gt;There were two events which I needed to attend in May this year:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://us.pycon.org/2024/"&gt;PyCon US 2024 in Pittsburgh&lt;/a&gt; (From May 15th to May 19th)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://latitude59.ee"&gt;Latitude59 in Tallinn&lt;/a&gt; (From May 22nd to May 24th)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The problem with this is that both events are only a few days apart from each other, but at totally different places on the planet.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;Booking Travel and Accommodations&lt;/h2&gt;
+&lt;h3&gt;Flights&lt;/h3&gt;
+&lt;p&gt;Because of these two places that I needed to go, I decided to take the &lt;a href="https://roundtheworld.staralliance.com/staralliance/EN/round-the-world"&gt;Round The World ticket from Star Alliance&lt;/a&gt; (also known as RTW) because I am an ANA member. It's actually much better deal to take the RTW ticket compared to a multi-city ticket, unless you want to go down the route of building your own flight plan through low-cost airlines. Even then, if you travel often, you might lose out on the Miles benefits if you take the multi-low-cost airlines route.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Tip: The RTW ticket allows you to change your flights (add, remove or change), but try not to do that. They will charge you USD 150 every person for each time&lt;/em&gt;. If you have to change though, it's pretty easy: Just send them an email and they will figure it out for you.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h3&gt;Hotels&lt;/h3&gt;
+&lt;p&gt;Afiza handles our accommodations when we travel. She has a membership with the Marriott group hotels and her membership level gives her useful perks when we stay.&lt;/p&gt;
+&lt;p&gt;What I can say is that prices of accommodation have at least doubled since a year ago, while the quality hasn't changed much and depends very much on the establishment you stay at.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;Packing for the Trip&lt;/h2&gt;
+&lt;p&gt;I've been doing multi-month travels over multiple cities, countries, timezones, and climates since 2013. Over the years, the amount that I pack has gone way down. When I started out, I called it "&lt;em&gt;Defensive Packing&lt;/em&gt;" where you get as many things as possible to handle all possibilities when you're traveling.&lt;/p&gt;
+&lt;p&gt;Now I have transitioned to "&lt;em&gt;Aggressive Packing&lt;/em&gt;" where you get only essentials for your comfort and try to get anything else that you'd need along the way. When you're away from home for months in different cities and countries the "what ifs" pile up. 
+It takes years to get to know yourself and the people you travel with to get this part right.&lt;/p&gt;
+&lt;p&gt;Your mileage may vary, but here's what I've got:&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h3&gt;Essentials: Clothes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;When I travel, the maximum amount of clothes I bring is six nights. This requires that I go to a laundry at least every five days. Hotel laundries are &lt;strong&gt;expensive&lt;/strong&gt; (unless you're in a particular hotel in Istanbul, maybe I'll write about that one day). &lt;/li&gt;
+&lt;li&gt;At least two pairs of shoes: One for running, and another is a pair of Dr. Martens boots. Sneakers are too painful for my feet when I walk on European cobblestones. Black boots are also useful when I need to go to a posh restaurant or business meeting.&lt;/li&gt;
+&lt;li&gt;Uniqlo light down. Alongside a hoodie, this combination can get me through tempreatures of as low as 14C.&lt;/li&gt;
+&lt;li&gt;A nice dinner jacket that can be rolled up and doesn't crease.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h3&gt;Essentials: Travel Goods&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Portable bidet. Living in Japan and around South East Asia, we take our toilet time seriously.&lt;/li&gt;
+&lt;li&gt;Portable water pot to boil water. I have a habit of not drinking cold drinks. US hotels also don't have water pots for you to boil water. Because our world mostly works on two different voltages, certain trips require me to bring two types of water boilers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h3&gt;Essentials: Medication and Toiletries&lt;/h3&gt;
+&lt;p&gt;Don't forget your medication and prescriptions. I have been so far blessed with good health, so I usually only pack painkillers, stuff like skin cream for itches, bandages, and band-aids which will come in handy if you get blisters. Anything beyond this, I usually will go to the local clinic or hospital. Exercising while travelling is an important part of my routine and is part of my effort to keep things this way.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;p&gt;&lt;strong&gt;I strongly suggest you obtain travel insurance&lt;/strong&gt;. Due to travel stress or being overzealous at experiencing the local delicacies, I have had the pleasure of experiencing the local medical facilities in Bangalore, Istanbul, Madrid, Marrakech, Kuala Lumpur, and Barcelona in the past. They cost money, and some facilities actually require proof of travel insurance from you before accepting you. You'll need to pay upfront, but with travel insurance, you can claim those expenses back when you get home. &lt;strong&gt;Remember to keep your receipts!&lt;/strong&gt;
+If you have a credit card, chances are there's already travel insurance that comes with your contract. Mine do, and I print out the local phone numbers of the concierge that can help us if we need assistance while traveling. I've actually called them twice in my past travels to get help on which hospital to visit when I was sick, and they were really helpful.
+Beware of CBD products: Now in Japan, CBD products are getting widespread, and some people find them useful. However, remember not to bring them on your trip because not all countries are acceptable with CBD. It could get you into a lot of trouble at customs.&lt;/p&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h3&gt;Essentials: Work Items&lt;/h3&gt;
+&lt;p&gt;If you're like me, you'll still be working while traveling. The work items that I bring with me are the things that I use daily when I'm at home, so I appreciate it that they also give me a reminder of home when I travel.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Laptop (Dell XPS-13) and 65W Ravpower charger&lt;/li&gt;
+&lt;li&gt;Two cables that can handle PD and USB-C/USB-A ports&lt;/li&gt;
+&lt;li&gt;A dongle that plugs into my laptop's USB-C and gets me connected on HDMI if I need to do presentations, and also Ethernet when it's available&lt;/li&gt;
+&lt;li&gt;Moleskin notebook and my Lamy pen. Writing things down on a piece of paper is still one of the most effective ways for me to gather my thoughts. It's also an effective way to pass someone information. I also love my Lamy pen.&lt;/li&gt;
+&lt;li&gt;Kindle&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.glocalme.com/product/numen-air/"&gt;Numen Air 5G router&lt;/a&gt; which works as a backup. The cheapest way to get data plans is usually through a local SIM. If you travel to many countries, though, buying local SIMs for each country might be costly. In this case, I usually use &lt;a href="https://www.celcomdigi.com/roaming"&gt;Celcom's Multi Country Pass&lt;/a&gt; where you pay a flat MYR98 fee for a whole month and gets you 2GB per day on 70 over countries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h3&gt;Others&lt;/h3&gt;
+&lt;p&gt;Others stuff that I bring along for pleasure:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A few packets of one-cup drip coffee (or pour-over as they are known in the US). I like the coffee from the usual place that I buy when I'm home. They remind me of home and I also get to save some money by drinking coffee instead.&lt;/li&gt;
+&lt;li&gt;Skipping rope. This is a form of exercise I picked up a few years ago. A half-hour skipping rope session can give me a decent workout. The ropes don't take up much space, and I only need a small area to do my workout. I bought the ropes from &lt;a href="https://www.crossrope.com"&gt;Crossrope&lt;/a&gt;. I have a whole set of four types of rope of different weights, but when I travel I only bring the 1/4 and 1/2 pound ropes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- EDPART --&gt;
+
+&lt;h2&gt;Packing It All Up&lt;/h2&gt;
+&lt;p&gt;Packing is done over a period of around a week. I'll gather everything piece by piece into one place based on a list, and get them all into the suitcases while also taking into account the clothes I need to still wear at home before leaving.&lt;/p&gt;
+&lt;p&gt;When I started traveling, I used to stuff everything into those big backpacks that backpackers use, but it turns out I can fit more, get my stuff organized better &lt;em&gt;and&lt;/em&gt; get my luggage weight down by using those &lt;a href="https://shop.samsonite.com/collections/lightweight/?prefn1=collection&amp;amp;prefv1=Cosmolite%203.0&amp;amp;srules=category-position"&gt;Samsonite Cosmolite&lt;/a&gt; suitcases. They're spacious, lightweight, and durable. For longer than a week's travel, I usually have two with me: the 125L and the carry-on smaller type. If we're taking connecting flights, I will have 2- days' worth of basic clothing and toiletries in my carry-on and everything else in the bigger bag. This is to take into account my checked-in bag gets lost in transit, which did happened to me once when I went to Munich many years ago.&lt;/p&gt;
+&lt;p&gt;I've been using the Samsonites for nearly 10 years now.&lt;/p&gt;
+&lt;h2&gt;And We're Set&lt;/h2&gt;
+&lt;p&gt;After all that, everything gets packed into one large and one small suitcase and my backpack. You can see how my luggage
+looks like below. We're now ready to go!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="A picture of my luggage for one month" src="https://iqbalabdullah.net/images/one-month-luggage.jpg"&gt;&lt;/p&gt;</content><category term="2024"></category><category term="pycon"></category><category term="pittsburgh"></category><category term="may-2024-trip"></category><category term="travel"></category></entry><entry><title>Weblog Update (Finally!)</title><link href="https://iqbalabdullah.net/posts/2024/05/weblog-latest-update-2024/" rel="alternate"></link><published>2024-05-01T13:22:00+09:00</published><updated>2024-05-01T13:22:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-01:/posts/2024/05/weblog-latest-update-2024/</id><summary type="html">&lt;p&gt;Updating this weblog for 2024 and my 5-year diary&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Weblog Update&lt;/h1&gt;
 &lt;p&gt;I finally sat down and got to updating this weblog. I write a lot, but most of my writing is work-related and will go to
 their respective blogs such as &lt;a href="https://kafkai.com/en/blog/"&gt;Kafkai blog&lt;/a&gt;, &lt;a href="https://otp.dev/en/blog/"&gt;GetOTP blog&lt;/a&gt; or &lt;a href="https://lalokalabs.co/en/blog/"&gt;LaLoka Labs's blog&lt;/a&gt;
 and after all of that there wasn't enough time for me to write things which are more personal.&lt;/p&gt;
