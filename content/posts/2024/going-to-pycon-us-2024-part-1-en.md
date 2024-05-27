@@ -2,7 +2,7 @@ Title: Going To PyCon US 2024 - Heading To Pittsburgh (Part 1)
 Slug: going-to-pycon-us-2024-in-pittsburgh-part-1
 Lang: en
 Date: 2024-05-09 22:20
-Modified: 2024-05-09 22:20
+Modified: 2024-05-27 11:50
 Tags: pycon; pittsburgh; may-2024-trip; travel;
 Authors: Iqbal Abdullah
 Summary: The first part of my journey across the world in May/June 2024.
@@ -103,12 +103,13 @@ Others stuff that I bring along for pleasure:
 
 Packing is done over a period of around a week. I'll gather everything piece by piece into one place based on a list, and get them all into the suitcases while also taking into account the clothes I need to still wear at home before leaving.
 
-When I started traveling, I used to stuff everything into those big backpacks but it turns out I can fit more, get my stuff organized better _and_ get my luggage weight down by using those [Samsonite Cosmolite](https://shop.samsonite.com/collections/lightweight/?prefn1=collection&prefv1=Cosmolite%203.0&srules=category-position) suitcases. They're spacious, lightweight, and durable. For longer than a week's travel, I usually have two with me: the 125L and the carry-on smaller type. If we're taking connecting flights, I will have 2- days' worth of basic clothing and toiletries in my carry-on and everything else in the bigger bag.
+When I started traveling, I used to stuff everything into those big backpacks that backpackers use, but it turns out I can fit more, get my stuff organized better _and_ get my luggage weight down by using those [Samsonite Cosmolite](https://shop.samsonite.com/collections/lightweight/?prefn1=collection&prefv1=Cosmolite%203.0&srules=category-position) suitcases. They're spacious, lightweight, and durable. For longer than a week's travel, I usually have two with me: the 125L and the carry-on smaller type. If we're taking connecting flights, I will have 2- days' worth of basic clothing and toiletries in my carry-on and everything else in the bigger bag. This is to take into account my checked-in bag gets lost in transit, which did happened to me once when I went to Munich many years ago.
 
 I've been using the Samsonites for nearly 10 years now.
 
-![A picture of my luggage for one month]({static}/images/one-month-luggage.jpg)
-
 ## And We're Set
 
-After all that, everything gets packed into one large and one small suitcase and my backpack. We're now ready to go!
+After all that, everything gets packed into one large and one small suitcase and my backpack. You can see how my luggage
+looks like below. We're now ready to go!
+
+![A picture of my luggage for one month]({static}/images/one-month-luggage.jpg)
