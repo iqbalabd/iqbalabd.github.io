@@ -107,6 +107,8 @@ When I started traveling, I used to stuff everything into those big backpacks bu
 
 I've been using the Samsonites for nearly 10 years now.
 
+![A picture of my luggage for one month]({static}/images/one-month-luggage.jpg)
+
 ## And We're Set
 
 After all that, everything gets packed into one large and one small suitcase and my backpack. We're now ready to go!
