@@ -3,67 +3,64 @@ Slug: getting-started-with-python-in-malaysia
 Lang: en
 Date: 2024-06-17 21:30
 Modified: 2024-06-17 21:30
-Tags: python; newbie; learning;
+Tags: python; newbie; learning; my;
 Status: draft
 Authors: Iqbal Abdullah
 Summary: Tips and resources to start learning Python without spending (much) money if you're in Malaysia
 
 # Python Is The Rage Now
 
-I read [on the internet](https://x.com/reviewbyyasmin/status/1802258242342736212) people wanting to join Python and data science related courses initiated by the government-led agencies. They are mostly free (paid by the taxpayer) but space is limited. Some of these courses are even limited to those under 30 years old. 
+I read [on the internet](https://x.com/reviewbyyasmin/status/1802258242342736212) about people wanting to join Python and data science-related courses offered by government-led agencies. These courses are mostly free (funded by taxpayers) but have limited space, and some are restricted to those under 30 years old.
 
-Upskilling is not limited to only the young, and learning Python shouldn't require you to spend (much) money. You can even start right away.
+Upskilling isn't just for the young, and learning Python shouldn't require significant financial investment. You can start immediately.
 
-Python is a versatile language that is being used _everywhere_, from powering the internet, to [developing AI applications](https://huggingface.co/learn/nlp-course/en/chapter0/1) and even in [outer space](https://datatas.com/does-nasa-use-python/). A **big reason** why it is so popular and succesfull is that it is [open-source](https://github.com/python/cpython) and [free to download and use](https://www.python.org/downloads/) which reduces the hurdle for it to be used and improved by the public.
+Python is a versatile language used in various domains, from powering the internet and [developing AI applications](https://huggingface.co/learn/nlp-course/en/chapter0/1) to being utilized in [outer space](https://datatas.com/does-nasa-use-python/). Its popularity and success stem from being [open-source](https://github.com/python/cpython) and [free to download and use](https://www.python.org/downloads/), which lowers barriers to its use and improvement by the public.
 
 ## Learning Python For Free
 
-I picked up Python for the first time in 2002 (v1.5.2). I didn't spend a sen when I started learning it at that time, and so can you.
+I first picked up Python in 2002 (v1.5.2) without spending a sen, and so can you.
 
-There are tons of online resources that you can access for free to start learning to program in Python and going through it all to decide which to try might just give you a headache.
-
-I'm going to suggest a few resources here which I know are built from the **other reason** why Python is so big: It's community.
+There are numerous online resources available for free to start learning Python. Sifting through them all might be overwhelming, so I'll suggest a few built on another reason for Python's popularity: its community.
 
 ### Learn By Doing
 
-I had things I wanted to do, such as automatically pulling data from a website or send SMS from my computer to my friend's phone. It's usually automating some manual task that I have. You will have something that  you want to do too. Spend a few minutes thinking about it, and start by looking at ways you can do it via Python. Actually getting your hands dirty is the _fastest way_ to lean Python.
+I had tasks I wanted to automate, like pulling data from a website or sending SMS from my computer. You likely have your projects in mind. Spend a few minutes considering them, and start exploring how you can accomplish these tasks with Python. Hands-on experience is the fastest way to learn.
 
-These are some material which are free and will be useful.
+Here are some free materials that will be useful:
 
--   Learn To Program. For Free: Al Sweigart's [Invent With Python](https://inventwithpython.com)
-    I met Al for the first time during PyCon PH in 2018. Al writes a lot of books geared for beginners and being the wonderful human being he is, makes these learning material available for free. His book [Automate The Boring Stuff With Python](https://automatetheboringstuff.com) is especially useful to give you ideas on what you can build with Python. 
+- Learn To Program. For Free: Al Sweigart's [Invent With Python](https://inventwithpython.com)
+    I met Al at PyCon PH in 2018. He writes books for beginners and generously makes these materials available for free. His book [Automate The Boring Stuff With Python](https://automatetheboringstuff.com) is particularly useful for generating ideas on what you can build with Python.
 
-
-- Trey Hunner's [Python Morsels newsletter](https://www.pythonmorsels.com/newsletter/) 
-    I met Trey during PyCon US. Trey writes newsletters and [tips on X](https://x.com/treyhunner) about Python. His material might be intermediate level, but even if you don't understand the terms and concepts, it's a good idea to just skim through it to familiarize yourself on the technical language. 
+- Trey Hunner's [Python Morsels newsletter](https://www.pythonmorsels.com/newsletter/)
+    I met Trey at PyCon US. He writes newsletters and [tips on X](https://x.com/treyhunner) about Python. His material might be intermediate level, but skimming through it can help familiarize you with technical terminology.
 
 ### Learn By Listening
 
-When you're learning a new natural language (spoken language), an effective way to quickly learn it is to just listen to people talking in that language. You won't understand the meaning of the words at first, but just getting a feel of the language and how it is expressed will help multiply your understanding when you actually practice it. It is the same for programming languages.
+Learning a new spoken language effectively often involves listening to it spoken. Initially, you might not understand the words, but getting a feel for the language's rhythm and expression can enhance your understanding when you start practicing. The same applies to programming languages.
 
 - Mike Kennedy's [Talk Python To Me](https://talkpython.fm)
-    I met Mike for the first time during PyCon PH in 2024. Mike's podcast interviews people that work on Python or uses Python in many different ways.
+    I met Mike at PyCon PH in 2024. His podcast features interviews with people working with or using Python in various capacities.
 
 ### Learn Python Together
 
-The next step is to motivate yourself to so you'll continue with your learning and up-skill yourself. 
+The next step is motivating yourself to continue learning and upskilling.
 
-After you've familiarize yourself with the syntax and the technical language, it's time to meet people. If you can find a person or a few people that you can get along with, it will be good motivation for you to carry on with your learning and reduces the chances that you'll give up after a few months.
+After familiarizing yourself with the syntax and technical language, meeting people can provide motivation and reduce the likelihood of giving up after a few months.
 
-The Python community is one of the most welcoming community I've known. Find one near you and get to know them.
+The Python community is incredibly welcoming. Find a group near you and get involved.
 
-- Meetups: Members of the community sometimes to meetups and get together to learn together. There's not many Python user groups in Malaysia, but there are some adjacent ones.
+- Meetups: Community members sometimes organize meetups to learn together. While there aren't many Python user groups in Malaysia, there are some related ones.
     - [Artificial Intelligence And Machine Learning Malaysia User Group](https://tfugmy.peatix.com)
-    - Women driven data analytics, data science, data engineering, and ML in data community [Wanita Data](https://x.com/WanitaData)
-- PyCons: Python conferences are called PyCons. There are usually country level PyCons such as [PyCon MY (Malaysia)](https://pycon.my/), [PyCon ID (Indonesia)](https://pycon.id), [PyCon TH](https://th.pycon.org) and the biggest PyCon in the world, [PyCon US](https://us.pycon.org/). We also have regional PyCons such as [EuroPython](https://europython.eu) for Europe and [PyCon APAC](https://pycon.asia) for our Asia-Pacific region.
-- Specific interest groups, such as the women-led [PyLadies](https://pyladies.com/locations/) or [PyData](https://www.meetup.com/PyDataKL/) . Special interest groups like the PyLadies is especially important to give a safe-space for minorities within our community to learn. If you're a woman and find it daunting to join a male dominated Python event, then the PyLadies is for you.
+    - Women-driven data analytics, data science, data engineering, and ML community [Wanita Data](https://x.com/WanitaData)
+- PyCons: Python conferences, known as PyCons, occur at both country levels, like [PyCon MY (Malaysia)](https://pycon.my/), and regionally, such as [EuroPython](https://europython.eu) for Europe and [PyCon APAC](https://pycon.asia) for Asia-Pacific.
+- Specific interest groups, like the women-led [PyLadies](https://pyladies.com/locations/) or [PyData](https://www.meetup.com/PyDataKL/), provide safe spaces for minorities within our community to learn.
 
-Meetups are sometimes free but PyCons are mostly paid. Don't worry: A requirement for a PyCon is to have their ticket prices reasonable to the general public or they cannot call themselves "PyCon". Nearly all PyCons also have travel grants and free tickets which you can apply for, thanks to their wonderful sponsors.
+Meetups are often free, but PyCons usually have an entry fee. However, PyCons strive to keep ticket prices affordable or they wouldn't be considered PyCons. Most also offer travel grants and free tickets through sponsorships.
 
 ## Happy Coding
 
-Learning Python in Malaysia is accessible and affordable, thanks to many free resources and the supportive community. By leveraging online materials like Al Sweigart's books and Trey Hunner's newsletters, you can start learning without any financial burden. Engage with the community through meetups, user groups, and PyCons, It will not only enhance your learning experience but also provide motivation and support from like-minded individuals.
+Learning Python in Malaysia is accessible and affordable thanks to numerous free resources and a supportive community. By leveraging materials like Al Sweigart's books and Trey Hunner's newsletters, you can begin learning without financial strain. Engaging with the community through meetups, user groups, and PyCons not only enhances your learning experience but also provides motivation and support from like-minded individuals.
 
-Python's versatility and widespread use in various industries make it a valuable skill to acquire. From my experience, consistency is the most important thing when learning Python (or anything new for that matter). It makes a lot of difference if you spend an hour a day for a month instead of 10 hours within three days. Get something working, and enjoy that feeling.
+Python's versatility and widespread use across industries make it a valuable skill. Consistency is crucial when learning Python or anything new. Spending an hour a day for a month is more effective than cramming 10 hours into three days. Celebrate your progress and enjoy the journey.
 
 Happy coding, and may your Python journey be as rewarding as it is exciting!
