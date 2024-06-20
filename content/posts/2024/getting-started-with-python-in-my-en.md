@@ -31,6 +31,8 @@ Here are some free materials that will be useful:
 - Learn To Program. For Free: Al Sweigart's [Invent With Python](https://inventwithpython.com)
     I met Al at PyCon PH in 2018. He writes books for beginners and generously makes these materials available for free. His book [Automate The Boring Stuff With Python](https://automatetheboringstuff.com) is particularly useful for generating ideas on what you can build with Python.
 
+- Join a [local Telegram group "BelajarPythonBot"](https://t.me/belajarpythonbot) maintained by [Kamal Mustafa](https://x.com/k4ml) and [Amirul](https://x.com/AmirulAbu)
+
 - Trey Hunner's [Python Morsels newsletter](https://www.pythonmorsels.com/newsletter/)
     I met Trey at PyCon US. He writes newsletters and [tips on X](https://x.com/treyhunner) about Python. His material might be intermediate level, but skimming through it can help familiarize you with technical terminology.
 
