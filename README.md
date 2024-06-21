@@ -95,7 +95,7 @@ CNAME file [gets published every time you do `make github`](https://stackoverflo
 
 # おまけ
 
-## proofread with Llama
+## Proofread with Llama
 
 Build llama-cpp-python with CUDA to enable GPU usage
 ```
@@ -104,3 +104,14 @@ CMAKE_ARGS="-DLLAMA_CUDA=on" pip install --upgrade --force-reinstall --no-cache-
 
 [`meta-llama-3-8b-instruct.Q3_K_M.gguf`](https://huggingface.co/SanctumAI/Meta-Llama-3-8B-Instruct-GGUF/blob/main/meta-llama-3-8b-instruct.Q3_K_M.gguf) works best
 Tried [`mistral-7b-instruct-v0.2.BF16.gguf`](https://huggingface.co/jartine/Mistral-7B-Instruct-v0.2-llamafile/blob/main/mistral-7b-instruct-v0.2.BF16.gguf) the model was loaded but it didn't follow instructions.
+
+## Proofread with `fabric`
+
+[`Fabric`](https://github.com/danielmiessler/fabric) is an open-source project that help you use AI functionalities
+better through public and open-source _Patterns_ (what the project call prompts) and integrates well with the command
+line.
+
+Example:
+```
+$ cat ktmb-should-follow-right-train-of-thought-en.md | fabric -sp improve_blog_grammar
+```
