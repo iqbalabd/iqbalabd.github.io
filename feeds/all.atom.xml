@@ -1,5 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2024-05-27T11:50:00+09:00</updated><entry><title>Nominating Pythonistas For Stuff At The Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/" rel="alternate"></link><published>2024-05-20T09:20:00+09:00</published><updated>2024-05-23T20:27:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-20:/posts/2024/05/nominating-pythonistas-at-the-psf/</id><summary type="html">&lt;p&gt;A README to nominating your fellow Pythonistas for stuff at the PSF&lt;/p&gt;</summary><content type="html">&lt;p&gt;Do you know that you can nominate your favorite hardworking person or group for stuff and recognize them for their work at the PSF, and do all this for &lt;em&gt;free&lt;/em&gt;? (i.e., free as in free tea)&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/</id><updated>2024-06-17T21:30:00+09:00</updated><entry><title>Getting Started With Python in Malaysia</title><link href="https://iqbalabdullah.net/posts/2024/06/getting-started-with-python-in-malaysia/" rel="alternate"></link><published>2024-06-17T21:30:00+09:00</published><updated>2024-06-17T21:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-06-17:/posts/2024/06/getting-started-with-python-in-malaysia/</id><summary type="html">&lt;p&gt;Tips and resources to start learning Python without spending (much) money if you're in Malaysia&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Python Is The Rage Now&lt;/h1&gt;
+&lt;p&gt;I read &lt;a href="https://x.com/reviewbyyasmin/status/1802258242342736212"&gt;on the internet&lt;/a&gt; about people wanting to join Python and data science-related courses offered by government-led agencies. These courses are mostly free (funded by taxpayers) but have limited space, and some are restricted to those under 30 years old.&lt;/p&gt;
+&lt;p&gt;Upskilling isn't just for the young, and learning Python shouldn't require significant financial investment. You can start immediately.&lt;/p&gt;
+&lt;p&gt;Python is a versatile language used in various domains, from powering the internet and &lt;a href="https://huggingface.co/learn/nlp-course/en/chapter0/1"&gt;developing AI applications&lt;/a&gt; to being utilized in &lt;a href="https://datatas.com/does-nasa-use-python/"&gt;outer space&lt;/a&gt;. Its popularity and success stem from being &lt;a href="https://github.com/python/cpython"&gt;open-source&lt;/a&gt; and &lt;a href="https://www.python.org/downloads/"&gt;free to download and use&lt;/a&gt;, which lowers barriers to its use and improvement by the public.&lt;/p&gt;
+&lt;h2&gt;Learning Python For Free&lt;/h2&gt;
+&lt;p&gt;I first picked up Python in 2002 (v1.5.2) without spending a sen, and so can you.&lt;/p&gt;
+&lt;p&gt;There are numerous online resources available for free to start learning Python. Sifting through them all might be overwhelming, so I'll suggest a few built on another reason for Python's popularity: its community.&lt;/p&gt;
+&lt;h3&gt;Learn By Doing&lt;/h3&gt;
+&lt;p&gt;I had tasks I wanted to automate, like pulling data from a website or sending SMS from my computer. You likely have your projects in mind. Spend a few minutes considering them, and start exploring how you can accomplish these tasks with Python. Hands-on experience is the fastest way to learn.&lt;/p&gt;
+&lt;p&gt;Here are some free materials that will be useful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Learn To Program. For Free: Al Sweigart's &lt;a href="https://inventwithpython.com"&gt;Invent With Python&lt;/a&gt;
+    I met Al at PyCon PH in 2018. He writes books for beginners and generously makes these materials available for free. His book &lt;a href="https://automatetheboringstuff.com"&gt;Automate The Boring Stuff With Python&lt;/a&gt; is particularly useful for generating ideas on what you can build with Python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Join a &lt;a href="https://t.me/belajarpythonbot"&gt;local Telegram group "BelajarPythonBot"&lt;/a&gt; maintained by &lt;a href="https://x.com/k4ml"&gt;Kamal Mustafa&lt;/a&gt; and &lt;a href="https://x.com/AmirulAbu"&gt;Amirul&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Trey Hunner's &lt;a href="https://www.pythonmorsels.com/newsletter/"&gt;Python Morsels newsletter&lt;/a&gt;
+    I met Trey at PyCon US. He writes newsletters and &lt;a href="https://x.com/treyhunner"&gt;tips on X&lt;/a&gt; about Python. His material might be intermediate level, but skimming through it can help familiarize you with technical terminology.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Learn By Listening&lt;/h3&gt;
+&lt;p&gt;Learning a new spoken language effectively often involves listening to it spoken. Initially, you might not understand the words, but getting a feel for the language's rhythm and expression can enhance your understanding when you start practicing. The same applies to programming languages.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mike Kennedy's &lt;a href="https://talkpython.fm"&gt;Talk Python To Me&lt;/a&gt;
+    I met Mike at PyCon PH in 2024. His podcast features interviews with people working with or using Python in various capacities.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Learn Python Together&lt;/h3&gt;
+&lt;p&gt;The next step is motivating yourself to continue learning and upskilling.&lt;/p&gt;
+&lt;p&gt;After familiarizing yourself with the syntax and technical language, meeting people can provide motivation and reduce the likelihood of giving up after a few months.&lt;/p&gt;
+&lt;p&gt;The Python community is incredibly welcoming. Find a group near you and get involved.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Meetups: Community members sometimes organize meetups to learn together. While there aren't many Python user groups in Malaysia, there are some related ones.&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tfugmy.peatix.com"&gt;Artificial Intelligence And Machine Learning Malaysia User Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Women-driven data analytics, data science, data engineering, and ML community &lt;a href="https://x.com/WanitaData"&gt;Wanita Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;PyCons: Python conferences, known as PyCons, occur at both country levels, like &lt;a href="https://pycon.my/"&gt;PyCon MY (Malaysia)&lt;/a&gt;, and regionally, such as &lt;a href="https://europython.eu"&gt;EuroPython&lt;/a&gt; for Europe and &lt;a href="https://pycon.asia"&gt;PyCon APAC&lt;/a&gt; for Asia-Pacific.&lt;/li&gt;
+&lt;li&gt;Specific interest groups, like the women-led &lt;a href="https://pyladies.com/locations/"&gt;PyLadies&lt;/a&gt; or &lt;a href="https://www.meetup.com/PyDataKL/"&gt;PyData&lt;/a&gt;, provide safe spaces for minorities within our community to learn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Meetups are often free, but PyCons usually have an entry fee. However, PyCons strive to keep ticket prices affordable or they wouldn't be considered PyCons. Most also offer travel grants and free tickets through sponsorships.&lt;/p&gt;
+&lt;h2&gt;Happy Coding&lt;/h2&gt;
+&lt;p&gt;Learning Python in Malaysia is accessible and affordable thanks to numerous free resources and a supportive community. By leveraging materials like Al Sweigart's books and Trey Hunner's newsletters, you can begin learning without financial strain. Engaging with the community through meetups, user groups, and PyCons not only enhances your learning experience but also provides motivation and support from like-minded individuals.&lt;/p&gt;
+&lt;p&gt;Python's versatility and widespread use across industries make it a valuable skill. Consistency is crucial when learning Python or anything new. Spending an hour a day for a month is more effective than cramming 10 hours into three days. Celebrate your progress and enjoy the journey.&lt;/p&gt;
+&lt;p&gt;Happy coding, and may your Python journey be as rewarding as it is exciting!&lt;/p&gt;</content><category term="2024"></category><category term="python"></category><category term="newbie"></category><category term="learning"></category><category term="my"></category></entry><entry><title>Mula Belajar Python di Malaysia</title><link href="https://iqbalabdullah.net/ms/posts/2024/06/getting-started-with-python-in-malaysia/" rel="alternate"></link><published>2024-06-17T21:30:00+09:00</published><updated>2024-06-17T21:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-06-17:/ms/posts/2024/06/getting-started-with-python-in-malaysia/</id><summary type="html">&lt;p&gt;Tips dan sumber untuk mula belajar Python tanpa mengeluarkan (banyak) wang untuk anda di Malaysia&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Python Kini Popular&lt;/h1&gt;
+&lt;p&gt;Saya membaca &lt;a href="https://x.com/reviewbyyasmin/status/1802258242342736212"&gt;di internet&lt;/a&gt; tentang mereka yang ingin menyertai kursus berkaitan Python dan sains data yang ditawarkan oleh agensi kerajaan. Kursus-kursus ini kebanyakannya percuma (dibiayai oleh pembayar cukai) tetapi mempunyai ruang terhad, dan sesetengahnya hanya terbuka untuk mereka di bawah umur 30 tahun.&lt;/p&gt;
+&lt;p&gt;Menambah kemahiran bukan hanya untuk golongan muda, dan mempelajari juga Python tidak semestinya memerlukan pelaburan kewangan yang besar. Sesiapa sahaja boleh mula sekarang.&lt;/p&gt;
+&lt;p&gt;Python adalah bahasa pegaturcara serbaguna yang digunakan dalam pelbagai bidang, daripada memperkuasakan internet dan &lt;a href="https://huggingface.co/learn/nlp-course/en/chapter0/1"&gt;membangunkan aplikasi AI&lt;/a&gt; hingga digunakan di &lt;a href="https://datatas.com/does-nasa-use-python/"&gt;angkasa lepas&lt;/a&gt;. Populariti dan kejayaannya disebabkan kerana Python adalah &lt;a href="https://github.com/python/cpython"&gt;sumber terbuka&lt;/a&gt; dan &lt;a href="https://www.python.org/downloads/"&gt;percuma untuk dimuat turun dan digunakan&lt;/a&gt;. Ini mempermudahkan Python digunakan dan ditambahbaikkan oleh orang ramai.&lt;/p&gt;
+&lt;h2&gt;Belajar Python Secara Percuma&lt;/h2&gt;
+&lt;p&gt;Saya mula belajar Python pada tahun 2002 (v1.5.2) tanpa mengeluarkan sesen pun, dan anda juga boleh berbuat demikian.&lt;/p&gt;
+&lt;p&gt;Terdapat banyak sumber dalam talian yang tersedia secara percuma untuk mula belajar Python. Mungkin agak memeningkan kepala untuk membacanya semua sekali, jadi saya akan mencadangkan beberapa yang dibina atas sebab lain bagi populariti Python: komunitinya.&lt;/p&gt;
+&lt;h3&gt;Belajar Python Secara Mencuba&lt;/h3&gt;
+&lt;p&gt;Saya mempunyai tugas yang ingin saya automasikan, seperti mengambil data dari laman web atau menghantar SMS dari komputer saya. Anda juga mungkin mempunyai projek yang ingin dilakukan. Luangkan beberapa minit untuk mempertimbangkannya, dan mula meneroka bagaimana anda boleh menyelesaikan tugas-tugas ini dengan Python. Mencuba adalah cara terpantas untuk belajar.&lt;/p&gt;
+&lt;p&gt;Berikut adalah beberapa bahan percuma yang mungkin berguna:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Learn To Program. For Free: Al Sweigart's &lt;a href="https://inventwithpython.com"&gt;Invent With Python&lt;/a&gt;
+    Saya berjumpa dengan Al buat pertama kalinya di PyCon PH Manila tahun 2018. Buku beliau &lt;a href="https://automatetheboringstuff.com"&gt;Automate The Boring Stuff With Python&lt;/a&gt; juga berguna untuk mendapatkan idea perkara yang boleh kita bina dengan Python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sertai komuniti &lt;a href="https://t.me/belajarpythonbot"&gt;"BelajarPythonBot" di Telegram&lt;/a&gt; yang dikendalikan oleh &lt;a href="https://x.com/k4ml"&gt;Kamal Mustafa&lt;/a&gt; dan &lt;a href="https://x.com/AmirulAbu"&gt;Amirul&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Trey Hunner's &lt;a href="https://www.pythonmorsels.com/newsletter/"&gt;Python Morsels newsletter&lt;/a&gt;
+    Saya berjumpa Trey buat pertama kalinya di PyCon US. Dia menulis &lt;em&gt;newsletter&lt;/em&gt; dan juga &lt;a href="https://x.com/treyhunner"&gt;tips di X&lt;/a&gt; mengenai Python. Tulisan Trey mungkin tidak sesuai untuk yang beru mahu berjinak dengan Python, tetapi kalau kita biasakan membaca tulisan Trey kita dapat membiasakan diri dengan bahasa teknikal yang sering digunakan dalam peraturcaraan Python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Belajar Python Dengan Mendengar&lt;/h3&gt;
+&lt;p&gt;Membiasakan diri dengan mendengar percakapan adalah satu cara efektif untuk kita belajar bahasa baru. Sama juga dengan
+bahasa pengaturcaraan seperti Python. Kemungkinan kita tidak akan dapat memahami semua ertikata dalam perbualan tersebut
+tetapi membiasakan diri dengan ritma dan cara bahasa pengaturcaraan itu diceritakan akan menolong kita lebih cepat untuk
+memahami konsep-konsep yang kita belajar semasa mencuba bahasa tersebut.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://talkpython.fm"&gt;Talk Python To Me&lt;/a&gt; oleh Mike Kennedy.
+    Pertama kali saya bertermu Mike adalah di PyCon PH di Manila tahun 2024. &lt;code&gt;Podcast&lt;/code&gt; beliau mempertengahkan mereka yang berkerja dengan Python dan memperkenalkan cara-cara yang menarik bagaimana Python digunakan.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Belajar Python Bersama-Sama&lt;/h3&gt;
+&lt;p&gt;Langkah setersunya ialah untuk anda memotivasikan diri untuk terus belajar.&lt;/p&gt;
+&lt;p&gt;Selepas membiasakan diri dengan cara penulisan dan terma-terma teknikal Python, berjumpa dengan orang lain boleh
+memberikan anda motivasi dan mengurangkan kebarangkalian anda putus-asa selepas beberapa bulan.&lt;/p&gt;
+&lt;p&gt;Kommuniti Python mengalualukan penglibatan orang yang baru belajar seperti anda. Cari kumpulan terdekat dan libatkan
+diri.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Meetups&lt;/code&gt;: Ahli-ahli komuniti kadang-kadang berjumpa dan belajar bersama. Walaupun di Malaysia tidak banyak kumpulan pengguna Python, masih ada komuniti yang berkaitan.&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tfugmy.peatix.com"&gt;Artificial Intelligence And Machine Learning Malaysia User Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Komuniti analisis data, sains data, kejuruteraan data, dan ML yang dipacu oleh wanita &lt;a href="https://x.com/WanitaData"&gt;Wanita Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PyCons&lt;/code&gt;: Persidangan Python, dikenali sebagai PyCons, diadakan di peringkat negara seperti &lt;a href="https://pycon.my/"&gt;PyCon MY (Malaysia)&lt;/a&gt;, dan secara serantau seperti &lt;a href="https://europython.eu"&gt;EuroPython&lt;/a&gt; untuk Eropah dan &lt;a href="https://pycon.asia"&gt;PyCon APAC&lt;/a&gt; untuk Asia-Pasifik.&lt;/li&gt;
+&lt;li&gt;Kumpulan khusus, seperti &lt;a href="https://pyladies.com/locations/"&gt;PyLadies&lt;/a&gt; yang dipimpin dan khas untuk wanita yang berkecimpung dalam pengaturcaraan Python atau &lt;a href="https://www.meetup.com/PyDataKL/"&gt;PyData&lt;/a&gt; yang memberikan ruang selamat untuk kumpulan minoriti di dalam komuniti kita untuk belajar bersama.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Meetups biasanya percuma, tetapi &lt;code&gt;PyCons&lt;/code&gt; biasanya mengenakan yuran penyertaan. Walau bagaimanapun, &lt;code&gt;PyCons&lt;/code&gt; berusaha untuk mengekalkan harga tiket yang berpatutan atau mereka tidak boleh dipanggil &lt;code&gt;PyCon&lt;/code&gt;. Kebanyakan juga menawarkan geran perjalanan dan tiket percuma melalui tajaan.&lt;/p&gt;
+&lt;h2&gt;Selamat Berkoding&lt;/h2&gt;
+&lt;p&gt;Memperlajari Python di Malaysia adalah mudah disebabkan oleh banyak sumber percuma dan komuniti yang menyokong. Dengan memanfaatkan bahan seperti buku-buku Al Sweigart dan buletin Trey Hunner, anda boleh mula belajar tanpa membelanjakan wang.
+Melibatkan diri dengan komuniti melalui meetup dan PyCon bukan sahaja mempertingkatkan pengalaman pembelajaran anda tetapi juga memberikan motivasi dan sokongan diri.&lt;/p&gt;
+&lt;p&gt;Penggunaan Python yang meluas di perlbagai industri menjadikan kemahiran menggunakannya sangat berharga. Pembelajaran konsisten adalah kunci ketika mempelajari Python atau apa-apa pun yang baru. Menghabiskan sejam sehari selama sebulan adalah lebih efektif daripada 10 jam dalam tiga hari. Raikan kemajuan dan nikmati perjalanan pembelajaran anda.&lt;/p&gt;
+&lt;p&gt;Selamat berkoding, dan semoga perjalanan Python anda berjaya!&lt;/p&gt;</content><category term="2024"></category><category term="python"></category><category term="newbie"></category><category term="pembelajaran"></category><category term="my"></category></entry><entry><title>Nominating Pythonistas For Stuff At The Python Software Foundation (PSF)</title><link href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/" rel="alternate"></link><published>2024-05-20T09:20:00+09:00</published><updated>2024-05-23T20:27:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-05-20:/posts/2024/05/nominating-pythonistas-at-the-psf/</id><summary type="html">&lt;p&gt;A README to nominating your fellow Pythonistas for stuff at the PSF&lt;/p&gt;</summary><content type="html">&lt;p&gt;Do you know that you can nominate your favorite hardworking person or group for stuff and recognize them for their work at the PSF, and do all this for &lt;em&gt;free&lt;/em&gt;? (i.e., free as in free tea)&lt;/p&gt;
 &lt;!-- EDPART --&gt;
 
 &lt;h1&gt;Acknowledge And Thank Them: Nominating Your Fellow Pythonistas&lt;/h1&gt;
