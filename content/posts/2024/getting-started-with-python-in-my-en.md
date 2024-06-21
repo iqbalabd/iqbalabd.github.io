@@ -4,7 +4,8 @@ Lang: en
 Date: 2024-06-17 21:30
 Modified: 2024-06-17 21:30
 Tags: python; newbie; learning; my;
-Status: draft
+Status: published
+Translation: false
 Authors: Iqbal Abdullah
 Summary: Tips and resources to start learning Python without spending (much) money if you're in Malaysia
 
