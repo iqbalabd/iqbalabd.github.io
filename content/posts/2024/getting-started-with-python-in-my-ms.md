@@ -72,3 +72,6 @@ Melibatkan diri dengan komuniti melalui meetup dan PyCon bukan sahaja memperting
 Penggunaan Python yang meluas di perlbagai industri menjadikan kemahiran menggunakannya sangat berharga. Pembelajaran konsisten adalah kunci ketika mempelajari Python atau apa-apa pun yang baru. Menghabiskan sejam sehari selama sebulan adalah lebih efektif daripada 10 jam dalam tiga hari. Raikan kemajuan dan nikmati perjalanan pembelajaran anda.
 
 Selamat berkoding, dan semoga perjalanan Python anda berjaya!
+
+P.S: _Terima kasih kepada [Swee Meng](https://x.com/sweemeng) dan [Kamal](https://x.com/k4ml) kerana menolong membaca
+pruf unuk post ini._

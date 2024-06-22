@@ -66,3 +66,5 @@ Learning Python in Malaysia is accessible and affordable thanks to numerous free
 Python's versatility and widespread use across industries make it a valuable skill. Consistency is crucial when learning Python or anything new. Spending an hour a day for a month is more effective than cramming 10 hours into three days. Celebrate your progress and enjoy the journey.
 
 Happy coding, and may your Python journey be as rewarding as it is exciting!
+
+P.S: _Thanks to [Swee Meng](https://x.com/sweemeng) and [Kamal](https://x.com/k4ml) for proofreading this post._
