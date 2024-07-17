@@ -2,7 +2,7 @@ Title: The PSF Board Election Results For 2024: What I Think
 Slug: the-psf-election-results-2024-what-i-think
 Lang: en
 Date: 2024-07-17 07:30
-Modified: 2024-07-17 10:00
+Modified: 2024-07-17 14:45
 Tags: psf; politics; community work; elections; python community;
 Authors: Iqbal Abdullah
 Summary: The 2024 PSF Board elections are closed and counted. This is what I think 
@@ -35,7 +35,8 @@ Looks like for the past few years a 6.3 to 6.5 ratio had been the norm.
 
 Many things of course. But from these election results, I noticed a few.
 
-- Despite our efforts to increase the voter base, the amount of votes cast and voting members were less than the previous year:
+- Despite our efforts to increase the voter base, the amount of votes cast and voting members were less than the previous year. 
+  _NOTE: that the way we count eligable members changed from 2023 so we can't compare anything previous to that._
 
 | Year                                                         | Votes Cast          | Eligible Members |
 | ------------------------------------------------------------ | ------------------- | ---------------- |
@@ -50,7 +51,9 @@ Because there is no data to breakdown voters according to region, we do not know
 With the [new bylaw changes](https://pyfound.blogspot.com/2024/06/for-your-consideration-proposed-bylaws.html) being passed for this election, we can expect the 611 voting members in 2024 will also vote in 2025 because they do not have to reaffirm their desire to vote. Reaffirming your vote has been an ongoing issue because the steps to do so were not intuitive and have been a barrier to increasing participation in the PSF Board elections. Hopefully, with this bylaw change, we can see some stability and also an increase in voter base.
 
 - We don't have anyone from the African continent to represent us. The two candidates (Abigail and Monica) we had from Africa didn't manage to get enough votes to be elected to the Board, and we don't have anyone on the Board right now active in the African continent.
-- The way some of our community members handled their [disagreements with the proposed bylaw change #3](https://discuss.python.org/t/for-your-consideration-proposed-bylaws-changes-to-improve-our-membership-experience/55696) was disappointing. Disagreements are fine and are a fact of life (in fact it is healthy and sometimes fun because we can learn something new) but the way some members of our community disagreed with each other while making snide remarks, questioning trust while implying how _long_ they have been around doing this and that doesn't make the conversation appealing to new people and pushes them away.
+- The way some of our community members handled their [disagreements with the proposed bylaw change #3](https://discuss.python.org/t/for-your-consideration-proposed-bylaws-changes-to-improve-our-membership-experience/55696) was
+disappointing. Disagreements are fine and are a fact of life (in fact it is healthy and sometimes fun because we can learn something new) but the way some members of our community disagreed with each other while making snide
+remarks, questioning trust while implying how _long_ they have been around doing this and that doesn't make the conversation appealing to new people and pushes them away.
 
 ### Progress I'm Happy About
 
@@ -103,3 +106,4 @@ I am happy to play a small role in making our world a smaller place for our comm
 * [Diversification Is The Future Of The PSF]({filename}/posts/2020/diversification-is-the-future-for-the-psf-en.md)
 * [The Future Is Still Not Here For The PSF]({filename}/posts/2022/the-future-is-still-not-here-for-the-psf-2022-en.md)
 * [A Step Closer To The Future For The PSF]({filename}/posts/2023/a-step-closer-to-the-future-for-the-psf-2023-en.md)
+* [My thoughts on the PSF Election results - Jeff Triplett's Micro.blog](https://micro.webology.dev/2024/07/16/my-thoughts-on.html)
