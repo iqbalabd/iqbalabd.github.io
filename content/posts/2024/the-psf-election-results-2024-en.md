@@ -2,7 +2,7 @@ Title: The PSF Board Election Results For 2024: What I Think
 Slug: the-psf-election-results-2024-what-i-think
 Lang: en
 Date: 2024-07-17 07:30
-Modified: 2024-07-17 07:34
+Modified: 2024-07-17 10:00
 Tags: psf; politics; community work; elections; python community;
 Authors: Iqbal Abdullah
 Summary: The 2024 PSF Board elections are closed and counted. This is what I think 
@@ -63,6 +63,40 @@ Also many things. But these would be the main ones:
 - At least one nominee has her nomination statement in a language other than English.
 - We have a [nominee from Tehran, Ali](https://www.python.org/nominations/elections/2024-python-software-foundation-board/nominees/ali-tavallaie/). 
 - Increased interest in the PSF and participating in the Board elections within my own APAC community.
+
+### After 5 Years
+
+Reading back [my post]({filename}/posts/2020/diversification-is-the-future-for-the-psf-en.md) after I first ran for a board seat reminded me of the things which I wanted to change. These were 
+
+- Diversification
+    - in representation on the Board
+    - in the financials of the PSF
+    - in our voter base
+- Indifference to the PSF
+
+Since 2020, I believe we have seen [progress in the diversification of representation by region](https://observablehq.com/@terezaif/psf-board-timeline) within the PSF Board, although at
+times it seems like we're taking two steps forward and a step back. We now have someone from the APAC region on the
+board, which we have not had before, but no one to represent the African continent, which we once had. It is still North
+America and Europe centric, but with a different shade.
+
+In terms of financials, the PSF is still overdependent on PyCon US. In 2019, the PSF's revenue was 63% coming from
+hosting PyCon US while 32% were from grants and membership fees. Based on the [2023 PSF's Annual Report](https://www.python.org/psf/annual-report/2023/), **we're now at 66%
+dependent on PyCon US while grants and membership fees take 31%. This is an increase from 2020.** I know this is a hard
+thing to do, at the same time while the PSF is seeing a deficit.
+
+Our voter base doesn't seem to have changed much if we just look at the total amount of votes counted. Having data to
+breakdown the amount of votes coming in from regions would be great, but I'm not sure how we can technically do this
+without tying the votes to membership data. I am genuinely surprised to not see a significant increase after all the
+promotion work we have done. If [Tereza's data](https://observablehq.com/@terezaif/who-voted-in-the-psf-board-elections) is any sort of indicator, we need to get people to
+nominate more of their peers to Fellows. I have been actively doing that on a personal level and try to [include how many people I have nominated in conversations I had]({filename}/posts/2024/nominating-pythonistas-en.md) to increase awareness.
+
+Aside from the voter base, I think the biggest progress we have made is on the indifference towards the PSF itself, at least from the more active members of our community.
+I have seen, experienced and helped out on many initiative within our APAC community to promote the PSF in the forms of membership drive, lightning
+talks and keynotes. Many of these are done through community initiaitves without explicit requests from the PSF. We now
+see multiple people from the APAC region running for a Board seat, and even one of us are on the Board.
+
+I am happy to play a small role in making our world a smaller place for our community.
+
 
 ## Further Reading
 
