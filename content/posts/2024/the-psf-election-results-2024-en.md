@@ -2,7 +2,7 @@ Title: The PSF Board Election Results For 2024: What I Think
 Slug: the-psf-election-results-2024-what-i-think
 Lang: en
 Date: 2024-07-17 07:30
-Modified: 2024-07-17 14:45
+Modified: 2024-07-18 09:25
 Tags: psf; politics; community work; elections; python community;
 Authors: Iqbal Abdullah
 Summary: The 2024 PSF Board elections are closed and counted. This is what I think 
@@ -36,15 +36,15 @@ Looks like for the past few years a 6.3 to 6.5 ratio had been the norm.
 Many things of course. But from these election results, I noticed a few.
 
 - Despite our efforts to increase the voter base, the amount of votes cast and voting members were less than the previous year. 
-  _NOTE: that the way we count eligable members changed from 2023 so we can't compare anything previous to that._
+  _NOTE: that the way we count eligible members changed from 2023 so we can't compare anything previous to that._
 
-| Year                                                         | Votes Cast          | Eligible Members |
-| ------------------------------------------------------------ | ------------------- | ---------------- |
-| [2024](https://opavote.com/results/5004101476679680)         | 611 (-1% YoY)       | 794 (-10% YoY)   |
-| [2023](https://pyfound.blogspot.com/2023/06/announcing-2023-psf-board-election.html) | 621 (**+7.4**% YoY) | 877 (N/A)        |
-| [2022](https://pyfound.blogspot.com/2022/07/board-election-results-for-2022.html) | 578 (-3.5% YoY)     | 1459             |
-| [2021](https://discuss.python.org/t/2021-python-software-foundation-board-of-directors-election-results/9418) | 599 (**+30%** YoY)  | 1538             |
-| [2020](https://pyfound.blogspot.com/2020/06/2020-python-software-foundation-board.html) | 462                 | 1151             |
+| Year                                                         | Votes Cast          | Eligible Members | Turnout Rate |
+| ------------------------------------------------------------ | ------------------- | ---------------- | ------------ |
+| [2024](https://opavote.com/results/5004101476679680)         | 611 (-1% YoY)       | 794 (-10% YoY)   | 77%          |
+| [2023](https://pyfound.blogspot.com/2023/06/announcing-2023-psf-board-election.html) | 621 (**+7.4**% YoY) | 877 (N/A)        | 71%          |
+| [2022](https://pyfound.blogspot.com/2022/07/board-election-results-for-2022.html) | 578 (-3.5% YoY)     | 1459             | N/A          |
+| [2021](https://discuss.python.org/t/2021-python-software-foundation-board-of-directors-election-results/9418) | 599 (**+30%** YoY)  | 1538             | N/A          |
+| [2020](https://pyfound.blogspot.com/2020/06/2020-python-software-foundation-board.html) | 462                 | 1151             | N/A          |
 
 Because there is no data to breakdown voters according to region, we do not know how much impact our efforts in the APAC region for the past year have made an increase in the voter base, although we have a record number of nominations for candidates from the APAC region such as Ivy and Kwon-Han this year, which shows a greater interest in the elections.
 
@@ -66,6 +66,7 @@ Also many things. But these would be the main ones:
 - At least one nominee has her nomination statement in a language other than English.
 - We have a [nominee from Tehran, Ali](https://www.python.org/nominations/elections/2024-python-software-foundation-board/nominees/ali-tavallaie/). 
 - Increased interest in the PSF and participating in the Board elections within my own APAC community.
+- We have high turnout rates since 2023. [In our world, a 70% turnout rate is considered the median for major elections](https://www.oecd-ilibrary.org/social-issues-migration-health/society-at-a-glance-2019_3483a69a-en). (Thanks to [Hugo](https://mastodon.social/@hugovk/112800501986331260) for reminding me of this data)
 
 ### After 5 Years
 
@@ -107,3 +108,4 @@ I am happy to play a small role in making our world a smaller place for our comm
 * [The Future Is Still Not Here For The PSF]({filename}/posts/2022/the-future-is-still-not-here-for-the-psf-2022-en.md)
 * [A Step Closer To The Future For The PSF]({filename}/posts/2023/a-step-closer-to-the-future-for-the-psf-2023-en.md)
 * [My thoughts on the PSF Election results - Jeff Triplett's Micro.blog](https://micro.webology.dev/2024/07/16/my-thoughts-on.html)
+* [Getting elected for the PSF Board of Directors - Cristián Maureira-Fredes](https://maureira.xyz/posts/getting-elected-for-the-psf-board-of-directors.html)
