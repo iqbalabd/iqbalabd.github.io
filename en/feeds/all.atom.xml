@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/en/" rel="alternate"></link><link href="https://iqbalabdullah.net/en/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/en/</id><updated>2024-07-17T14:45:00+09:00</updated><entry><title>The PSF Board Election Results For 2024: What I Think</title><link href="https://iqbalabdullah.net/en/posts/2024/07/the-psf-election-results-2024-what-i-think/" rel="alternate"></link><published>2024-07-17T07:30:00+09:00</published><updated>2024-07-17T14:45:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-07-17:/en/posts/2024/07/the-psf-election-results-2024-what-i-think/</id><summary type="html">&lt;p&gt;The 2024 PSF Board elections are closed and counted. This is what I think&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Congratulations To The Winners&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/en/" rel="alternate"></link><link href="https://iqbalabdullah.net/en/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/en/</id><updated>2024-07-18T09:25:00+09:00</updated><entry><title>The PSF Board Election Results For 2024: What I Think</title><link href="https://iqbalabdullah.net/en/posts/2024/07/the-psf-election-results-2024-what-i-think/" rel="alternate"></link><published>2024-07-17T07:30:00+09:00</published><updated>2024-07-18T09:25:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-07-17:/en/posts/2024/07/the-psf-election-results-2024-what-i-think/</id><summary type="html">&lt;p&gt;The 2024 PSF Board elections are closed and counted. This is what I think&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Congratulations To The Winners&lt;/h1&gt;
 &lt;p&gt;First of all, congratulations to all the winners.&lt;/p&gt;
 &lt;p&gt;I am happy that a member of our APAC community &lt;a href="https://x.com/darjeelingt"&gt;Kwon-Han&lt;/a&gt;
 managed to get the largest vote count.  &lt;a href="https://x.com/cmaureir"&gt;Cristián&lt;/a&gt; will be a new incoming board member, and I think he is long overdue to be on the
@@ -20,7 +20,7 @@ board as a member of Latam. Congratulations too to &lt;a href="https://x.com/ixe
 &lt;p&gt;Many things of course. But from these election results, I noticed a few.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Despite our efforts to increase the voter base, the amount of votes cast and voting members were less than the previous year. 
-  &lt;em&gt;NOTE: that the way we count eligable members changed from 2023 so we can't compare anything previous to that.&lt;/em&gt;&lt;/li&gt;
+  &lt;em&gt;NOTE: that the way we count eligible members changed from 2023 so we can't compare anything previous to that.&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -28,6 +28,7 @@ board as a member of Latam. Congratulations too to &lt;a href="https://x.com/ixe
 &lt;th&gt;Year&lt;/th&gt;
 &lt;th&gt;Votes Cast&lt;/th&gt;
 &lt;th&gt;Eligible Members&lt;/th&gt;
+&lt;th&gt;Turnout Rate&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
@@ -35,26 +36,31 @@ board as a member of Latam. Congratulations too to &lt;a href="https://x.com/ixe
 &lt;td&gt;&lt;a href="https://opavote.com/results/5004101476679680"&gt;2024&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;611 (-1% YoY)&lt;/td&gt;
 &lt;td&gt;794 (-10% YoY)&lt;/td&gt;
+&lt;td&gt;77%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href="https://pyfound.blogspot.com/2023/06/announcing-2023-psf-board-election.html"&gt;2023&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;621 (&lt;strong&gt;+7.4&lt;/strong&gt;% YoY)&lt;/td&gt;
 &lt;td&gt;877 (N/A)&lt;/td&gt;
+&lt;td&gt;71%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href="https://pyfound.blogspot.com/2022/07/board-election-results-for-2022.html"&gt;2022&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;578 (-3.5% YoY)&lt;/td&gt;
 &lt;td&gt;1459&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href="https://discuss.python.org/t/2021-python-software-foundation-board-of-directors-election-results/9418"&gt;2021&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;599 (&lt;strong&gt;+30%&lt;/strong&gt; YoY)&lt;/td&gt;
 &lt;td&gt;1538&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href="https://pyfound.blogspot.com/2020/06/2020-python-software-foundation-board.html"&gt;2020&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;462&lt;/td&gt;
 &lt;td&gt;1151&lt;/td&gt;
+&lt;td&gt;N/A&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -76,6 +82,7 @@ remarks, questioning trust while implying how &lt;em&gt;long&lt;/em&gt; they hav
 &lt;li&gt;At least one nominee has her nomination statement in a language other than English.&lt;/li&gt;
 &lt;li&gt;We have a &lt;a href="https://www.python.org/nominations/elections/2024-python-software-foundation-board/nominees/ali-tavallaie/"&gt;nominee from Tehran, Ali&lt;/a&gt;. &lt;/li&gt;
 &lt;li&gt;Increased interest in the PSF and participating in the Board elections within my own APAC community.&lt;/li&gt;
+&lt;li&gt;We have high turnout rates since 2023. &lt;a href="https://www.oecd-ilibrary.org/social-issues-migration-health/society-at-a-glance-2019_3483a69a-en"&gt;In our world, a 70% turnout rate is considered the median for major elections&lt;/a&gt;. (Thanks to &lt;a href="https://mastodon.social/@hugovk/112800501986331260"&gt;Hugo&lt;/a&gt; for reminding me of this data)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;After 5 Years&lt;/h3&gt;
 &lt;p&gt;Reading back &lt;a href="https://iqbalabdullah.net/en/posts/2020/06/diversification-is-the-future-for-the-psf/"&gt;my post&lt;/a&gt; after I first ran for a board seat reminded me of the things which I wanted to change. These were &lt;/p&gt;
@@ -112,6 +119,7 @@ see multiple people from the APAC region running for a Board seat, and even one 
 &lt;li&gt;&lt;a href="https://iqbalabdullah.net/en/posts/2022/07/the-future-is-still-not-here-for-the-psf-2022/"&gt;The Future Is Still Not Here For The PSF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://iqbalabdullah.net/en/posts/2023/07/a-step-closer-to-the-future-for-the-psf-2023/"&gt;A Step Closer To The Future For The PSF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://micro.webology.dev/2024/07/16/my-thoughts-on.html"&gt;My thoughts on the PSF Election results - Jeff Triplett's Micro.blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://maureira.xyz/posts/getting-elected-for-the-psf-board-of-directors.html"&gt;Getting elected for the PSF Board of Directors - Cristián Maureira-Fredes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="2024"></category><category term="psf"></category><category term="politics"></category><category term="community work"></category><category term="elections"></category><category term="python community"></category></entry><entry><title>Getting Started With Python in Malaysia</title><link href="https://iqbalabdullah.net/en/posts/2024/06/getting-started-with-python-in-malaysia/" rel="alternate"></link><published>2024-06-17T21:30:00+09:00</published><updated>2024-06-17T21:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-06-17:/en/posts/2024/06/getting-started-with-python-in-malaysia/</id><summary type="html">&lt;p&gt;Tips and resources to start learning Python without spending (much) money if you're in Malaysia&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Python Is The Rage Now&lt;/h1&gt;
 &lt;p&gt;I read &lt;a href="https://x.com/reviewbyyasmin/status/1802258242342736212"&gt;on the internet&lt;/a&gt; about people wanting to join Python and data science-related courses offered by government-led agencies. These courses are mostly free (funded by taxpayers) but have limited space, and some are restricted to those under 30 years old.&lt;/p&gt;
 &lt;p&gt;Upskilling isn't just for the young, and learning Python shouldn't require significant financial investment. You can start immediately.&lt;/p&gt;
