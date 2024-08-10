@@ -99,11 +99,11 @@ remarks, questioning trust while implying how &lt;em&gt;long&lt;/em&gt; they hav
 times it seems like we're taking two steps forward and a step back. We now have someone from the APAC region on the
 board, which we have not had before, but no one to represent the African continent, which we once had. It is still North
 America and Europe centric, but with a different shade.&lt;/p&gt;
-&lt;p&gt;In terms of financials, the PSF is still overdependent on PyCon US. In 2019, the PSF's revenue was 61% coming from
+&lt;p&gt;In terms of financials, the PSF is still overdependent on PyCon US, but relatively this is getting better. In 2019, the PSF's revenue was 61% coming from
 hosting PyCon US while 28% were from grants and membership fees. Based on the &lt;a href="https://www.python.org/psf/annual-report/2023/"&gt;2023 PSF's Annual Report&lt;/a&gt;, &lt;strong&gt;we're now at
-48% dependent on PyCon US while grants and membership fees take 30% . This is a decrease from 2020.&lt;/strong&gt; We're making progress on this front, although the PSF is seeing a deficit for 2023. &lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt;
-I'm not too worried about the deficit though, because we know the PSF has just made big hires for people to work
-in-house on PyPI and also on the security front.&lt;/p&gt;
+48% dependent on PyCon US while grants and membership fees take 30% . The dependency on PyCOn US has decreased from 2020.&lt;/strong&gt; &lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt; We're making good progress on this front,
+although the PSF is seeing a deficit for 2023. I'm not too worried about the deficit though, because we know the PSF has just made big hires for people to work
+in-house on PyPI and also on security.&lt;/p&gt;
 &lt;p&gt;Our voter base doesn't seem to have changed much if we just look at the total amount of votes counted. Having data to
 breakdown the amount of votes coming in from regions would be great, but I'm not sure how we can technically do this
 without tying the votes to membership data. I am genuinely surprised to not see a significant increase after all the
