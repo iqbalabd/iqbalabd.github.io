@@ -83,11 +83,11 @@ times it seems like we're taking two steps forward and a step back. We now have 
 board, which we have not had before, but no one to represent the African continent, which we once had. It is still North
 America and Europe centric, but with a different shade.
 
-In terms of financials, the PSF is still overdependent on PyCon US. In 2019, the PSF's revenue was 61% coming from
+In terms of financials, the PSF is still overdependent on PyCon US, but relatively this is getting better. In 2019, the PSF's revenue was 61% coming from
 hosting PyCon US while 28% were from grants and membership fees. Based on the [2023 PSF's Annual Report](https://www.python.org/psf/annual-report/2023/), **we're now at
-48% dependent on PyCon US while grants and membership fees take 30% . This is a decrease from 2020.** We're making progress on this front, although the PSF is seeing a deficit for 2023. [^fn01]
-I'm not too worried about the deficit though, because we know the PSF has just made big hires for people to work
-in-house on PyPI and also on the security front.
+48% dependent on PyCon US while grants and membership fees take 30% . The dependency on PyCOn US has decreased from 2020.** [^fn01] We're making good progress on this front,
+although the PSF is seeing a deficit for 2023. I'm not too worried about the deficit though, because we know the PSF has just made big hires for people to work
+in-house on PyPI and also on security.
 
 Our voter base doesn't seem to have changed much if we just look at the total amount of votes counted. Having data to
 breakdown the amount of votes coming in from regions would be great, but I'm not sure how we can technically do this
