@@ -200,11 +200,11 @@ or [Naomi](https://twitter.com/naomiceder) has flown back home.
 
 #### In finance
 
-Out of USD4.5MM of revenue for the PSF in 2019, around 63% of it came from PyCon.
+Out of USD4.7MM of revenue for the PSF in 2019, around 61% of it came from PyCon.
 USD1.9MM was the costs of having PyCon, which means that for every dollar spent
-on PyCon, the PSF gets back 1.50 dollars. [^fn03] [^fn05]
+on PyCon, the PSF gets back 1.50 dollars. [^fn03]
 
-Compare that to the 32% of revenue from sponsorship fees, contributions, membership dues, and grants.
+Compare that to the 28% of revenue from sponsorship fees, contributions, membership dues, and grants.
 What costs were involved to generate these revenue? [^fn04]
 
 If these are recurring revenue through already established processes, costs per dollar only diminishes

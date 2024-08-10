@@ -2,7 +2,7 @@ Title: The PSF Board Election Results For 2024: What I Think
 Slug: the-psf-election-results-2024-what-i-think
 Lang: en
 Date: 2024-07-17 07:30
-Modified: 2024-07-18 09:25
+Modified: 2024-08-09 23:15
 Tags: psf; politics; community work; elections; python community;
 Authors: Iqbal Abdullah
 Summary: The 2024 PSF Board elections are closed and counted. This is what I think 
@@ -83,10 +83,11 @@ times it seems like we're taking two steps forward and a step back. We now have 
 board, which we have not had before, but no one to represent the African continent, which we once had. It is still North
 America and Europe centric, but with a different shade.
 
-In terms of financials, the PSF is still overdependent on PyCon US. In 2019, the PSF's revenue was 63% coming from
-hosting PyCon US while 32% were from grants and membership fees. Based on the [2023 PSF's Annual Report](https://www.python.org/psf/annual-report/2023/), **we're now at 66%
-dependent on PyCon US while grants and membership fees take 31%. This is an increase from 2020.** I know this is a hard
-thing to do, at the same time while the PSF is seeing a deficit.
+In terms of financials, the PSF is still overdependent on PyCon US. In 2019, the PSF's revenue was 61% coming from
+hosting PyCon US while 28% were from grants and membership fees. Based on the [2023 PSF's Annual Report](https://www.python.org/psf/annual-report/2023/), **we're now at
+48% dependent on PyCon US while grants and membership fees take 30% . This is a decrease from 2020.** We're making progress on this front, although the PSF is seeing a deficit for 2023. [^fn01]
+I'm not too worried about the deficit though, because we know the PSF has just made big hires for people to work
+in-house on PyPI and also on the security front.
 
 Our voter base doesn't seem to have changed much if we just look at the total amount of votes counted. Having data to
 breakdown the amount of votes coming in from regions would be great, but I'm not sure how we can technically do this
@@ -109,3 +110,5 @@ I am happy to play a small role in making our world a smaller place for our comm
 * [A Step Closer To The Future For The PSF]({filename}/posts/2023/a-step-closer-to-the-future-for-the-psf-2023-en.md)
 * [My thoughts on the PSF Election results - Jeff Triplett's Micro.blog](https://micro.webology.dev/2024/07/16/my-thoughts-on.html)
 * [Getting elected for the PSF Board of Directors - Cristián Maureira-Fredes](https://maureira.xyz/posts/getting-elected-for-the-psf-board-of-directors.html)
+
+[^fn01]: Updated with latest data from the PSF. Thank you to Phyllis, Deb and Jeff for pointing this out
