@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/en/" rel="alternate"></link><link href="https://iqbalabdullah.net/en/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/en/</id><updated>2024-07-18T09:25:00+09:00</updated><entry><title>The PSF Board Election Results For 2024: What I Think</title><link href="https://iqbalabdullah.net/en/posts/2024/07/the-psf-election-results-2024-what-i-think/" rel="alternate"></link><published>2024-07-17T07:30:00+09:00</published><updated>2024-07-18T09:25:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-07-17:/en/posts/2024/07/the-psf-election-results-2024-what-i-think/</id><summary type="html">&lt;p&gt;The 2024 PSF Board elections are closed and counted. This is what I think&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Congratulations To The Winners&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/en/" rel="alternate"></link><link href="https://iqbalabdullah.net/en/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/en/</id><updated>2024-08-09T23:15:00+09:00</updated><entry><title>The PSF Board Election Results For 2024: What I Think</title><link href="https://iqbalabdullah.net/en/posts/2024/07/the-psf-election-results-2024-what-i-think/" rel="alternate"></link><published>2024-07-17T07:30:00+09:00</published><updated>2024-08-09T23:15:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-07-17:/en/posts/2024/07/the-psf-election-results-2024-what-i-think/</id><summary type="html">&lt;p&gt;The 2024 PSF Board elections are closed and counted. This is what I think&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Congratulations To The Winners&lt;/h1&gt;
 &lt;p&gt;First of all, congratulations to all the winners.&lt;/p&gt;
 &lt;p&gt;I am happy that a member of our APAC community &lt;a href="https://x.com/darjeelingt"&gt;Kwon-Han&lt;/a&gt;
 managed to get the largest vote count.  &lt;a href="https://x.com/cmaureir"&gt;Cristián&lt;/a&gt; will be a new incoming board member, and I think he is long overdue to be on the
@@ -99,10 +99,11 @@ remarks, questioning trust while implying how &lt;em&gt;long&lt;/em&gt; they hav
 times it seems like we're taking two steps forward and a step back. We now have someone from the APAC region on the
 board, which we have not had before, but no one to represent the African continent, which we once had. It is still North
 America and Europe centric, but with a different shade.&lt;/p&gt;
-&lt;p&gt;In terms of financials, the PSF is still overdependent on PyCon US. In 2019, the PSF's revenue was 63% coming from
-hosting PyCon US while 32% were from grants and membership fees. Based on the &lt;a href="https://www.python.org/psf/annual-report/2023/"&gt;2023 PSF's Annual Report&lt;/a&gt;, &lt;strong&gt;we're now at 66%
-dependent on PyCon US while grants and membership fees take 31%. This is an increase from 2020.&lt;/strong&gt; I know this is a hard
-thing to do, at the same time while the PSF is seeing a deficit.&lt;/p&gt;
+&lt;p&gt;In terms of financials, the PSF is still overdependent on PyCon US. In 2019, the PSF's revenue was 61% coming from
+hosting PyCon US while 28% were from grants and membership fees. Based on the &lt;a href="https://www.python.org/psf/annual-report/2023/"&gt;2023 PSF's Annual Report&lt;/a&gt;, &lt;strong&gt;we're now at
+48% dependent on PyCon US while grants and membership fees take 30% . This is a decrease from 2020.&lt;/strong&gt; We're making progress on this front, although the PSF is seeing a deficit for 2023. &lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt;1&lt;/a&gt;&lt;/sup&gt;
+I'm not too worried about the deficit though, because we know the PSF has just made big hires for people to work
+in-house on PyPI and also on the security front.&lt;/p&gt;
 &lt;p&gt;Our voter base doesn't seem to have changed much if we just look at the total amount of votes counted. Having data to
 breakdown the amount of votes coming in from regions would be great, but I'm not sure how we can technically do this
 without tying the votes to membership data. I am genuinely surprised to not see a significant increase after all the
@@ -120,7 +121,15 @@ see multiple people from the APAC region running for a Board seat, and even one 
 &lt;li&gt;&lt;a href="https://iqbalabdullah.net/en/posts/2023/07/a-step-closer-to-the-future-for-the-psf-2023/"&gt;A Step Closer To The Future For The PSF&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://micro.webology.dev/2024/07/16/my-thoughts-on.html"&gt;My thoughts on the PSF Election results - Jeff Triplett's Micro.blog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://maureira.xyz/posts/getting-elected-for-the-psf-board-of-directors.html"&gt;Getting elected for the PSF Board of Directors - Cristián Maureira-Fredes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="2024"></category><category term="psf"></category><category term="politics"></category><category term="community work"></category><category term="elections"></category><category term="python community"></category></entry><entry><title>Getting Started With Python in Malaysia</title><link href="https://iqbalabdullah.net/en/posts/2024/06/getting-started-with-python-in-malaysia/" rel="alternate"></link><published>2024-06-17T21:30:00+09:00</published><updated>2024-06-17T21:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-06-17:/en/posts/2024/06/getting-started-with-python-in-malaysia/</id><summary type="html">&lt;p&gt;Tips and resources to start learning Python without spending (much) money if you're in Malaysia&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Python Is The Rage Now&lt;/h1&gt;
+&lt;/ul&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:fn01"&gt;
+&lt;p&gt;Updated with latest data from the PSF. Thank you to Phyllis, Deb and Jeff for pointing this out&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2024"></category><category term="psf"></category><category term="politics"></category><category term="community work"></category><category term="elections"></category><category term="python community"></category></entry><entry><title>Getting Started With Python in Malaysia</title><link href="https://iqbalabdullah.net/en/posts/2024/06/getting-started-with-python-in-malaysia/" rel="alternate"></link><published>2024-06-17T21:30:00+09:00</published><updated>2024-06-17T21:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2024-06-17:/en/posts/2024/06/getting-started-with-python-in-malaysia/</id><summary type="html">&lt;p&gt;Tips and resources to start learning Python without spending (much) money if you're in Malaysia&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Python Is The Rage Now&lt;/h1&gt;
 &lt;p&gt;I read &lt;a href="https://x.com/reviewbyyasmin/status/1802258242342736212"&gt;on the internet&lt;/a&gt; about people wanting to join Python and data science-related courses offered by government-led agencies. These courses are mostly free (funded by taxpayers) but have limited space, and some are restricted to those under 30 years old.&lt;/p&gt;
 &lt;p&gt;Upskilling isn't just for the young, and learning Python shouldn't require significant financial investment. You can start immediately.&lt;/p&gt;
 &lt;p&gt;Python is a versatile language used in various domains, from powering the internet and &lt;a href="https://huggingface.co/learn/nlp-course/en/chapter0/1"&gt;developing AI applications&lt;/a&gt; to being utilized in &lt;a href="https://datatas.com/does-nasa-use-python/"&gt;outer space&lt;/a&gt;. Its popularity and success stem from being &lt;a href="https://github.com/python/cpython"&gt;open-source&lt;/a&gt; and &lt;a href="https://www.python.org/downloads/"&gt;free to download and use&lt;/a&gt;, which lowers barriers to its use and improvement by the public.&lt;/p&gt;
@@ -925,10 +934,10 @@ different parts of the world are great and shows that the PSF at least acknowled
 and understand them better to carry on talking about the PSF long after &lt;a href="https://twitter.com/ewa_jodlowska"&gt;Ewa&lt;/a&gt;
 or &lt;a href="https://twitter.com/naomiceder"&gt;Naomi&lt;/a&gt; has flown back home.&lt;/p&gt;
 &lt;h4&gt;In finance&lt;/h4&gt;
-&lt;p&gt;Out of USD4.5MM of revenue for the PSF in 2019, around 63% of it came from PyCon.
+&lt;p&gt;Out of USD4.7MM of revenue for the PSF in 2019, around 61% of it came from PyCon.
 USD1.9MM was the costs of having PyCon, which means that for every dollar spent
-on PyCon, the PSF gets back 1.50 dollars. &lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Compare that to the 32% of revenue from sponsorship fees, contributions, membership dues, and grants.
+on PyCon, the PSF gets back 1.50 dollars. &lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Compare that to the 28% of revenue from sponsorship fees, contributions, membership dues, and grants.
 What costs were involved to generate these revenue? &lt;sup id="fnref:fn04"&gt;&lt;a class="footnote-ref" href="#fn:fn04"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;If these are recurring revenue through already established processes, costs per dollar only diminishes
 for every dollar we get. I believe the return per dollar invested into them are higher than what
@@ -951,7 +960,7 @@ Asia and Latin America signals that the PSF is now shifting to investing &lt;str
 future&lt;/strong&gt; instead of the present. Bigger investment shows commitment, which
 breeds goodwill, trust and paves the way for a stronger relationship.&lt;/p&gt;
 &lt;p&gt;The PSF is already heading in the right direction in this aspect, although I
-believe there are more ways we can improve, like the quantum of grant portions.&lt;sup id="fnref2:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn06"&gt;&lt;a class="footnote-ref" href="#fn:fn06"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+believe there are more ways we can improve, like the quantum of grant portions.&lt;sup id="fnref:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn06"&gt;&lt;a class="footnote-ref" href="#fn:fn06"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;With better relationship, we should next try to expand the supporting members
 group, who directly contribute money to the PSF. I believe this is the one group
 which we should really focus more on, as the returns from investing time and effort
@@ -990,7 +999,7 @@ and reviewing this post. Thank you to &lt;a href="https://twitter.com/ewa_jodlow
 &lt;p&gt;Contributions and Grants were $1,165,278. We can also factor in PSF sponsorship fees, which are another $248,343. If we factor that in, that is ~32% according to Ewa&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn04" title="Jump back to footnote 4 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:fn05"&gt;
-&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2019/"&gt;PSF Annual Report 2018&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;a class="footnote-backref" href="#fnref2:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2019/"&gt;PSF Annual Report 2018&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn05" title="Jump back to footnote 5 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:fn06"&gt;
 &lt;p&gt;&lt;a href="https://www.python.org/psf/annual-report/2020/"&gt;PSF Annual Report 2019&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:fn06" title="Jump back to footnote 6 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
@@ -1119,10 +1128,10 @@ PSFが資金提供する技術的な取り組みが私たちのコミュニテ�
 あるいは&lt;a href="https://twitter.com/naomiceder"&gt;Naomi&lt;/a&gt;が去った後もずっとPSFについて語り続けられる人物がいれば、
 そのほうがずっと良いだろう。&lt;/p&gt;
 &lt;h3&gt;財政に関して&lt;/h3&gt;
-&lt;p&gt;2019年のPSF収益USD450万のうち、その63%以上がPyConから得たものだった。
+&lt;p&gt;2019年のPSF収益USD450万のうち、その61%以上がPyConから得たものだった。
 PyCon開催費用の総額はUSD190万なので、つまりPSFがPyConに1ドルを投じること対して1.50ドルが戻ってくるという計算になる。
 &lt;sup id="fnref:fn03"&gt;&lt;a class="footnote-ref" href="#fn:fn03"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;sup id="fnref:fn05"&gt;&lt;a class="footnote-ref" href="#fn:fn05"&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;これを、寄付、会員費、助成金から成る収益の残り32%と比較してみよう。その種の収益を得るのに、どれほどの費用がかかるだろうか。&lt;sup id="fnref:fn04"&gt;&lt;a class="footnote-ref" href="#fn:fn04"&gt;4&lt;/a&gt;&lt;/sup&gt;
+&lt;p&gt;これを、寄付、会員費、助成金から成る収益の残り28%と比較してみよう。その種の収益を得るのに、どれほどの費用がかかるだろうか。&lt;sup id="fnref:fn04"&gt;&lt;a class="footnote-ref" href="#fn:fn04"&gt;4&lt;/a&gt;&lt;/sup&gt;
 すでに確立されたプロセスを通した継続的な収益の場合、1ドルあたりの費用は収益を得るたびに減少する。&lt;/p&gt;
 &lt;p&gt;投資した1ドルあたりの利益率はPyConのそれより高いと思う。&lt;/p&gt;
 &lt;p&gt;総収益額が変わらずともPyCon以外からの収益を増やすという目標により、PSFは将来&lt;a href="https://pyfound.blogspot.com/2020/03/psfs-projected-2020-financial-outcome.html."&gt;COVID-19が与えたような衝撃&lt;/a&gt;に対してより柔軟に対応できるようになるだろう。&lt;/p&gt;
