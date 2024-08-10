@@ -85,7 +85,7 @@ America and Europe centric, but with a different shade.
 
 In terms of financials, the PSF is still overdependent on PyCon US, but relatively this is getting better. In 2019, the PSF's revenue was 61% coming from
 hosting PyCon US while 28% were from grants and membership fees. Based on the [2023 PSF's Annual Report](https://www.python.org/psf/annual-report/2023/), **we're now at
-48% dependent on PyCon US while grants and membership fees take 30% . The dependency on PyCOn US has decreased from 2020.** [^fn01] We're making good progress on this front,
+48% dependent on PyCon US while grants and membership fees take 30% . The dependency on PyCon US has decreased from 2020.** [^fn01] We're making good progress on this front,
 although the PSF is seeing a deficit for 2023. I'm not too worried about the deficit though, because we know the PSF has just made big hires for people to work
 in-house on PyPI and also on security.
 
