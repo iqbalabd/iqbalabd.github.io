@@ -111,4 +111,4 @@ I am happy to play a small role in making our world a smaller place for our comm
 * [My thoughts on the PSF Election results - Jeff Triplett's Micro.blog](https://micro.webology.dev/2024/07/16/my-thoughts-on.html)
 * [Getting elected for the PSF Board of Directors - Cristián Maureira-Fredes](https://maureira.xyz/posts/getting-elected-for-the-psf-board-of-directors.html)
 
-[^fn01]: Updated with latest data from the PSF. Thank you to Phyllis, Deb and Jeff for pointing this out
+[^fn01]: Updated with latest data from the PSF. Thank you to Phyllis, Deb for the data and Jeff for pointing this out
