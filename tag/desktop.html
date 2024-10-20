@@ -4,7 +4,7 @@
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width" />
 
-    <title>Iqbal's Weblog - Iqbal Abdullah</title>
+    <title>Iqbal's Weblog - desktop</title>
 
     <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/normalize.css" />
     <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/foundation.min.css" />
@@ -50,108 +50,60 @@
         
         
 
-
             <article>
-                <a href="https://iqbalabdullah.net/posts/2017/10/your-root-and-your-identity/"><h3 class="article-title">Your roots and your identity</h3></a>
-<h6 class="subheader" title="2017-10-06T23:40:00+09:00">2017-10-06
+                <a href="https://iqbalabdullah.net/posts/2024/10/custom-steam-favicon-scaling-ubuntu-2204/"><h3 class="article-title">Custom Favicon for Scaled Steam Client on Ubuntu 22.04</h3></a>
+<h6 class="subheader" title="2024-10-20T21:30:00+09:00">2024-10-20
 </h6>
 
 
-<p>Your roots are not your identity; It does not define who you are.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2017.html">2017</a>
+<p>Creating a custom favicon on Ubuntu 22.04 isn't as daunting as it might seem, especially when you're trying to address a specific issue like scaling with a 4K monitor. For instance, if you're using a Dell XPS 9310 and the Steam client appears too small, you can scale it by adding a parameter. Specifically, the <code>-forcedesktopscaling=X</code> parameter can be adjusted to your preference. In my case, setting it to <code>2.5</code> worked perfectly.</p>
+<p>The challenge is ensuring the favicon uses this parameter when launching Steam. The solution is to create a custom desktop entry. Here’s how:</p>
+<p>First, copy the existing Steam desktop file to your local applications directory:</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>cp<span class="w"> </span>/usr/share/applications/steam.desktop<span class="w"> </span>/home/<span class="nv">$HOME</span>/.local/share/applications
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>/home/<span class="nv">$HOME</span>/.local/share/applications
+$<span class="w"> </span>vi<span class="w"> </span>steam.desktop
+</code></pre></div>
+
+<p>Next, edit the file by adding the <code>-forcedesktopscaling="2.5"</code> parameter to each line that starts with <code>Exec=</code>. It should look something like this:</p>
+<div class="highlight"><pre><span></span><code><span class="k">Exec</span><span class="o">=/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">games</span><span class="o">/</span><span class="nv">steam</span><span class="w"> </span><span class="o">%</span><span class="nv">U</span><span class="w"> </span><span class="o">-</span><span class="nv">forcedesktopscaling</span><span class="o">=</span><span class="s2">&quot;2.5&quot;</span>
+...
+...
+<span class="k">Exec</span><span class="o">=/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">games</span><span class="o">/</span><span class="nv">steam</span><span class="w"> </span><span class="nv">steam</span>:<span class="o">//</span><span class="nv">url</span><span class="o">/</span><span class="nv">SteamIDControlPage</span><span class="w"> </span><span class="o">-</span><span class="nv">forcedesktopscaling</span><span class="o">=</span><span class="s2">&quot;2.5&quot;</span>
+</code></pre></div>
+
+<p>Finally, make the desktop file executable:</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>chmod<span class="w"> </span>a+x<span class="w"> </span>steam.desktop
+</code></pre></div>
+
+<p>Once you've done that, restart your system. This ensures that every time you launch Steam via the favicon, it uses the specified scaling. It's a simple yet effective way to customize your desktop environment to better suit your hardware.</p>
+<hr>
+<p>References:</p>
+<ul>
+<li><a href="https://steamcommunity.com/groups/SteamClientBeta/discussions/0/3461605794225862173/?ctp=4">https://steamcommunity.com/groups/SteamClientBeta/discussions/0/3461605794225862173/?ctp=4</a></li>
+<li><a href="https://askubuntu.com/questions/1026528/adding-custom-programs-to-favourites-of-ubuntu-dock/">https://askubuntu.com/questions/1026528/adding-custom-programs-to-favourites-of-ubuntu-dock/</a></li>
+</ul><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2024.html">2024</a>
 
     Tagged: 
-    <a href="https://iqbalabdullah.net/tag/identity.html">identity </a>
+    <a href="https://iqbalabdullah.net/tag/ubuntu-2204.html">ubuntu 22.04 </a>
+    <a href="https://iqbalabdullah.net/tag/favicon.html">favicon </a>
+    <a href="https://iqbalabdullah.net/tag/desktop.html">desktop </a>
 </p>
 
 
 
-                <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2017/10/your-root-and-your-identity/">Read More</a>
-                <hr  class="gradient"/>
             </article>
 
-        
-
-
-            <article>
-                <a href="https://iqbalabdullah.net/posts/2017/06/changing-the-world-one-pycon-at-a-time/"><h3 class="article-title">Changing the world one PyCon at a time</h3></a>
-<h6 class="subheader" title="2017-06-15T16:00:00+09:00">2017-06-15
-</h6>
-
-
-<p>Thinking back on what I've done through PyCon and how it all started in the first place.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2017.html">2017</a>
-
-    Tagged: 
-    <a href="https://iqbalabdullah.net/tag/pycon.html">pycon </a>
-    <a href="https://iqbalabdullah.net/tag/japan.html">japan </a>
-    <a href="https://iqbalabdullah.net/tag/malaysia.html">malaysia </a>
-    <a href="https://iqbalabdullah.net/tag/apac.html">apac </a>
-    <a href="https://iqbalabdullah.net/tag/community-work.html">community work </a>
-    <a href="https://iqbalabdullah.net/tag/kuala-lumpur.html">kuala lumpur </a>
-</p>
-
-
-
-                <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2017/06/changing-the-world-one-pycon-at-a-time/">Read More</a>
-                <hr  class="gradient"/>
-            </article>
-
-        
-
-
-            <article>
-                <a href="https://iqbalabdullah.net/posts/2017/05/disunity-in-malaysian-schools/"><h3 class="article-title">Disunity via Schools</h3></a>
-<h6 class="subheader" title="2017-05-28T11:40:00+09:00">2017-05-28
-</h6>
-
-
-<p>My thoughts after listening to BFM's TALKBACK THURSDAY: UNITY IN SCHOOLS</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2017.html">2017</a>
-
-    Tagged: 
-    <a href="https://iqbalabdullah.net/tag/malaysia.html">malaysia </a>
-    <a href="https://iqbalabdullah.net/tag/education.html">education </a>
-    <a href="https://iqbalabdullah.net/tag/current-affairs.html">current affairs </a>
-    <a href="https://iqbalabdullah.net/tag/national-unity.html">national unity </a>
-    <a href="https://iqbalabdullah.net/tag/bfm.html">bfm </a>
-</p>
-
-
-
-                <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2017/05/disunity-in-malaysian-schools/">Read More</a>
-                <hr  class="gradient"/>
-            </article>
-
-        
-
-
-            <article>
-                <a href="https://iqbalabdullah.net/posts/2017/01/the-malaysian-brain-drain-dilemma/"><h3 class="article-title">Malaysia's Brain Drain Dilemma</h3></a>
-<h6 class="subheader" title="2017-01-28T11:00:00+09:00">2017-01-28
-</h6>
-
-
-<p>My take on the Malaysian brain-drain dilemma</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2017.html">2017</a>
-
-    Tagged: 
-    <a href="https://iqbalabdullah.net/tag/current-affairs.html">current affairs </a>
-    <a href="https://iqbalabdullah.net/tag/malaysia.html">malaysia </a>
-</p>
-
-
-
-                <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2017/01/the-malaysian-brain-drain-dilemma/">Read More</a>
-                <hr  class="gradient"/>
-            </article>
-
-            <!-- /#posts-list -->
 <div class="pagination-centered">
-<h6 class="subheader">Page 4 of 6</h6>
+<h6 class="subheader">Page 1 of 1</h6>
 
 <p>
-            <a href="https://iqbalabdullah.net/author/iqbal-abdullah3.html">&laquo; Prev</a>
 
-        <a href="https://iqbalabdullah.net/author/iqbal-abdullah5.html">Next &raquo;</a>
 </p>
 </div>
+
+
+
+            <!-- /#posts-list -->
 
     </div>
     <!-- End Main Content -->

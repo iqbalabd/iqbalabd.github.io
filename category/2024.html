@@ -51,142 +51,62 @@
         
 
             <article>
+                <a href="https://iqbalabdullah.net/posts/2024/10/custom-steam-favicon-scaling-ubuntu-2204/"><h3 class="article-title">Custom Favicon for Scaled Steam Client on Ubuntu 22.04</h3></a>
+<h6 class="subheader" title="2024-10-20T21:30:00+09:00">2024-10-20
+</h6>
+
+
+<p>Creating a custom favicon on Ubuntu 22.04 isn't as daunting as it might seem, especially when you're trying to address a specific issue like scaling with a 4K monitor. For instance, if you're using a Dell XPS 9310 and the Steam client appears too small, you can scale it by adding a parameter. Specifically, the <code>-forcedesktopscaling=X</code> parameter can be adjusted to your preference. In my case, setting it to <code>2.5</code> worked perfectly.</p>
+<p>The challenge is ensuring the favicon uses this parameter when launching Steam. The solution is to create a custom desktop entry. Here’s how:</p>
+<p>First, copy the existing Steam desktop file to your local applications directory:</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>cp<span class="w"> </span>/usr/share/applications/steam.desktop<span class="w"> </span>/home/<span class="nv">$HOME</span>/.local/share/applications
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>/home/<span class="nv">$HOME</span>/.local/share/applications
+$<span class="w"> </span>vi<span class="w"> </span>steam.desktop
+</code></pre></div>
+
+<p>Next, edit the file by adding the <code>-forcedesktopscaling="2.5"</code> parameter to each line that starts with <code>Exec=</code>. It should look something like this:</p>
+<div class="highlight"><pre><span></span><code><span class="k">Exec</span><span class="o">=/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">games</span><span class="o">/</span><span class="nv">steam</span><span class="w"> </span><span class="o">%</span><span class="nv">U</span><span class="w"> </span><span class="o">-</span><span class="nv">forcedesktopscaling</span><span class="o">=</span><span class="s2">&quot;2.5&quot;</span>
+...
+...
+<span class="k">Exec</span><span class="o">=/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">games</span><span class="o">/</span><span class="nv">steam</span><span class="w"> </span><span class="nv">steam</span>:<span class="o">//</span><span class="nv">url</span><span class="o">/</span><span class="nv">SteamIDControlPage</span><span class="w"> </span><span class="o">-</span><span class="nv">forcedesktopscaling</span><span class="o">=</span><span class="s2">&quot;2.5&quot;</span>
+</code></pre></div>
+
+<p>Finally, make the desktop file executable:</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>chmod<span class="w"> </span>a+x<span class="w"> </span>steam.desktop
+</code></pre></div>
+
+<p>Once you've done that, restart your system. This ensures that every time you launch Steam via the favicon, it uses the specified scaling. It's a simple yet effective way to customize your desktop environment to better suit your hardware.</p>
+<hr>
+<p>References:</p>
+<ul>
+<li><a href="https://steamcommunity.com/groups/SteamClientBeta/discussions/0/3461605794225862173/?ctp=4">https://steamcommunity.com/groups/SteamClientBeta/discussions/0/3461605794225862173/?ctp=4</a></li>
+<li><a href="https://askubuntu.com/questions/1026528/adding-custom-programs-to-favourites-of-ubuntu-dock/">https://askubuntu.com/questions/1026528/adding-custom-programs-to-favourites-of-ubuntu-dock/</a></li>
+</ul><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2024.html">2024</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/tag/ubuntu-2204.html">ubuntu 22.04 </a>
+    <a href="https://iqbalabdullah.net/tag/favicon.html">favicon </a>
+    <a href="https://iqbalabdullah.net/tag/desktop.html">desktop </a>
+</p>
+
+
+
+            </article>
+
+
+                <hr  class="gradient"/>
+
+
+        
+
+
+            <article>
                 <a href="https://iqbalabdullah.net/posts/2024/07/the-psf-election-results-2024-what-i-think/"><h3 class="article-title">The PSF Board Election Results For 2024: What I Think</h3></a>
 <h6 class="subheader" title="2024-07-17T07:30:00+09:00">2024-07-17
 </h6>
 
 
-<h1>Congratulations To The Winners</h1>
-<p>First of all, congratulations to all the winners.</p>
-<p>I am happy that a member of our APAC community <a href="https://x.com/darjeelingt">Kwon-Han</a>
-managed to get the largest vote count.  <a href="https://x.com/cmaureir">Cristián</a> will be a new incoming board member, and I think he is long overdue to be on the
-board as a member of Latam. Congratulations too to <a href="https://x.com/ixek">Tania</a> for winning another term.</p>
-<p>It is bittersweet for me to see <a href="https://x.com/pydebb">Débora</a> finish her term. She is a strong ally in the <a href="https://wiki.python.org/psf/DiversityandInclusionWG">Diversity &amp; Inclusion Workgroup</a> I'm involved in. I believe she has done a great job on the PSF Board, with her efforts to bridge the community at large and the PSF and the internalization of PSF material, which impacts the millions of Python users worldwide.</p>
-<h2>Bylaw Changes</h2>
-<p>Alongside the Board seat elections, we also had an election on <a href="https://discuss.python.org/t/for-your-consideration-proposed-bylaws-changes-to-improve-our-membership-experience/55696">three proposed bylaw changes</a>, which have also all been passed.</p>
-<h2>Some Stats</h2>
-<ul>
-<li>For 2024, there were 3 board seats up for election and <a href="https://www.python.org/nominations/elections/2024-python-software-foundation-board/nominees/">19 candidates</a> (6.3 ratio of candidates to seats)</li>
-<li><a href="https://www.python.org/nominations/elections/2023-python-software-foundation-board/nominees/">In 2023, we had 15 nominees</a> for 4 board seats (3.75 ratio) </li>
-<li><a href="https://www.python.org/nominations/elections/2022-python-software-foundation-board/nominees/">In 2022, we had 26 nominees</a> for 4 board seats (6.5 ratio)</li>
-<li><a href="https://www.python.org/nominations/elections/2021-python-software-foundation-board/nominees/?ref=refind">In 2021, we had 19 nominees</a> for 3 board seats (6.3 ratio)</li>
-<li><a href="https://www.python.org/nominations/elections/2020-python-software-foundation-board/nominees/">In 2020, we had 26 nominees</a> for 4 seats (6.5 ratio)</li>
-</ul>
-<p>Looks like for the past few years a 6.3 to 6.5 ratio had been the norm.</p>
-<h3>What We Need To Improve</h3>
-<p>Many things of course. But from these election results, I noticed a few.</p>
-<ul>
-<li>Despite our efforts to increase the voter base, the amount of votes cast and voting members were less than the previous year. 
-  <em>NOTE: that the way we count eligible members changed from 2023 so we can't compare anything previous to that.</em></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Year</th>
-<th>Votes Cast</th>
-<th>Eligible Members</th>
-<th>Turnout Rate</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://opavote.com/results/5004101476679680">2024</a></td>
-<td>611 (-1% YoY)</td>
-<td>794 (-10% YoY)</td>
-<td>77%</td>
-</tr>
-<tr>
-<td><a href="https://pyfound.blogspot.com/2023/06/announcing-2023-psf-board-election.html">2023</a></td>
-<td>621 (<strong>+7.4</strong>% YoY)</td>
-<td>877 (N/A)</td>
-<td>71%</td>
-</tr>
-<tr>
-<td><a href="https://pyfound.blogspot.com/2022/07/board-election-results-for-2022.html">2022</a></td>
-<td>578 (-3.5% YoY)</td>
-<td>1459</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td><a href="https://discuss.python.org/t/2021-python-software-foundation-board-of-directors-election-results/9418">2021</a></td>
-<td>599 (<strong>+30%</strong> YoY)</td>
-<td>1538</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td><a href="https://pyfound.blogspot.com/2020/06/2020-python-software-foundation-board.html">2020</a></td>
-<td>462</td>
-<td>1151</td>
-<td>N/A</td>
-</tr>
-</tbody>
-</table>
-<p>Because there is no data to breakdown voters according to region, we do not know how much impact our efforts in the APAC region for the past year have made an increase in the voter base, although we have a record number of nominations for candidates from the APAC region such as Ivy and Kwon-Han this year, which shows a greater interest in the elections.</p>
-<p>With the <a href="https://pyfound.blogspot.com/2024/06/for-your-consideration-proposed-bylaws.html">new bylaw changes</a> being passed for this election, we can expect the 611 voting members in 2024 will also vote in 2025 because they do not have to reaffirm their desire to vote. Reaffirming your vote has been an ongoing issue because the steps to do so were not intuitive and have been a barrier to increasing participation in the PSF Board elections. Hopefully, with this bylaw change, we can see some stability and also an increase in voter base.</p>
-<ul>
-<li>We don't have anyone from the African continent to represent us. The two candidates (Abigail and Monica) we had from Africa didn't manage to get enough votes to be elected to the Board, and we don't have anyone on the Board right now active in the African continent.</li>
-<li>The way some of our community members handled their <a href="https://discuss.python.org/t/for-your-consideration-proposed-bylaws-changes-to-improve-our-membership-experience/55696">disagreements with the proposed bylaw change #3</a> was
-disappointing. Disagreements are fine and are a fact of life (in fact it is healthy and sometimes fun because we can learn something new) but the way some members of our community disagreed with each other while making snide
-remarks, questioning trust while implying how <em>long</em> they have been around doing this and that doesn't make the conversation appealing to new people and pushes them away.</li>
-</ul>
-<h3>Progress I'm Happy About</h3>
-<p>Also many things. But these would be the main ones:</p>
-<ul>
-<li>Kwon-Han getting the most votes. As a member of the APAC region I'm involved in, I'm happy to see him getting the support that he is getting. </li>
-<li>Cristián getting elected to the board. He is an active leader of the Python community and he is <em>everywhere</em>. Just read his nomination statement <a href="https://www.python.org/nominations/elections/2024-python-software-foundation-board/nominees/cristian-maureira-fredes/">here</a>. His experience in helping the community and connection to people will be an asset to the PSF.</li>
-<li><a href="https://www.python.org/nominations/elections/2024-python-software-foundation-board/nominees/ivy-fung/">Ivy Fung</a>, a first-time nominee for the PSF Board elections getting 37% approval from voters.</li>
-<li>Record number of nominations for <a href="https://www.python.org/nominations/elections/2024-python-software-foundation-board/nominees/kwonhan-bae/">Kwon-Han</a> (13) and Ivy (9), our nominees from APAC.</li>
-<li>At least one nominee has her nomination statement in a language other than English.</li>
-<li>We have a <a href="https://www.python.org/nominations/elections/2024-python-software-foundation-board/nominees/ali-tavallaie/">nominee from Tehran, Ali</a>. </li>
-<li>Increased interest in the PSF and participating in the Board elections within my own APAC community.</li>
-<li>We have high turnout rates since 2023. <a href="https://www.oecd-ilibrary.org/social-issues-migration-health/society-at-a-glance-2019_3483a69a-en">In our world, a 70% turnout rate is considered the median for major elections</a>. (Thanks to <a href="https://mastodon.social/@hugovk/112800501986331260">Hugo</a> for reminding me of this data)</li>
-</ul>
-<h3>After 5 Years</h3>
-<p>Reading back <a href="https://iqbalabdullah.net/posts/2020/06/diversification-is-the-future-for-the-psf/">my post</a> after I first ran for a board seat reminded me of the things which I wanted to change. These were </p>
-<ul>
-<li>Diversification<ul>
-<li>in representation on the Board</li>
-<li>in the financials of the PSF</li>
-<li>in our voter base</li>
-</ul>
-</li>
-<li>Indifference to the PSF</li>
-</ul>
-<p>Since 2020, I believe we have seen <a href="https://observablehq.com/@terezaif/psf-board-timeline">progress in the diversification of representation by region</a> within the PSF Board, although at
-times it seems like we're taking two steps forward and a step back. We now have someone from the APAC region on the
-board, which we have not had before, but no one to represent the African continent, which we once had. It is still North
-America and Europe centric, but with a different shade.</p>
-<p>In terms of financials, the PSF is still overdependent on PyCon US, but relatively this is getting better. In 2019, the PSF's revenue was 61% coming from
-hosting PyCon US while 28% were from grants and membership fees. Based on the <a href="https://www.python.org/psf/annual-report/2023/">2023 PSF's Annual Report</a>, <strong>we're now at
-48% dependent on PyCon US while grants and membership fees take 30% . The dependency on PyCon US has decreased from 2020.</strong> <sup id="fnref:fn01"><a class="footnote-ref" href="#fn:fn01">1</a></sup> We're making good progress on this front,
-although the PSF is seeing a deficit for 2023. I'm not too worried about the deficit though, because we know the PSF has just made big hires for people to work
-in-house on PyPI and also on security.</p>
-<p>Our voter base doesn't seem to have changed much if we just look at the total amount of votes counted. Having data to
-breakdown the amount of votes coming in from regions would be great, but I'm not sure how we can technically do this
-without tying the votes to membership data. I am genuinely surprised to not see a significant increase after all the
-promotion work we have done. If <a href="https://observablehq.com/@terezaif/who-voted-in-the-psf-board-elections">Tereza's data</a> is any sort of indicator, we need to get people to
-nominate more of their peers to Fellows. I have been actively doing that on a personal level and try to <a href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/">include how many people I have nominated in conversations I had</a> to increase awareness.</p>
-<p>Aside from the voter base, I think the biggest progress we have made is on the indifference towards the PSF itself, at least from the more active members of our community.
-I have seen, experienced and helped out on many initiative within our APAC community to promote the PSF in the forms of membership drive, lightning
-talks and keynotes. Many of these are done through community initiaitves without explicit requests from the PSF. We now
-see multiple people from the APAC region running for a Board seat, and even one of us are on the Board.</p>
-<p>I am happy to play a small role in making our world a smaller place for our community.</p>
-<h2>Further Reading</h2>
-<ul>
-<li><a href="https://iqbalabdullah.net/posts/2020/06/diversification-is-the-future-for-the-psf/">Diversification Is The Future Of The PSF</a></li>
-<li><a href="https://iqbalabdullah.net/posts/2022/07/the-future-is-still-not-here-for-the-psf-2022/">The Future Is Still Not Here For The PSF</a></li>
-<li><a href="https://iqbalabdullah.net/posts/2023/07/a-step-closer-to-the-future-for-the-psf-2023/">A Step Closer To The Future For The PSF</a></li>
-<li><a href="https://micro.webology.dev/2024/07/16/my-thoughts-on.html">My thoughts on the PSF Election results - Jeff Triplett's Micro.blog</a></li>
-<li><a href="https://maureira.xyz/posts/getting-elected-for-the-psf-board-of-directors.html">Getting elected for the PSF Board of Directors - Cristián Maureira-Fredes</a></li>
-</ul>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:fn01">
-<p>Updated with latest data from the PSF. Thank you to Phyllis, Deb for the data and Jeff for pointing this out&#160;<a class="footnote-backref" href="#fnref:fn01" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2024.html">2024</a>
+<p>The 2024 PSF Board elections are closed and counted. This is what I think</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2024.html">2024</a>
 
     Tagged: 
     <a href="https://iqbalabdullah.net/tag/psf.html">psf </a>
@@ -198,11 +118,9 @@ see multiple people from the APAC region running for a Board seat, and even one 
 
 
 
-            </article>
-
-
+                <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2024/07/the-psf-election-results-2024-what-i-think/">Read More</a>
                 <hr  class="gradient"/>
-
+            </article>
 
         
 
@@ -256,30 +174,6 @@ Translations:
         <a href="https://iqbalabdullah.net/../ja/posts/2024/05/nominating-pythonistas-at-the-psf/">ja</a>
 
                 <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/">Read More</a>
-                <hr  class="gradient"/>
-            </article>
-
-        
-
-
-            <article>
-                <a href="https://iqbalabdullah.net/posts/2024/05/going-to-pycon-us-2024-in-pittsburgh-part-1/"><h3 class="article-title">Going To PyCon US 2024 - Heading To Pittsburgh (Part 1)</h3></a>
-<h6 class="subheader" title="2024-05-09T22:20:00+09:00">2024-05-09
-</h6>
-
-
-<p>The first part of my journey across the world in May/June 2024.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2024.html">2024</a>
-
-    Tagged: 
-    <a href="https://iqbalabdullah.net/tag/pycon.html">pycon </a>
-    <a href="https://iqbalabdullah.net/tag/pittsburgh.html">pittsburgh </a>
-    <a href="https://iqbalabdullah.net/tag/may-2024-trip.html">may-2024-trip </a>
-    <a href="https://iqbalabdullah.net/tag/travel.html">travel </a>
-</p>
-
-
-
-                <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2024/05/going-to-pycon-us-2024-in-pittsburgh-part-1/">Read More</a>
                 <hr  class="gradient"/>
             </article>
 
