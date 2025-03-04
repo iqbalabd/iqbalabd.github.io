@@ -51,42 +51,61 @@
         
 
             <article>
-                <a href="https://iqbalabdullah.net/posts/2024/10/custom-steam-favicon-scaling-ubuntu-2204/"><h3 class="article-title">Custom Favicon for Scaled Steam Client on Ubuntu 22.04</h3></a>
-<h6 class="subheader" title="2024-10-20T21:30:00+09:00">2024-10-20
+                <a href="https://iqbalabdullah.net/posts/2025/03/the-final-pycon-apac/"><h3 class="article-title">Goodbye PyCon APAC: A New Chapter Begins</h3></a>
+<h6 class="subheader" title="2025-03-03T10:30:00+09:00">2025-03-03
 </h6>
 
 
-<p>Creating a custom favicon on Ubuntu 22.04 isn't as daunting as it might seem, especially when you're trying to address a specific issue like scaling with a 4K monitor. For instance, if you're using a Dell XPS 9310 and the Steam client appears too small, you can scale it by adding a parameter. Specifically, the <code>-forcedesktopscaling=X</code> parameter can be adjusted to your preference. In my case, setting it to <code>2.5</code> worked perfectly.</p>
-<p>The challenge is ensuring the favicon uses this parameter when launching Steam. The solution is to create a custom desktop entry. Here’s how:</p>
-<p>First, copy the existing Steam desktop file to your local applications directory:</p>
-<div class="highlight"><pre><span></span><code>$<span class="w"> </span>cp<span class="w"> </span>/usr/share/applications/steam.desktop<span class="w"> </span>/home/<span class="nv">$HOME</span>/.local/share/applications
-$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>/home/<span class="nv">$HOME</span>/.local/share/applications
-$<span class="w"> </span>vi<span class="w"> </span>steam.desktop
-</code></pre></div>
-
-<p>Next, edit the file by adding the <code>-forcedesktopscaling="2.5"</code> parameter to each line that starts with <code>Exec=</code>. It should look something like this:</p>
-<div class="highlight"><pre><span></span><code><span class="k">Exec</span><span class="o">=/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">games</span><span class="o">/</span><span class="nv">steam</span><span class="w"> </span><span class="o">%</span><span class="nv">U</span><span class="w"> </span><span class="o">-</span><span class="nv">forcedesktopscaling</span><span class="o">=</span><span class="s2">&quot;2.5&quot;</span>
-...
-...
-<span class="k">Exec</span><span class="o">=/</span><span class="nv">usr</span><span class="o">/</span><span class="nv">games</span><span class="o">/</span><span class="nv">steam</span><span class="w"> </span><span class="nv">steam</span>:<span class="o">//</span><span class="nv">url</span><span class="o">/</span><span class="nv">SteamIDControlPage</span><span class="w"> </span><span class="o">-</span><span class="nv">forcedesktopscaling</span><span class="o">=</span><span class="s2">&quot;2.5&quot;</span>
-</code></pre></div>
-
-<p>Finally, make the desktop file executable:</p>
-<div class="highlight"><pre><span></span><code>$<span class="w"> </span>chmod<span class="w"> </span>a+x<span class="w"> </span>steam.desktop
-</code></pre></div>
-
-<p>Once you've done that, restart your system. This ensures that every time you launch Steam via the favicon, it uses the specified scaling. It's a simple yet effective way to customize your desktop environment to better suit your hardware.</p>
-<hr>
-<p>References:</p>
+<p><a href="https://pycon-apac.python.ph">PyCon APAC 2025 in Manila</a> will be more than just another PyCon: It marks a significant transition. After 15 years, the community has chosen to retire the name "PyCon APAC" and embark on a new journey for Python conferences in Asia. This change isn't just about rebranding; it's about creating a more sustainable and structured future for the Python community across the region.</p>
+<p>The conference wrapped up on March 2, 2025. Traditionally, we announce the next hosts at the end of each event. The PH organizers graciously gave me a few minutes during the closing to address the audience and fill in the "who's next" portion.</p>
+<h2>The End of "PyCon APAC"</h2>
+<p><a href="https://pycon.blogspot.com/2010/04/pycon-apac-early-bird-and-tutorial.html">PyCon APAC began in 2010 in Singapore</a>, thanks to the efforts of Beng Keat, Maurice Ling, and the dedicated Pythonistas in Singapore. Their goal was to unite Python enthusiasts across the region, bringing PyCon to Asia to make it more accessible.</p>
+<p>Over the years, the conference rotated among eight host countries, fostering friendships and proving that Python is more than just a programming language. It's a community. Brett Cannon's famous quote captures it best: "I came for the language, but I stayed for the community."</p>
+<p>However, as the event grew, so did the challenges. The term "APAC" often required explanation to global audiences. More critically, each year's host had to rebuild everything from scratch—securing sponsorships, navigating permissions, and handling logistics—leading to inefficiencies and the loss of institutional knowledge. Organizer burnout became an all-too-common reality.</p>
+<p>To address these issues, we made a pivotal decision: <strong>PyCon APAC needs to evolve.</strong></p>
+<h2>Introducing Python Asia Organization (PAO)</h2>
+<p><img alt="The directors and members of the Python Asia Organization (PAO)" src="https://iqbalabdullah.net/images/pycons/pao-directors-pycon-apac-2025.jpg">
+<em>The members and directors of the Python Asia Organization posing on stage before their talk (L to R: Kwon Han Bae,
+Freilla Espinola, Manabu Terada, Iqbal Abdullah)</em></p>
+<p>To ensure sustainability and continuity, we established the <a href="https://ariregister.rik.ee/eng/company/80644409/Python-Asia-Organization-MT%C3%9C"><strong>Python Asia Organization (PAO)</strong></a>. This new nonprofit will oversee regional Python conferences in Asia, holding intellectual property rights, managing trademarks, and most importantly, providing long-term structural support for future events.</p>
+<p>I have considered something like PAO since <a href="https://iqbalabdullah.net/posts/2020/06/diversification-is-the-future-for-the-psf/">running for a PSF board seat in 2020</a>, noticing the lack of representation from our side of the world—often due to indifference or even not knowing the PSF exists. After discussing informally with my community members, I formally announced my idea for PAO at the end of my <a href="https://tw.pycon.org/2022/en-us/conference/keynotes/">keynote during PyCon APAC 2022</a> hosted by our TW friends.</p>
+<p>But let me be clear: <strong>PAO is not an umbrella organization representing all Asian Python communities.</strong> Each country and community remains independent. PAO serves as a hub to facilitate collaboration, empower community leaders, share resources, and ensure that future Python conferences in Asia no longer have to start from scratch each year.</p>
+<h2>The Path Forward</h2>
 <ul>
-<li><a href="https://steamcommunity.com/groups/SteamClientBeta/discussions/0/3461605794225862173/?ctp=4">https://steamcommunity.com/groups/SteamClientBeta/discussions/0/3461605794225862173/?ctp=4</a></li>
-<li><a href="https://askubuntu.com/questions/1026528/adding-custom-programs-to-favourites-of-ubuntu-dock/">https://askubuntu.com/questions/1026528/adding-custom-programs-to-favourites-of-ubuntu-dock/</a></li>
-</ul><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2024.html">2024</a>
+<li>A <strong>new name</strong> for the conference will be chosen, with an official announcement by <strong>April 10, 2025</strong>.  </li>
+<li><strong>PAO will take over trademarks and intellectual property</strong>, giving the community independent ownership over its conference brand. </li>
+<li><strong>Governance changes will be tested</strong> with the 2026 conference.  </li>
+<li><strong>The 2026 host selection will shift from proposals to a structured assignment process</strong>, ensuring smoother transitions and better planning.</li>
+</ul>
+<p>The host country for 2026 is yet to be decided. One of the biggest shifts we are considering is moving away from the traditional call-for-proposals model and instead <strong>designating hosts</strong> through a structured selection process. This change will allow PAO to work closely with the host country for 2026, to consolidate learnings from that process and ensuring a seamless transition from one conference to the next from 2027 where we hope to resume the call-for-proposals model.</p>
+<h2>Acknowledging Our Challenges</h2>
+<p>As exciting as this new phase is, it doesn't come without challenges. Every PyCon APAC host in the past has faced hurdles securing sponsorships, managing logistics, and navigating local regulations. Despite tremendous effort, much of that knowledge was lost when a new host took over.</p>
+<p>With PAO, we are determined to change that. <strong>Standardized processes, shared knowledge, and a more structured support</strong> will ease the burden on future hosts. More importantly, we want to ensure that Python conferences in Asia <strong>continue to thrive, grow, and bring people together for years to come.</strong></p>
+<h2>Looking Back, Looking Forward</h2>
+<p><img alt="Iqbal making the annoucement about the 2026 regional conference" src="https://iqbalabdullah.net/images/pycons/iqbal-closing-pycon-apac-2025.jpg">
+<em>Iqbal making the annoucement about our regional conference for 2025 during the closing (Picture by Calvin Tsang)</em></p>
+<p>It was a bittersweet moment as I stood on stage for the final PyCon APAC closing in Manila. This wasn't just a conference; it was the culmination of years of passion, dedication, and collaboration among people from many countries. Only a few in the audience had attended a PyCon APAC conference before, so I briefly recapped its history, explained what's changing, and shared our plans. I also mentioned that this might be the last time we use "PyCon APAC", and we do not yet know who the next hosts will be.</p>
+<p>But this isn't the end. It's the beginning of something even greater.</p>
+<p>I invite all of you to join this next chapter. We need your voices, your ideas, and your passion to build something that will last for the next generation of Pythonistas in Asia. I also want acknowledge and say thank you to other community partners such as <a href="https://blackpythondevs.com">Black Python Devs</a> and the <a href="https://www.europython-society.org/europython/">Euro Python Society of EuroPython</a> for being such great examples we can follow that also pushes us forward.</p>
+<p><strong>We also need your sponsorships!</strong> You can help by sponsoring us through <a href="https://github.com/sponsors/PythonAsiaOrganization">GitHub Sponsors</a>, or get your company or employer to sponsor us through our <a href="https://github.com/PythonAsiaOrganization/public-docs/blob/main/sponsorship.md">Sponsorship Programs</a>. You're our <em>haligi</em> (pillar)!</p>
+<p><strong>Follow Us</strong> on our social media channels too:</p>
+<ul>
+<li><a href="https://www.linkedin.com/company/python-asia-organization-mtu">LinkedIn</a></li>
+<li><a href="https://www.facebook.com/pythonasiaorg">Facebook</a></li>
+<li><a href="https://www.instagram.com/pythonasiaorg/">Instagram</a></li>
+<li><a href="https://x.com/pythonasiaorg">X</a></li>
+</ul>
+<p>If you're part of a Python community in Asia and would like to connect with the rest of us, you can find us on Discord
+<a href="https://discord.gg/59e7W9yqmx">here</a>.</p>
+<p>The spirit of PyCon APAC isn't disappearing; it's evolving and growing into something better.</p>
+<p>Here's to the future of Python in Asia. 🚀</p>
+<p>P.S. I want to acknowledge and thank my comrade-in-arms, Manabu Terada, for his public gratitude about my role in managing PyCon APAC over the past ten-or-so years. All of us contributed just as much as the rest of us.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2025.html">2025</a>
 
     Tagged: 
-    <a href="https://iqbalabdullah.net/tag/ubuntu-2204.html">ubuntu 22.04 </a>
-    <a href="https://iqbalabdullah.net/tag/favicon.html">favicon </a>
-    <a href="https://iqbalabdullah.net/tag/desktop.html">desktop </a>
+    <a href="https://iqbalabdullah.net/tag/python.html">python </a>
+    <a href="https://iqbalabdullah.net/tag/asia.html">asia </a>
+    <a href="https://iqbalabdullah.net/tag/pycon.html">pycon </a>
+    <a href="https://iqbalabdullah.net/tag/ph.html">ph </a>
 </p>
 
 
@@ -96,6 +115,29 @@ $<span class="w"> </span>vi<span class="w"> </span>steam.desktop
 
                 <hr  class="gradient"/>
 
+
+        
+
+
+            <article>
+                <a href="https://iqbalabdullah.net/posts/2024/10/custom-steam-favicon-scaling-ubuntu-2204/"><h3 class="article-title">Custom Favicon for Scaled Steam Client on Ubuntu 22.04</h3></a>
+<h6 class="subheader" title="2024-10-20T21:30:00+09:00">2024-10-20
+</h6>
+
+
+<p>Create a custom Steam favicon with scaling for 4K monitors on Ubuntu 22.04.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2024.html">2024</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/tag/ubuntu-2204.html">ubuntu 22.04 </a>
+    <a href="https://iqbalabdullah.net/tag/favicon.html">favicon </a>
+    <a href="https://iqbalabdullah.net/tag/desktop.html">desktop </a>
+</p>
+
+
+
+                <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2024/10/custom-steam-favicon-scaling-ubuntu-2204/">Read More</a>
+                <hr  class="gradient"/>
+            </article>
 
         
 
@@ -150,33 +192,6 @@ Translations:
                 <hr  class="gradient"/>
             </article>
 
-        
-
-
-            <article>
-                <a href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/"><h3 class="article-title">Nominating Pythonistas For Stuff At The Python Software Foundation (PSF)</h3></a>
-<h6 class="subheader" title="2024-05-20T09:20:00+09:00">2024-05-20
-</h6>
-
-Translations: 
-        <a href="https://iqbalabdullah.net/../ja/posts/2024/05/nominating-pythonistas-at-the-psf/">ja</a>
-
-<p>A README to nominating your fellow Pythonistas for stuff at the PSF</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2024.html">2024</a>
-
-    Tagged: 
-    <a href="https://iqbalabdullah.net/tag/pycon.html">pycon </a>
-    <a href="https://iqbalabdullah.net/tag/psf.html">psf </a>
-    <a href="https://iqbalabdullah.net/tag/community.html">community </a>
-</p>
-
-
-Translations: 
-        <a href="https://iqbalabdullah.net/../ja/posts/2024/05/nominating-pythonistas-at-the-psf/">ja</a>
-
-                <a class="button radius secondary small right" href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/">Read More</a>
-                <hr  class="gradient"/>
-            </article>
-
             <!-- /#posts-list -->
 <div class="pagination-centered">
 <h6 class="subheader">Page 1 of 6</h6>
@@ -215,6 +230,7 @@ Translations:
             <li><a href="https://iqbalabdullah.net/category/2022.html">2022</a></li>
             <li><a href="https://iqbalabdullah.net/category/2023.html">2023</a></li>
             <li><a href="https://iqbalabdullah.net/category/2024.html">2024</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2025.html">2025</a></li>
    
         </ul>
 
