@@ -27,9 +27,13 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("LaLoka Labs", "https://lalokalabs.co/"),
-    ("GetOTP", "https://otp.dev/"),
-    ("Kafkai", "https://kafkai.com/"),
+    ("LaLoka Labs LLC", "https://lalokalabs.co/"),
+    (
+        "[Kafkai] AI SEO Contents & Competitor Insights Tool",
+        "https://kafkai.com/",
+    ),
+    ("[GetOTP] One-Time Password API", "https://otp.dev/"),
+    ("Python Asia Organization MTÜ", "https://github.com/PythonAsiaOrganization"),
 )
 
 # Social widget
