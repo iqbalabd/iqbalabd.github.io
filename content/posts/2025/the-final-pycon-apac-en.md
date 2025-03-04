@@ -77,3 +77,4 @@ The spirit of PyCon APAC isn't disappearing; it's evolving and growing into some
 Here's to the future of Python in Asia. 🚀
 
 P.S. I want to acknowledge and thank my comrade-in-arms, Manabu Terada, for his public gratitude about my role in managing PyCon APAC over the past ten-or-so years. All of us contributed just as much as the rest of us.
+P.S.S Thank you to Freilla for reviewing this post.
