@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2025</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/2025.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2025-03-03T10:30:00+09:00</updated><entry><title>さようならPyCon APAC: 新しい章が始まる</title><link href="https://iqbalabdullah.net/ja/posts/2025/03/the-final-pycon-apac/" rel="alternate"></link><published>2025-03-03T10:30:00+09:00</published><updated>2025-03-03T10:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-03-03:/ja/posts/2025/03/the-final-pycon-apac/</id><summary type="html">&lt;p&gt;PyCon APAC 2025は、時代の終わりとアジアのPythonコミュニティとカンファレンスの新しい旅の始まりを示します。&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pycon-apac.python.ph"&gt;マニラでのPyCon APAC 2025&lt;/a&gt;は、単なる別のPyCon APACではありません。それは重要な移行を意味します。PyCon APACシリーズがはじまって15年、私たちは「PyCon APAC」という名前を引退させ、アジアのPythonカンファレンスの新しい旅に乗り出すことを選択しました。この変更は単なるリブランディングではなく、地域全体のPythonコミュニティのために、より持続可能で構造化された未来を創造することです。&lt;/p&gt;
+&lt;p&gt;今年のPyCon APACは2025年3月2日に終了しました。伝統的に、各イベントの終了時に次のホストを発表します。PHのオーガナイザーたちは、閉会中に私に数分の時間をくれ、次の主催が誰なのかを観客に伝える機会をくれました。&lt;/p&gt;
+&lt;h2&gt;「PyCon APAC」の終焉&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pycon.blogspot.com/2010/04/pycon-apac-early-bird-and-tutorial.html"&gt;PyCon APACは2010年にシンガポールで始まりました&lt;/a&gt;。Beng Keat、Maurice Ling、シンガポールの熱心なPythonistaたちの努力のおかげです。彼らの目標は、アジア全体のPython愛好者を結集し、PyConをアジアに持ち込んでよりアクセスしやすくすることでした。&lt;/p&gt;
+&lt;p&gt;カンファレンスは8つのホスト国を巡り、友情を育み、Pythonが単なるプログラミング言語ではないことを証明しました。それはコミュニティです。Brett Cannonの有名な言葉がそれを最もよく表しています。「私は言語のために来たが、コミュニティのために残った。」&lt;/p&gt;
+&lt;p&gt;しかし、イベントが成長するにつれて、課題も増えていきました。「APAC」という用語は、しばしば世界中の聴衆に説明が必要でした。さらに重要なことに、毎年のホストはすべてをゼロから再構築しなければならず、スポンサーシップの確保、承認プロセス、物流の管理などが非効率を招き、知識の喪失につながりました。オーガナイザーの燃え尽き症候群はあまりにも一般的な現実となりました。&lt;/p&gt;
+&lt;p&gt;これらの問題に対処するために、私たちは &lt;strong&gt;PyCon APACは進化する必要があります。&lt;/strong&gt; と考えました。&lt;/p&gt;
+&lt;h2&gt;Python Asia Organization（PAO）の紹介&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Python Asia Organization（PAO）のディレクターとメンバー" src="https://iqbalabdullah.net/ja/images/pycons/pao-directors-pycon-apac-2025.jpg"&gt;
+&lt;em&gt;ステージ上でのトーク前にポーズをとるPython Asia Organizationのメンバーとディレクター（左から右：Kwon Han Bae、Freilla Espinola、Manabu Terada、Iqbal Abdullah）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;持続可能性と継続性を確保するために、&lt;a href="https://ariregister.rik.ee/eng/company/80644409/Python-Asia-Organization-MT%C3%9C"&gt;&lt;strong&gt;Python Asia Organization (PAO)&lt;/strong&gt;&lt;/a&gt;を設立しました。この新しい非営利団体は、アジアの地域Pythonカンファレンスを主催し、知的財産権を保持し、商標を管理し、最も重要なことに、将来のイベントのために長期的な構造的サポートを提供します。&lt;/p&gt;
+&lt;p&gt;私は2020年にPSFの理事席に立候補した際に、&lt;a href="https://iqbalabdullah.net/posts/2020/06/diversification-is-the-future-for-the-psf/"&gt;何かPAOのようなものを考えていました&lt;/a&gt;。私たちの地域からの代表が少ないのは、無関心やPSFの存在を知らないことが原因であることが多いのです。コミュニティメンバーと非公式に話し合った後、私は2022年の台湾主催のPyCon APACでの&lt;a href="https://tw.pycon.org/2022/en-us/conference/keynotes/"&gt;基調講演の終わりに、PAOのアイデアを正式に発表しました&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;しかし、はっきりさせておきたいのは、&lt;strong&gt;PAOはアジアのすべてのPythonコミュニティを代表する組織ではありません。&lt;/strong&gt; 各国とコミュニティは独立したままです。PAOは、協力を促進し、コミュニティリーダーを力づけ、リソースを共有し、アジアの将来のPythonカンファレンスが毎年ゼロから始める必要がないようにするためのハブとして機能します。&lt;/p&gt;
+&lt;h2&gt;これからの道&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;新しい名前&lt;/strong&gt; がカンファレンスに選ばれ、&lt;strong&gt;2025年4月10日&lt;/strong&gt;までに公式発表します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PAOが商標と知的財産を引き継ぎ&lt;/strong&gt;、コミュニティが独立してカンファレンスブランドを所有できるようにします。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2026年のカンファレンスでガバナンスの変更を試行&lt;/strong&gt;します。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2026年のホスト選定はプロポーザルから構造化された割り当てプロセスに移行し&lt;/strong&gt;、よりスムーズな移行と計画を実現します。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2026年のホスト国はまだ決まっていません。私たちが考えている大きな変化の一つは、従来のプロポーザル募集モデルから離れ、代わりに&lt;strong&gt;構造化された選考プロセスを通じてホストを指定することです&lt;/strong&gt;。この変更により、PAOは2026年のホスト国と緊密に協力し、そのプロセスからの学びを統合し、2027年からプロポーザル募集モデルを再開することを目指し、一つのカンファレンスから次のカンファレンスへのシームレスな移行を確保します。&lt;/p&gt;
+&lt;h2&gt;課題の認識&lt;/h2&gt;
+&lt;p&gt;この新しいフェーズはエキサイティングですが、課題なしではありません。過去のすべてのPyCon APACホストは、スポンサーシップの確保、物流の管理、現地規制のナビゲートにおいて困難に直面しました。多大な努力にもかかわらず、新しいホストが引き継ぐときにその知識の多くが失われました。&lt;/p&gt;
+&lt;p&gt;PAOを通じて、私たちはそれを変えることに決意しています。&lt;strong&gt;標準化されたプロセス、共有された知識、より構造化されたサポート&lt;/strong&gt;が、将来のホストの負担を軽減します。より重要なのは、アジアのPythonカンファレンスが&lt;strong&gt;成長し続け、発展し続け、人々を集め続けることを保証したいのです。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;振り返りとこれから&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="2025年の地域カンファレンスについての発表を行うIqbal" src="https://iqbalabdullah.net/ja/images/pycons/iqbal-closing-pycon-apac-2025.jpg"&gt;
+&lt;em&gt;マニラでの最後のPyCon APAC閉会中に地域カンファレンスについての発表を行うIqbal（写真：Calvin Tsang）&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;マニラでの最後のPyCon APAC閉会中にステージに立ったとき、それは感慨深い瞬間でした。これは単なるカンファレンスではなく、多くの国々からの人々の情熱、献身、協力の結晶でした。観客の中にはPyCon APACカンファレンスに参加したことがある人は少なく、その歴史を簡単に振り返り、何が変わるのかを説明し、私たちの計画を共有しました。また、これが「PyCon APAC」という名前を使う最後の時かもしれないと述べ、次のホストが誰であるかはまだわからないとしました。&lt;/p&gt;
+&lt;p&gt;しかし、これは終わりではありません。それはさらに大きな何かの始まりです。&lt;/p&gt;
+&lt;p&gt;皆さんにこの次の章に参加するよう招待します。次世代のアジアのPythonistaのために何かを築くために、皆さんの声、アイデア、情熱が必要です。また、&lt;a href="https://blackpythondevs.com"&gt;Black Python Devs&lt;/a&gt;や&lt;a href="https://www.europython-society.org/europython/"&gt;Euro Python Society of EuroPython&lt;/a&gt;などの他のコミュニティパートナーに感謝し、彼らが私たちが進むための素晴らしい例であることを認識したいです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;スポンサーシップも必要です！&lt;/strong&gt; &lt;a href="https://github.com/sponsors/PythonAsiaOrganization"&gt;GitHub Sponsors&lt;/a&gt;を通じて私たちを支援するか、&lt;a href="https://github.com/PythonAsiaOrganization/public-docs/blob/main/sponsorship.md"&gt;スポンサーシッププログラム&lt;/a&gt;を通じてあなたの会社や雇用者に私たちを支援してもらうことができます。あなたたちは私たちの_柱_です！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;私たちをフォローしてください&lt;/strong&gt; ：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/company/python-asia-organization-mtu"&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.facebook.com/pythonasiaorg"&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.instagram.com/pythonasiaorg/"&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://x.com/pythonasiaorg"&gt;X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;アジアのPythonコミュニティの一部であり、私たちとつながりたい場合は、Discordで
+&lt;a href="https://discord.gg/59e7W9yqmx"&gt;こちら&lt;/a&gt;から見つけることができます。&lt;/p&gt;
+&lt;p&gt;PyCon APACの精神は消えません。それは進化し、より良いものに成長しています。&lt;/p&gt;
+&lt;p&gt;アジアにおけるPythonの未来に乾杯。🚀&lt;/p&gt;
+&lt;p&gt;P.S. 私と長年日本国内外コミュニティ活動共に頑張ってきた寺田学さんが、この10年間でPyCon APACのマネージメントにおける私の役割について公に感謝してくれたことに感謝します。私たち全員が同じくらい貢献しました。また彼もこの記事の日本語版をレビューしてくれたことに感謝します。&lt;/p&gt;</content><category term="2025"></category><category term="python"></category><category term="アジア"></category><category term="pycon"></category><category term="ph"></category></entry></feed>
