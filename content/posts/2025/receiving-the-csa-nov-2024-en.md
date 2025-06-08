@@ -1,8 +1,8 @@
 Title: Receiving the 2024 Q4 PSF Community Service Award
 Slug: psf-community-service-award
 Lang: en
-Date: 2025-06-09 10:00
-Modified: 2025-06-09 10:00
+Date: 2025-06-08 09:00
+Modified: 2025-06-08 09:00
 Tags: python; asia; pycon; csa; award;
 Status: published
 Authors: Iqbal Abdullah
@@ -19,9 +19,9 @@ It was a pleasant surprise on that cool fall morning. I feel happy and proud tha
 The award was received on my behalf by Freilla Espinola during PyCon US, and Terada Manabu brought it back to Tokyo.
 
 ![Iqbal Receiving the PSF Community Service Award for Contributions to the Python Community]({static}/images/psf-python-community-service-award.png)
-_Iqbal receiving the PSF Community Service Award from his friends of the PyCon Japan Association_
+_Iqbal receiving the PSF Community Service Award from his friends of the PyCon JP Association_
 
-While it was unfortunate that I couldn’t meet my fellow recipients, friends, and receive the award in person during PyCon US 2025, it was meaningful to receive the award from the people that I started my community and Python work with. The people pictured above are also past recipients of the award.
+While it was unfortunate that I couldn’t meet my fellow recipients, friends, and receive the award in person during PyCon US this time, it was meaningful to receive the award from the people that I started my community and Python work with. The people pictured above are also past recipients of the award.
 
 To be honest, looking at the people who have received the award in the past, I don't think I deserve it. I don't think the things I have done in my community are as impactful or as difficult as theirs. I couldn't have done it alone either, and many people did it with me.
 
@@ -29,7 +29,8 @@ At the same time, in the past, some friends have confided in me that they don't 
 
 > "The wonderful thing is, this isn't something for you to decide. We (the community) are the ones deciding, so don't sweat it. Please accept the gift."
 
-Now I think I understand how they feel. So I guess I’ll accept the gift and not sweat it.
+Now I think I understand how they feel. So with a thank you, I will happily accept this gift and not sweat it. It is an
+honour.
 
 ## Nominate Your Friends!
 
@@ -39,12 +40,10 @@ I’m extrapolating from the data, of course, but it’s something for us to pon
 Since the award was initiated in March 2008, a total of 127 people have received it.
 I am the sixth person in Japan, the first Malaysian, and the tenth person within East, South East, and South Asia to receive it.
 
-In December 2021, five people representing the PyCon Japan Association received the award for their fundraising efforts for the PSF. Before that, in December 2020, Georgi Kerr was awarded for her PyLadies, D&I, PyCon TH, and PyCon APAC work. In September 2018, Mariatta, who is based in Canada but originated from Indonesia, received the award for her contribution to CPython and diversity efforts within the community. Before Mariatta, the award was given to Kenneth Gonsalves of India in October 2012 posthumously for his community work in India, and the first recipient of the award within our region was Noufal Ibrahim (also India) in October 2009 for his work organizing the inaugural PyCon India.
+In December 2021, five people representing the PyCon JP Association received the award for their fundraising efforts for the PSF. Before that, in December 2020, Georgi Kerr was awarded for her PyLadies, D&I, PyCon TH, and PyCon APAC work. In September 2018, Mariatta, who is based in Canada but originated from Indonesia, received the award for her contribution to CPython and diversity efforts within the community. Before Mariatta, the award was given to Kenneth Gonsalves of India in October 2012 posthumously for his community work in India, and the first recipient of the award within our region was Noufal Ibrahim (also India) in October 2009 for his work organizing the inaugural PyCon India.
 
 Of the ten people within our region receiving the award, two are women, and the rest are men.
 
 There are so many of us here that I’m pretty sure you know someone around you who has done or is doing great work but isn’t acknowledged or recognized. So just go ahead and [nominate them for stuff!](https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/)
-
-Thank you for the recognition folks. It's an honour.
 
 [^1]: [How Many Software Developers Are There in The World? - DistantJob](https://distantjob.com/blog/how-many-developers-are-in-the-world/)
