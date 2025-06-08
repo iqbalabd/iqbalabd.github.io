@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2020</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/2020.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>多様化がPythonソフトウェア財団（PSF）の将来像</title><link href="https://iqbalabdullah.net/ja/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/ja/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;Pythonソフトウェア財団（PSF）の2020年理事会選挙に立候補し落選して思うこと。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;前提&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2020</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/2020.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2020-06-20T16:05:00+09:00</updated><entry><title>多様化がPythonソフトウェア財団（PSF）の将来像</title><link href="https://iqbalabdullah.net/ja/posts/2020/06/diversification-is-the-future-for-the-psf/" rel="alternate"></link><published>2020-06-20T16:05:00+09:00</published><updated>2020-06-20T16:05:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2020-06-20:/ja/posts/2020/06/diversification-is-the-future-for-the-psf/</id><summary type="html">&lt;p&gt;Pythonソフトウェア財団（PSF）の2020年理事会選挙に立候補し落選して思うこと。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;前提&lt;/h1&gt;
 &lt;p&gt;2019年以降、私は東アジア、南アジア、東南アジア（まとめてAPACと呼ばれる）にあるPythonコミュニティがより一貫した方向に進めるよう尽力してきた。
 毎年北米で開催されるPyCon(今年はピッツバーグで開催)の期間中に、より広範な北米および国際コミュニティに
 紹介するコミュニティブースも予定されていたが、COVID-19のため残念ながら中止になった。
@@ -13,7 +13,7 @@ PyCon US&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt
 &lt;p&gt;PSFの取り組みについては&lt;a href="https://www.python.org/psf/#:~:text=The%20mission%20of%20the%20Python,international%20community%20of%20Python%20programmers."&gt;こちら&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2&gt;PSF理事会のポストに立候補&lt;/h2&gt;
 &lt;p&gt;2020年6月、任期が満了するPSFのディレクター(理事のこと)の4つの席が空席になる。
-長年、&lt;a href="https://iqbalabdullah.net/ja/drafts/changing-the-world-one-pycon-at-a-time-en.html"&gt;地球の裏側でコミュニティを構築するために働きながら&lt;/a&gt;
+長年、&lt;a href="https://iqbalabdullah.net/ja/changing-the-world-one-pycon-at-a-time-en.html"&gt;地球の裏側でコミュニティを構築するために働きながら&lt;/a&gt;
 私は米国中心の組織であるPSFが実行していると思っていることと、世界の他の場所で拡大しているコミュニティが実行していると思っていること
 の間にギャップがあると感じていたので、少なくとも東・南・東南アジアの声を代弁するため、ディレクターに立候補することを決心した。&lt;/p&gt;
 &lt;p&gt;正直に言うと、その時点でのモチベーションはそれほど明確ではなかった。&lt;/p&gt;

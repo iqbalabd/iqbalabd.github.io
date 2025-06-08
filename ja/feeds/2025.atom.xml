@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2025</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/2025.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2025-03-03T10:30:00+09:00</updated><entry><title>さようならPyCon APAC: 新しい章が始まる</title><link href="https://iqbalabdullah.net/ja/posts/2025/03/the-final-pycon-apac/" rel="alternate"></link><published>2025-03-03T10:30:00+09:00</published><updated>2025-03-03T10:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-03-03:/ja/posts/2025/03/the-final-pycon-apac/</id><summary type="html">&lt;p&gt;PyCon APAC 2025は、時代の終わりとアジアのPythonコミュニティとカンファレンスの新しい旅の始まりを示します。&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pycon-apac.python.ph"&gt;マニラでのPyCon APAC 2025&lt;/a&gt;は、単なる別のPyCon APACではありません。それは重要な移行を意味します。PyCon APACシリーズがはじまって15年、私たちは「PyCon APAC」という名前を引退させ、アジアのPythonカンファレンスの新しい旅に乗り出すことを選択しました。この変更は単なるリブランディングではなく、地域全体のPythonコミュニティのために、より持続可能で構造化された未来を創造することです。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2025</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/2025.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2025-06-08T09:00:00+09:00</updated><entry><title>2024年第4四半期PSFコミュニティサービス賞（CSA）の受賞</title><link href="https://iqbalabdullah.net/ja/posts/2025/06/psf-community-service-award/" rel="alternate"></link><published>2025-06-08T09:00:00+09:00</published><updated>2025-06-08T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-06-08:/ja/posts/2025/06/psf-community-service-award/</id><summary type="html">&lt;p&gt;アジア全域のPythonコミュニティへの貢献によりPSFコミュニティサービス賞を受賞し、この言語を推進する人々を認識することの重要性を強調しています。&lt;/p&gt;</summary><content type="html">&lt;p&gt;2024年11月16日、Python Software Foundation（PSF）のエグゼクティブディレクターである&lt;a href="https://www.linkedin.com/in/denicholson/"&gt;Deb Nicholson&lt;/a&gt;さんから、「&lt;em&gt;You're a Community Service Award Winner!&lt;/em&gt;」という件名のメールを受け取りました。&lt;/p&gt;
+&lt;p&gt;2024年11月13日、PSF理事会は私に&lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSFコミュニティサービス賞&lt;/a&gt;を授与する決議を承認したようです。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;RESOLVED, that the Python Software Foundation award the 2024 Q4 Community Service Award to Iqbal Abdullah for contributions to the Python community in the Asia-Pacific region, including PyCon Malaysia, PyCon APAC, and PyCon Japan, as well as contributions to multiple PSF workgroups.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;その涼しい秋の朝、それは嬉しい驚きでした。仲間が私を推薦してくれたこと、そして長年にわたって私たちが行ってきた仕事が認められたことを嬉しく、誇りに思います。ただ、ピッツバーグで開催されたPyCon US 2025に出席して賞を直接受け取ることができなかったのは残念でした。&lt;/p&gt;
+&lt;p&gt;賞はPyCon US中にFreilla Espinolaさんが私の代わりに受け取り、寺田学さんが東京に持ち帰ってくれました。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PythonコミュニティへのPSFコミュニティサービス賞を受賞するIqbal" src="https://iqbalabdullah.net/ja/images/psf-python-community-service-award.png"&gt;
+&lt;em&gt;PyCon JP Associationの皆さんからPSFコミュニティサービス賞を受け取るIqbal&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;今回のPyCon USで仲間の受賞者や友人たちに会い、直接賞を受け取ることができなかったのは残念でしたが、私がPythonコミュニティ活動を始めた人々から賞を受け取ることは意味深いものでした。上の写真に写っている人々も過去の受賞者です。&lt;/p&gt;
+&lt;p&gt;正直なところ、過去に賞を受賞した人々を見ると、私はこの賞を受け取ることに値する活動をしてるかと疑問思っています。私がコミュニティで行ったことは、彼らのものほど影響力があったり、困難だったりするとは思いません。今までのコミュニティ活動でも私一人でできたわけでもなく、多くの人が私と一緒にやってきました。&lt;/p&gt;
+&lt;p&gt;同時に、過去に何人かの友人が、自分の仕事が十分に重要ではないと思うため、この賞やあの賞に値しないと思うと私に打ち明けてくれたことがあります。彼らは素晴らしい仕事をしており、完全にそれに値すると思っていたので、当時は彼らをよく理解できませんでした。だから私は通常、彼らにこのようなことを言います：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「素晴らしいことは、これはあなたが決めることではないということです。私たち（コミュニティ）が決めているのですから、心配しないでください。どうぞ快くを受け取ってください。」&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今、彼らがどう思っていたのか理解できたと思います。だから私も感謝の気持ちを込めて、この賞を快く受け取らせていただきます。光栄です。&lt;/p&gt;
+&lt;h2&gt;皆さんもノミネートしよう！&lt;/h2&gt;
+&lt;p&gt;世界中に約1,010万人ほどのPython開発者がいます。そのうち約22％がヨーロッパに、さらに16％がアメリカにいます。中国、インド、日本を合わせると52％を占めています。すべてのPython開発者の約19％が女性です。&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
+もちろんデータから推定していますが、私たちが考えるべきことです。&lt;/p&gt;
+&lt;p&gt;2008年3月に賞が開始されて以来、合計127人が受賞しています。
+私は日本で6人目、マレーシア人として初めて、東アジア、東南アジア、南アジア内で10人目の受賞者です。&lt;/p&gt;
+&lt;p&gt;2021年12月、PyCon JP Associationを代表する5人がPSFへの資金調達活動により賞を受賞しました。その前の2020年12月には、Georgi KerrさんがPyLadies、D&amp;amp;I、PyCon TH、PyCon APACの活動により受賞しました。2018年9月には、カナダを拠点としているがインドネシア出身のMariattaさんが、CPythonへの貢献とコミュニティ内の多様性への取り組みにより賞を受賞しました。Mariattaさんの前は、2012年10月にインドのKenneth Gonsalvesさんがインドでのコミュニティ活動により死後に賞を授与され、私たちの地域内での最初の受賞者は2009年10月にNoufal Ibrahimさん（同じくインド）で、初のPyCon Indiaの開催における彼の活動によるものでした。&lt;/p&gt;
+&lt;p&gt;私たちの地域内で賞を受賞した10人のうち、2人が女性で、残りは男性です。&lt;/p&gt;
+&lt;p&gt;これほど私達の地域に多くいるPythonistaの中から、あなたの周りで素晴らしい活動してる方がいるが、認識されなかったり、認められなかったりという方が絶対にいると思います。だから、&lt;a href="https://iqbalabdullah.net/ja/posts/2024/05/nominating-pythonistas-at-the-psf/"&gt;仲間のPythonistaをノミネートしよう！&lt;/a&gt;ではありませんか？&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://distantjob.com/blog/how-many-developers-are-in-the-world/"&gt;世界にはどれくらいのソフトウェア開発者がいるのか？ - DistantJob&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2025"></category><category term="python"></category><category term="asia"></category><category term="pycon"></category><category term="csa"></category><category term="award"></category></entry><entry><title>さようならPyCon APAC: 新しい章が始まる</title><link href="https://iqbalabdullah.net/ja/posts/2025/03/the-final-pycon-apac/" rel="alternate"></link><published>2025-03-03T10:30:00+09:00</published><updated>2025-03-03T10:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-03-03:/ja/posts/2025/03/the-final-pycon-apac/</id><summary type="html">&lt;p&gt;PyCon APAC 2025は、時代の終わりとアジアのPythonコミュニティとカンファレンスの新しい旅の始まりを示します。&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pycon-apac.python.ph"&gt;マニラでのPyCon APAC 2025&lt;/a&gt;は、単なる別のPyCon APACではありません。それは重要な移行を意味します。PyCon APACシリーズがはじまって15年、私たちは「PyCon APAC」という名前を引退させ、アジアのPythonカンファレンスの新しい旅に乗り出すことを選択しました。この変更は単なるリブランディングではなく、地域全体のPythonコミュニティのために、より持続可能で構造化された未来を創造することです。&lt;/p&gt;
 &lt;p&gt;今年のPyCon APACは2025年3月2日に終了しました。伝統的に、各イベントの終了時に次のホストを発表します。PHのオーガナイザーたちは、閉会中に私に数分の時間をくれ、次の主催が誰なのかを観客に伝える機会をくれました。&lt;/p&gt;
 &lt;h2&gt;「PyCon APAC」の終焉&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://pycon.blogspot.com/2010/04/pycon-apac-early-bird-and-tutorial.html"&gt;PyCon APACは2010年にシンガポールで始まりました&lt;/a&gt;。Beng Keat、Maurice Ling、シンガポールの熱心なPythonistaたちの努力のおかげです。彼らの目標は、アジア全体のPython愛好者を結集し、PyConをアジアに持ち込んでよりアクセスしやすくすることでした。&lt;/p&gt;

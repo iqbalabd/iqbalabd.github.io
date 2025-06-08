@@ -1,5 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/ja/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2025-03-03T10:30:00+09:00</updated><entry><title>さようならPyCon APAC: 新しい章が始まる</title><link href="https://iqbalabdullah.net/ja/posts/2025/03/the-final-pycon-apac/" rel="alternate"></link><published>2025-03-03T10:30:00+09:00</published><updated>2025-03-03T10:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-03-03:/ja/posts/2025/03/the-final-pycon-apac/</id><summary type="html">&lt;p&gt;PyCon APAC 2025は、時代の終わりとアジアのPythonコミュニティとカンファレンスの新しい旅の始まりを示します。&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pycon-apac.python.ph"&gt;マニラでのPyCon APAC 2025&lt;/a&gt;は、単なる別のPyCon APACではありません。それは重要な移行を意味します。PyCon APACシリーズがはじまって15年、私たちは「PyCon APAC」という名前を引退させ、アジアのPythonカンファレンスの新しい旅に乗り出すことを選択しました。この変更は単なるリブランディングではなく、地域全体のPythonコミュニティのために、より持続可能で構造化された未来を創造することです。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2025-06-08T09:00:00+09:00</updated><entry><title>2024年第4四半期PSFコミュニティサービス賞（CSA）の受賞</title><link href="https://iqbalabdullah.net/ja/posts/2025/06/psf-community-service-award/" rel="alternate"></link><published>2025-06-08T09:00:00+09:00</published><updated>2025-06-08T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-06-08:/ja/posts/2025/06/psf-community-service-award/</id><summary type="html">&lt;p&gt;アジア全域のPythonコミュニティへの貢献によりPSFコミュニティサービス賞を受賞し、この言語を推進する人々を認識することの重要性を強調しています。&lt;/p&gt;</summary><content type="html">&lt;p&gt;2024年11月16日、Python Software Foundation（PSF）のエグゼクティブディレクターである&lt;a href="https://www.linkedin.com/in/denicholson/"&gt;Deb Nicholson&lt;/a&gt;さんから、「&lt;em&gt;You're a Community Service Award Winner!&lt;/em&gt;」という件名のメールを受け取りました。&lt;/p&gt;
+&lt;p&gt;2024年11月13日、PSF理事会は私に&lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSFコミュニティサービス賞&lt;/a&gt;を授与する決議を承認したようです。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;RESOLVED, that the Python Software Foundation award the 2024 Q4 Community Service Award to Iqbal Abdullah for contributions to the Python community in the Asia-Pacific region, including PyCon Malaysia, PyCon APAC, and PyCon Japan, as well as contributions to multiple PSF workgroups.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;その涼しい秋の朝、それは嬉しい驚きでした。仲間が私を推薦してくれたこと、そして長年にわたって私たちが行ってきた仕事が認められたことを嬉しく、誇りに思います。ただ、ピッツバーグで開催されたPyCon US 2025に出席して賞を直接受け取ることができなかったのは残念でした。&lt;/p&gt;
+&lt;p&gt;賞はPyCon US中にFreilla Espinolaさんが私の代わりに受け取り、寺田学さんが東京に持ち帰ってくれました。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="PythonコミュニティへのPSFコミュニティサービス賞を受賞するIqbal" src="https://iqbalabdullah.net/ja/images/psf-python-community-service-award.png"&gt;
+&lt;em&gt;PyCon JP Associationの皆さんからPSFコミュニティサービス賞を受け取るIqbal&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;今回のPyCon USで仲間の受賞者や友人たちに会い、直接賞を受け取ることができなかったのは残念でしたが、私がPythonコミュニティ活動を始めた人々から賞を受け取ることは意味深いものでした。上の写真に写っている人々も過去の受賞者です。&lt;/p&gt;
+&lt;p&gt;正直なところ、過去に賞を受賞した人々を見ると、私はこの賞を受け取ることに値する活動をしてるかと疑問思っています。私がコミュニティで行ったことは、彼らのものほど影響力があったり、困難だったりするとは思いません。今までのコミュニティ活動でも私一人でできたわけでもなく、多くの人が私と一緒にやってきました。&lt;/p&gt;
+&lt;p&gt;同時に、過去に何人かの友人が、自分の仕事が十分に重要ではないと思うため、この賞やあの賞に値しないと思うと私に打ち明けてくれたことがあります。彼らは素晴らしい仕事をしており、完全にそれに値すると思っていたので、当時は彼らをよく理解できませんでした。だから私は通常、彼らにこのようなことを言います：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;「素晴らしいことは、これはあなたが決めることではないということです。私たち（コミュニティ）が決めているのですから、心配しないでください。どうぞ快くを受け取ってください。」&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;今、彼らがどう思っていたのか理解できたと思います。だから私も感謝の気持ちを込めて、この賞を快く受け取らせていただきます。光栄です。&lt;/p&gt;
+&lt;h2&gt;皆さんもノミネートしよう！&lt;/h2&gt;
+&lt;p&gt;世界中に約1,010万人ほどのPython開発者がいます。そのうち約22％がヨーロッパに、さらに16％がアメリカにいます。中国、インド、日本を合わせると52％を占めています。すべてのPython開発者の約19％が女性です。&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
+もちろんデータから推定していますが、私たちが考えるべきことです。&lt;/p&gt;
+&lt;p&gt;2008年3月に賞が開始されて以来、合計127人が受賞しています。
+私は日本で6人目、マレーシア人として初めて、東アジア、東南アジア、南アジア内で10人目の受賞者です。&lt;/p&gt;
+&lt;p&gt;2021年12月、PyCon JP Associationを代表する5人がPSFへの資金調達活動により賞を受賞しました。その前の2020年12月には、Georgi KerrさんがPyLadies、D&amp;amp;I、PyCon TH、PyCon APACの活動により受賞しました。2018年9月には、カナダを拠点としているがインドネシア出身のMariattaさんが、CPythonへの貢献とコミュニティ内の多様性への取り組みにより賞を受賞しました。Mariattaさんの前は、2012年10月にインドのKenneth Gonsalvesさんがインドでのコミュニティ活動により死後に賞を授与され、私たちの地域内での最初の受賞者は2009年10月にNoufal Ibrahimさん（同じくインド）で、初のPyCon Indiaの開催における彼の活動によるものでした。&lt;/p&gt;
+&lt;p&gt;私たちの地域内で賞を受賞した10人のうち、2人が女性で、残りは男性です。&lt;/p&gt;
+&lt;p&gt;これほど私達の地域に多くいるPythonistaの中から、あなたの周りで素晴らしい活動してる方がいるが、認識されなかったり、認められなかったりという方が絶対にいると思います。だから、&lt;a href="https://iqbalabdullah.net/ja/posts/2024/05/nominating-pythonistas-at-the-psf/"&gt;仲間のPythonistaをノミネートしよう！&lt;/a&gt;ではありませんか？&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://distantjob.com/blog/how-many-developers-are-in-the-world/"&gt;世界にはどれくらいのソフトウェア開発者がいるのか？ - DistantJob&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2025"></category><category term="python"></category><category term="asia"></category><category term="pycon"></category><category term="csa"></category><category term="award"></category></entry><entry><title>Receiving the 2024 Q4 PSF Community Service Award</title><link href="https://iqbalabdullah.net/en/posts/2025/06/psf-community-service-award/" rel="alternate"></link><published>2025-06-08T09:00:00+09:00</published><updated>2025-06-08T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-06-08:/en/posts/2025/06/psf-community-service-award/</id><summary type="html">&lt;p&gt;I received the PSF Community Service Award for contributions to Python communities across Asia, highlighting the importance of recognizing those who champion the language.&lt;/p&gt;</summary><content type="html">&lt;p&gt;On November 16, 2024, I received an email from &lt;a href="https://www.linkedin.com/in/denicholson/"&gt;Deb Nicholson&lt;/a&gt;, the Executive Director of the Python Software Foundation (PSF), with the title: &lt;em&gt;"You're a Community Service Award Winner!"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It appears that on November 13, 2024, the PSF board approved a resolution to award me the &lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSF Community Service Award&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;RESOLVED, that the Python Software Foundation award the 2024 Q4 Community Service Award to Iqbal Abdullah for contributions to the Python community in the Asia-Pacific region, including PyCon Malaysia, PyCon APAC, and PyCon Japan, as well as contributions to multiple PSF workgroups.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It was a pleasant surprise on that cool fall morning. I feel happy and proud that my peers nominated me, and that the work we've done over the years was recognized. It was unfortunate that I could not be at PyCon US 2025 in Pittsburgh to personally receive the award.&lt;/p&gt;
+&lt;p&gt;The award was received on my behalf by Freilla Espinola during PyCon US, and Terada Manabu brought it back to Tokyo.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Iqbal Receiving the PSF Community Service Award for Contributions to the Python Community" src="https://iqbalabdullah.net/ja/images/psf-python-community-service-award.png"&gt;
+&lt;em&gt;Iqbal receiving the PSF Community Service Award from his friends of the PyCon JP Association&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;While it was unfortunate that I couldn’t meet my fellow recipients, friends, and receive the award in person during PyCon US this time, it was meaningful to receive the award from the people that I started my community and Python work with. The people pictured above are also past recipients of the award.&lt;/p&gt;
+&lt;p&gt;To be honest, looking at the people who have received the award in the past, I don't think I deserve it. I don't think the things I have done in my community are as impactful or as difficult as theirs. I couldn't have done it alone either, and many people did it with me.&lt;/p&gt;
+&lt;p&gt;At the same time, in the past, some friends have confided in me that they don't think they deserve this or that award or recognition because they think their work wasn't significant enough. I didn't quite understand them at that time because I thought they did good work and totally deserved it. So I usually just say something like this to them:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"The wonderful thing is, this isn't something for you to decide. We (the community) are the ones deciding, so don't sweat it. Please accept the gift."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now I think I understand how they feel. So with a thank you, I will happily accept this gift and not sweat it. It is an
+honour.&lt;/p&gt;
+&lt;h2&gt;Nominate Your Friends!&lt;/h2&gt;
+&lt;p&gt;There are approximately 10.1 million Python developers worldwide. Around 22% of them are in Europe, and another 16% are in the United States. China, India, and Japan combined account for 52%. Nearly 19% of all Python developers are women.&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
+I’m extrapolating from the data, of course, but it’s something for us to ponder.&lt;/p&gt;
+&lt;p&gt;Since the award was initiated in March 2008, a total of 127 people have received it.
+I am the sixth person in Japan, the first Malaysian, and the tenth person within East, South East, and South Asia to receive it.&lt;/p&gt;
+&lt;p&gt;In December 2021, five people representing the PyCon JP Association received the award for their fundraising efforts for the PSF. Before that, in December 2020, Georgi Kerr was awarded for her PyLadies, D&amp;amp;I, PyCon TH, and PyCon APAC work. In September 2018, Mariatta, who is based in Canada but originated from Indonesia, received the award for her contribution to CPython and diversity efforts within the community. Before Mariatta, the award was given to Kenneth Gonsalves of India in October 2012 posthumously for his community work in India, and the first recipient of the award within our region was Noufal Ibrahim (also India) in October 2009 for his work organizing the inaugural PyCon India.&lt;/p&gt;
+&lt;p&gt;Of the ten people within our region receiving the award, two are women, and the rest are men.&lt;/p&gt;
+&lt;p&gt;There are so many of us here that I’m pretty sure you know someone around you who has done or is doing great work but isn’t acknowledged or recognized. So just go ahead and &lt;a href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/"&gt;nominate them for stuff!&lt;/a&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://distantjob.com/blog/how-many-developers-are-in-the-world/"&gt;How Many Software Developers Are There in The World? - DistantJob&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2025"></category><category term="python"></category><category term="asia"></category><category term="pycon"></category><category term="csa"></category><category term="award"></category></entry><entry><title>Menerima Anugerah Perkhidmatan Komuniti PSF 2024 Q4</title><link href="https://iqbalabdullah.net/ms/posts/2025/06/psf-community-service-award/" rel="alternate"></link><published>2025-06-08T09:00:00+09:00</published><updated>2025-06-08T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-06-08:/ms/posts/2025/06/psf-community-service-award/</id><summary type="html">&lt;p&gt;Saya menerima Anugerah Perkhidmatan Komuniti PSF kerana sumbangan kepada komuniti Python di Asia, menonjolkan kepentingan mengiktiraf mereka yang memerintah bahasa.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Pada 16 November 2024, saya menerima e-mel daripada &lt;a href="https://www.linkedin.com/in/denicholson/"&gt;Deb Nicholson&lt;/a&gt;, Ketua Pegawai Eksekutif Persekutuan Perisian Python (PSF), dengan tajuk: &lt;em&gt;"You're a Community Service Award Winner!"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nampaknya pada 13 November 2024, lembaga PSF meluluskan resolusi untuk mengagihkan anugerah kepada saya:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;RESOLVED, that the Python Software Foundation award the 2024 Q4 Community Service Award to Iqbal Abdullah for contributions to the Python community in the Asia-Pacific region, including PyCon Malaysia, PyCon APAC, and PyCon Japan, as well as contributions to multiple PSF workgroups.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ini adalah kejutan yang menyenangkan pada pagi musim luruh yang sejuk itu. Saya berasa gembira dan bangga bahawa rakan-rakan saya mencalonkan saya, dan sumbangan kita selama ini diiktiraf. Sayangnya, saya tidak dapat hadir ke PyCon US 2025 di Pittsburgh untuk menerima anugerah secara peribadi.&lt;/p&gt;
+&lt;p&gt;Anugerah itu diterima di oleh Freilla Espinola semasa PyCon US, dan Terada Manabu membawanya kembali ke Tokyo.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Iqbal menerima Anugerah Perkhidmatan Komuniti PSF kerana sumbangan kepada komuniti Python" src="https://iqbalabdullah.net/ja/images/psf-python-community-service-award.png"&gt;
+&lt;em&gt;Iqbal menerima anugerah Perkhidmatan Komuniti PSF daripada rakan-rakannya dari Persatuan PyCon JP&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Walaupun sayangnya, saya tidak dapat bertemu dengan penerima, kawan-kawan yang lain dan menerima anugerah secara terus semasa PyCon US kali ini, ia amat bermakna untuk menerima anugerah ini daripada mereka yang bersama saya dari awal lagi semasa kami memulakan kerja komuniti Python di Tokyo. Orang-orang di atas di dalam gamabar juga adalah penerima sebelum ini bagi anugerah yang sama.&lt;/p&gt;
+&lt;p&gt;Terus terang, melihat kepada mereka yang telah menerima anugerah ini sebelum saya, saya tidak fikir saya layak. Saya tidak rasa bahawa apa-apa yang telah saya lakukan dalam komuniti itu mempunyai kesan ataupun satu perkara yang amat susah seperti apa yang mereka telah lakukan. Saya juga tidak boleh melakukannya sendirian dan ramai orang bersama saya menolong.&lt;/p&gt;
+&lt;p&gt;Pada masa yang sama, sebelum ini beberapa rakan yang juga telah menerima anugerah atau pengiktirafan pernah meluahakan perasaan mereka kepada saya secara peribadai bahawa mereka juga rasakan yang mereka tidak layak kerana mereka percaya kerja mereka tidak cukup penting. Pada masa itu, saya tidak berapa memahami perasaan mereka sebab saya rasa mereka melakukan kerja yang baik dan patutnya layak diberi penghormatan. Jadi saya biasanya hanya berkata sesuatu seperti ini kepada mereka:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Yang hebat tentang perkara ini ialah ia bukan untuk anda menentukan. Kita (komuniti) yang putuskan, jadi jangan risau sangat. Terima sahaja."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sekarang saya rasa saya memahami perasaan mereka. Jadi dengan perasaan terima kasih saya akan terima anugerah ini dengan hati terbuka. Ia adalah satu penghormatan.&lt;/p&gt;
+&lt;h2&gt;Calonkan Rakan anda!&lt;/h2&gt;
+&lt;p&gt;Terdapat lebih kurang 10.1 juta pembangun Python di seluruh dunia. Kira-kira 22% daripada mereka berada di Eropah, manakala 16% lain berada di Amerika Syarikat. China, India dan Jepun bersama-sama mempunyai jumlah 52%. Hampir 19% dari semua pembangun Python adalah wanita.&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;
+Saya membuat anggaran daripada data yang ada, tetapi ia cukup untuk kita buat pertimbangan.&lt;/p&gt;
+&lt;p&gt;Sejak anugerah ini diperkenalkan pada Mac 2008, sejumlah 127 orang telah menerimanya.
+Saya adalah orang keenam di Jepun, orang pertama dari Malaysia, dan orang ke-10 dalam rantau Asia Tenggara, Pasifik Timur, dan Selatan Asia untuk menerima anugerah itu.&lt;/p&gt;
+&lt;p&gt;Pada Disember 2021, lima orang yang mewakili Persatuan PyCon JP menerima anugerah kerana usaha mereka mengumpul dana bagi PSF. Sebelum itu, pada Disember 2020, Georgi Kerr telah menerima anugerah untuk sumbangannya kepada PyLadies, D&amp;amp;I, PyCon TH dan PyCon APAC. Pada September 2018, Mariatta, yang bermaustatin di Kanada tetapi berasal dari Indonesia, telah menerima anugerah kerana sumbangannya kepada CPython dan usaha kepelbagaian dalam komuniti. Sebelum Mariatta, anugerah itu diberikan kepada Kenneth Gonsalves dari India pada Oktober 2012 selepas kematiannya untuk menghargai sumbangannya kepada komuniti Python di India, dan orang pertama menerima anugerah tersebut dalam rantau kita adalah Noufal Ibrahim (juga India) pada Oktober 2009 untuk usaha membangunkan PyCon India.&lt;/p&gt;
+&lt;p&gt;Dari sepuluh orang yang telah menerima anugerah dalam rantau kita ini, dua daripadanya wanita dan selebihnya lelaki.&lt;/p&gt;
+&lt;p&gt;Jumlah kita begitu ramai. Saya pasti anda pembaca juga mengetahui mereka di sekeliling anda yang melakukan atau sedang melakukan kerja hebat tetapi tidak dikenali atau diiktiraf. Jadi &lt;a href="https://iqbalabdullah.net/posts/2024/05/nominating-pythonistas-at-the-psf/"&gt;calonkanlah mereka!&lt;/a&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;&lt;a href="https://distantjob.com/blog/how-many-developers-are-in-the-world/"&gt;Berapa Banyak Pembangun Perisian di Dunia? - DistantJob&lt;/a&gt;&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content><category term="2025"></category><category term="python"></category><category term="asia"></category><category term="pycon"></category><category term="csa"></category><category term="award"></category></entry><entry><title>さようならPyCon APAC: 新しい章が始まる</title><link href="https://iqbalabdullah.net/ja/posts/2025/03/the-final-pycon-apac/" rel="alternate"></link><published>2025-03-03T10:30:00+09:00</published><updated>2025-03-03T10:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-03-03:/ja/posts/2025/03/the-final-pycon-apac/</id><summary type="html">&lt;p&gt;PyCon APAC 2025は、時代の終わりとアジアのPythonコミュニティとカンファレンスの新しい旅の始まりを示します。&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pycon-apac.python.ph"&gt;マニラでのPyCon APAC 2025&lt;/a&gt;は、単なる別のPyCon APACではありません。それは重要な移行を意味します。PyCon APACシリーズがはじまって15年、私たちは「PyCon APAC」という名前を引退させ、アジアのPythonカンファレンスの新しい旅に乗り出すことを選択しました。この変更は単なるリブランディングではなく、地域全体のPythonコミュニティのために、より持続可能で構造化された未来を創造することです。&lt;/p&gt;
 &lt;p&gt;今年のPyCon APACは2025年3月2日に終了しました。伝統的に、各イベントの終了時に次のホストを発表します。PHのオーガナイザーたちは、閉会中に私に数分の時間をくれ、次の主催が誰なのかを観客に伝える機会をくれました。&lt;/p&gt;
 &lt;h2&gt;「PyCon APAC」の終焉&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://pycon.blogspot.com/2010/04/pycon-apac-early-bird-and-tutorial.html"&gt;PyCon APACは2010年にシンガポールで始まりました&lt;/a&gt;。Beng Keat、Maurice Ling、シンガポールの熱心なPythonistaたちの努力のおかげです。彼らの目標は、アジア全体のPython愛好者を結集し、PyConをアジアに持ち込んでよりアクセスしやすくすることでした。&lt;/p&gt;
@@ -437,7 +531,7 @@ PyCon US&lt;sup id="fnref:fn01"&gt;&lt;a class="footnote-ref" href="#fn:fn01"&gt
 &lt;p&gt;PSFの取り組みについては&lt;a href="https://www.python.org/psf/#:~:text=The%20mission%20of%20the%20Python,international%20community%20of%20Python%20programmers."&gt;こちら&lt;/a&gt;を参照してください。&lt;/p&gt;
 &lt;h2&gt;PSF理事会のポストに立候補&lt;/h2&gt;
 &lt;p&gt;2020年6月、任期が満了するPSFのディレクター(理事のこと)の4つの席が空席になる。
-長年、&lt;a href="https://iqbalabdullah.net/ja/drafts/changing-the-world-one-pycon-at-a-time-en.html"&gt;地球の裏側でコミュニティを構築するために働きながら&lt;/a&gt;
+長年、&lt;a href="https://iqbalabdullah.net/ja/changing-the-world-one-pycon-at-a-time-en.html"&gt;地球の裏側でコミュニティを構築するために働きながら&lt;/a&gt;
 私は米国中心の組織であるPSFが実行していると思っていることと、世界の他の場所で拡大しているコミュニティが実行していると思っていること
 の間にギャップがあると感じていたので、少なくとも東・南・東南アジアの声を代弁するため、ディレクターに立候補することを決心した。&lt;/p&gt;
 &lt;p&gt;正直に言うと、その時点でのモチベーションはそれほど明確ではなかった。&lt;/p&gt;
@@ -618,7 +712,7 @@ safeguard the Python language, its ecosystems and the community that use and
 depends on it. Read more about what the PSF does &lt;a href="https://www.python.org/psf/#:~:text=The%20mission%20of%20the%20Python,international%20community%20of%20Python%20programmers."&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Running for a seat on the PSF board&lt;/h2&gt;
 &lt;p&gt;In June 2020, the Python Software Foundation (PSF) had four seats going vacant with
-directors fulfilling their term. After many years &lt;a href="https://iqbalabdullah.net/ja/drafts/changing-the-world-one-pycon-at-a-time-en.html"&gt;working with and building the community on this side of the planet&lt;/a&gt;
+directors fulfilling their term. After many years &lt;a href="https://iqbalabdullah.net/ja/changing-the-world-one-pycon-at-a-time-en.html"&gt;working with and building the community on this side of the planet&lt;/a&gt;
 I had a feeling that there is a gap between what the PSF, as a US-centric organization thinks it's doing, with what the rest
 of the growing community on our part of the world think that they are doing, so I
 decided to run for a seat, to at least represent a voice from E/S/SE Asia.&lt;/p&gt;
