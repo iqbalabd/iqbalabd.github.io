@@ -223,7 +223,7 @@ That's how we build something that lasts.
 
 My first PyCon and my interaction with the wider community was at the first PyCon APAC right here in Singapore in June 2010. While I was writing this keynote, I reflected on the fact I was here _exactly_ 15 years ago and realized the significance of me standing in front of all of you today within the context of my history working with our community. 
 
-At that time, Mark Hammond (received the DSA in 2015 for his work on Win32), Wesley Chun (Chan) and Steve Holden was our keynote speakers. It was all new to me: The culture of sharing and camradarie between Pythonistas. I didn't realize that a programming conference can be so much fun and people so kind to an introvert and beginner like me! 
+At that time, Mark Hammond (received the DSA in 2015 for his work on Win32), Wesley Chun and Steve Holden was our keynote speakers. It was all new to me: The culture of sharing and camradarie between Pythonistas. I didn't realize that a programming conference can be so much fun and people so kind to an introvert and beginner like me! 
 
 At that time my gut feeling was that I felt like I wanted to help out a little with this community, not much I guess because, hey, what do I know about community building? And maybe if I'm lucky enough, learn a few new things and make a few friends along the way.
 
