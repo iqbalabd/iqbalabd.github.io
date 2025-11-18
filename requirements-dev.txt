@@ -1,0 +1,6 @@
+ipdb
+coverage
+aiosmtpd
+black
+isort
+flake8
