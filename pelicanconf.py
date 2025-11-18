@@ -32,7 +32,6 @@ LINKS = (
         "[Kafkai] AI SEO Contents & Competitor Insights Tool",
         "https://kafkai.com/",
     ),
-    ("[GetOTP] One-Time Password API", "https://otp.dev/"),
     ("Python Asia Organization MTÜ", "https://github.com/PythonAsiaOrganization"),
 )
 
@@ -47,6 +46,12 @@ DEFAULT_PAGINATION = 4
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Menu items
+MENUITEMS = (("Home", "/"),)
+
+# Display pages in menu
+DISPLAY_PAGES_ON_MENU = True
 
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
 STATIC_PATHS = ["images", "extra/CNAME"]
@@ -69,15 +74,21 @@ I18N_SUBSITES = {
         "SITENAME": SITENAME,
         "STATIC_PATHS": STATIC_PATHS,
         "THEME": THEME,
+        "MENUITEMS": (("Home", "/"),),
+        "DISPLAY_PAGES_ON_MENU": True,
     },
     "ja": {
         "SITENAME": SITENAME,
         "STATIC_PATHS": STATIC_PATHS,
         "THEME": THEME,
+        "MENUITEMS": (("ホーム", "/ja/"),),
+        "DISPLAY_PAGES_ON_MENU": True,
     },
     "ms": {
         "SITENAME": SITENAME,
         "STATIC_PATHS": STATIC_PATHS,
         "THEME": THEME,
+        "MENUITEMS": (("Laman Utama", "/ms/"),),
+        "DISPLAY_PAGES_ON_MENU": True,
     },
 }

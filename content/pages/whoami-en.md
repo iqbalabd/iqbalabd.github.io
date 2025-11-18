@@ -6,7 +6,7 @@ Authors: Iqbal Abdullah
 
 # Iqbal Abdullah
 
-![Iqbal Abdullah]({static}/images/potrait-of-iqbal-abdullah.png)
+<img src="{static}/images/potrait-of-iqbal-abdullah.png" alt="Iqbal Abdullah" width="250" />
 
 My latest enterprise is [LaLoka Labs](https://lalokalabs.co/en/). We build software with the hope of making people happier human beings. LaLoka Labs is also my platform to experiment with things which I find interesting.
 
@@ -37,5 +37,4 @@ I believe in
 * giving and contributing back
 * and sometimes all that I believe in above doesn't work out well so I need to figure something else out.
 
-For a more detailed professional history, you can look through my [LinkedIn
-profile.](https://www.linkedin.com/in/iqbalabd)
+For a detailed professional history, see my [professional profile]({filename}/pages/profile-en.md).

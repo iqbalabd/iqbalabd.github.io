@@ -6,7 +6,7 @@ Authors: Iqbal Abdullah
 
 # イクバル・アバドゥラ
 
-![Iqbal Abdullah]({static}/images/potrait-of-iqbal-abdullah.png)
+<img src="{static}/images/potrait-of-iqbal-abdullah.png" alt="Iqbal Abdullah" width="250" />
 
 マレーシア首都のクアランプール出身。1997年から在日。佐賀大学理工学部卒。
 
@@ -41,5 +41,5 @@ Authors: Iqbal Abdullah
 * コミュニティーに貢献すること
 * 最後に時々に信じている上のことがうまくいかないときに別の方法を考えないといけないこと
 
-詳細の経歴は[LinkedInのプロファイル](https://www.linkedin.com/in/iqbalabd)をどうぞ。
+詳細の経歴は[プロフェッショナル・プロファイル]({filename}/pages/profile-ja.md)をご覧ください。
 
