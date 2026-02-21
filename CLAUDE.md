@@ -166,6 +166,19 @@ Images use: {static}/images/path/to/image.png
 
 The themes directory contains the entire pelican-themes repository (forked at github.com/iqbalabd/pelican-themes). Not all themes support i18n - only use themes compatible with the i18n_subsites plugin.
 
+### Theme CSS Files (`themes/tuxlite_zf/static/css/`)
+
+- `normalize.css`: CSS reset
+- `foundation.min.css`: Foundation framework (base styles)
+- `style.css`: Custom theme overrides (loaded after Foundation)
+- `pygments.css`: Syntax highlighting colors (loaded last)
+
+### Syntax Highlighting
+
+Code blocks use a **Monokai** color scheme (`pygments.css`) with dark background `#272822` and bright text colors for good contrast.
+
+**Important**: Foundation CSS sets `code { color: #7f0a0c; font-weight: bold }` (dark red) which overrides Pygments colors on bare text inside `<code>` elements. This is counteracted by `.highlight pre code { color: #f8f8f2; font-weight: normal; }` in `style.css`. Do not remove this override or code blocks will become unreadable.
+
 ## External Dependencies
 
 - **Pelican**: Static site generator
