@@ -1,5 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2025-06-08T09:00:00+09:00</updated><entry><title>2024年第4四半期PSFコミュニティサービス賞（CSA）の受賞</title><link href="https://iqbalabdullah.net/ja/posts/2025/06/psf-community-service-award/" rel="alternate"></link><published>2025-06-08T09:00:00+09:00</published><updated>2025-06-08T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-06-08:/ja/posts/2025/06/psf-community-service-award/</id><summary type="html">&lt;p&gt;アジア全域のPythonコミュニティへの貢献によりPSFコミュニティサービス賞を受賞し、この言語を推進する人々を認識することの重要性を強調しています。&lt;/p&gt;</summary><content type="html">&lt;p&gt;2024年11月16日、Python Software Foundation（PSF）のエグゼクティブディレクターである&lt;a href="https://www.linkedin.com/in/denicholson/"&gt;Deb Nicholson&lt;/a&gt;さんから、「&lt;em&gt;You're a Community Service Award Winner!&lt;/em&gt;」という件名のメールを受け取りました。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"></link><link href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="self"></link><id>https://iqbalabdullah.net/ja/</id><updated>2026-02-21T18:00:00+09:00</updated><entry><title>日本語入力（Fcitx5/Mozc）の問題を解決する：GPT4AllをUbuntu 24.04で動作させる方法</title><link href="https://iqbalabdullah.net/ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/" rel="alternate"></link><published>2026-02-21T18:00:00+09:00</published><updated>2026-02-21T18:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2026-02-21:/ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/</id><summary type="html">&lt;p&gt;Ubuntu 24.04 の GPT4All で日本語入力の問題。Qt 6.8 用 fcitx5 プラグインをビルドし配置すれば解決。&lt;/p&gt;</summary><content type="html">&lt;p&gt;私は&lt;a href="https://ollama.com"&gt;Ollama&lt;/a&gt;をローカルLLM（大規模言語モデル）に使用していましたが、&lt;a href="https://www.nomic.ai/gpt4all"&gt;GPT4All&lt;/a&gt;について読んで試してみたくなりました。もしあなたが私のように日本語で書き込む場合、&lt;code&gt;fcitx5&lt;/code&gt;とMozcをUbuntu上で利用し、Ctrl+Spaceで入力メソッドの切り替えができないという問題に遭遇するかもしれません。そこで調べてみた方法を以下に示します。&lt;/p&gt;
+&lt;h2&gt;問題点&lt;/h2&gt;
+&lt;p&gt;GPT4AllはQtベースのアプリケーションで、Qt 6.8ライブラリをバンドルしていますが、&lt;code&gt;fcitx5&lt;/code&gt;入力メソッドプラグインが含まれていません。UbuntuのQt（Ubuntu 24.04では6.4）で構築されたシステムの&lt;code&gt;fcitx5&lt;/code&gt;プラグインをコピーしようとしても、シンボル不一致が発生します（当然ですね）。単に &lt;code&gt;QT_IM_MODULE=fcitx&lt;/code&gt; を設定しただけでは、互換性のあるプラグインがないため効果がないです。&lt;/p&gt;
+&lt;h2&gt;解決策&lt;/h2&gt;
+&lt;p&gt;Qt 6.8 SDKと対応する&lt;code&gt;fcitx5&lt;/code&gt;入力コンテキストプラグインをソースから構築し、それをGPT4Allのプラグインディレクトリに配置します。&lt;/p&gt;
+&lt;h2&gt;動作環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04 LTS&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fcitx5&lt;/code&gt; + Mozc&lt;/li&gt;
+&lt;li&gt;GPT4All（スタンドアロンインストーラーは&lt;a href="https://www.nomic.ai/gpt4all"&gt;こちら&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;ステップバイステップ&lt;/h2&gt;
+&lt;h3&gt;1. ビルド依存パッケージのインストール&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;cmake&lt;span class="w"&gt; &lt;/span&gt;extra-cmake-modules&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;libfcitx5core-dev&lt;span class="w"&gt; &lt;/span&gt;libfcitx5config-dev&lt;span class="w"&gt; &lt;/span&gt;libfcitx5utils-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;libxkbcommon-dev&lt;span class="w"&gt; &lt;/span&gt;libwayland-dev&lt;span class="w"&gt; &lt;/span&gt;wayland-protocols&lt;span class="w"&gt; &lt;/span&gt;libvulkan-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;2. 対応するQt 6.8 SDKのインストール&lt;/h3&gt;
+&lt;p&gt;GPT4AllはQt 6.8をバンドルしていますが、開発ファイルではなくランタイムライブラリのみです。&lt;code&gt;aqtinstall&lt;/code&gt;を使用してSDKを取得します。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python3&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;venv&lt;span class="w"&gt; &lt;/span&gt;/tmp/aqt-env
+/tmp/aqt-env/bin/pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;aqtinstall
+/tmp/aqt-env/bin/aqt&lt;span class="w"&gt; &lt;/span&gt;install-qt&lt;span class="w"&gt; &lt;/span&gt;linux&lt;span class="w"&gt; &lt;/span&gt;desktop&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;6&lt;/span&gt;.8.0&lt;span class="w"&gt; &lt;/span&gt;-O&lt;span class="w"&gt; &lt;/span&gt;/tmp/qt6.8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;3. fcitx5-qtのクローンとビルド&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;/tmp
+git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;https://github.com/fcitx/fcitx5-qt.git
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;fcitx5-qt
+mkdir&lt;span class="w"&gt; &lt;/span&gt;build&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;build
+
+cmake&lt;span class="w"&gt; &lt;/span&gt;..&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DCMAKE_PREFIX_PATH&lt;span class="o"&gt;=&lt;/span&gt;/tmp/qt6.8/6.8.0/gcc_64/lib/cmake&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT4&lt;span class="o"&gt;=&lt;/span&gt;OFF&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT5&lt;span class="o"&gt;=&lt;/span&gt;OFF&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT6&lt;span class="o"&gt;=&lt;/span&gt;ON&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT6_WAYLAND_WORKAROUND&lt;span class="o"&gt;=&lt;/span&gt;OFF&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT6_GUI_WRAPPER&lt;span class="o"&gt;=&lt;/span&gt;OFF
+
+make&lt;span class="w"&gt; &lt;/span&gt;-j&lt;span class="k"&gt;$(&lt;/span&gt;nproc&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;-C&lt;span class="w"&gt; &lt;/span&gt;qt6/platforminputcontext
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;ここで、必要なターゲットのみ (&lt;code&gt;platforminputcontext&lt;/code&gt;) をビルドします。完全なビルドはGUIラッパーコンポーネントをコンパイルしようとすると失敗するし、そもそも不要。&lt;/p&gt;
+&lt;h3&gt;4. プラグインのGPT4Allへのコピー&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cp&lt;span class="w"&gt; &lt;/span&gt;/tmp/fcitx5-qt/build/qt6/platforminputcontext/libfcitx5platforminputcontextplugin.so&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;~/gpt4all/plugins/platforminputcontexts/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;GPT4Allを別の場所にインストールしている場合は、目的のパスに変更してください。&lt;/p&gt;
+&lt;h3&gt;5. GPT4Allの起動&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;QT_IM_MODULE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;fcitx&lt;span class="w"&gt; &lt;/span&gt;~/gpt4all/bin/chat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Ctrl+Spaceで&lt;code&gt;fcitx5&lt;/code&gt;/Mozcを切り替えられるようになります。これで日本語入力が可能になります。&lt;/p&gt;
+&lt;h3&gt;6. パーマネント化&lt;/h3&gt;
+&lt;p&gt;デスクトップショートカットを使用している場合、&lt;code&gt;~/.local/share/applications/GPT4All.desktop&lt;/code&gt;ファイルを開き、Exec行に以下の更新を行います（ユーザー名を自分のものに変更してください）。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Exec=env QT_IM_MODULE=fcitx &amp;quot;/home/YOUR_USERNAME/gpt4all/bin/chat&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;プラグインが正しくロードされるか確認&lt;/h2&gt;
+&lt;p&gt;問題が発生した場合は、デバッグ出力で確認します。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;QT_DEBUG_PLUGINS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;QT_IM_MODULE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;fcitx&lt;span class="w"&gt; &lt;/span&gt;~/gpt4all/bin/chat&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;grep&lt;span class="w"&gt; &lt;/span&gt;-i&lt;span class="w"&gt; &lt;/span&gt;fcitx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;出力に&lt;code&gt;loaded library&lt;/code&gt;が表示されるはず。もし&lt;code&gt;undefined symbol&lt;/code&gt;エラーが表示された場合、GPT4AllがバンドルしているQtバージョンとSDKで構築したバージョンが一致していない可能性があります。確認には &lt;code&gt;strings ~/gpt4all/lib/libQt6Core.so.6 | grep "^6\."&lt;/code&gt; を使用し、必要に応じて &lt;code&gt;aqt&lt;/code&gt; で対応するバージョンをインストールします。&lt;/p&gt;
+&lt;h2&gt;クリーンアップ&lt;/h2&gt;
+&lt;p&gt;すべてがうまく動作した後は、ビルドアーティファクトを安全に削除できます。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rm&lt;span class="w"&gt; &lt;/span&gt;-rf&lt;span class="w"&gt; &lt;/span&gt;/tmp/qt6.8&lt;span class="w"&gt; &lt;/span&gt;/tmp/fcitx5-qt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;-dev&lt;/code&gt;パッケージも必要ない場合は削除可能です。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;remove&lt;span class="w"&gt; &lt;/span&gt;extra-cmake-modules&lt;span class="w"&gt; &lt;/span&gt;libfcitx5core-dev&lt;span class="w"&gt; &lt;/span&gt;libfcitx5config-dev&lt;span class="w"&gt; &lt;/span&gt;libfcitx5utils-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;注意&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;この手法は、Qtをバンドルしているアプリケーションで&lt;code&gt;fcitx5&lt;/code&gt;プラグインが欠けている場合に使えるはず。&lt;/li&gt;
+&lt;li&gt;GPT4Allの更新によりQtのバージョンが変更された場合、新しいバージョンと対応するように再構築する必要があるかも。&lt;/li&gt;
+&lt;li&gt;この方法はUbuntu 24.04でカーネル6.17、GPT4AllがQt 6.8をバンドルし、&lt;code&gt;fcitx5&lt;/code&gt; 5.1.7にMozcを使用している環境でテストしています。&lt;/li&gt;
+&lt;/ul&gt;</content><category term="2026"></category><category term="日本語入力"></category><category term="ubuntu"></category><category term="ai"></category><category term="ツール"></category></entry><entry><title>Fixing Japanese Input (Fcitx5/Mozc) in GPT4All on Ubuntu 24.04</title><link href="https://iqbalabdullah.net/en/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/" rel="alternate"></link><published>2026-02-21T18:00:00+09:00</published><updated>2026-02-21T18:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2026-02-21:/en/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/</id><summary type="html">&lt;p&gt;Fix Japanese input in GPT4All on Ubuntu 24.04 by building and installing the Fcitx5 plugin for Qt 6.8.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I have been using &lt;a href="https://ollama.com"&gt;Ollama&lt;/a&gt; for my local LLM needs, but I read about &lt;a href="https://www.nomic.ai/gpt4all"&gt;GPT4All&lt;/a&gt; by Nomic and wanted to give it a try.
+The thing is, if you're like me and write in Japanese and if you use &lt;code&gt;fcitx5&lt;/code&gt; with Mozc for Japanese input on Ubuntu, you'll find that Ctrl+Space does nothing — you simply can't toggle your input method. So I looked it up and here's how I fixed it.&lt;/p&gt;
+&lt;h2&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;GPT4All is a Qt based application and bundles its own Qt 6.8 libraries, which don't include the &lt;code&gt;fcitx5&lt;/code&gt; input method plugin.
+I tried copying over my system's &lt;code&gt;fcitx5&lt;/code&gt; plugin which is built against Ubuntu's Qt (6.4 on Ubuntu 24.04), but it fails with symbol mismatches. (duuuh)
+Setting &lt;code&gt;QT_IM_MODULE=fcitx&lt;/code&gt; alone doesn't help because there's no compatible plugin to load.&lt;/p&gt;
+&lt;h2&gt;The Solution&lt;/h2&gt;
+&lt;p&gt;Build the &lt;code&gt;fcitx5&lt;/code&gt; Qt input context plugin from source against a matching Qt 6.8 SDK, then drop it into GPT4All's plugin directory.&lt;/p&gt;
+&lt;h2&gt;Environment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04 LTS&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fcitx5&lt;/code&gt; + Mozc&lt;/li&gt;
+&lt;li&gt;GPT4All (standalone installer &lt;a href="https://www.nomic.ai/gpt4all"&gt;here&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Step-by-Step&lt;/h2&gt;
+&lt;h3&gt;1. Install build dependencies&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;cmake&lt;span class="w"&gt; &lt;/span&gt;extra-cmake-modules&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;libfcitx5core-dev&lt;span class="w"&gt; &lt;/span&gt;libfcitx5config-dev&lt;span class="w"&gt; &lt;/span&gt;libfcitx5utils-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;libxkbcommon-dev&lt;span class="w"&gt; &lt;/span&gt;libwayland-dev&lt;span class="w"&gt; &lt;/span&gt;wayland-protocols&lt;span class="w"&gt; &lt;/span&gt;libvulkan-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;2. Install a matching Qt 6.8 SDK&lt;/h3&gt;
+&lt;p&gt;GPT4All bundles Qt 6.8 but only ships runtime libraries, not development files. We use &lt;code&gt;aqtinstall&lt;/code&gt; to grab the SDK:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python3&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;venv&lt;span class="w"&gt; &lt;/span&gt;/tmp/aqt-env
+/tmp/aqt-env/bin/pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;aqtinstall
+/tmp/aqt-env/bin/aqt&lt;span class="w"&gt; &lt;/span&gt;install-qt&lt;span class="w"&gt; &lt;/span&gt;linux&lt;span class="w"&gt; &lt;/span&gt;desktop&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;6&lt;/span&gt;.8.0&lt;span class="w"&gt; &lt;/span&gt;-O&lt;span class="w"&gt; &lt;/span&gt;/tmp/qt6.8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;3. Clone and build fcitx5-qt&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;/tmp
+git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;https://github.com/fcitx/fcitx5-qt.git
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;fcitx5-qt
+mkdir&lt;span class="w"&gt; &lt;/span&gt;build&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;build
+
+cmake&lt;span class="w"&gt; &lt;/span&gt;..&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DCMAKE_PREFIX_PATH&lt;span class="o"&gt;=&lt;/span&gt;/tmp/qt6.8/6.8.0/gcc_64/lib/cmake&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT4&lt;span class="o"&gt;=&lt;/span&gt;OFF&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT5&lt;span class="o"&gt;=&lt;/span&gt;OFF&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT6&lt;span class="o"&gt;=&lt;/span&gt;ON&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT6_WAYLAND_WORKAROUND&lt;span class="o"&gt;=&lt;/span&gt;OFF&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;-DENABLE_QT6_GUI_WRAPPER&lt;span class="o"&gt;=&lt;/span&gt;OFF
+
+make&lt;span class="w"&gt; &lt;/span&gt;-j&lt;span class="k"&gt;$(&lt;/span&gt;nproc&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;-C&lt;span class="w"&gt; &lt;/span&gt;qt6/platforminputcontext
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We only build the &lt;code&gt;platforminputcontext&lt;/code&gt; target — the full build will fail because it tries to compile GUI wrapper components that need headers we don't have, and we don't need them anyway.&lt;/p&gt;
+&lt;h3&gt;4. Copy the plugin into GPT4All&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;cp&lt;span class="w"&gt; &lt;/span&gt;/tmp/fcitx5-qt/build/qt6/platforminputcontext/libfcitx5platforminputcontextplugin.so&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;~/gpt4all/plugins/platforminputcontexts/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Adjust the destination path if you installed GPT4All elsewhere.&lt;/p&gt;
+&lt;h3&gt;5. Launch GPT4All&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;QT_IM_MODULE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;fcitx&lt;span class="w"&gt; &lt;/span&gt;~/gpt4all/bin/chat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Ctrl+Space should now toggle &lt;code&gt;fcitx5&lt;/code&gt;/Mozc and you can type Japanese.&lt;/p&gt;
+&lt;h3&gt;6. Make it permanent&lt;/h3&gt;
+&lt;p&gt;If you use the desktop shortcut, edit &lt;code&gt;~/.local/share/applications/GPT4All.desktop&lt;/code&gt; and update the &lt;code&gt;Exec&lt;/code&gt; line:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Exec=env QT_IM_MODULE=fcitx &amp;quot;/home/YOUR_USERNAME/gpt4all/bin/chat&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Verifying the plugin loads&lt;/h2&gt;
+&lt;p&gt;If something goes wrong, check with debug output:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nv"&gt;QT_DEBUG_PLUGINS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;QT_IM_MODULE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;fcitx&lt;span class="w"&gt; &lt;/span&gt;~/gpt4all/bin/chat&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&amp;gt;&lt;span class="p"&gt;&amp;amp;&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;grep&lt;span class="w"&gt; &lt;/span&gt;-i&lt;span class="w"&gt; &lt;/span&gt;fcitx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You should see &lt;code&gt;loaded library&lt;/code&gt; in the output. If you see &lt;code&gt;undefined symbol&lt;/code&gt; errors instead, it likely means the Qt version of the SDK you built against doesn't match what GPT4All bundles — check with &lt;code&gt;strings ~/gpt4all/lib/libQt6Core.so.6 | grep "^6\."&lt;/code&gt; and install the matching version via &lt;code&gt;aqt&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Cleanup&lt;/h2&gt;
+&lt;p&gt;After confirming everything works, you can safely remove the build artifacts:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rm&lt;span class="w"&gt; &lt;/span&gt;-rf&lt;span class="w"&gt; &lt;/span&gt;/tmp/qt6.8&lt;span class="w"&gt; &lt;/span&gt;/tmp/fcitx5-qt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code&gt;-dev&lt;/code&gt; packages can also be removed if you don't need them:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;remove&lt;span class="w"&gt; &lt;/span&gt;extra-cmake-modules&lt;span class="w"&gt; &lt;/span&gt;libfcitx5core-dev&lt;span class="w"&gt; &lt;/span&gt;libfcitx5config-dev&lt;span class="w"&gt; &lt;/span&gt;libfcitx5utils-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This approach applies to any Qt app that bundles its own Qt and lacks the &lt;code&gt;fcitx5&lt;/code&gt; plugin — the same technique should work.&lt;/li&gt;
+&lt;li&gt;If GPT4All updates and ships a different Qt version, you may need to rebuild the plugin against the new version.&lt;/li&gt;
+&lt;li&gt;This was tested on Ubuntu 24.04 with kernel 6.17, GPT4All bundling Qt 6.8, and &lt;code&gt;fcitx5&lt;/code&gt; 5.1.7 with Mozc.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="2026"></category><category term="japanese"></category><category term="ubuntu"></category><category term="ai"></category><category term="tool"></category></entry><entry><title>2024年第4四半期PSFコミュニティサービス賞（CSA）の受賞</title><link href="https://iqbalabdullah.net/ja/posts/2025/06/psf-community-service-award/" rel="alternate"></link><published>2025-06-08T09:00:00+09:00</published><updated>2025-06-08T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2025-06-08:/ja/posts/2025/06/psf-community-service-award/</id><summary type="html">&lt;p&gt;アジア全域のPythonコミュニティへの貢献によりPSFコミュニティサービス賞を受賞し、この言語を推進する人々を認識することの重要性を強調しています。&lt;/p&gt;</summary><content type="html">&lt;p&gt;2024年11月16日、Python Software Foundation（PSF）のエグゼクティブディレクターである&lt;a href="https://www.linkedin.com/in/denicholson/"&gt;Deb Nicholson&lt;/a&gt;さんから、「&lt;em&gt;You're a Community Service Award Winner!&lt;/em&gt;」という件名のメールを受け取りました。&lt;/p&gt;
 &lt;p&gt;2024年11月13日、PSF理事会は私に&lt;a href="https://www.python.org/community/awards/psf-awards/"&gt;PSFコミュニティサービス賞&lt;/a&gt;を授与する決議を承認したようです。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;RESOLVED, that the Python Software Foundation award the 2024 Q4 Community Service Award to Iqbal Abdullah for contributions to the Python community in the Asia-Pacific region, including PyCon Malaysia, PyCon APAC, and PyCon Japan, as well as contributions to multiple PSF workgroups.&lt;/p&gt;

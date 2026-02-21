@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Iqbal's Weblog - ai</title>
+
+    <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/normalize.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/style.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/pygments.css" />	
+    <script src="https://iqbalabdullah.net/theme/js/custom.modernizr.js"></script>
+
+    <!-- So Firefox can bookmark->"abo this site" -->
+        <link href="feeds/all.atom.xml" rel="alternate" title="Iqbal's Weblog" type="application/atom+xml">
+
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<nav>
+<div class="top-bar">
+<div class="row">
+    <div class="large-9 large-centered columns">
+	    <h1><a href="https://iqbalabdullah.net">Iqbal's Weblog</a></h1>
+    </div>
+</div>
+</div>
+
+<!-- Show menu items and pages -->
+<div class="row">
+<div class="large-9 columns">
+    <ul class="button-group navigation">
+    <li><a href="/" class="button secondary small">Home</a></li>
+
+            <li><a href="https://iqbalabdullah.net/pages/profile.html" class="button secondary small">Professional Profile</a></li>
+            <li><a href="https://iqbalabdullah.net/pages/whoami.html" class="button secondary small">Who Am I</a></li>
+    </ul>
+</div>
+</div>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns">
+        
+        
+
+            <article>
+                <a href="https://iqbalabdullah.net/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/"><h3 class="article-title">Fixing Japanese Input (Fcitx5/Mozc) in GPT4All on Ubuntu 24.04</h3></a>
+<h6 class="subheader" title="2026-02-21T18:00:00+09:00">2026-02-21
+</h6>
+
+Translations: 
+        <a href="https://iqbalabdullah.net/../ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">ja</a>
+
+<p>I have been using <a href="https://ollama.com">Ollama</a> for my local LLM needs, but I read about <a href="https://www.nomic.ai/gpt4all">GPT4All</a> by Nomic and wanted to give it a try.
+The thing is, if you're like me and write in Japanese and if you use <code>fcitx5</code> with Mozc for Japanese input on Ubuntu, you'll find that Ctrl+Space does nothing — you simply can't toggle your input method. So I looked it up and here's how I fixed it.</p>
+<h2>The Problem</h2>
+<p>GPT4All is a Qt based application and bundles its own Qt 6.8 libraries, which don't include the <code>fcitx5</code> input method plugin.
+I tried copying over my system's <code>fcitx5</code> plugin which is built against Ubuntu's Qt (6.4 on Ubuntu 24.04), but it fails with symbol mismatches. (duuuh)
+Setting <code>QT_IM_MODULE=fcitx</code> alone doesn't help because there's no compatible plugin to load.</p>
+<h2>The Solution</h2>
+<p>Build the <code>fcitx5</code> Qt input context plugin from source against a matching Qt 6.8 SDK, then drop it into GPT4All's plugin directory.</p>
+<h2>Environment</h2>
+<ul>
+<li>Ubuntu 24.04 LTS</li>
+<li><code>fcitx5</code> + Mozc</li>
+<li>GPT4All (standalone installer <a href="https://www.nomic.ai/gpt4all">here</a>)</li>
+</ul>
+<h2>Step-by-Step</h2>
+<h3>1. Install build dependencies</h3>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>cmake<span class="w"> </span>extra-cmake-modules<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>libfcitx5core-dev<span class="w"> </span>libfcitx5config-dev<span class="w"> </span>libfcitx5utils-dev<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>libxkbcommon-dev<span class="w"> </span>libwayland-dev<span class="w"> </span>wayland-protocols<span class="w"> </span>libvulkan-dev
+</code></pre></div>
+
+<h3>2. Install a matching Qt 6.8 SDK</h3>
+<p>GPT4All bundles Qt 6.8 but only ships runtime libraries, not development files. We use <code>aqtinstall</code> to grab the SDK:</p>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>/tmp/aqt-env
+/tmp/aqt-env/bin/pip<span class="w"> </span>install<span class="w"> </span>aqtinstall
+/tmp/aqt-env/bin/aqt<span class="w"> </span>install-qt<span class="w"> </span>linux<span class="w"> </span>desktop<span class="w"> </span><span class="m">6</span>.8.0<span class="w"> </span>-O<span class="w"> </span>/tmp/qt6.8
+</code></pre></div>
+
+<h3>3. Clone and build fcitx5-qt</h3>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>/tmp
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/fcitx/fcitx5-qt.git
+<span class="nb">cd</span><span class="w"> </span>fcitx5-qt
+mkdir<span class="w"> </span>build<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>build
+
+cmake<span class="w"> </span>..<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-DCMAKE_PREFIX_PATH<span class="o">=</span>/tmp/qt6.8/6.8.0/gcc_64/lib/cmake<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-DENABLE_QT4<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-DENABLE_QT5<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-DENABLE_QT6<span class="o">=</span>ON<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-DENABLE_QT6_WAYLAND_WORKAROUND<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>-DENABLE_QT6_GUI_WRAPPER<span class="o">=</span>OFF
+
+make<span class="w"> </span>-j<span class="k">$(</span>nproc<span class="k">)</span><span class="w"> </span>-C<span class="w"> </span>qt6/platforminputcontext
+</code></pre></div>
+
+<p>We only build the <code>platforminputcontext</code> target — the full build will fail because it tries to compile GUI wrapper components that need headers we don't have, and we don't need them anyway.</p>
+<h3>4. Copy the plugin into GPT4All</h3>
+<div class="highlight"><pre><span></span><code>cp<span class="w"> </span>/tmp/fcitx5-qt/build/qt6/platforminputcontext/libfcitx5platforminputcontextplugin.so<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>~/gpt4all/plugins/platforminputcontexts/
+</code></pre></div>
+
+<p>Adjust the destination path if you installed GPT4All elsewhere.</p>
+<h3>5. Launch GPT4All</h3>
+<div class="highlight"><pre><span></span><code><span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx<span class="w"> </span>~/gpt4all/bin/chat
+</code></pre></div>
+
+<p>Ctrl+Space should now toggle <code>fcitx5</code>/Mozc and you can type Japanese.</p>
+<h3>6. Make it permanent</h3>
+<p>If you use the desktop shortcut, edit <code>~/.local/share/applications/GPT4All.desktop</code> and update the <code>Exec</code> line:</p>
+<div class="highlight"><pre><span></span><code>Exec=env QT_IM_MODULE=fcitx &quot;/home/YOUR_USERNAME/gpt4all/bin/chat&quot;
+</code></pre></div>
+
+<h2>Verifying the plugin loads</h2>
+<p>If something goes wrong, check with debug output:</p>
+<div class="highlight"><pre><span></span><code><span class="nv">QT_DEBUG_PLUGINS</span><span class="o">=</span><span class="m">1</span><span class="w"> </span><span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx<span class="w"> </span>~/gpt4all/bin/chat<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>fcitx
+</code></pre></div>
+
+<p>You should see <code>loaded library</code> in the output. If you see <code>undefined symbol</code> errors instead, it likely means the Qt version of the SDK you built against doesn't match what GPT4All bundles — check with <code>strings ~/gpt4all/lib/libQt6Core.so.6 | grep "^6\."</code> and install the matching version via <code>aqt</code>.</p>
+<h2>Cleanup</h2>
+<p>After confirming everything works, you can safely remove the build artifacts:</p>
+<div class="highlight"><pre><span></span><code>rm<span class="w"> </span>-rf<span class="w"> </span>/tmp/qt6.8<span class="w"> </span>/tmp/fcitx5-qt
+</code></pre></div>
+
+<p>The <code>-dev</code> packages can also be removed if you don't need them:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>remove<span class="w"> </span>extra-cmake-modules<span class="w"> </span>libfcitx5core-dev<span class="w"> </span>libfcitx5config-dev<span class="w"> </span>libfcitx5utils-dev
+</code></pre></div>
+
+<h2>Notes</h2>
+<ul>
+<li>This approach applies to any Qt app that bundles its own Qt and lacks the <code>fcitx5</code> plugin — the same technique should work.</li>
+<li>If GPT4All updates and ships a different Qt version, you may need to rebuild the plugin against the new version.</li>
+<li>This was tested on Ubuntu 24.04 with kernel 6.17, GPT4All bundling Qt 6.8, and <code>fcitx5</code> 5.1.7 with Mozc.</li>
+</ul><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2026.html">2026</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/tag/japanese.html">japanese </a>
+    <a href="https://iqbalabdullah.net/tag/ubuntu.html">ubuntu </a>
+    <a href="https://iqbalabdullah.net/tag/ai.html">ai </a>
+    <a href="https://iqbalabdullah.net/tag/tool.html">tool </a>
+</p>
+
+
+Translations: 
+        <a href="https://iqbalabdullah.net/../ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">ja</a>
+
+            </article>
+
+<div class="pagination-centered">
+<h6 class="subheader">Page 1 of 1</h6>
+
+<p>
+
+</p>
+</div>
+
+
+
+            <!-- /#posts-list -->
+
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+        <h5 class="sidebar-title">Site</h5>
+        <ul class="side-nav">
+            <li><a href="https://iqbalabdullah.net/archives.html">Archives</a>
+            <li><a href="https://iqbalabdullah.net/tags.html">Tags</a>
+
+
+                <li><a href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="alternate">Atom feed</a></li>
+        </ul>
+
+		
+        <h5 class="sidebar-title">Directories</h5>
+        <ul class="side-nav">
+            <li><a href="https://iqbalabdullah.net/category/2001.html">2001</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2009.html">2009</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2012.html">2012</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2015.html">2015</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2016.html">2016</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2017.html">2017</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2018.html">2018</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2020.html">2020</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2022.html">2022</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2023.html">2023</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2024.html">2024</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2025.html">2025</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2026.html">2026</a></li>
+   
+        </ul>
+
+        <h5 class="sidebar-title">Links</h5>
+        <ul class="side-nav">
+            <li><a href="https://lalokalabs.co/">LaLoka Labs LLC</a></li>
+            <li><a href="https://kafkai.com/">[Kafkai] AI SEO Contents & Competitor Insights Tool</a></li>
+            <li><a href="https://github.com/PythonAsiaOrganization">Python Asia Organization MTÜ</a></li>
+        </ul>
+		
+        <h5 class="sidebar-title">Social</h5>
+        <ul class="side-nav">
+            <li><a href="https://www.linkedin.com/in/iqbalabd">linkedin</a></li>
+            <li><a href="https://github.com/iqbalabd">github</a></li>
+            <li><a href="https://twitter.com/iqbalabd">twitter</a></li>
+        </ul>
+
+    </aside> <!-- End Sidebar -->
+
+</div> <!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div class="row">
+            <div class="large-6 columns">
+                <p>Iqbal's Weblog by Iqbal Abdullah</p>
+            </div>
+            </div>
+    </div>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D25WBN7SM0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-D25WBN7SM0');
+    </script>
+</footer>
