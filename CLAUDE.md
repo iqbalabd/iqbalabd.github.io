@@ -19,7 +19,7 @@ This is a personal blog website built with Pelican static site generator and pub
 - **Theme**: Currently uses `tuxlite_zf` from the `themes/` directory (entire pelican-themes repo is cloned)
 - **Config Files**:
   - `pelicanconf.py`: Development configuration
-  - `publishconf.py`: Production configuration (adds Google Analytics, feeds)
+  - `publishconf.py`: Production configuration (adds Matomo analytics, feeds)
 
 ### Multi-language Support
 
