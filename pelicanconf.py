@@ -33,6 +33,8 @@ LINKS = (
         "https://kafkai.com/",
     ),
     ("Python Asia Organization MTÜ", "https://github.com/PythonAsiaOrganization"),
+    ("[KaiMail] Custom Domain Email Forwarding for Developers", "https://kaimail.net/"),
+    ("[PuchiDen] Browser-Based International Calling", "https://puchiden.app/"),
 )
 
 # Social widget
