@@ -67,6 +67,51 @@
         
 
             <article>
+                <a href="https://iqbalabdullah.net/en/posts/2026/05/imam-english-translation/"><h3 class="article-title">My Father's Novel, IMAM, Is Now Available in English</h3></a>
+<h6 class="subheader" title="2026-05-21T21:00:00+09:00">2026-05-21
+</h6>
+
+Translations: 
+        <a href="https://iqbalabdullah.net/en/../ms/posts/2026/05/imam-english-translation/">ms</a>
+
+<hr class="translations-divider" />
+<p>So, let me tell you a little bit of a story.</p>
+<p>My late father, <a href="https://en.wikipedia.org/wiki/Abdullah_Hussain_%28writer%29">Abdullah Hussain</a>, was a writer — one of Malaysia's National Laureates. He was involved in literature for more than 70 years. He had big ideas, even stronger convictions, and he poured his heart and soul into his writing.</p>
+<p>While he was still alive, he once asked me whether I wanted to help him publish his books to the wider world. I declined. Back then, I was far more interested in writing computer programs.</p>
+<p>But as fate would have it — or as we say back home, <em>"dah takdir"</em> — after he passed away, and with the support of my family, I became the person who took on the work of consolidating his writing and his intellectual property, so that they could be brought back home to the family. That work has taken eight years so far, and it is still counting. He left behind <em>a lot</em> of work.</p>
+<p>For the past year and a half, with the help of AI, I have been slowly translating my father's most ambitious work — a novel called <em>IMAM</em> — into English, for a wider, worldwide audience. I believe he would be happy to share his ideas with the rest of the world.</p>
+<p>I don't think my translation does his work justice. The Malay prose is too special; its meaning and its weight cannot be carried over into English so easily. But here we are.</p>
+<p><img alt="The English edition of IMAM by Abdullah Hussain" src="https://iqbalabdullah.net/en/images/imam-cover.jpg"></p>
+<p>So today I am happy to announce that the book is now published on <a href="https://www.amazon.com/dp/B0GX2T3CXM">Amazon Kindle</a> (ISBN 978-629-92287-0-7), and I have enrolled it in the Kindle Unlimited program for the next few months. It is a book of more than 600 pages.</p>
+<p>I still remember watching him sit at the dining table every night after dinner, working on this book. He would be at one end of the table, typing on the orange and white typewriter, the finished pages on one side and the crisp blank white sheets on the other.
+That image of him feels like it was only yesterday. The original manuscript was nearly 900 pages long. No publisher wanted it.</p>
+<p><em>IMAM</em> does not talk about technology, the NASDAQ, how to find your <em>ikigai</em> in a nine-step framework, or even about AI. It is about human beings, and about our relationships with one another, and... well, you will have to read it to find out.</p>
+<p>Please honour our memory of our father by reading his work, <a href="https://www.amazon.com/dp/B0GX2T3CXM"><em>IMAM</em></a>, and by leaving a review or a comment. 🙇</p>
+<hr>
+<p><em>P.S. If you are a fan of Abdullah Hussain's work, feel free to get in touch with me and tell me which of his works you would like to read next. I will work on getting them printed, or translated.</em></p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2026.html">2026</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/en/tag/family.html">family </a>
+    <a href="https://iqbalabdullah.net/en/tag/books.html">books </a>
+    <a href="https://iqbalabdullah.net/en/tag/translation.html">translation </a>
+    <a href="https://iqbalabdullah.net/en/tag/literature.html">literature </a>
+    <a href="https://iqbalabdullah.net/en/tag/abdullah-hussain.html">abdullah hussain </a>
+</p>
+
+
+Translations: 
+        <a href="https://iqbalabdullah.net/en/../ms/posts/2026/05/imam-english-translation/">ms</a>
+
+            </article>
+
+
+                <hr  class="gradient"/>
+
+
+        
+
+
+            <article>
                 <a href="https://iqbalabdullah.net/en/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/"><h3 class="article-title">Fixing Japanese Input (Fcitx5/Mozc) in GPT4All on Ubuntu 24.04</h3></a>
 <h6 class="subheader" title="2026-02-21T18:00:00+09:00">2026-02-21
 </h6>
@@ -74,89 +119,8 @@
 Translations: 
         <a href="https://iqbalabdullah.net/en/../ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">ja</a>
 
-<p>I have been using <a href="https://ollama.com">Ollama</a> for my local LLM needs, but I read about <a href="https://www.nomic.ai/gpt4all">GPT4All</a> by Nomic and wanted to give it a try.
-The thing is, if you're like me and write in Japanese and if you use <code>fcitx5</code> with Mozc for Japanese input on Ubuntu, you'll find that Ctrl+Space does nothing — you simply can't toggle your input method. So I looked it up and here's how I fixed it.</p>
-<h2>The Problem</h2>
-<p>GPT4All is a Qt based application and bundles its own Qt 6.8 libraries, which don't include the <code>fcitx5</code> input method plugin.
-I tried copying over my system's <code>fcitx5</code> plugin which is built against Ubuntu's Qt (6.4 on Ubuntu 24.04), but it fails with symbol mismatches. (duuuh)
-Setting <code>QT_IM_MODULE=fcitx</code> alone doesn't help because there's no compatible plugin to load.</p>
-<h2>The Solution</h2>
-<p>Build the <code>fcitx5</code> Qt input context plugin from source against a matching Qt 6.8 SDK, then drop it into GPT4All's plugin directory.</p>
-<h2>Environment</h2>
-<ul>
-<li>Ubuntu 24.04 LTS</li>
-<li><code>fcitx5</code> + Mozc</li>
-<li>GPT4All (standalone installer <a href="https://www.nomic.ai/gpt4all">here</a>)</li>
-</ul>
-<h2>Step-by-Step</h2>
-<h3>1. Install build dependencies</h3>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>cmake<span class="w"> </span>extra-cmake-modules<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>libfcitx5core-dev<span class="w"> </span>libfcitx5config-dev<span class="w"> </span>libfcitx5utils-dev<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>libxkbcommon-dev<span class="w"> </span>libwayland-dev<span class="w"> </span>wayland-protocols<span class="w"> </span>libvulkan-dev
-</code></pre></div>
-
-<h3>2. Install a matching Qt 6.8 SDK</h3>
-<p>GPT4All bundles Qt 6.8 but only ships runtime libraries, not development files. We use <code>aqtinstall</code> to grab the SDK:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>/tmp/aqt-env
-/tmp/aqt-env/bin/pip<span class="w"> </span>install<span class="w"> </span>aqtinstall
-/tmp/aqt-env/bin/aqt<span class="w"> </span>install-qt<span class="w"> </span>linux<span class="w"> </span>desktop<span class="w"> </span><span class="m">6</span>.8.0<span class="w"> </span>-O<span class="w"> </span>/tmp/qt6.8
-</code></pre></div>
-
-<h3>3. Clone and build fcitx5-qt</h3>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>/tmp
-git<span class="w"> </span>clone<span class="w"> </span>https://github.com/fcitx/fcitx5-qt.git
-<span class="nb">cd</span><span class="w"> </span>fcitx5-qt
-mkdir<span class="w"> </span>build<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>build
-
-cmake<span class="w"> </span>..<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DCMAKE_PREFIX_PATH<span class="o">=</span>/tmp/qt6.8/6.8.0/gcc_64/lib/cmake<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT4<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT5<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT6<span class="o">=</span>ON<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT6_WAYLAND_WORKAROUND<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT6_GUI_WRAPPER<span class="o">=</span>OFF
-
-make<span class="w"> </span>-j<span class="k">$(</span>nproc<span class="k">)</span><span class="w"> </span>-C<span class="w"> </span>qt6/platforminputcontext
-</code></pre></div>
-
-<p>We only build the <code>platforminputcontext</code> target — the full build will fail because it tries to compile GUI wrapper components that need headers we don't have, and we don't need them anyway.</p>
-<h3>4. Copy the plugin into GPT4All</h3>
-<div class="highlight"><pre><span></span><code>cp<span class="w"> </span>/tmp/fcitx5-qt/build/qt6/platforminputcontext/libfcitx5platforminputcontextplugin.so<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>~/gpt4all/plugins/platforminputcontexts/
-</code></pre></div>
-
-<p>Adjust the destination path if you installed GPT4All elsewhere.</p>
-<h3>5. Launch GPT4All</h3>
-<div class="highlight"><pre><span></span><code><span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx<span class="w"> </span>~/gpt4all/bin/chat
-</code></pre></div>
-
-<p>Ctrl+Space should now toggle <code>fcitx5</code>/Mozc and you can type Japanese.</p>
-<h3>6. Make it permanent</h3>
-<p>If you use the desktop shortcut, edit <code>~/.local/share/applications/GPT4All.desktop</code> and update the <code>Exec</code> line:</p>
-<div class="highlight"><pre><span></span><code>Exec=env QT_IM_MODULE=fcitx &quot;/home/YOUR_USERNAME/gpt4all/bin/chat&quot;
-</code></pre></div>
-
-<h2>Verifying the plugin loads</h2>
-<p>If something goes wrong, check with debug output:</p>
-<div class="highlight"><pre><span></span><code><span class="nv">QT_DEBUG_PLUGINS</span><span class="o">=</span><span class="m">1</span><span class="w"> </span><span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx<span class="w"> </span>~/gpt4all/bin/chat<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>fcitx
-</code></pre></div>
-
-<p>You should see <code>loaded library</code> in the output. If you see <code>undefined symbol</code> errors instead, it likely means the Qt version of the SDK you built against doesn't match what GPT4All bundles — check with <code>strings ~/gpt4all/lib/libQt6Core.so.6 | grep "^6\."</code> and install the matching version via <code>aqt</code>.</p>
-<h2>Cleanup</h2>
-<p>After confirming everything works, you can safely remove the build artifacts:</p>
-<div class="highlight"><pre><span></span><code>rm<span class="w"> </span>-rf<span class="w"> </span>/tmp/qt6.8<span class="w"> </span>/tmp/fcitx5-qt
-</code></pre></div>
-
-<p>The <code>-dev</code> packages can also be removed if you don't need them:</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>remove<span class="w"> </span>extra-cmake-modules<span class="w"> </span>libfcitx5core-dev<span class="w"> </span>libfcitx5config-dev<span class="w"> </span>libfcitx5utils-dev
-</code></pre></div>
-
-<h2>Notes</h2>
-<ul>
-<li>This approach applies to any Qt app that bundles its own Qt and lacks the <code>fcitx5</code> plugin — the same technique should work.</li>
-<li>If GPT4All updates and ships a different Qt version, you may need to rebuild the plugin against the new version.</li>
-<li>This was tested on Ubuntu 24.04 with kernel 6.17, GPT4All bundling Qt 6.8, and <code>fcitx5</code> 5.1.7 with Mozc.</li>
-</ul><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2026.html">2026</a>
+<hr class="translations-divider" />
+<p>Fix Japanese input in GPT4All on Ubuntu 24.04 by building and installing the Fcitx5 plugin for Qt 6.8.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2026.html">2026</a>
 
     Tagged: 
     <a href="https://iqbalabdullah.net/en/tag/japanese.html">japanese </a>
@@ -169,11 +133,9 @@ make<span class="w"> </span>-j<span class="k">$(</span>nproc<span class="k">)</s
 Translations: 
         <a href="https://iqbalabdullah.net/en/../ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">ja</a>
 
-            </article>
-
-
+                <a class="button radius secondary small right" href="https://iqbalabdullah.net/en/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">Read More</a>
                 <hr  class="gradient"/>
-
+            </article>
 
         
 
@@ -211,6 +173,7 @@ Translations:
         <a href="https://iqbalabdullah.net/en/../ja/posts/2025/06/psf-community-service-award/">ja</a>
         <a href="https://iqbalabdullah.net/en/../ms/posts/2025/06/psf-community-service-award/">ms</a>
 
+<hr class="translations-divider" />
 <p>I received the PSF Community Service Award for contributions to Python communities across Asia, highlighting the importance of recognizing those who champion the language.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2025.html">2025</a>
 
     Tagged: 
@@ -227,34 +190,6 @@ Translations:
         <a href="https://iqbalabdullah.net/en/../ms/posts/2025/06/psf-community-service-award/">ms</a>
 
                 <a class="button radius secondary small right" href="https://iqbalabdullah.net/en/posts/2025/06/psf-community-service-award/">Read More</a>
-                <hr  class="gradient"/>
-            </article>
-
-        
-
-
-            <article>
-                <a href="https://iqbalabdullah.net/en/posts/2025/03/the-final-pycon-apac/"><h3 class="article-title">Goodbye PyCon APAC: A New Chapter Begins</h3></a>
-<h6 class="subheader" title="2025-03-03T10:30:00+09:00">2025-03-03
-</h6>
-
-Translations: 
-        <a href="https://iqbalabdullah.net/en/../ja/posts/2025/03/the-final-pycon-apac/">ja</a>
-
-<p>PyCon APAC 2025 marks the end of an era and the beginning of a new journey for the Python communities and conferences in Asia.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2025.html">2025</a>
-
-    Tagged: 
-    <a href="https://iqbalabdullah.net/en/tag/python.html">python </a>
-    <a href="https://iqbalabdullah.net/en/tag/asia.html">asia </a>
-    <a href="https://iqbalabdullah.net/en/tag/pycon.html">pycon </a>
-    <a href="https://iqbalabdullah.net/en/tag/ph.html">ph </a>
-</p>
-
-
-Translations: 
-        <a href="https://iqbalabdullah.net/en/../ja/posts/2025/03/the-final-pycon-apac/">ja</a>
-
-                <a class="button radius secondary small right" href="https://iqbalabdullah.net/en/posts/2025/03/the-final-pycon-apac/">Read More</a>
                 <hr  class="gradient"/>
             </article>
 
@@ -306,6 +241,8 @@ Translations:
             <li><a href="https://lalokalabs.co/">LaLoka Labs LLC</a></li>
             <li><a href="https://kafkai.com/">[Kafkai] AI SEO Contents & Competitor Insights Tool</a></li>
             <li><a href="https://github.com/PythonAsiaOrganization">Python Asia Organization MTÜ</a></li>
+            <li><a href="https://kaimail.net/">[KaiMail] Custom Domain Email Forwarding for Developers</a></li>
+            <li><a href="https://puchiden.app/">[PuchiDen] Browser-Based International Calling</a></li>
         </ul>
 		
         <h5 class="sidebar-title">Social</h5>

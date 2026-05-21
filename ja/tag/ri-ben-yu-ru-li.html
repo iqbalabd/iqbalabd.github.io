@@ -74,6 +74,7 @@
 Translations: 
         <a href="https://iqbalabdullah.net/ja/../en/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">en</a>
 
+<hr class="translations-divider" />
 <p>私は<a href="https://ollama.com">Ollama</a>をローカルLLM（大規模言語モデル）に使用していましたが、<a href="https://www.nomic.ai/gpt4all">GPT4All</a>について読んで試してみたくなりました。もしあなたが私のように日本語で書き込む場合、<code>fcitx5</code>とMozcをUbuntu上で利用し、Ctrl+Spaceで入力メソッドの切り替えができないという問題に遭遇するかもしれません。そこで調べてみた方法を以下に示します。</p>
 <h2>問題点</h2>
 <p>GPT4AllはQtベースのアプリケーションで、Qt 6.8ライブラリをバンドルしていますが、<code>fcitx5</code>入力メソッドプラグインが含まれていません。UbuntuのQt（Ubuntu 24.04では6.4）で構築されたシステムの<code>fcitx5</code>プラグインをコピーしようとしても、シンボル不一致が発生します（当然ですね）。単に <code>QT_IM_MODULE=fcitx</code> を設定しただけでは、互換性のあるプラグインがないため効果がないです。</p>
@@ -211,6 +212,8 @@ Translations:
             <li><a href="https://lalokalabs.co/">LaLoka Labs LLC</a></li>
             <li><a href="https://kafkai.com/">[Kafkai] AI SEO Contents & Competitor Insights Tool</a></li>
             <li><a href="https://github.com/PythonAsiaOrganization">Python Asia Organization MTÜ</a></li>
+            <li><a href="https://kaimail.net/">[KaiMail] Custom Domain Email Forwarding for Developers</a></li>
+            <li><a href="https://puchiden.app/">[PuchiDen] Browser-Based International Calling</a></li>
         </ul>
 		
         <h5 class="sidebar-title">Social</h5>
