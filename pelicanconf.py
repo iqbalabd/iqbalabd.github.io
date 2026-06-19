@@ -27,7 +27,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("LaLoka Labs LLC", "https://lalokalabs.co/"),
+    ("Kafkai Giken, Inc.", "https://kafkai.com/en/the-company/"),
     (
         "[Kafkai] AI SEO Contents & Competitor Insights Tool",
         "https://kafkai.com/",
