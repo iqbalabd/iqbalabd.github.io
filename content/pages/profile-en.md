@@ -11,7 +11,7 @@ Authors: Iqbal Abdullah
 
 ## Professional Summary
 
-Technology entrepreneur and software engineer with over two decades of experience building businesses and communities in the Python ecosystem. Currently founder and CEO of LaLoka Labs LLC and Founding Board Chair of Python Asia Organization MTÜ. Former founder of Xoxzo Inc., a telephony API platform successfully acquired by Accrete Inc. in 2021.
+Technology entrepreneur and software engineer with over two decades of experience building businesses and communities in the Python ecosystem. Currently founder and CEO of Kafkai Giken, Inc., Mirakuru Europa OÜ and Founding Board Chair of Python Asia Organization MTÜ. Founder of Xoxzo Inc., a telephony API platform successfully acquired by Accrete Inc. in 2021.
 
 Active community leader and advocate for diversity in technology, with extensive experience organizing international Python conferences and serving on the Python Software Foundation Board of Directors. Based in Tokyo, Japan, with a global perspective shaped by work across Asia-Pacific, North America, and European tech communities.
 
@@ -19,15 +19,14 @@ Active community leader and advocate for diversity in technology, with extensive
 
 ## Work Experience
 
-### LaLoka Labs LLC
+### Kafkai Giken, Inc. and Mirakuru Europa OÜ
 **CEO/Founder** | *September 2018 - Present* | Tokyo, Japan & Tallinn, Estonia
 
-The "Crazy Labs". We build stuff which interests us and hope to save time, money and make our customers happier human beings. My role is mainly to share my vision of the future with the team, guide them when they're building stuff, make sure everyone else can do their jobs well and making our customers happy. The buck stops with me.
+My role is mainly to share my vision of the future with the team, guide them when they're building stuff, make sure everyone else can do their jobs well and making our customers happy. The buck stops with me.
 
-- Building software products including [Kafkai](https://kafkai.com/) (AI SEO Contents & Competitor Insights Tool) and [GetOTP](https://otp.dev/) (One-Time Password API)
+- Building software products, mainly SaaS which you can find out more [here](https://kafkai.com/en/the-company/)
 - Leading technical architecture and business development for multiple SaaS products
 - Managing operations across Tokyo and Tallinn offices
-- Previously operated as Xoxzo Europa OÜ until July 2021, then established LaLoka Labs LLC in Tokyo in June 2021
 
 ### Python Asia Organization MTÜ
 **Founding Member & Board Chair** | *August 2024 - Present* | Tallinn, Estonia

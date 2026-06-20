@@ -27,14 +27,15 @@ Japan](https://www.amazon.co.jp/) as a marketing manager.
 I believe in 
 
 * globalisation
-* capitalism
-* The ability of humans to think and work together for a common goal
+* responsible and fair capitalism 
+* the ability of humans to think and work together for a common goal
 * differences of opinions
 * one way of writing code in Python
 * reading as a substitute for travelling
 * the inherent responsibility of humans to do good for this world
-* Art as a filter to our consciousness
+* art as a filter to our consciousness
 * giving and contributing back
 * and sometimes all that I believe in above doesn't work out well so I need to figure something else out.
+* 所詮、運と縁と勘で生きてるので、よろしくー
 
 For a detailed professional history, see my [professional profile]({filename}/pages/profile-en.md).
