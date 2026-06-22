@@ -68,6 +68,7 @@ AIは作業を代替できる。苦労している学習者の話を聞き、何
 
 ![PyConSG 2026の参加者が講演を聴き、会場でネットワーキングをしている写真]({static}/images/pycons/pyconsg2026/pyconsg-2026-collage.webp)
 
+*追伸： [Cheuk](https://www.linkedin.com/in/cheukting-ho/) さん、素敵なレトロな写真ありがとうございます！*
 
 ## 置き換わるか？
 

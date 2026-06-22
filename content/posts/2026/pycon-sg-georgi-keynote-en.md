@@ -68,6 +68,7 @@ I would add a fifth: stay inconvenient. Be the person who actually reads the hun
 
 ![Photograph of an audience attending a PyConSG 2026 and attendees networking in a conference hall.]({static}/images/pycons/pyconsg2026/pyconsg-2026-collage.webp)
 
+*P.S: Thanks [Cheuk](https://www.linkedin.com/in/cheukting-ho/) for the retro picture!* 
 
 ## Will You Be Replaced?
 
