@@ -2,7 +2,7 @@ Title: Georgi Ker's PyCon SG 2026 Keynote: "So Kiasu, Still Kena Replaced by AI?
 Slug: pycon-sg-2026-keynote-by-georgi-ker
 Lang: en
 Date: 2026-06-20 10:00
-Modified: 2026-06-20 10:00
+Modified: 2026-06-26 09:00
 Tags: pyconsg; pycon-singapore; georgi-ker; ai; education; singapore; python; keynote
 Status: published
 Authors: Iqbal Abdullah
@@ -54,7 +54,7 @@ Worse, during a global town hall, he fed the real-time transcript into an LLM an
 
 This is the dark mirror of Georgi's education argument. If schools teach students to optimize for the appearance of understanding — the polished essay, the correct answer sheet, the credential — then AI becomes the perfect accomplice. It generates polished banality at scale. The danger is not that AI replaces thinkers. The danger is that organizations reward the *semblance* of thinking until no one remembers what the real thing looked like.
 
-One of the member in the group suggested "adversarial prompting". Instead of asking an AI to validate your business plan, ask it to perform a post-mortem. Tell it the plan failed. Watch how quickly it flips from sycophancy to criticism. That friction — that deliberate discomfort — is where actual learning lives. It is the oral defense, but applied to silicon.
+One of the members in the group suggested "adversarial prompting". Instead of asking an AI to validate your business plan, ask it to perform a post-mortem. Tell it the plan failed. Watch how quickly it flips from sycophancy to criticism. That friction — that deliberate discomfort — is where actual learning lives. It is the oral defense, but applied to silicon.
 
 ## What Remains Uniquely Human
 
@@ -64,7 +64,7 @@ AI can replace tasks. It cannot replace the act of listening to a struggling lea
 
 She listed four imperatives for anyone who wants to remain irreplaceable: stay curious, stay empathetic, stay collaborative, and — most importantly — stay human.
 
-I would add a fifth: stay inconvenient. Be the person who actually reads the hundred-page PDF. Be the person who asks the town hall question that the LLM would not have suggested (I just do not know what this will be). Be the person who fixes the motorcycle or the air conditioner when everyone else has automated their way past physical competence. As Georgi also noted, the Alpha generation is already staging a quiet rebellion against fast answers — knitting circles, no-phone days, analog hobbies. They want to feel human because they intuit what the rest of us are still arguing about on panels. The younger generation and the generation before want one thing: Being different, being real and being honest. When knowledge is comodotized, then real experiences make you different.
+I would add a fifth: stay inconvenient. Be the person who actually reads the hundred-page PDF. Be the person who asks the town hall question that the LLM would not have suggested (I just do not know what this will be). Be the person who fixes the motorcycle or the air conditioner when everyone else has automated their way past physical competence. As Georgi also noted, the Alpha generation is already staging a quiet rebellion against fast answers — knitting circles, no-phone days, analog hobbies. They want to feel human because they intuit what the rest of us are still arguing about on panels. The younger generation and the generation before want one thing: Being different, being real and being honest. When knowledge is commoditized, then real experiences make you different.
 
 ![Photograph of an audience attending a PyConSG 2026 and attendees networking in a conference hall.]({static}/images/pycons/pyconsg2026/pyconsg-2026-collage.webp)
 
@@ -77,6 +77,11 @@ Back to the title. *So kiasu, still kena replaced by AI?*
 Georgi's answer was direct. If you continue to operate from fear — fear of falling behind, fear of making mistakes, fear of losing status — you will stop learning. And if you stop learning, you *will* become replaceable. But if you treat AI as the next chapter rather than the final chapter, if you commit to continuous collective learning, and if you measure your worth by how many people you help rather than how many credentials you collect, then the question answers itself.
 
 The future belongs to learners and helpers. Everything else is just output.
+
+**Epilogue**
+
+- *Georgi also has written her own thoughts on her talk [here](https://georgiker.com/blog/ai-did-not-break-education/)*
+- *Michelle Sandford, a friend and also was a speaker at PyCon SG reflected on Georgi's thoughts [here](https://www.linkedin.com/posts/michellesandford_pyconsg-activity-7473552569986883584-u1b3/)*
 
 ---
 
