@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2026</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"/><link href="https://iqbalabdullah.net/feeds/2026.atom.xml" rel="self"/><id>https://iqbalabdullah.net/ja/</id><updated>2026-06-26T09:00:00+09:00</updated><entry><title>【Georgi KerのPyCon SG 2026キーノート】「So Kiasu」でもAIに置き換わる？</title><link href="https://iqbalabdullah.net/ja/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/" rel="alternate"/><published>2026-06-20T10:00:00+09:00</published><updated>2026-06-26T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2026-06-20:/ja/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/</id><summary type="html">&lt;p&gt;Python Software Foundation副議長Georgi KerがPyCon Singapore 2026のオープニングキーノートで、kiasu、教育、AI時代に人間らしく在ることの意味について問い直した。当日のメモと考察。&lt;/p&gt;</summary><content type="html">&lt;p&gt;昨日の朝、PyCon Singapore 2026のオープニングキーノートでGeorgi Kerが登壇した。彼女が付けたタイトルは &lt;em&gt;「So Kiasu, Still Kena Replaced by AI?」&lt;/em&gt; —— あまりにもシンガポールらしい問いかけで、会場は笑い声を上げなかった。ジョークだとわかっていたからではなく、彼女が冗談を言っているのではないとみんな悟っていたのだ（ジョークを笑わないのも、実はアジア的なものだ）。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2026</title><link href="https://iqbalabdullah.net/ja/" rel="alternate"/><link href="https://iqbalabdullah.net/feeds/2026.atom.xml" rel="self"/><id>https://iqbalabdullah.net/ja/</id><updated>2026-11-09T15:30:00+09:00</updated><entry><title>Ubuntu 24.04で新しいe-ResidencyカードがDigiDoc4に認識されない？OpenSCを確認してみよう</title><link href="https://iqbalabdullah.net/ja/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/" rel="alternate"/><published>2026-11-09T15:30:00+09:00</published><updated>2026-11-09T15:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2026-11-09:/ja/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/</id><summary type="html">&lt;p&gt;新しいe-Residencyカードが認識されない原因は、Ubuntu ProのESMが優先する古いOpenSCだった。確認方法と解決方法をまとめた。&lt;/p&gt;</summary><content type="html">&lt;p&gt;エストニアのe-Residency（電子居住権）の交換カードが届いた。早速UbuntuのDigiDoc4で使おうとしたが、カードが認識されない。古いカードは問題なく動くし、DigiDoc4も最新版だ。調べてみると、原因はカードでもDigiDoc4でもなかった。Ubuntu ProのESM（Expanded Security Maintenance）リポジトリが、新しいチップに対応していない古い&lt;code&gt;opensc&lt;/code&gt;パッケージを優先していた。&lt;/p&gt;
+&lt;p&gt;Ubuntu Proを有効にしていて、2025年11月17日以降に発行されたカードを使っている人は、この問題にハマるかもしれない。確認方法と解決方法をまとめておく。&lt;/p&gt;
+&lt;h2&gt;背景&lt;/h2&gt;
+&lt;p&gt;エストニアは2025年11月17日から、新しい世代のIDカードの発行を始めた。e-ResidencyのデジタルIDカードもその対象だ。チップがIDEMIA CosmoからThales MultiApp V5.1に変わり、新しいカードを使うにはID-software 25.10以降が必要になった（&lt;a href="https://www.id.ee/en/article/id-card-generations-supported-in-different-versions-of-the-id-software/"&gt;id.ee&lt;/a&gt;）。&lt;/p&gt;
+&lt;p&gt;また、2021年12月10日から2023年8月16日までに発行されたe-Residencyカードの証明書は、2026年12月9日に失効になる。対象は番号UA0051053からUA0076261までのカードだ（&lt;a href="https://www.politsei.ee/en/instructions/e-resident-s-digital-id/cards-issued-until-august-2023"&gt;エストニア警察・国境警備庁&lt;/a&gt;）。今まさにカードを交換している人は多いはずで、交換後に届くのは新しいThalesカードになる。&lt;/p&gt;
+&lt;h2&gt;問題&lt;/h2&gt;
+&lt;p&gt;新しいカードを挿しても、DigiDoc4に何も表示されない。「My eID」の画面も空のままだ。古いカードを挿せば普通に読み込める。カードリーダーのLEDは点滅しているし、&lt;code&gt;lsusb&lt;/code&gt;でもリーダーはちゃんと見えている。&lt;/p&gt;
+&lt;h2&gt;動作環境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04.5 LTS（noble）、カーネル 7.0.0-42-generic&lt;/li&gt;
+&lt;li&gt;ID-software 26.7.0（Ubuntu版）、DigiDoc4 4.11.0&lt;/li&gt;
+&lt;li&gt;カードリーダー ACS ACR38U-CCID&lt;/li&gt;
+&lt;li&gt;Ubuntu Pro（ESM Apps有効）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;診断&lt;/h2&gt;
+&lt;p&gt;DigiDoc4には診断画面がある。まず画面右上の「Settings」を開く。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="DigiDoc4のメイン画面。右上の「Settings」を赤枠で示している" src="https://iqbalabdullah.net/ja/images/estonia/digidoc4-settings.webp"&gt;&lt;/p&gt;
+&lt;p&gt;次に、左のメニューから「Diagnostics」を選ぶ。確認する場所は2つある。&lt;code&gt;Libraries:&lt;/code&gt;の欄にある&lt;code&gt;opensc&lt;/code&gt;の行と、下にスクロールした先の&lt;code&gt;Smart Card readers:&lt;/code&gt;の欄だ。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="DigiDoc4の診断画面。左のメニューの「Diagnostics」と、opensc 0.27.1-0RIA3の行を赤枠で示している" src="https://iqbalabdullah.net/ja/images/estonia/digidoc4-diagnostics.webp"&gt;&lt;/p&gt;
+&lt;p&gt;この画像は解決後に撮ったので、&lt;code&gt;opensc&lt;/code&gt;は0.27.1-0RIA3と表示されている。解決前の表示はこれだった。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;opensc (0.25.0~rc1-1ubuntu0.2+esm1)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;新しいカードを挿した状態での&lt;code&gt;Smart Card readers:&lt;/code&gt;はこうなる。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Smart Card readers:
+ACS ACR 38U-CCID 00 00 max APDU size 65536
+Reader state: CHANGED, PRESENT
+ATR - 3BFF9600008031FE438031B85365494464B085051012233F1D
+AID_IDEMIA: 6a82 (Not found)
+AID_THALES: 9000 (OK)
+ID - XXXXXXXXXXX
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;AID_THALES: 9000 (OK)&lt;/code&gt;とあるので、カード上のThalesアプレットは応答している。つまり、pcscdとカードリーダーはカードを認識できている。DigiDoc4もThales対応のバージョンだ。となると、問題はその間にある層にあるはずだ。&lt;/p&gt;
+&lt;p&gt;Linuxでは、DigiDoc4はOpenSC（PKCS#11）経由でカードにアクセスする。Thalesカードへの対応は、ID-software 25.10でRIA（エストニア情報システム庁）のOpenSCに追加された（&lt;a href="https://www.id.ee/en/article/id-software-versions-info-release-notes/"&gt;リリースノート&lt;/a&gt;）。私の環境に入っていたのは、2024年初頭のUbuntu版OpenSCにESMのパッチを当てたもの。Thalesカードができる前の世代のOpenSCだった。&lt;/p&gt;
+&lt;h2&gt;原因&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;apt policy opensc&lt;/code&gt;で確認すると、理由が分かった。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;policy&lt;span class="w"&gt; &lt;/span&gt;opensc
+opensc:
+&lt;span class="w"&gt;  &lt;/span&gt;Installed:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.25.0~rc1-1ubuntu0.2+esm1
+&lt;span class="w"&gt;  &lt;/span&gt;Candidate:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.25.0~rc1-1ubuntu0.2+esm1
+&lt;span class="w"&gt;  &lt;/span&gt;Version&lt;span class="w"&gt; &lt;/span&gt;table:
+&lt;span class="w"&gt;     &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.27.1-0RIA3&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;500&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="m"&gt;500&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;https://installer.id.ee/media/ubuntu&lt;span class="w"&gt; &lt;/span&gt;noble/main&lt;span class="w"&gt; &lt;/span&gt;amd64&lt;span class="w"&gt; &lt;/span&gt;Packages
+&lt;span class="w"&gt; &lt;/span&gt;***&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.25.0~rc1-1ubuntu0.2+esm1&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;510&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="m"&gt;510&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;https://esm.ubuntu.com/apps/ubuntu&lt;span class="w"&gt; &lt;/span&gt;noble-apps-security/main&lt;span class="w"&gt; &lt;/span&gt;amd64&lt;span class="w"&gt; &lt;/span&gt;Packages
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href="https://www.id.ee/en/article/install-id-software/"&gt;RIAのリポジトリ&lt;/a&gt;には&lt;code&gt;opensc 0.27.1-0RIA3&lt;/code&gt;がある。しかし、Ubuntu ProのESM Appsリポジトリのピン優先度は510で、RIAの500より高い。aptはバージョン番号より先に優先度を見る。そのため&lt;code&gt;apt upgrade&lt;/code&gt;を何度実行しても、古いESM版のままになってしまう。&lt;code&gt;apt policy opensc-pkcs11&lt;/code&gt;も同じ結果だった。&lt;/p&gt;
+&lt;p&gt;この問題に当たるのは、Ubuntu Pro（ESM）を有効にしている場合だけのようだ。ESMがなければ両方とも優先度500なので、aptはバージョンの新しいRIA版を選んでくれる。&lt;/p&gt;
+&lt;h2&gt;解決策&lt;/h2&gt;
+&lt;p&gt;RIA版のOpenSCを、バージョンを指定してインストールする。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;opensc&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.27.1-0RIA3&lt;span class="w"&gt; &lt;/span&gt;opensc-pkcs11&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.27.1-0RIA3
+sudo&lt;span class="w"&gt; &lt;/span&gt;systemctl&lt;span class="w"&gt; &lt;/span&gt;restart&lt;span class="w"&gt; &lt;/span&gt;pcscd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;読む時点でRIAからより新しいパッケージが出ている場合は、&lt;code&gt;apt policy opensc&lt;/code&gt;に表示されるバージョンに置き換えてほしい。&lt;/p&gt;
+&lt;p&gt;次に、今後のアップグレードでESM版に戻らないようにピン留めする。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;tee&lt;span class="w"&gt; &lt;/span&gt;/etc/apt/preferences.d/ria-opensc&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;lt;&amp;lt;&amp;#39;EOF&amp;#39;&lt;/span&gt;
+&lt;span class="s"&gt;Package: opensc opensc-pkcs11&lt;/span&gt;
+&lt;span class="s"&gt;Pin: origin installer.id.ee&lt;/span&gt;
+&lt;span class="s"&gt;Pin-Priority: 600&lt;/span&gt;
+&lt;span class="s"&gt;EOF&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;DigiDoc4を起動し直せば、新しいカードがちゃんと認識されるはずだ。&lt;/p&gt;
+&lt;h2&gt;カードが認識されたら&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DigiDoc4の「My eID」でPIN2を変更する。新しいカードは、PIN2を一度変更するまで署名に使えない（&lt;a href="https://www.id.ee/en/article/thales-id-card/"&gt;id.ee&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;2025年11月17日以降に発行されたカードは、まだ外国のe-serviceの認証に使えない。欧州委員会がエストニアのeIDの仕組みの変更を承認し次第、使えるようになる予定だ（&lt;a href="https://www.id.ee/en/article/id-cards-issued-from-17-november-onwards-cannot-be-used-for-e-services-provided-by-foreign-countries/"&gt;id.ee&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;Thalesカードでは、PUKをDigiDocアプリから変更できない（&lt;a href="https://www.id.ee/en/article/thales-id-card/"&gt;id.ee&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;原因ではなかったもの&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ID-softwareとDigiDoc4のバージョン（26.7と4.11.0はThalesに対応済み）&lt;/li&gt;
+&lt;li&gt;カードリーダー（ACR38Uは動いている）&lt;/li&gt;
+&lt;li&gt;pcscd（起動していて、カードも検出している）&lt;/li&gt;
+&lt;li&gt;WaylandかX11かの違い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;確認手順&lt;/h2&gt;
+&lt;p&gt;同じ症状に当たったら、次の順に確認してほしい。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;apt policy opensc&lt;/code&gt;を実行する。インストールされているバージョンが&lt;code&gt;installer.id.ee&lt;/code&gt;のものか？&lt;/li&gt;
+&lt;li&gt;DigiDoc4の「Diagnostics」で、&lt;code&gt;AID_THALES&lt;/code&gt;が&lt;code&gt;9000&lt;/code&gt;を返しているか？&lt;/li&gt;
+&lt;li&gt;1が「いいえ」で2が「はい」なら、RIA版のOpenSCをインストールしてピン留めする&lt;/li&gt;
+&lt;/ol&gt;</content><category term="2026"/><category term="エストニア"/><category term="e-residency"/><category term="ubuntu"/><category term="digidoc4"/><category term="opensc"/><category term="linux"/></entry><entry><title>【Georgi KerのPyCon SG 2026キーノート】「So Kiasu」でもAIに置き換わる？</title><link href="https://iqbalabdullah.net/ja/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/" rel="alternate"/><published>2026-06-20T10:00:00+09:00</published><updated>2026-06-26T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2026-06-20:/ja/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/</id><summary type="html">&lt;p&gt;Python Software Foundation副議長Georgi KerがPyCon Singapore 2026のオープニングキーノートで、kiasu、教育、AI時代に人間らしく在ることの意味について問い直した。当日のメモと考察。&lt;/p&gt;</summary><content type="html">&lt;p&gt;昨日の朝、PyCon Singapore 2026のオープニングキーノートでGeorgi Kerが登壇した。彼女が付けたタイトルは &lt;em&gt;「So Kiasu, Still Kena Replaced by AI?」&lt;/em&gt; —— あまりにもシンガポールらしい問いかけで、会場は笑い声を上げなかった。ジョークだとわかっていたからではなく、彼女が冗談を言っているのではないとみんな悟っていたのだ（ジョークを笑わないのも、実はアジア的なものだ）。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Georgi KerがPyConSG 2026でキーノートを行う様子。背後の2つの大画面には「Lorong AI」と表示されている" src="https://iqbalabdullah.net/ja/images/pycons/pyconsg2026/pyconsg-2026-georgi-keynote.webp"&gt;&lt;/p&gt;
 &lt;p&gt;GeorgiはPython Software Foundationの副議長だ。彼女自身の告白によれば、プロのプログラマーではない。Pythonは、大量の間違いを犯しながら覚えた。大量にだ。そんな彼女が、世界で最も使われているプログラミング言語を統括する組織の理事に座っているという事実自体が、彼女がこれから語ろうとしていた主張の証左となっている：実力は、閉鎖的な資格や証明書を通じてやってくるものではない。オープンさ、コミュニティ、そして公に学び続ける意志——それが実力を生む。&lt;/p&gt;
 &lt;h2&gt;シンガポール教育の罠&lt;/h2&gt;

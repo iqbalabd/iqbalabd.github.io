@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Ubuntu 24.04で新しいe-ResidencyカードがDigiDoc4に認識されない？OpenSCを確認してみよう</title>
+
+    <link rel="stylesheet" href="https://iqbalabdullah.net/ms/theme/css/normalize.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/ms/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/ms/theme/css/style.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/ms/theme/css/pygments.css" />	
+    <script src="https://iqbalabdullah.net/ms/theme/js/custom.modernizr.js"></script>
+
+    <!-- So Firefox can bookmark->"abo this site" -->
+        <link href="feeds/all.atom.xml" rel="alternate" title="Iqbal's Weblog" type="application/atom+xml">
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.kafkai.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '9']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<nav>
+<div class="top-bar">
+<div class="row">
+    <div class="large-9 large-centered columns">
+	    <h1><a href="https://iqbalabdullah.net/ms">Iqbal's Weblog</a></h1>
+    </div>
+</div>
+</div>
+
+<!-- Show menu items and pages -->
+<div class="row">
+<div class="large-9 columns">
+    <ul class="button-group navigation">
+    <li><a href="/ms/" class="button secondary small">Laman Utama</a></li>
+
+    </ul>
+</div>
+</div>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns">
+<article>
+    <header>
+        <h3 class="article-title"><a href="https://iqbalabdullah.net/ms/drafts/new-e-residency-card-not-detected-digidoc4-ubuntu-ja.html" rel="bookmark"
+        title="Permalink to Ubuntu 24.04で新しいe-ResidencyカードがDigiDoc4に認識されない？OpenSCを確認してみよう">Ubuntu 24.04で新しいe-ResidencyカードがDigiDoc4に認識されない？OpenSCを確認してみよう</a></h3>
+    </header>
+
+<h6 class="subheader" title="2026-11-09T15:30:00+09:00">2026-11-09
+</h6>
+
+
+    <p>エストニアのe-Residency（電子居住権）の交換カードが届いた。早速UbuntuのDigiDoc4で使おうとしたが、カードが認識されない。古いカードは問題なく動くし、DigiDoc4も最新版だ。調べてみると、原因はカードでもDigiDoc4でもなかった。Ubuntu ProのESM（Expanded Security Maintenance）リポジトリが、新しいチップに対応していない古い<code>opensc</code>パッケージを優先していた。</p>
+<p>Ubuntu Proを有効にしていて、2025年11月17日以降に発行されたカードを使っている人は、この問題にハマるかもしれない。確認方法と解決方法をまとめておく。</p>
+<h2>背景</h2>
+<p>エストニアは2025年11月17日から、新しい世代のIDカードの発行を始めた。e-ResidencyのデジタルIDカードもその対象だ。チップがIDEMIA CosmoからThales MultiApp V5.1に変わり、新しいカードを使うにはID-software 25.10以降が必要になった（<a href="https://www.id.ee/en/article/id-card-generations-supported-in-different-versions-of-the-id-software/">id.ee</a>）。</p>
+<p>また、2021年12月10日から2023年8月16日までに発行されたe-Residencyカードの証明書は、2026年12月9日に失効になる。対象は番号UA0051053からUA0076261までのカードだ（<a href="https://www.politsei.ee/en/instructions/e-resident-s-digital-id/cards-issued-until-august-2023">エストニア警察・国境警備庁</a>）。今まさにカードを交換している人は多いはずで、交換後に届くのは新しいThalesカードになる。</p>
+<h2>問題</h2>
+<p>新しいカードを挿しても、DigiDoc4に何も表示されない。「My eID」の画面も空のままだ。古いカードを挿せば普通に読み込める。カードリーダーのLEDは点滅しているし、<code>lsusb</code>でもリーダーはちゃんと見えている。</p>
+<h2>動作環境</h2>
+<ul>
+<li>Ubuntu 24.04.5 LTS（noble）、カーネル 7.0.0-42-generic</li>
+<li>ID-software 26.7.0（Ubuntu版）、DigiDoc4 4.11.0</li>
+<li>カードリーダー ACS ACR38U-CCID</li>
+<li>Ubuntu Pro（ESM Apps有効）</li>
+</ul>
+<h2>診断</h2>
+<p>DigiDoc4には診断画面がある。まず画面右上の「Settings」を開く。</p>
+<p><img alt="DigiDoc4のメイン画面。右上の「Settings」を赤枠で示している" src="https://iqbalabdullah.net/ms/images/estonia/digidoc4-settings.webp"></p>
+<p>次に、左のメニューから「Diagnostics」を選ぶ。確認する場所は2つある。<code>Libraries:</code>の欄にある<code>opensc</code>の行と、下にスクロールした先の<code>Smart Card readers:</code>の欄だ。</p>
+<p><img alt="DigiDoc4の診断画面。左のメニューの「Diagnostics」と、opensc 0.27.1-0RIA3の行を赤枠で示している" src="https://iqbalabdullah.net/ms/images/estonia/digidoc4-diagnostics.webp"></p>
+<p>この画像は解決後に撮ったので、<code>opensc</code>は0.27.1-0RIA3と表示されている。解決前の表示はこれだった。</p>
+<div class="highlight"><pre><span></span><code>opensc (0.25.0~rc1-1ubuntu0.2+esm1)
+</code></pre></div>
+
+<p>新しいカードを挿した状態での<code>Smart Card readers:</code>はこうなる。</p>
+<div class="highlight"><pre><span></span><code>Smart Card readers:
+ACS ACR 38U-CCID 00 00 max APDU size 65536
+Reader state: CHANGED, PRESENT
+ATR - 3BFF9600008031FE438031B85365494464B085051012233F1D
+AID_IDEMIA: 6a82 (Not found)
+AID_THALES: 9000 (OK)
+ID - XXXXXXXXXXX
+</code></pre></div>
+
+<p><code>AID_THALES: 9000 (OK)</code>とあるので、カード上のThalesアプレットは応答している。つまり、pcscdとカードリーダーはカードを認識できている。DigiDoc4もThales対応のバージョンだ。となると、問題はその間にある層にあるはずだ。</p>
+<p>Linuxでは、DigiDoc4はOpenSC（PKCS#11）経由でカードにアクセスする。Thalesカードへの対応は、ID-software 25.10でRIA（エストニア情報システム庁）のOpenSCに追加された（<a href="https://www.id.ee/en/article/id-software-versions-info-release-notes/">リリースノート</a>）。私の環境に入っていたのは、2024年初頭のUbuntu版OpenSCにESMのパッチを当てたもの。Thalesカードができる前の世代のOpenSCだった。</p>
+<h2>原因</h2>
+<p><code>apt policy opensc</code>で確認すると、理由が分かった。</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>apt<span class="w"> </span>policy<span class="w"> </span>opensc
+opensc:
+<span class="w">  </span>Installed:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Candidate:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Version<span class="w"> </span>table:
+<span class="w">     </span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span><span class="m">500</span>
+<span class="w">        </span><span class="m">500</span><span class="w"> </span>https://installer.id.ee/media/ubuntu<span class="w"> </span>noble/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+<span class="w"> </span>***<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1<span class="w"> </span><span class="m">510</span>
+<span class="w">        </span><span class="m">510</span><span class="w"> </span>https://esm.ubuntu.com/apps/ubuntu<span class="w"> </span>noble-apps-security/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+</code></pre></div>
+
+<p><a href="https://www.id.ee/en/article/install-id-software/">RIAのリポジトリ</a>には<code>opensc 0.27.1-0RIA3</code>がある。しかし、Ubuntu ProのESM Appsリポジトリのピン優先度は510で、RIAの500より高い。aptはバージョン番号より先に優先度を見る。そのため<code>apt upgrade</code>を何度実行しても、古いESM版のままになってしまう。<code>apt policy opensc-pkcs11</code>も同じ結果だった。</p>
+<p>この問題に当たるのは、Ubuntu Pro（ESM）を有効にしている場合だけのようだ。ESMがなければ両方とも優先度500なので、aptはバージョンの新しいRIA版を選んでくれる。</p>
+<h2>解決策</h2>
+<p>RIA版のOpenSCを、バージョンを指定してインストールする。</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span><span class="nv">opensc</span><span class="o">=</span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span>opensc-pkcs11<span class="o">=</span><span class="m">0</span>.27.1-0RIA3
+sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>pcscd
+</code></pre></div>
+
+<p>読む時点でRIAからより新しいパッケージが出ている場合は、<code>apt policy opensc</code>に表示されるバージョンに置き換えてほしい。</p>
+<p>次に、今後のアップグレードでESM版に戻らないようにピン留めする。</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/apt/preferences.d/ria-opensc<span class="w"> </span><span class="s">&lt;&lt;&#39;EOF&#39;</span>
+<span class="s">Package: opensc opensc-pkcs11</span>
+<span class="s">Pin: origin installer.id.ee</span>
+<span class="s">Pin-Priority: 600</span>
+<span class="s">EOF</span>
+</code></pre></div>
+
+<p>DigiDoc4を起動し直せば、新しいカードがちゃんと認識されるはずだ。</p>
+<h2>カードが認識されたら</h2>
+<ul>
+<li>DigiDoc4の「My eID」でPIN2を変更する。新しいカードは、PIN2を一度変更するまで署名に使えない（<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>）</li>
+<li>2025年11月17日以降に発行されたカードは、まだ外国のe-serviceの認証に使えない。欧州委員会がエストニアのeIDの仕組みの変更を承認し次第、使えるようになる予定だ（<a href="https://www.id.ee/en/article/id-cards-issued-from-17-november-onwards-cannot-be-used-for-e-services-provided-by-foreign-countries/">id.ee</a>）</li>
+<li>Thalesカードでは、PUKをDigiDocアプリから変更できない（<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>）</li>
+</ul>
+<h2>原因ではなかったもの</h2>
+<ul>
+<li>ID-softwareとDigiDoc4のバージョン（26.7と4.11.0はThalesに対応済み）</li>
+<li>カードリーダー（ACR38Uは動いている）</li>
+<li>pcscd（起動していて、カードも検出している）</li>
+<li>WaylandかX11かの違い</li>
+</ul>
+<h2>確認手順</h2>
+<p>同じ症状に当たったら、次の順に確認してほしい。</p>
+<ol>
+<li><code>apt policy opensc</code>を実行する。インストールされているバージョンが<code>installer.id.ee</code>のものか？</li>
+<li>DigiDoc4の「Diagnostics」で、<code>AID_THALES</code>が<code>9000</code>を返しているか？</li>
+<li>1が「いいえ」で2が「はい」なら、RIA版のOpenSCをインストールしてピン留めする</li>
+</ol>
+<p class="subheader">Directory: <a href="https://iqbalabdullah.net/ms/category/2026.html">2026</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/ms/tag/esutonia.html">エストニア </a>
+    <a href="https://iqbalabdullah.net/ms/tag/e-residency.html">e-residency </a>
+    <a href="https://iqbalabdullah.net/ms/tag/ubuntu.html">ubuntu </a>
+    <a href="https://iqbalabdullah.net/ms/tag/digidoc4.html">digidoc4 </a>
+    <a href="https://iqbalabdullah.net/ms/tag/opensc.html">opensc </a>
+    <a href="https://iqbalabdullah.net/ms/tag/linux.html">linux </a>
+</p>
+
+
+
+
+</article>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+        <h5 class="sidebar-title">Site</h5>
+        <ul class="side-nav">
+            <li><a href="https://iqbalabdullah.net/ms/archives.html">Archives</a>
+            <li><a href="https://iqbalabdullah.net/ms/tags.html">Tags</a>
+
+
+                <li><a href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="alternate">Atom feed</a></li>
+        </ul>
+
+		
+        <h5 class="sidebar-title">Directories</h5>
+        <ul class="side-nav">
+            <li><a href="https://iqbalabdullah.net/ms/category/2024.html">2024</a></li>
+            <li><a href="https://iqbalabdullah.net/ms/category/2025.html">2025</a></li>
+            <li><a href="https://iqbalabdullah.net/ms/category/2026.html">2026</a></li>
+   
+        </ul>
+
+        <h5 class="sidebar-title">Links</h5>
+        <ul class="side-nav">
+            <li><a href="https://kafkai.com/en/the-company/">Kafkai Giken, Inc.</a></li>
+            <li><a href="https://kafkai.com/">[Kafkai] AI SEO Contents & Competitor Insights Tool</a></li>
+            <li><a href="https://github.com/PythonAsiaOrganization">Python Asia Organization MTÜ</a></li>
+            <li><a href="https://kaimail.net/">[KaiMail] Custom Domain Email Forwarding for Developers</a></li>
+            <li><a href="https://puchiden.app/">[PuchiDen] Browser-Based International Calling</a></li>
+        </ul>
+		
+        <h5 class="sidebar-title">Social</h5>
+        <ul class="side-nav">
+            <li><a href="https://www.linkedin.com/in/iqbalabd">linkedin</a></li>
+            <li><a href="https://github.com/iqbalabd">github</a></li>
+            <li><a href="https://twitter.com/iqbalabd">twitter</a></li>
+        </ul>
+
+    </aside> <!-- End Sidebar -->
+
+</div> <!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div class="row">
+            <div class="large-6 columns">
+                <p>Iqbal's Weblog by Iqbal Abdullah</p>
+            </div>
+            </div>
+    </div>
+
+</footer>

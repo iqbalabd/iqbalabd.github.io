@@ -67,6 +67,124 @@
         
 
             <article>
+                <a href="https://iqbalabdullah.net/ja/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/"><h3 class="article-title">Ubuntu 24.04で新しいe-ResidencyカードがDigiDoc4に認識されない？OpenSCを確認してみよう</h3></a>
+<h6 class="subheader" title="2026-11-09T15:30:00+09:00">2026-11-09
+</h6>
+
+Translations: 
+        <a href="https://iqbalabdullah.net/ja/../en/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/">en</a>
+
+<hr class="translations-divider" />
+<p>エストニアのe-Residency（電子居住権）の交換カードが届いた。早速UbuntuのDigiDoc4で使おうとしたが、カードが認識されない。古いカードは問題なく動くし、DigiDoc4も最新版だ。調べてみると、原因はカードでもDigiDoc4でもなかった。Ubuntu ProのESM（Expanded Security Maintenance）リポジトリが、新しいチップに対応していない古い<code>opensc</code>パッケージを優先していた。</p>
+<p>Ubuntu Proを有効にしていて、2025年11月17日以降に発行されたカードを使っている人は、この問題にハマるかもしれない。確認方法と解決方法をまとめておく。</p>
+<h2>背景</h2>
+<p>エストニアは2025年11月17日から、新しい世代のIDカードの発行を始めた。e-ResidencyのデジタルIDカードもその対象だ。チップがIDEMIA CosmoからThales MultiApp V5.1に変わり、新しいカードを使うにはID-software 25.10以降が必要になった（<a href="https://www.id.ee/en/article/id-card-generations-supported-in-different-versions-of-the-id-software/">id.ee</a>）。</p>
+<p>また、2021年12月10日から2023年8月16日までに発行されたe-Residencyカードの証明書は、2026年12月9日に失効になる。対象は番号UA0051053からUA0076261までのカードだ（<a href="https://www.politsei.ee/en/instructions/e-resident-s-digital-id/cards-issued-until-august-2023">エストニア警察・国境警備庁</a>）。今まさにカードを交換している人は多いはずで、交換後に届くのは新しいThalesカードになる。</p>
+<h2>問題</h2>
+<p>新しいカードを挿しても、DigiDoc4に何も表示されない。「My eID」の画面も空のままだ。古いカードを挿せば普通に読み込める。カードリーダーのLEDは点滅しているし、<code>lsusb</code>でもリーダーはちゃんと見えている。</p>
+<h2>動作環境</h2>
+<ul>
+<li>Ubuntu 24.04.5 LTS（noble）、カーネル 7.0.0-42-generic</li>
+<li>ID-software 26.7.0（Ubuntu版）、DigiDoc4 4.11.0</li>
+<li>カードリーダー ACS ACR38U-CCID</li>
+<li>Ubuntu Pro（ESM Apps有効）</li>
+</ul>
+<h2>診断</h2>
+<p>DigiDoc4には診断画面がある。まず画面右上の「Settings」を開く。</p>
+<p><img alt="DigiDoc4のメイン画面。右上の「Settings」を赤枠で示している" src="https://iqbalabdullah.net/ja/images/estonia/digidoc4-settings.webp"></p>
+<p>次に、左のメニューから「Diagnostics」を選ぶ。確認する場所は2つある。<code>Libraries:</code>の欄にある<code>opensc</code>の行と、下にスクロールした先の<code>Smart Card readers:</code>の欄だ。</p>
+<p><img alt="DigiDoc4の診断画面。左のメニューの「Diagnostics」と、opensc 0.27.1-0RIA3の行を赤枠で示している" src="https://iqbalabdullah.net/ja/images/estonia/digidoc4-diagnostics.webp"></p>
+<p>この画像は解決後に撮ったので、<code>opensc</code>は0.27.1-0RIA3と表示されている。解決前の表示はこれだった。</p>
+<div class="highlight"><pre><span></span><code>opensc (0.25.0~rc1-1ubuntu0.2+esm1)
+</code></pre></div>
+
+<p>新しいカードを挿した状態での<code>Smart Card readers:</code>はこうなる。</p>
+<div class="highlight"><pre><span></span><code>Smart Card readers:
+ACS ACR 38U-CCID 00 00 max APDU size 65536
+Reader state: CHANGED, PRESENT
+ATR - 3BFF9600008031FE438031B85365494464B085051012233F1D
+AID_IDEMIA: 6a82 (Not found)
+AID_THALES: 9000 (OK)
+ID - XXXXXXXXXXX
+</code></pre></div>
+
+<p><code>AID_THALES: 9000 (OK)</code>とあるので、カード上のThalesアプレットは応答している。つまり、pcscdとカードリーダーはカードを認識できている。DigiDoc4もThales対応のバージョンだ。となると、問題はその間にある層にあるはずだ。</p>
+<p>Linuxでは、DigiDoc4はOpenSC（PKCS#11）経由でカードにアクセスする。Thalesカードへの対応は、ID-software 25.10でRIA（エストニア情報システム庁）のOpenSCに追加された（<a href="https://www.id.ee/en/article/id-software-versions-info-release-notes/">リリースノート</a>）。私の環境に入っていたのは、2024年初頭のUbuntu版OpenSCにESMのパッチを当てたもの。Thalesカードができる前の世代のOpenSCだった。</p>
+<h2>原因</h2>
+<p><code>apt policy opensc</code>で確認すると、理由が分かった。</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>apt<span class="w"> </span>policy<span class="w"> </span>opensc
+opensc:
+<span class="w">  </span>Installed:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Candidate:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Version<span class="w"> </span>table:
+<span class="w">     </span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span><span class="m">500</span>
+<span class="w">        </span><span class="m">500</span><span class="w"> </span>https://installer.id.ee/media/ubuntu<span class="w"> </span>noble/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+<span class="w"> </span>***<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1<span class="w"> </span><span class="m">510</span>
+<span class="w">        </span><span class="m">510</span><span class="w"> </span>https://esm.ubuntu.com/apps/ubuntu<span class="w"> </span>noble-apps-security/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+</code></pre></div>
+
+<p><a href="https://www.id.ee/en/article/install-id-software/">RIAのリポジトリ</a>には<code>opensc 0.27.1-0RIA3</code>がある。しかし、Ubuntu ProのESM Appsリポジトリのピン優先度は510で、RIAの500より高い。aptはバージョン番号より先に優先度を見る。そのため<code>apt upgrade</code>を何度実行しても、古いESM版のままになってしまう。<code>apt policy opensc-pkcs11</code>も同じ結果だった。</p>
+<p>この問題に当たるのは、Ubuntu Pro（ESM）を有効にしている場合だけのようだ。ESMがなければ両方とも優先度500なので、aptはバージョンの新しいRIA版を選んでくれる。</p>
+<h2>解決策</h2>
+<p>RIA版のOpenSCを、バージョンを指定してインストールする。</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span><span class="nv">opensc</span><span class="o">=</span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span>opensc-pkcs11<span class="o">=</span><span class="m">0</span>.27.1-0RIA3
+sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>pcscd
+</code></pre></div>
+
+<p>読む時点でRIAからより新しいパッケージが出ている場合は、<code>apt policy opensc</code>に表示されるバージョンに置き換えてほしい。</p>
+<p>次に、今後のアップグレードでESM版に戻らないようにピン留めする。</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/apt/preferences.d/ria-opensc<span class="w"> </span><span class="s">&lt;&lt;&#39;EOF&#39;</span>
+<span class="s">Package: opensc opensc-pkcs11</span>
+<span class="s">Pin: origin installer.id.ee</span>
+<span class="s">Pin-Priority: 600</span>
+<span class="s">EOF</span>
+</code></pre></div>
+
+<p>DigiDoc4を起動し直せば、新しいカードがちゃんと認識されるはずだ。</p>
+<h2>カードが認識されたら</h2>
+<ul>
+<li>DigiDoc4の「My eID」でPIN2を変更する。新しいカードは、PIN2を一度変更するまで署名に使えない（<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>）</li>
+<li>2025年11月17日以降に発行されたカードは、まだ外国のe-serviceの認証に使えない。欧州委員会がエストニアのeIDの仕組みの変更を承認し次第、使えるようになる予定だ（<a href="https://www.id.ee/en/article/id-cards-issued-from-17-november-onwards-cannot-be-used-for-e-services-provided-by-foreign-countries/">id.ee</a>）</li>
+<li>Thalesカードでは、PUKをDigiDocアプリから変更できない（<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>）</li>
+</ul>
+<h2>原因ではなかったもの</h2>
+<ul>
+<li>ID-softwareとDigiDoc4のバージョン（26.7と4.11.0はThalesに対応済み）</li>
+<li>カードリーダー（ACR38Uは動いている）</li>
+<li>pcscd（起動していて、カードも検出している）</li>
+<li>WaylandかX11かの違い</li>
+</ul>
+<h2>確認手順</h2>
+<p>同じ症状に当たったら、次の順に確認してほしい。</p>
+<ol>
+<li><code>apt policy opensc</code>を実行する。インストールされているバージョンが<code>installer.id.ee</code>のものか？</li>
+<li>DigiDoc4の「Diagnostics」で、<code>AID_THALES</code>が<code>9000</code>を返しているか？</li>
+<li>1が「いいえ」で2が「はい」なら、RIA版のOpenSCをインストールしてピン留めする</li>
+</ol><p class="subheader">Directory: <a href="https://iqbalabdullah.net/ja/category/2026.html">2026</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/ja/tag/esutonia.html">エストニア </a>
+    <a href="https://iqbalabdullah.net/ja/tag/e-residency.html">e-residency </a>
+    <a href="https://iqbalabdullah.net/ja/tag/ubuntu.html">ubuntu </a>
+    <a href="https://iqbalabdullah.net/ja/tag/digidoc4.html">digidoc4 </a>
+    <a href="https://iqbalabdullah.net/ja/tag/opensc.html">opensc </a>
+    <a href="https://iqbalabdullah.net/ja/tag/linux.html">linux </a>
+</p>
+
+
+Translations: 
+        <a href="https://iqbalabdullah.net/ja/../en/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/">en</a>
+
+            </article>
+
+
+                <hr  class="gradient"/>
+
+
+        
+
+
+            <article>
                 <a href="https://iqbalabdullah.net/ja/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/"><h3 class="article-title">【Georgi KerのPyCon SG 2026キーノート】「So Kiasu」でもAIに置き換わる？</h3></a>
 <h6 class="subheader" title="2026-06-20T10:00:00+09:00">2026-06-20
 </h6>
@@ -75,48 +193,7 @@ Translations:
         <a href="https://iqbalabdullah.net/ja/../en/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/">en</a>
 
 <hr class="translations-divider" />
-<p>昨日の朝、PyCon Singapore 2026のオープニングキーノートでGeorgi Kerが登壇した。彼女が付けたタイトルは <em>「So Kiasu, Still Kena Replaced by AI?」</em> —— あまりにもシンガポールらしい問いかけで、会場は笑い声を上げなかった。ジョークだとわかっていたからではなく、彼女が冗談を言っているのではないとみんな悟っていたのだ（ジョークを笑わないのも、実はアジア的なものだ）。</p>
-<p><img alt="Georgi KerがPyConSG 2026でキーノートを行う様子。背後の2つの大画面には「Lorong AI」と表示されている" src="https://iqbalabdullah.net/ja/images/pycons/pyconsg2026/pyconsg-2026-georgi-keynote.webp"></p>
-<p>GeorgiはPython Software Foundationの副議長だ。彼女自身の告白によれば、プロのプログラマーではない。Pythonは、大量の間違いを犯しながら覚えた。大量にだ。そんな彼女が、世界で最も使われているプログラミング言語を統括する組織の理事に座っているという事実自体が、彼女がこれから語ろうとしていた主張の証左となっている：実力は、閉鎖的な資格や証明書を通じてやってくるものではない。オープンさ、コミュニティ、そして公に学び続ける意志——それが実力を生む。</p>
-<h2>シンガポール教育の罠</h2>
-<p>Georgiは自身の経歴から話を始めた。シンガポール人として国家教育制度を受け、学校で教師を務めることを強いられ、やがて幻滅して去った。生徒が理解できていないのに、カリキュラムが容赦なく次へ進んでいくシステムを彼女は語った。彼女自身の調査を引用して、教えた生徒の90%が教材を理解できていなかったというデータを挙げた。それでもカリキュラムは進む。システムがそれを求めたからだ。</p>
-<p>これが破壊的な側面を持つ<em>kiasu</em>（キアスー）のエゴイスムだ。<em>Kiasu</em>——負けたくない、取り残されたくないという恐れを表すシンガポール英語の言葉——は本来、生存のための競争本能だった。しかし教育の文脈では、それは理解より完了を、好奇心より資格を重んじるコンベアベルトへと硬化する。生徒は暗記する。教師は急ぐ。親はパニックになる。落伍を恐れて誰もが走り続ける中、競争自体がどこへ向かっているのかを問う人はいない。</p>
-<p>Georgiの指摘は鋭かった。AIはこの危機の原因ではない。鏡だ。テクノロジーは、制度がいかに脆くなったかを映し出しているだけだ。大規模言語モデルが教科書を、生徒が読むより速く要約できる時代になった。政策立案者の答えは、学校にAIツールを導入して生徒を「AI対応」と宣言することだった。しかしGeorgiは、もっと棘のある問いを繰り返し投げかけた。<em>どうやって？</em> AIを賢く使うにはどうすればいい？判断を教えるには？服従ではなく。AIが答えを生成するツールであるなら、生徒により良い問いを投げかける環境をどう作る？</p>
-<h2>オープンソースが教える、オープンな学び</h2>
-<p>その答えの一端を、Georgiはすでにこの部屋が愛しているもの——Python——に求めた。</p>
-<p>Pythonが世界で最も使われている言語になったのは、完璧だったからではない。彼女は主張した。<em>アプローチ可能（approachable）</em>だったからだ。Guido van Rossumは、読みやすく、共有しやすく、教えやすい言語を設計した。誰もチュートリアルの翻訳、ワークショップの開催、壊れたと思うライブラリの改善を止めない。PSF自体も、管理の塔としてではなく、インフラとして育った——商標、PyPI、カンファレンス、助成金、行動規範を統括して、コア開発者が言語自体に集中できるように。ガバナンスがコミュニティに奉仕した。コミュニティがガバナンスに奉仕したのではない。</p>
-<p>Georgiは挑発的な問いを投げかけた：もし学校がオープンソースのようになったら？</p>
-<p>オープンソースでは、家柄よりプロセスだ。草案を晒す。プロンプトを共有する。コミットを擁護する。公に繰り返す。彼女は教室でもまさにそれを提案した：AIの使用を不正行為のように扱うのではなく、透明にする。サイレントなワークシートではなく、口頭での擁護（oral defense）を教える。生徒がどうやって答えに辿り着いたかを説明させ、脆弱な論理を批判させ、公に修正させる。目標は完璧な成果物を生み出すことではない。成果物が脆いときにどう考えるかを知る生徒を育てることだ。</p>
-<p>説得力のある類比だ。初めてのコントリビューターがメンテナーに成長する過程を見てきた人には、確かに響く。Pythonコミュニティは三十年間、この実験を続けてきた。それを教育学として体系化したことがなかっただけだ。</p>
-<h2>世代間ギャップは本物で、構造的だ</h2>
-<p>キーノートの後、廊下でGeorgiと小さく残ったグループで話した。常に引っ張られる糸があった：教育政策を設計している人々は、それを生き延びなければならない世代を理解していない。</p>
-<p>私たちの小グループは率直に議論した。シンガポール政府も含め、多くの政府は「AIを全部投入する」と宣言するが、具体的な教育学的メカニズムは提示しない。<em>どうやって</em>が欠けている。なぜなら政策立案者自身が大規模言語モデルと共に育っていないからだ。彼らのマインドセットは「私にはそれが役立った」。しかしGen Xに役立ったもの——閉鎖された情報、階層への硬直的な敬意、学校から職業への一本道——は、情報が摩擦なく流通し、Gen Zがすべてを疑い始めた時代にまさに崩壊する。</p>
-<p>会話の中で、私は「文化」という言葉に対して押し返していた。文化はしばしば説明として援引される。「日本の文化はこうだ」「マレーシアの文化はこうだ」——そして会話はそこで終わる。文化は不変に感じられるからだ。しかし、友人の<a href="https://www.linkedin.com/in/sweemeng/">Swee Meng</a>（同じく<a href="https://iqbalabdullah.net/ja/posts/2022/10/becoming-a-psf-fellow/">PSF Fellow</a>）がかつて私に指摘したように、私たちが文化と呼ぶものの多くは、経済システムの下流にある。シンガポールの教育文化は、特定の歴史的瞬間における国家の経済的存続を最適化するために政府が設計したものだ。その設計は1970年代や1980年代には目的を果たした。しかしLLMを知らない世界を生きたことのないアルファ世代には、もはや役立たない。</p>
-<p>最も心に留まった洞察はこれだ：制度が停滞しているのは、シンガポールに才能が欠けているからではなく、意思決定権を持つ世代が、自分たちの青春のためにシステムを最適化したからだ。改革は遅い。改革者自身がまだカリキュラムで考えているからだ。</p>
-<h2>スピードの罠と「賢く見せる」技術</h2>
-<p>議論は企業生活に及び、誰かが語った話が私の脳に刻まれた。銀行に勤める友人は、今やAIワークフローの中で生きている：100ページのPDFを受け取り、要約ツールに通し、要約を受け取り、メール返信を生成し、相手の返信を受け取り、それも要約し、テンプレート返信を選び、繰り返す。人事評価のとき、四半期に15件を処理した同僚と比較され、彼は5件しか処理できなかった。合理的なインセンティブは、より速く処理することだ。読まない。考えない。要約する。生産的に見せる。</p>
-<p>結果？彼自身がこう述べた：<em>「自分が仕事をフェイクしているのか、本当にわからない」</em></p>
-<p>さらに悪いことに、グローバルタウンホールで、彼はリアルタイムの文字起こしをLLMに入力し、「賢く見える質問を生成して」と頼んだ。AIは応じた。彼は質問した。上司は称賛した。みんな先に進んだ。</p>
-<p>これはGeorgiの教育論の暗い鏡だ。もし学校が生徒に、理解の「外見」を最適化することを教えるなら——磨かれた作文、正しい解答用紙、資格——AIは完璧な共犯者になる。それは磨かれた陳腐さを大量に生成する。危険は、AIが思考者を置き換えることではない。組織が思考の<em>外見</em>を報酬にするようになって、本物がどう見えるかを誰も覚えていなくなることだ。</p>
-<p>グループの一人が「アドバーサリアル・プロンプティング」を提案した。AIに事業計画を承認させるのではなく、事後検証（post-mortem）をさせる。計画が失敗したと告げる。AIがお世辞から批判へと素早く転向するのを見よ。その摩擦——あえての不快感——こそが本当の学びが生まれる場所だ。口頭での擁護を、シリコンに応用したものだ。</p>
-<h2>人間にしかできないこと</h2>
-<p>Georgiはキーノートを、ほとんど祈りのような言葉で締めくくった：<em>「人間にしかできないのは、他の人を助ける能力だ。他の機械ではなく」</em></p>
-<p>AIは作業を代替できる。苦労している学習者の話を聞き、何を理解していないかを察して、リアルタイムで説明を調整する行為を代替することはできない。ユーザーの不満を耳にして、こっそり修正をスケッチし始めるコア開発者の落書きランチノートを代替できない。カリキュラムが要求したからではなく、みんなが一緒にいたいから集まるコミュニティを代替できない。</p>
-<p>彼女は、誰でも取って代わり難くなりたいなら、四つの命令を挙げた：好奇心を保ち、共感を保ち、協力を保ち——そして最も重要なことに——人間らしく在れ。</p>
-<p>私は五つ目を加えたい。不便で在れ。100ページのPDFを実際に読む人になれ。LLMが提案しないであろうタウンホールの質問をする人になれ（何になるか私にはまだわからない）。みんなが自動化で乗り越えた後、モーターサイクルやエアコンの修理ができる人になれ。Georgiも指摘したように、アルファ世代はすでに速い答えへの静かな反乱を起こしている——編み物サークル、ノー・フォンの日、アナログ趣味。彼らは人間らしさを感じたい。なぜなら私たちがパネル討論でまだ議論していることに、彼らは直感的に到達しているからだ。若い世代も、ひとつ前の世代も、みんなが欲しがっているものは同じだ：違うこと、本物であること、正直であること。知識が商品化されたとき、本物の経験こそがあなたを違うものにする。</p>
-<p><img alt="PyConSG 2026の参加者が講演を聴き、会場でネットワーキングをしている写真" src="https://iqbalabdullah.net/ja/images/pycons/pyconsg2026/pyconsg-2026-collage.webp"></p>
-<p><em>追伸： <a href="https://www.linkedin.com/in/cheukting-ho/">Cheuk</a> さん、素敵なレトロな写真ありがとうございます！</em></p>
-<h2>置き換わるか？</h2>
-<p>タイトルに戻ろう。<em>So kiasu, still kena replaced by AI?</em></p>
-<p>Georgiの答えは率直だった。もし恐怖から動き続けるなら——落伍を恐れ、間違いを恐れ、地位の喪失を恐れ——学びを止める。そして学びを止めれば、<em>置き換わる</em>。しかしAIを最終章ではなく次の章として捉え、継続的な集団学習にコミットし、自分の価値を集めた資格の数ではなく、助けた人の数で測るなら、その問いは自ずと答えを出す。</p>
-<p>未来は学び手と助け手に属する。それ以外は、単なるアウトプットに過ぎない。</p>
-<p><strong>エピローグ</strong></p>
-<ul>
-<li><em>Georgi自身も、自身の講演についての考察を<a href="https://georgiker.com/blog/ai-did-not-break-education/">こちら</a>に書いている。</em></li>
-<li><em>友人でありPyCon SGのスピーカーでもあったMichelle Sandfordさんは、Georgiの考えについて<a href="https://www.linkedin.com/posts/michellesandford_pyconsg-activity-7473552569986883584-u1b3/">こちら</a>で振り返っている。</em></li>
-</ul>
-<hr>
-<p><em><a href="https://www.linkedin.com/in/georgiker/">Georgi Ker</a>はPython Software Foundationの副議長であり、Diversity &amp; Inclusionワークグループを率いている。彼女は2026年6月19日、Lifelong Learning Instituteで開催された<a href="https://pycon.sg/">PyCon Singapore 2026</a>のキーノートを務めた。PSFについて詳しく知りたい方は<a href="https://www.python.org/psf-landing/">python.org/psf</a>を参照。</em></p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/ja/category/2026.html">2026</a>
+<p>Python Software Foundation副議長Georgi KerがPyCon Singapore 2026のオープニングキーノートで、kiasu、教育、AI時代に人間らしく在ることの意味について問い直した。当日のメモと考察。</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/ja/category/2026.html">2026</a>
 
     Tagged: 
     <a href="https://iqbalabdullah.net/ja/tag/pyconsg.html">pyconsg </a>
@@ -133,11 +210,9 @@ Translations:
 Translations: 
         <a href="https://iqbalabdullah.net/ja/../en/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/">en</a>
 
-            </article>
-
-
+                <a class="button radius secondary small right" href="https://iqbalabdullah.net/ja/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/">Read More</a>
                 <hr  class="gradient"/>
-
+            </article>
 
         
 

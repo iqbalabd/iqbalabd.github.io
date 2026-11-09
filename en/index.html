@@ -67,6 +67,124 @@
         
 
             <article>
+                <a href="https://iqbalabdullah.net/en/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/"><h3 class="article-title">New e-Residency Card Not Detected by DigiDoc4 on Ubuntu 24.04? Check Your OpenSC</h3></a>
+<h6 class="subheader" title="2026-11-09T15:30:00+09:00">2026-11-09
+</h6>
+
+Translations: 
+        <a href="https://iqbalabdullah.net/en/../ja/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/">ja</a>
+
+<hr class="translations-divider" />
+<p>I just received my replacement Estonian e-Residency card, and when I tried it right away with DigiDoc4 on Ubuntu, the card was not detected. My old card still works fine and DigiDoc4 is fully up to date, so I looked into it. It turned out that the problem was neither the card nor DigiDoc4. Ubuntu Pro's ESM (Expanded Security Maintenance) repository was keeping <code>opensc</code> at an old version that doesn't know about the new chip.</p>
+<p>If you have Ubuntu Pro enabled and your card was issued from 17 November 2025 onwards, you might hit the same wall, so here is how to check and how to fix it.</p>
+<h2>Background</h2>
+<p>Estonia started issuing a new generation of ID cards on 17 November 2025, and that includes the e-Resident digital ID cards. The chip changed from IDEMIA Cosmo to Thales MultiApp V5.1, and the new cards need ID-software 25.10 or later (<a href="https://www.id.ee/en/article/id-card-generations-supported-in-different-versions-of-the-id-software/">id.ee</a>).</p>
+<p>Separately, e-Residency cards issued between 10 December 2021 and 16 August 2023 (numbers UA0051053 to UA0076261) will have their certificates revoked on 9 December 2026 (<a href="https://www.politsei.ee/en/instructions/e-resident-s-digital-id/cards-issued-until-august-2023">Police and Border Guard Board</a>). So many e-residents should be getting replacement cards right now, and those replacements are the new Thales cards.</p>
+<h2>The Problem</h2>
+<p>When I inserted the new card, DigiDoc4 showed nothing and the "My eID" view stayed empty. When I inserted the old card, everything worked. The reader LED was blinking and <code>lsusb</code> could see the reader.</p>
+<h2>Environment</h2>
+<ul>
+<li>Ubuntu 24.04.5 LTS (noble), kernel 7.0.0-42-generic</li>
+<li>ID-software 26.7.0 (Ubuntu build), DigiDoc4 4.11.0</li>
+<li>Reader: ACS ACR38U-CCID</li>
+<li>Ubuntu Pro with ESM Apps enabled</li>
+</ul>
+<h2>Diagnosis</h2>
+<p>DigiDoc4 has a diagnostics screen. To open it, first click "Settings" at the top right of the window.</p>
+<p><img alt="DigiDoc4 main window with the Settings link at the top right marked in red" src="https://iqbalabdullah.net/en/images/estonia/digidoc4-settings.webp"></p>
+<p>Then choose "Diagnostics" from the menu on the left. There are two places to look: the <code>opensc</code> line under <code>Libraries:</code>, and the <code>Smart Card readers:</code> section further down when you scroll.</p>
+<p><img alt="DigiDoc4 diagnostics screen with the Diagnostics menu item and the opensc 0.27.1-0RIA3 line marked in red" src="https://iqbalabdullah.net/en/images/estonia/digidoc4-diagnostics.webp"></p>
+<p>I took this screenshot after the fix, which is why it shows <code>opensc</code> 0.27.1-0RIA3. Before the fix, it showed this:</p>
+<div class="highlight"><pre><span></span><code>opensc (0.25.0~rc1-1ubuntu0.2+esm1)
+</code></pre></div>
+
+<p>With the new card inserted, the <code>Smart Card readers:</code> section shows something like this:</p>
+<div class="highlight"><pre><span></span><code>Smart Card readers:
+ACS ACR 38U-CCID 00 00 max APDU size 65536
+Reader state: CHANGED, PRESENT
+ATR - 3BFF9600008031FE438031B85365494464B085051012233F1D
+AID_IDEMIA: 6a82 (Not found)
+AID_THALES: 9000 (OK)
+ID - XXXXXXXXXXX
+</code></pre></div>
+
+<p><code>AID_THALES: 9000 (OK)</code> means that the Thales applet on the card answered. So pcscd and the reader do see the card, and DigiDoc4 itself is a version with Thales support. That means the problem had to be in the layer between them.</p>
+<p>On Linux, DigiDoc4 uses OpenSC (PKCS#11) to access the card. Thales support was added to RIA's OpenSC in ID-software 25.10 (<a href="https://www.id.ee/en/article/id-software-versions-info-release-notes/">release notes</a>). RIA is Estonia's Information System Authority, and what I had installed instead was Ubuntu's own OpenSC from early 2024 with ESM patches on top. It predates the Thales card, so it does not know about it.</p>
+<h2>The Root Cause</h2>
+<p><code>apt policy opensc</code> explained why:</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>apt<span class="w"> </span>policy<span class="w"> </span>opensc
+opensc:
+<span class="w">  </span>Installed:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Candidate:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Version<span class="w"> </span>table:
+<span class="w">     </span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span><span class="m">500</span>
+<span class="w">        </span><span class="m">500</span><span class="w"> </span>https://installer.id.ee/media/ubuntu<span class="w"> </span>noble/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+<span class="w"> </span>***<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1<span class="w"> </span><span class="m">510</span>
+<span class="w">        </span><span class="m">510</span><span class="w"> </span>https://esm.ubuntu.com/apps/ubuntu<span class="w"> </span>noble-apps-security/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+</code></pre></div>
+
+<p><a href="https://www.id.ee/en/article/install-id-software/">RIA's repository</a> offers <code>opensc 0.27.1-0RIA3</code>. But Ubuntu Pro's ESM Apps repository has pin priority 510 against RIA's 500. apt looks at the priority before the version number, so <code>apt upgrade</code> will keep the old ESM package no matter how many times you run it. <code>apt policy opensc-pkcs11</code> showed the same thing.</p>
+<p>This only happens if you have Ubuntu Pro (ESM) enabled. Without ESM, both sources are at priority 500 and apt picks the higher version, which is RIA's.</p>
+<h2>The Solution</h2>
+<p>Install RIA's OpenSC explicitly:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span><span class="nv">opensc</span><span class="o">=</span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span>opensc-pkcs11<span class="o">=</span><span class="m">0</span>.27.1-0RIA3
+sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>pcscd
+</code></pre></div>
+
+<p>If RIA has published a newer package by the time you read this, replace the version with the one shown by <code>apt policy opensc</code>.</p>
+<p>Then pin it so that future upgrades don't go back to the ESM version:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/apt/preferences.d/ria-opensc<span class="w"> </span><span class="s">&lt;&lt;&#39;EOF&#39;</span>
+<span class="s">Package: opensc opensc-pkcs11</span>
+<span class="s">Pin: origin installer.id.ee</span>
+<span class="s">Pin-Priority: 600</span>
+<span class="s">EOF</span>
+</code></pre></div>
+
+<p>Relaunch DigiDoc4 and the new card should show up.</p>
+<h2>After It Works</h2>
+<ul>
+<li>Change PIN2 in DigiDoc4 under "My eID". New cards cannot sign until PIN2 has been changed once (<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>).</li>
+<li>Cards issued on or after 17 November 2025 cannot be used to authenticate to foreign e-services yet. They should work once the European Commission approves the changes to Estonia's eID scheme (<a href="https://www.id.ee/en/article/id-cards-issued-from-17-november-onwards-cannot-be-used-for-e-services-provided-by-foreign-countries/">id.ee</a>).</li>
+<li>PUK cannot be changed on Thales cards in the DigiDoc apps (<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>).</li>
+</ul>
+<h2>Things That Were Not the Problem</h2>
+<ul>
+<li>The ID-software and DigiDoc4 versions (26.7 and 4.11.0 already support Thales)</li>
+<li>The card reader (the ACR38U works)</li>
+<li>pcscd (running, and it detected the card)</li>
+<li>Wayland vs X11</li>
+</ul>
+<h2>Quick Checklist</h2>
+<p>If you see the same symptoms, check these in order:</p>
+<ol>
+<li>Run <code>apt policy opensc</code>. Is the installed version from <code>installer.id.ee</code>?</li>
+<li>In DigiDoc4 Diagnostics, does <code>AID_THALES</code> return <code>9000</code>?</li>
+<li>If the answer to 1 is no and the answer to 2 is yes, install RIA's OpenSC and pin it.</li>
+</ol><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2026.html">2026</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/en/tag/estonia.html">estonia </a>
+    <a href="https://iqbalabdullah.net/en/tag/e-residency.html">e-residency </a>
+    <a href="https://iqbalabdullah.net/en/tag/ubuntu.html">ubuntu </a>
+    <a href="https://iqbalabdullah.net/en/tag/digidoc4.html">digidoc4 </a>
+    <a href="https://iqbalabdullah.net/en/tag/opensc.html">opensc </a>
+    <a href="https://iqbalabdullah.net/en/tag/linux.html">linux </a>
+</p>
+
+
+Translations: 
+        <a href="https://iqbalabdullah.net/en/../ja/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/">ja</a>
+
+            </article>
+
+
+                <hr  class="gradient"/>
+
+
+        
+
+
+            <article>
                 <a href="https://iqbalabdullah.net/en/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/"><h3 class="article-title">Georgi Ker's PyCon SG 2026 Keynote: "So Kiasu, Still Kena Replaced by AI?"</h3></a>
 <h6 class="subheader" title="2026-06-20T10:00:00+09:00">2026-06-20
 </h6>
@@ -75,48 +193,7 @@ Translations:
         <a href="https://iqbalabdullah.net/en/../ja/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/">ja</a>
 
 <hr class="translations-divider" />
-<p>Yesterday morning at PyCon Singapore 2026, Georgi Ker took the stage for the opening keynote. She titled it <em>"So Kiasu, Still Kena Replaced by AI?"</em> — a question so perfectly Singaporean that no one laughed because they knew she was not joking (not laughing at a joke is also very Asian).</p>
-<p><img alt="Georgi Ker presenting her keynote for PyConSG 2026 with two large screens displaying &quot;Lorong AI&quot;" src="https://iqbalabdullah.net/en/images/pycons/pyconsg2026/pyconsg-2026-georgi-keynote.webp"></p>
-<p>Georgi is Vice-Chair of the Python Software Foundation. She is also, by her own admission, not a professional programmer. She learned Python by making a lot of mistakes. Like, a lot. That she sits on the board of the organization stewarding the world's most popular programming language is itself a testament to the very argument she was about to make: merit does not arrive through gatekept certificates. It arrives through openness, community, and the willingness to keep learning in public.</p>
-<h2>The Singapore Education Trap</h2>
-<p>Georgi opened with her own biography: a Singaporean who went through the national education system, found herself forced to teach inside it, and eventually left, disillusioned. She described a system that pushed syllabi forward regardless of whether students understood what they had just been taught. She cited her own research: up to 90% of the students she taught could not grasp the material, yet the curriculum marched on because that was what the system demanded.</p>
-<p>This is the kiasu ethos at its most destructive. <em>Kiasu</em> — that wonderful Singlish term for the fear of losing out — was originally a competitive survival instinct. In an education context, however, it calcifies into a conveyor belt that values completion over comprehension, credentials over curiosity. Students memorize. Teachers rush. Parents panic. And everyone is so afraid of falling behind that nobody stops to ask whether the race itself still leads anywhere.</p>
-<p>Georgi's point was sharp: AI is not the cause of this crisis. It is a mirror. The technology simply reflects how brittle the system has become. When large language models can summarize a textbook faster than any student can read it, the response from policymakers has been to throw AI tools at schools and declare students "AI-ready." But Georgi kept returning to a harder question: <em>how?</em> How do you use AI wisely? How do you teach judgment instead of obedience? How do you turn a tool that generates answers into an environment that teaches students to ask better questions?</p>
-<h2>What Open Source Teaches Us About Open Learning</h2>
-<p>To answer that, Georgi pivoted to the thing the room already loved: Python.</p>
-<p>Python, she argued, did not become the world's most-used programming language because it was perfect. It became dominant because it was <em>approachable</em>. Guido van Rossum designed it to be easy to read, easy to share, and easy to teach. Nobody stops you from translating a tutorial, running a workshop, or improving a library you think is broken. The PSF itself grew not as a control tower but as infrastructure — handling trademarks, PyPI, conferences, grants, and codes of conduct so that the core developers could focus on the language. Governance served the community; the community did not serve the governance.</p>
-<p>Georgi asked a provocative question: what if schools looked more like open source?</p>
-<p>In open source, process counts more than pedigree. You show your drafts. You share your prompts. You defend your commits. You iterate in public. Georgi proposed exactly that for classrooms: make AI use transparent instead of treating it like cheating. Teach oral defense, not silent worksheets. Make students explain how they arrived at an answer, critique weak reasoning, and revise in the open. The goal is not to produce flawless output; the goal is to produce students who know how to think when the output is flawed.</p>
-<p>It is a compelling analogy, and one that rings true for anyone who has watched a first-time contributor grow into a maintainer. The Python community has been running this experiment for three decades. We just never framed it as pedagogy.</p>
-<h2>The Generation Gap Is Real, And It Is Structural</h2>
-<p>After the keynote, Georgi and I spoke in the hallway with a small group that lingered. One thread kept pulling: the people designing education policy are from a generation that does not understand the generation that must live inside it.</p>
-<p>Our small group discussed it bluntly. The Singapore government — like many others — announces plans to "throw in all the AI" without specifying the pedagogical mechanics. The <em>how</em> is missing because the policymakers themselves did not grow up with large language models. Their mindset is "that worked for me." But what worked for Gen X — gated information, rigid respect for hierarchy, a single canonical path from school to career — is precisely what collapses when information becomes frictionless and Gen Z starts questioning everything.</p>
-<p>During our conversation, I found myself pushing back on the word "culture." Culture is often invoked as an explanation — "Japanese culture is like this, Malaysian culture is like that" — and then the conversation ends because culture feels immutable. But as my friend <a href="https://www.linkedin.com/in/sweemeng/">Swee Meng</a> (a fellow <a href="https://iqbalabdullah.net/en/posts/2022/10/becoming-a-psf-fellow/">PSF Fellow</a>) once pointed out to me, what we call culture is often downstream of the economic system. Singapore's education culture is the way it is because it was engineered by a government optimizing for national economic survival at a specific historical moment. That design served a purpose in the 1970s and 1980s. It is not serving the Alpha generation, who will never know a world without LLMs.</p>
-<p>The insight that landed hardest was this: the system is stuck not because Singapore lacks talent, but because the generation with decision-making power built a system optimized for their own youth. Reforms move slowly because reformers still think in syllabi.</p>
-<h2>The Speed Trap and the Art of Looking Smart</h2>
-<p>Our discussion wandered into corporate life, and someone shared a story that has lodged in my brain. A banker friend now lives inside an AI workflow that looks something like this: receive a hundred-page PDF, run it through summarization, receive a summary, generate an email response, receive the counterparty's reply, summarize that too, pick a templated response, repeat. At appraisal time, he is judged against teammates who managed fifteen items per quarter while he only managed five. The rational incentive, therefore, is to process faster. Read less. Think less. Summarize more. Appear productive.</p>
-<p>The result? He described it himself: <em>"I don't know if I'm faking work or something."</em></p>
-<p>Worse, during a global town hall, he fed the real-time transcript into an LLM and asked it to generate a question that would make him look smart. The AI complied. He asked it. The boss praised it. Everyone moved on.</p>
-<p>This is the dark mirror of Georgi's education argument. If schools teach students to optimize for the appearance of understanding — the polished essay, the correct answer sheet, the credential — then AI becomes the perfect accomplice. It generates polished banality at scale. The danger is not that AI replaces thinkers. The danger is that organizations reward the <em>semblance</em> of thinking until no one remembers what the real thing looked like.</p>
-<p>One of the members in the group suggested "adversarial prompting". Instead of asking an AI to validate your business plan, ask it to perform a post-mortem. Tell it the plan failed. Watch how quickly it flips from sycophancy to criticism. That friction — that deliberate discomfort — is where actual learning lives. It is the oral defense, but applied to silicon.</p>
-<h2>What Remains Uniquely Human</h2>
-<p>Georgi closed her keynote with a line that felt almost devotional: <em>"What remains uniquely human is when you have the ability to help another person. Not another machine."</em></p>
-<p>AI can replace tasks. It cannot replace the act of listening to a struggling learner, sensing what they do not understand, and adjusting your explanation in real time. It cannot replace the scribbled lunch notes of a core developer who overheard a user complaint and quietly started sketching a fix. It cannot replace the community that gathers not because a syllabus demanded it, but because people enjoy hanging out together.</p>
-<p>She listed four imperatives for anyone who wants to remain irreplaceable: stay curious, stay empathetic, stay collaborative, and — most importantly — stay human.</p>
-<p>I would add a fifth: stay inconvenient. Be the person who actually reads the hundred-page PDF. Be the person who asks the town hall question that the LLM would not have suggested (I just do not know what this will be). Be the person who fixes the motorcycle or the air conditioner when everyone else has automated their way past physical competence. As Georgi also noted, the Alpha generation is already staging a quiet rebellion against fast answers — knitting circles, no-phone days, analog hobbies. They want to feel human because they intuit what the rest of us are still arguing about on panels. The younger generation and the generation before want one thing: Being different, being real and being honest. When knowledge is commoditized, then real experiences make you different.</p>
-<p><img alt="Photograph of an audience attending a PyConSG 2026 and attendees networking in a conference hall." src="https://iqbalabdullah.net/en/images/pycons/pyconsg2026/pyconsg-2026-collage.webp"></p>
-<p><em>P.S: Thanks <a href="https://www.linkedin.com/in/cheukting-ho/">Cheuk</a> for the retro picture!</em> </p>
-<h2>Will You Be Replaced?</h2>
-<p>Back to the title. <em>So kiasu, still kena replaced by AI?</em></p>
-<p>Georgi's answer was direct. If you continue to operate from fear — fear of falling behind, fear of making mistakes, fear of losing status — you will stop learning. And if you stop learning, you <em>will</em> become replaceable. But if you treat AI as the next chapter rather than the final chapter, if you commit to continuous collective learning, and if you measure your worth by how many people you help rather than how many credentials you collect, then the question answers itself.</p>
-<p>The future belongs to learners and helpers. Everything else is just output.</p>
-<p><strong>Epilogue</strong></p>
-<ul>
-<li><em>Georgi also has written her own thoughts on her talk <a href="https://georgiker.com/blog/ai-did-not-break-education/">here</a></em></li>
-<li><em>Michelle Sandford, a friend and also was a speaker at PyCon SG reflected on Georgi's thoughts <a href="https://www.linkedin.com/posts/michellesandford_pyconsg-activity-7473552569986883584-u1b3/">here</a></em></li>
-</ul>
-<hr>
-<p><em><a href="https://www.linkedin.com/in/georgiker/">Georgi Ker</a> is Vice-Chair of the Python Software Foundation and leads its Diversity &amp; Inclusion work group. She keynoted <a href="https://pycon.sg/">PyCon Singapore 2026</a> on 19 June at the Lifelong Learning Institute. You can learn more about the PSF at <a href="https://www.python.org/psf-landing/">python.org/psf</a>.</em></p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2026.html">2026</a>
+<p>Notes and reflections from Georgi Ker's opening keynote at PyCon Singapore 2026, where the PSF Vice-Chair challenged the crowd to rethink kiasu, education, and what it means to stay human in the age of AI.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2026.html">2026</a>
 
     Tagged: 
     <a href="https://iqbalabdullah.net/en/tag/pyconsg.html">pyconsg </a>
@@ -133,11 +210,9 @@ Translations:
 Translations: 
         <a href="https://iqbalabdullah.net/en/../ja/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/">ja</a>
 
-            </article>
-
-
+                <a class="button radius secondary small right" href="https://iqbalabdullah.net/en/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/">Read More</a>
                 <hr  class="gradient"/>
-
+            </article>
 
         
 
@@ -195,30 +270,6 @@ Translations:
         <a href="https://iqbalabdullah.net/en/../ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">ja</a>
 
                 <a class="button radius secondary small right" href="https://iqbalabdullah.net/en/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">Read More</a>
-                <hr  class="gradient"/>
-            </article>
-
-        
-
-
-            <article>
-                <a href="https://iqbalabdullah.net/en/posts/2025/06/keynoting-pycon-sg-2025/"><h3 class="article-title">Keynoting at PyCon SG 2025</h3></a>
-<h6 class="subheader" title="2025-06-27T07:30:00+09:00">2025-06-27
-</h6>
-
-
-<p>I announced the <strong>Python Asia Organization (PAO)</strong> initiative during my PyCon SG 2025 keynote and reflected on my journey working with the community.</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/en/category/2025.html">2025</a>
-
-    Tagged: 
-    <a href="https://iqbalabdullah.net/en/tag/python.html">python </a>
-    <a href="https://iqbalabdullah.net/en/tag/asia.html">asia </a>
-    <a href="https://iqbalabdullah.net/en/tag/pycon.html">pycon </a>
-    <a href="https://iqbalabdullah.net/en/tag/sg.html">sg </a>
-</p>
-
-
-
-                <a class="button radius secondary small right" href="https://iqbalabdullah.net/en/posts/2025/06/keynoting-pycon-sg-2025/">Read More</a>
                 <hr  class="gradient"/>
             </article>
 

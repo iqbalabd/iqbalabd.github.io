@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Iqbal's Weblog - e-residency</title>
+
+    <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/normalize.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/foundation.min.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/style.css" />
+    <link rel="stylesheet" href="https://iqbalabdullah.net/theme/css/pygments.css" />	
+    <script src="https://iqbalabdullah.net/theme/js/custom.modernizr.js"></script>
+
+    <!-- So Firefox can bookmark->"abo this site" -->
+        <link href="feeds/all.atom.xml" rel="alternate" title="Iqbal's Weblog" type="application/atom+xml">
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.kafkai.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '9']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+</head>
+
+<body>
+
+<!-- Nav Bar -->
+<nav>
+<div class="top-bar">
+<div class="row">
+    <div class="large-9 large-centered columns">
+	    <h1><a href="https://iqbalabdullah.net">Iqbal's Weblog</a></h1>
+    </div>
+</div>
+</div>
+
+<!-- Show menu items and pages -->
+<div class="row">
+<div class="large-9 columns">
+    <ul class="button-group navigation">
+    <li><a href="/" class="button secondary small">Home</a></li>
+
+            <li><a href="https://iqbalabdullah.net/pages/profile.html" class="button secondary small">Professional Profile</a></li>
+            <li><a href="https://iqbalabdullah.net/pages/whoami.html" class="button secondary small">Who Am I</a></li>
+    </ul>
+</div>
+</div>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns">
+        
+        
+
+            <article>
+                <a href="https://iqbalabdullah.net/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/"><h3 class="article-title">New e-Residency Card Not Detected by DigiDoc4 on Ubuntu 24.04? Check Your OpenSC</h3></a>
+<h6 class="subheader" title="2026-11-09T15:30:00+09:00">2026-11-09
+</h6>
+
+Translations: 
+        <a href="https://iqbalabdullah.net/../ja/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/">ja</a>
+
+<hr class="translations-divider" />
+<p>I just received my replacement Estonian e-Residency card, and when I tried it right away with DigiDoc4 on Ubuntu, the card was not detected. My old card still works fine and DigiDoc4 is fully up to date, so I looked into it. It turned out that the problem was neither the card nor DigiDoc4. Ubuntu Pro's ESM (Expanded Security Maintenance) repository was keeping <code>opensc</code> at an old version that doesn't know about the new chip.</p>
+<p>If you have Ubuntu Pro enabled and your card was issued from 17 November 2025 onwards, you might hit the same wall, so here is how to check and how to fix it.</p>
+<h2>Background</h2>
+<p>Estonia started issuing a new generation of ID cards on 17 November 2025, and that includes the e-Resident digital ID cards. The chip changed from IDEMIA Cosmo to Thales MultiApp V5.1, and the new cards need ID-software 25.10 or later (<a href="https://www.id.ee/en/article/id-card-generations-supported-in-different-versions-of-the-id-software/">id.ee</a>).</p>
+<p>Separately, e-Residency cards issued between 10 December 2021 and 16 August 2023 (numbers UA0051053 to UA0076261) will have their certificates revoked on 9 December 2026 (<a href="https://www.politsei.ee/en/instructions/e-resident-s-digital-id/cards-issued-until-august-2023">Police and Border Guard Board</a>). So many e-residents should be getting replacement cards right now, and those replacements are the new Thales cards.</p>
+<h2>The Problem</h2>
+<p>When I inserted the new card, DigiDoc4 showed nothing and the "My eID" view stayed empty. When I inserted the old card, everything worked. The reader LED was blinking and <code>lsusb</code> could see the reader.</p>
+<h2>Environment</h2>
+<ul>
+<li>Ubuntu 24.04.5 LTS (noble), kernel 7.0.0-42-generic</li>
+<li>ID-software 26.7.0 (Ubuntu build), DigiDoc4 4.11.0</li>
+<li>Reader: ACS ACR38U-CCID</li>
+<li>Ubuntu Pro with ESM Apps enabled</li>
+</ul>
+<h2>Diagnosis</h2>
+<p>DigiDoc4 has a diagnostics screen. To open it, first click "Settings" at the top right of the window.</p>
+<p><img alt="DigiDoc4 main window with the Settings link at the top right marked in red" src="https://iqbalabdullah.net/images/estonia/digidoc4-settings.webp"></p>
+<p>Then choose "Diagnostics" from the menu on the left. There are two places to look: the <code>opensc</code> line under <code>Libraries:</code>, and the <code>Smart Card readers:</code> section further down when you scroll.</p>
+<p><img alt="DigiDoc4 diagnostics screen with the Diagnostics menu item and the opensc 0.27.1-0RIA3 line marked in red" src="https://iqbalabdullah.net/images/estonia/digidoc4-diagnostics.webp"></p>
+<p>I took this screenshot after the fix, which is why it shows <code>opensc</code> 0.27.1-0RIA3. Before the fix, it showed this:</p>
+<div class="highlight"><pre><span></span><code>opensc (0.25.0~rc1-1ubuntu0.2+esm1)
+</code></pre></div>
+
+<p>With the new card inserted, the <code>Smart Card readers:</code> section shows something like this:</p>
+<div class="highlight"><pre><span></span><code>Smart Card readers:
+ACS ACR 38U-CCID 00 00 max APDU size 65536
+Reader state: CHANGED, PRESENT
+ATR - 3BFF9600008031FE438031B85365494464B085051012233F1D
+AID_IDEMIA: 6a82 (Not found)
+AID_THALES: 9000 (OK)
+ID - XXXXXXXXXXX
+</code></pre></div>
+
+<p><code>AID_THALES: 9000 (OK)</code> means that the Thales applet on the card answered. So pcscd and the reader do see the card, and DigiDoc4 itself is a version with Thales support. That means the problem had to be in the layer between them.</p>
+<p>On Linux, DigiDoc4 uses OpenSC (PKCS#11) to access the card. Thales support was added to RIA's OpenSC in ID-software 25.10 (<a href="https://www.id.ee/en/article/id-software-versions-info-release-notes/">release notes</a>). RIA is Estonia's Information System Authority, and what I had installed instead was Ubuntu's own OpenSC from early 2024 with ESM patches on top. It predates the Thales card, so it does not know about it.</p>
+<h2>The Root Cause</h2>
+<p><code>apt policy opensc</code> explained why:</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>apt<span class="w"> </span>policy<span class="w"> </span>opensc
+opensc:
+<span class="w">  </span>Installed:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Candidate:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Version<span class="w"> </span>table:
+<span class="w">     </span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span><span class="m">500</span>
+<span class="w">        </span><span class="m">500</span><span class="w"> </span>https://installer.id.ee/media/ubuntu<span class="w"> </span>noble/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+<span class="w"> </span>***<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1<span class="w"> </span><span class="m">510</span>
+<span class="w">        </span><span class="m">510</span><span class="w"> </span>https://esm.ubuntu.com/apps/ubuntu<span class="w"> </span>noble-apps-security/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+</code></pre></div>
+
+<p><a href="https://www.id.ee/en/article/install-id-software/">RIA's repository</a> offers <code>opensc 0.27.1-0RIA3</code>. But Ubuntu Pro's ESM Apps repository has pin priority 510 against RIA's 500. apt looks at the priority before the version number, so <code>apt upgrade</code> will keep the old ESM package no matter how many times you run it. <code>apt policy opensc-pkcs11</code> showed the same thing.</p>
+<p>This only happens if you have Ubuntu Pro (ESM) enabled. Without ESM, both sources are at priority 500 and apt picks the higher version, which is RIA's.</p>
+<h2>The Solution</h2>
+<p>Install RIA's OpenSC explicitly:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span><span class="nv">opensc</span><span class="o">=</span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span>opensc-pkcs11<span class="o">=</span><span class="m">0</span>.27.1-0RIA3
+sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>pcscd
+</code></pre></div>
+
+<p>If RIA has published a newer package by the time you read this, replace the version with the one shown by <code>apt policy opensc</code>.</p>
+<p>Then pin it so that future upgrades don't go back to the ESM version:</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/apt/preferences.d/ria-opensc<span class="w"> </span><span class="s">&lt;&lt;&#39;EOF&#39;</span>
+<span class="s">Package: opensc opensc-pkcs11</span>
+<span class="s">Pin: origin installer.id.ee</span>
+<span class="s">Pin-Priority: 600</span>
+<span class="s">EOF</span>
+</code></pre></div>
+
+<p>Relaunch DigiDoc4 and the new card should show up.</p>
+<h2>After It Works</h2>
+<ul>
+<li>Change PIN2 in DigiDoc4 under "My eID". New cards cannot sign until PIN2 has been changed once (<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>).</li>
+<li>Cards issued on or after 17 November 2025 cannot be used to authenticate to foreign e-services yet. They should work once the European Commission approves the changes to Estonia's eID scheme (<a href="https://www.id.ee/en/article/id-cards-issued-from-17-november-onwards-cannot-be-used-for-e-services-provided-by-foreign-countries/">id.ee</a>).</li>
+<li>PUK cannot be changed on Thales cards in the DigiDoc apps (<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>).</li>
+</ul>
+<h2>Things That Were Not the Problem</h2>
+<ul>
+<li>The ID-software and DigiDoc4 versions (26.7 and 4.11.0 already support Thales)</li>
+<li>The card reader (the ACR38U works)</li>
+<li>pcscd (running, and it detected the card)</li>
+<li>Wayland vs X11</li>
+</ul>
+<h2>Quick Checklist</h2>
+<p>If you see the same symptoms, check these in order:</p>
+<ol>
+<li>Run <code>apt policy opensc</code>. Is the installed version from <code>installer.id.ee</code>?</li>
+<li>In DigiDoc4 Diagnostics, does <code>AID_THALES</code> return <code>9000</code>?</li>
+<li>If the answer to 1 is no and the answer to 2 is yes, install RIA's OpenSC and pin it.</li>
+</ol><p class="subheader">Directory: <a href="https://iqbalabdullah.net/category/2026.html">2026</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/tag/estonia.html">estonia </a>
+    <a href="https://iqbalabdullah.net/tag/e-residency.html">e-residency </a>
+    <a href="https://iqbalabdullah.net/tag/ubuntu.html">ubuntu </a>
+    <a href="https://iqbalabdullah.net/tag/digidoc4.html">digidoc4 </a>
+    <a href="https://iqbalabdullah.net/tag/opensc.html">opensc </a>
+    <a href="https://iqbalabdullah.net/tag/linux.html">linux </a>
+</p>
+
+
+Translations: 
+        <a href="https://iqbalabdullah.net/../ja/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/">ja</a>
+
+            </article>
+
+<div class="pagination-centered">
+<h6 class="subheader">Page 1 of 1</h6>
+
+<p>
+
+</p>
+</div>
+
+
+
+            <!-- /#posts-list -->
+
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+        <h5 class="sidebar-title">Site</h5>
+        <ul class="side-nav">
+            <li><a href="https://iqbalabdullah.net/archives.html">Archives</a>
+            <li><a href="https://iqbalabdullah.net/tags.html">Tags</a>
+
+
+                <li><a href="https://iqbalabdullah.net/feeds/all.atom.xml" rel="alternate">Atom feed</a></li>
+        </ul>
+
+		
+        <h5 class="sidebar-title">Directories</h5>
+        <ul class="side-nav">
+            <li><a href="https://iqbalabdullah.net/category/2001.html">2001</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2009.html">2009</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2012.html">2012</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2015.html">2015</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2016.html">2016</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2017.html">2017</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2018.html">2018</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2020.html">2020</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2022.html">2022</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2023.html">2023</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2024.html">2024</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2025.html">2025</a></li>
+            <li><a href="https://iqbalabdullah.net/category/2026.html">2026</a></li>
+   
+        </ul>
+
+        <h5 class="sidebar-title">Links</h5>
+        <ul class="side-nav">
+            <li><a href="https://kafkai.com/en/the-company/">Kafkai Giken, Inc.</a></li>
+            <li><a href="https://kafkai.com/">[Kafkai] AI SEO Contents & Competitor Insights Tool</a></li>
+            <li><a href="https://github.com/PythonAsiaOrganization">Python Asia Organization MTÜ</a></li>
+            <li><a href="https://kaimail.net/">[KaiMail] Custom Domain Email Forwarding for Developers</a></li>
+            <li><a href="https://puchiden.app/">[PuchiDen] Browser-Based International Calling</a></li>
+        </ul>
+		
+        <h5 class="sidebar-title">Social</h5>
+        <ul class="side-nav">
+            <li><a href="https://www.linkedin.com/in/iqbalabd">linkedin</a></li>
+            <li><a href="https://github.com/iqbalabd">github</a></li>
+            <li><a href="https://twitter.com/iqbalabd">twitter</a></li>
+        </ul>
+
+    </aside> <!-- End Sidebar -->
+
+</div> <!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+<footer class="row">
+    <div class="large-12 columns">
+        <hr />
+        <div class="row">
+            <div class="large-6 columns">
+                <p>Iqbal's Weblog by Iqbal Abdullah</p>
+            </div>
+            </div>
+    </div>
+
+</footer>

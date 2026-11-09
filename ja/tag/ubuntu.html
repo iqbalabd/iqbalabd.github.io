@@ -67,6 +67,124 @@
         
 
             <article>
+                <a href="https://iqbalabdullah.net/ja/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/"><h3 class="article-title">Ubuntu 24.04で新しいe-ResidencyカードがDigiDoc4に認識されない？OpenSCを確認してみよう</h3></a>
+<h6 class="subheader" title="2026-11-09T15:30:00+09:00">2026-11-09
+</h6>
+
+Translations: 
+        <a href="https://iqbalabdullah.net/ja/../en/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/">en</a>
+
+<hr class="translations-divider" />
+<p>エストニアのe-Residency（電子居住権）の交換カードが届いた。早速UbuntuのDigiDoc4で使おうとしたが、カードが認識されない。古いカードは問題なく動くし、DigiDoc4も最新版だ。調べてみると、原因はカードでもDigiDoc4でもなかった。Ubuntu ProのESM（Expanded Security Maintenance）リポジトリが、新しいチップに対応していない古い<code>opensc</code>パッケージを優先していた。</p>
+<p>Ubuntu Proを有効にしていて、2025年11月17日以降に発行されたカードを使っている人は、この問題にハマるかもしれない。確認方法と解決方法をまとめておく。</p>
+<h2>背景</h2>
+<p>エストニアは2025年11月17日から、新しい世代のIDカードの発行を始めた。e-ResidencyのデジタルIDカードもその対象だ。チップがIDEMIA CosmoからThales MultiApp V5.1に変わり、新しいカードを使うにはID-software 25.10以降が必要になった（<a href="https://www.id.ee/en/article/id-card-generations-supported-in-different-versions-of-the-id-software/">id.ee</a>）。</p>
+<p>また、2021年12月10日から2023年8月16日までに発行されたe-Residencyカードの証明書は、2026年12月9日に失効になる。対象は番号UA0051053からUA0076261までのカードだ（<a href="https://www.politsei.ee/en/instructions/e-resident-s-digital-id/cards-issued-until-august-2023">エストニア警察・国境警備庁</a>）。今まさにカードを交換している人は多いはずで、交換後に届くのは新しいThalesカードになる。</p>
+<h2>問題</h2>
+<p>新しいカードを挿しても、DigiDoc4に何も表示されない。「My eID」の画面も空のままだ。古いカードを挿せば普通に読み込める。カードリーダーのLEDは点滅しているし、<code>lsusb</code>でもリーダーはちゃんと見えている。</p>
+<h2>動作環境</h2>
+<ul>
+<li>Ubuntu 24.04.5 LTS（noble）、カーネル 7.0.0-42-generic</li>
+<li>ID-software 26.7.0（Ubuntu版）、DigiDoc4 4.11.0</li>
+<li>カードリーダー ACS ACR38U-CCID</li>
+<li>Ubuntu Pro（ESM Apps有効）</li>
+</ul>
+<h2>診断</h2>
+<p>DigiDoc4には診断画面がある。まず画面右上の「Settings」を開く。</p>
+<p><img alt="DigiDoc4のメイン画面。右上の「Settings」を赤枠で示している" src="https://iqbalabdullah.net/ja/images/estonia/digidoc4-settings.webp"></p>
+<p>次に、左のメニューから「Diagnostics」を選ぶ。確認する場所は2つある。<code>Libraries:</code>の欄にある<code>opensc</code>の行と、下にスクロールした先の<code>Smart Card readers:</code>の欄だ。</p>
+<p><img alt="DigiDoc4の診断画面。左のメニューの「Diagnostics」と、opensc 0.27.1-0RIA3の行を赤枠で示している" src="https://iqbalabdullah.net/ja/images/estonia/digidoc4-diagnostics.webp"></p>
+<p>この画像は解決後に撮ったので、<code>opensc</code>は0.27.1-0RIA3と表示されている。解決前の表示はこれだった。</p>
+<div class="highlight"><pre><span></span><code>opensc (0.25.0~rc1-1ubuntu0.2+esm1)
+</code></pre></div>
+
+<p>新しいカードを挿した状態での<code>Smart Card readers:</code>はこうなる。</p>
+<div class="highlight"><pre><span></span><code>Smart Card readers:
+ACS ACR 38U-CCID 00 00 max APDU size 65536
+Reader state: CHANGED, PRESENT
+ATR - 3BFF9600008031FE438031B85365494464B085051012233F1D
+AID_IDEMIA: 6a82 (Not found)
+AID_THALES: 9000 (OK)
+ID - XXXXXXXXXXX
+</code></pre></div>
+
+<p><code>AID_THALES: 9000 (OK)</code>とあるので、カード上のThalesアプレットは応答している。つまり、pcscdとカードリーダーはカードを認識できている。DigiDoc4もThales対応のバージョンだ。となると、問題はその間にある層にあるはずだ。</p>
+<p>Linuxでは、DigiDoc4はOpenSC（PKCS#11）経由でカードにアクセスする。Thalesカードへの対応は、ID-software 25.10でRIA（エストニア情報システム庁）のOpenSCに追加された（<a href="https://www.id.ee/en/article/id-software-versions-info-release-notes/">リリースノート</a>）。私の環境に入っていたのは、2024年初頭のUbuntu版OpenSCにESMのパッチを当てたもの。Thalesカードができる前の世代のOpenSCだった。</p>
+<h2>原因</h2>
+<p><code>apt policy opensc</code>で確認すると、理由が分かった。</p>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>apt<span class="w"> </span>policy<span class="w"> </span>opensc
+opensc:
+<span class="w">  </span>Installed:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Candidate:<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1
+<span class="w">  </span>Version<span class="w"> </span>table:
+<span class="w">     </span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span><span class="m">500</span>
+<span class="w">        </span><span class="m">500</span><span class="w"> </span>https://installer.id.ee/media/ubuntu<span class="w"> </span>noble/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+<span class="w"> </span>***<span class="w"> </span><span class="m">0</span>.25.0~rc1-1ubuntu0.2+esm1<span class="w"> </span><span class="m">510</span>
+<span class="w">        </span><span class="m">510</span><span class="w"> </span>https://esm.ubuntu.com/apps/ubuntu<span class="w"> </span>noble-apps-security/main<span class="w"> </span>amd64<span class="w"> </span>Packages
+</code></pre></div>
+
+<p><a href="https://www.id.ee/en/article/install-id-software/">RIAのリポジトリ</a>には<code>opensc 0.27.1-0RIA3</code>がある。しかし、Ubuntu ProのESM Appsリポジトリのピン優先度は510で、RIAの500より高い。aptはバージョン番号より先に優先度を見る。そのため<code>apt upgrade</code>を何度実行しても、古いESM版のままになってしまう。<code>apt policy opensc-pkcs11</code>も同じ結果だった。</p>
+<p>この問題に当たるのは、Ubuntu Pro（ESM）を有効にしている場合だけのようだ。ESMがなければ両方とも優先度500なので、aptはバージョンの新しいRIA版を選んでくれる。</p>
+<h2>解決策</h2>
+<p>RIA版のOpenSCを、バージョンを指定してインストールする。</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span><span class="nv">opensc</span><span class="o">=</span><span class="m">0</span>.27.1-0RIA3<span class="w"> </span>opensc-pkcs11<span class="o">=</span><span class="m">0</span>.27.1-0RIA3
+sudo<span class="w"> </span>systemctl<span class="w"> </span>restart<span class="w"> </span>pcscd
+</code></pre></div>
+
+<p>読む時点でRIAからより新しいパッケージが出ている場合は、<code>apt policy opensc</code>に表示されるバージョンに置き換えてほしい。</p>
+<p>次に、今後のアップグレードでESM版に戻らないようにピン留めする。</p>
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>tee<span class="w"> </span>/etc/apt/preferences.d/ria-opensc<span class="w"> </span><span class="s">&lt;&lt;&#39;EOF&#39;</span>
+<span class="s">Package: opensc opensc-pkcs11</span>
+<span class="s">Pin: origin installer.id.ee</span>
+<span class="s">Pin-Priority: 600</span>
+<span class="s">EOF</span>
+</code></pre></div>
+
+<p>DigiDoc4を起動し直せば、新しいカードがちゃんと認識されるはずだ。</p>
+<h2>カードが認識されたら</h2>
+<ul>
+<li>DigiDoc4の「My eID」でPIN2を変更する。新しいカードは、PIN2を一度変更するまで署名に使えない（<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>）</li>
+<li>2025年11月17日以降に発行されたカードは、まだ外国のe-serviceの認証に使えない。欧州委員会がエストニアのeIDの仕組みの変更を承認し次第、使えるようになる予定だ（<a href="https://www.id.ee/en/article/id-cards-issued-from-17-november-onwards-cannot-be-used-for-e-services-provided-by-foreign-countries/">id.ee</a>）</li>
+<li>Thalesカードでは、PUKをDigiDocアプリから変更できない（<a href="https://www.id.ee/en/article/thales-id-card/">id.ee</a>）</li>
+</ul>
+<h2>原因ではなかったもの</h2>
+<ul>
+<li>ID-softwareとDigiDoc4のバージョン（26.7と4.11.0はThalesに対応済み）</li>
+<li>カードリーダー（ACR38Uは動いている）</li>
+<li>pcscd（起動していて、カードも検出している）</li>
+<li>WaylandかX11かの違い</li>
+</ul>
+<h2>確認手順</h2>
+<p>同じ症状に当たったら、次の順に確認してほしい。</p>
+<ol>
+<li><code>apt policy opensc</code>を実行する。インストールされているバージョンが<code>installer.id.ee</code>のものか？</li>
+<li>DigiDoc4の「Diagnostics」で、<code>AID_THALES</code>が<code>9000</code>を返しているか？</li>
+<li>1が「いいえ」で2が「はい」なら、RIA版のOpenSCをインストールしてピン留めする</li>
+</ol><p class="subheader">Directory: <a href="https://iqbalabdullah.net/ja/category/2026.html">2026</a>
+
+    Tagged: 
+    <a href="https://iqbalabdullah.net/ja/tag/esutonia.html">エストニア </a>
+    <a href="https://iqbalabdullah.net/ja/tag/e-residency.html">e-residency </a>
+    <a href="https://iqbalabdullah.net/ja/tag/ubuntu.html">ubuntu </a>
+    <a href="https://iqbalabdullah.net/ja/tag/digidoc4.html">digidoc4 </a>
+    <a href="https://iqbalabdullah.net/ja/tag/opensc.html">opensc </a>
+    <a href="https://iqbalabdullah.net/ja/tag/linux.html">linux </a>
+</p>
+
+
+Translations: 
+        <a href="https://iqbalabdullah.net/ja/../en/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/">en</a>
+
+            </article>
+
+
+                <hr  class="gradient"/>
+
+
+        
+
+
+            <article>
                 <a href="https://iqbalabdullah.net/ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/"><h3 class="article-title">日本語入力（Fcitx5/Mozc）の問題を解決する：GPT4AllをUbuntu 24.04で動作させる方法</h3></a>
 <h6 class="subheader" title="2026-02-21T18:00:00+09:00">2026-02-21
 </h6>
@@ -75,86 +193,7 @@ Translations:
         <a href="https://iqbalabdullah.net/ja/../en/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">en</a>
 
 <hr class="translations-divider" />
-<p>私は<a href="https://ollama.com">Ollama</a>をローカルLLM（大規模言語モデル）に使用していましたが、<a href="https://www.nomic.ai/gpt4all">GPT4All</a>について読んで試してみたくなりました。もしあなたが私のように日本語で書き込む場合、<code>fcitx5</code>とMozcをUbuntu上で利用し、Ctrl+Spaceで入力メソッドの切り替えができないという問題に遭遇するかもしれません。そこで調べてみた方法を以下に示します。</p>
-<h2>問題点</h2>
-<p>GPT4AllはQtベースのアプリケーションで、Qt 6.8ライブラリをバンドルしていますが、<code>fcitx5</code>入力メソッドプラグインが含まれていません。UbuntuのQt（Ubuntu 24.04では6.4）で構築されたシステムの<code>fcitx5</code>プラグインをコピーしようとしても、シンボル不一致が発生します（当然ですね）。単に <code>QT_IM_MODULE=fcitx</code> を設定しただけでは、互換性のあるプラグインがないため効果がないです。</p>
-<h2>解決策</h2>
-<p>Qt 6.8 SDKと対応する<code>fcitx5</code>入力コンテキストプラグインをソースから構築し、それをGPT4Allのプラグインディレクトリに配置します。</p>
-<h2>動作環境</h2>
-<ul>
-<li>Ubuntu 24.04 LTS</li>
-<li><code>fcitx5</code> + Mozc</li>
-<li>GPT4All（スタンドアロンインストーラーは<a href="https://www.nomic.ai/gpt4all">こちら</a>）</li>
-</ul>
-<h2>ステップバイステップ</h2>
-<h3>1. ビルド依存パッケージのインストール</h3>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>cmake<span class="w"> </span>extra-cmake-modules<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>libfcitx5core-dev<span class="w"> </span>libfcitx5config-dev<span class="w"> </span>libfcitx5utils-dev<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>libxkbcommon-dev<span class="w"> </span>libwayland-dev<span class="w"> </span>wayland-protocols<span class="w"> </span>libvulkan-dev
-</code></pre></div>
-
-<h3>2. 対応するQt 6.8 SDKのインストール</h3>
-<p>GPT4AllはQt 6.8をバンドルしていますが、開発ファイルではなくランタイムライブラリのみです。<code>aqtinstall</code>を使用してSDKを取得します。</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>/tmp/aqt-env
-/tmp/aqt-env/bin/pip<span class="w"> </span>install<span class="w"> </span>aqtinstall
-/tmp/aqt-env/bin/aqt<span class="w"> </span>install-qt<span class="w"> </span>linux<span class="w"> </span>desktop<span class="w"> </span><span class="m">6</span>.8.0<span class="w"> </span>-O<span class="w"> </span>/tmp/qt6.8
-</code></pre></div>
-
-<h3>3. fcitx5-qtのクローンとビルド</h3>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>/tmp
-git<span class="w"> </span>clone<span class="w"> </span>https://github.com/fcitx/fcitx5-qt.git
-<span class="nb">cd</span><span class="w"> </span>fcitx5-qt
-mkdir<span class="w"> </span>build<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>build
-
-cmake<span class="w"> </span>..<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DCMAKE_PREFIX_PATH<span class="o">=</span>/tmp/qt6.8/6.8.0/gcc_64/lib/cmake<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT4<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT5<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT6<span class="o">=</span>ON<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT6_WAYLAND_WORKAROUND<span class="o">=</span>OFF<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-DENABLE_QT6_GUI_WRAPPER<span class="o">=</span>OFF
-
-make<span class="w"> </span>-j<span class="k">$(</span>nproc<span class="k">)</span><span class="w"> </span>-C<span class="w"> </span>qt6/platforminputcontext
-</code></pre></div>
-
-<p>ここで、必要なターゲットのみ (<code>platforminputcontext</code>) をビルドします。完全なビルドはGUIラッパーコンポーネントをコンパイルしようとすると失敗するし、そもそも不要。</p>
-<h3>4. プラグインのGPT4Allへのコピー</h3>
-<div class="highlight"><pre><span></span><code>cp<span class="w"> </span>/tmp/fcitx5-qt/build/qt6/platforminputcontext/libfcitx5platforminputcontextplugin.so<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>~/gpt4all/plugins/platforminputcontexts/
-</code></pre></div>
-
-<p>GPT4Allを別の場所にインストールしている場合は、目的のパスに変更してください。</p>
-<h3>5. GPT4Allの起動</h3>
-<div class="highlight"><pre><span></span><code><span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx<span class="w"> </span>~/gpt4all/bin/chat
-</code></pre></div>
-
-<p>Ctrl+Spaceで<code>fcitx5</code>/Mozcを切り替えられるようになります。これで日本語入力が可能になります。</p>
-<h3>6. パーマネント化</h3>
-<p>デスクトップショートカットを使用している場合、<code>~/.local/share/applications/GPT4All.desktop</code>ファイルを開き、Exec行に以下の更新を行います（ユーザー名を自分のものに変更してください）。</p>
-<div class="highlight"><pre><span></span><code>Exec=env QT_IM_MODULE=fcitx &quot;/home/YOUR_USERNAME/gpt4all/bin/chat&quot;
-</code></pre></div>
-
-<h2>プラグインが正しくロードされるか確認</h2>
-<p>問題が発生した場合は、デバッグ出力で確認します。</p>
-<div class="highlight"><pre><span></span><code><span class="nv">QT_DEBUG_PLUGINS</span><span class="o">=</span><span class="m">1</span><span class="w"> </span><span class="nv">QT_IM_MODULE</span><span class="o">=</span>fcitx<span class="w"> </span>~/gpt4all/bin/chat<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>fcitx
-</code></pre></div>
-
-<p>出力に<code>loaded library</code>が表示されるはず。もし<code>undefined symbol</code>エラーが表示された場合、GPT4AllがバンドルしているQtバージョンとSDKで構築したバージョンが一致していない可能性があります。確認には <code>strings ~/gpt4all/lib/libQt6Core.so.6 | grep "^6\."</code> を使用し、必要に応じて <code>aqt</code> で対応するバージョンをインストールします。</p>
-<h2>クリーンアップ</h2>
-<p>すべてがうまく動作した後は、ビルドアーティファクトを安全に削除できます。</p>
-<div class="highlight"><pre><span></span><code>rm<span class="w"> </span>-rf<span class="w"> </span>/tmp/qt6.8<span class="w"> </span>/tmp/fcitx5-qt
-</code></pre></div>
-
-<p><code>-dev</code>パッケージも必要ない場合は削除可能です。</p>
-<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>apt<span class="w"> </span>remove<span class="w"> </span>extra-cmake-modules<span class="w"> </span>libfcitx5core-dev<span class="w"> </span>libfcitx5config-dev<span class="w"> </span>libfcitx5utils-dev
-</code></pre></div>
-
-<h2>注意</h2>
-<ul>
-<li>この手法は、Qtをバンドルしているアプリケーションで<code>fcitx5</code>プラグインが欠けている場合に使えるはず。</li>
-<li>GPT4Allの更新によりQtのバージョンが変更された場合、新しいバージョンと対応するように再構築する必要があるかも。</li>
-<li>この方法はUbuntu 24.04でカーネル6.17、GPT4AllがQt 6.8をバンドルし、<code>fcitx5</code> 5.1.7にMozcを使用している環境でテストしています。</li>
-</ul><p class="subheader">Directory: <a href="https://iqbalabdullah.net/ja/category/2026.html">2026</a>
+<p>Ubuntu 24.04 の GPT4All で日本語入力の問題。Qt 6.8 用 fcitx5 プラグインをビルドし配置すれば解決。</p><p class="subheader">Directory: <a href="https://iqbalabdullah.net/ja/category/2026.html">2026</a>
 
     Tagged: 
     <a href="https://iqbalabdullah.net/ja/tag/ri-ben-yu-ru-li.html">日本語入力 </a>
@@ -167,8 +206,11 @@ make<span class="w"> </span>-j<span class="k">$(</span>nproc<span class="k">)</s
 Translations: 
         <a href="https://iqbalabdullah.net/ja/../en/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">en</a>
 
+                <a class="button radius secondary small right" href="https://iqbalabdullah.net/ja/posts/2026/02/fixing-japanese-input-fcitx-in-gpt4all-on-ubuntu/">Read More</a>
+                <hr  class="gradient"/>
             </article>
 
+            <!-- /#posts-list -->
 <div class="pagination-centered">
 <h6 class="subheader">Page 1 of 1</h6>
 
@@ -176,10 +218,6 @@ Translations:
 
 </p>
 </div>
-
-
-
-            <!-- /#posts-list -->
 
     </div>
     <!-- End Main Content -->

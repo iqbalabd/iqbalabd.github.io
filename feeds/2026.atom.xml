@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2026</title><link href="https://iqbalabdullah.net/" rel="alternate"/><link href="https://iqbalabdullah.net/feeds/2026.atom.xml" rel="self"/><id>https://iqbalabdullah.net/</id><updated>2026-06-26T09:00:00+09:00</updated><entry><title>Georgi Ker's PyCon SG 2026 Keynote: "So Kiasu, Still Kena Replaced by AI?"</title><link href="https://iqbalabdullah.net/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/" rel="alternate"/><published>2026-06-20T10:00:00+09:00</published><updated>2026-06-26T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2026-06-20:/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/</id><summary type="html">&lt;p&gt;Notes and reflections from Georgi Ker's opening keynote at PyCon Singapore 2026, where the PSF Vice-Chair challenged the crowd to rethink kiasu, education, and what it means to stay human in the age of AI.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday morning at PyCon Singapore 2026, Georgi Ker took the stage for the opening keynote. She titled it &lt;em&gt;"So Kiasu, Still Kena Replaced by AI?"&lt;/em&gt; — a question so perfectly Singaporean that no one laughed because they knew she was not joking (not laughing at a joke is also very Asian).&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Iqbal's Weblog - 2026</title><link href="https://iqbalabdullah.net/" rel="alternate"/><link href="https://iqbalabdullah.net/feeds/2026.atom.xml" rel="self"/><id>https://iqbalabdullah.net/</id><updated>2026-11-09T15:30:00+09:00</updated><entry><title>New e-Residency Card Not Detected by DigiDoc4 on Ubuntu 24.04? Check Your OpenSC</title><link href="https://iqbalabdullah.net/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/" rel="alternate"/><published>2026-11-09T15:30:00+09:00</published><updated>2026-11-09T15:30:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2026-11-09:/posts/2026/11/new-e-residency-card-not-detected-digidoc4-ubuntu/</id><summary type="html">&lt;p&gt;My new e-Residency card was not detected on Ubuntu because Ubuntu Pro's ESM repository was holding back OpenSC. Here is how to check and fix it.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I just received my replacement Estonian e-Residency card, and when I tried it right away with DigiDoc4 on Ubuntu, the card was not detected. My old card still works fine and DigiDoc4 is fully up to date, so I looked into it. It turned out that the problem was neither the card nor DigiDoc4. Ubuntu Pro's ESM (Expanded Security Maintenance) repository was keeping &lt;code&gt;opensc&lt;/code&gt; at an old version that doesn't know about the new chip.&lt;/p&gt;
+&lt;p&gt;If you have Ubuntu Pro enabled and your card was issued from 17 November 2025 onwards, you might hit the same wall, so here is how to check and how to fix it.&lt;/p&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;Estonia started issuing a new generation of ID cards on 17 November 2025, and that includes the e-Resident digital ID cards. The chip changed from IDEMIA Cosmo to Thales MultiApp V5.1, and the new cards need ID-software 25.10 or later (&lt;a href="https://www.id.ee/en/article/id-card-generations-supported-in-different-versions-of-the-id-software/"&gt;id.ee&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Separately, e-Residency cards issued between 10 December 2021 and 16 August 2023 (numbers UA0051053 to UA0076261) will have their certificates revoked on 9 December 2026 (&lt;a href="https://www.politsei.ee/en/instructions/e-resident-s-digital-id/cards-issued-until-august-2023"&gt;Police and Border Guard Board&lt;/a&gt;). So many e-residents should be getting replacement cards right now, and those replacements are the new Thales cards.&lt;/p&gt;
+&lt;h2&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;When I inserted the new card, DigiDoc4 showed nothing and the "My eID" view stayed empty. When I inserted the old card, everything worked. The reader LED was blinking and &lt;code&gt;lsusb&lt;/code&gt; could see the reader.&lt;/p&gt;
+&lt;h2&gt;Environment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu 24.04.5 LTS (noble), kernel 7.0.0-42-generic&lt;/li&gt;
+&lt;li&gt;ID-software 26.7.0 (Ubuntu build), DigiDoc4 4.11.0&lt;/li&gt;
+&lt;li&gt;Reader: ACS ACR38U-CCID&lt;/li&gt;
+&lt;li&gt;Ubuntu Pro with ESM Apps enabled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Diagnosis&lt;/h2&gt;
+&lt;p&gt;DigiDoc4 has a diagnostics screen. To open it, first click "Settings" at the top right of the window.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="DigiDoc4 main window with the Settings link at the top right marked in red" src="https://iqbalabdullah.net/images/estonia/digidoc4-settings.webp"&gt;&lt;/p&gt;
+&lt;p&gt;Then choose "Diagnostics" from the menu on the left. There are two places to look: the &lt;code&gt;opensc&lt;/code&gt; line under &lt;code&gt;Libraries:&lt;/code&gt;, and the &lt;code&gt;Smart Card readers:&lt;/code&gt; section further down when you scroll.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="DigiDoc4 diagnostics screen with the Diagnostics menu item and the opensc 0.27.1-0RIA3 line marked in red" src="https://iqbalabdullah.net/images/estonia/digidoc4-diagnostics.webp"&gt;&lt;/p&gt;
+&lt;p&gt;I took this screenshot after the fix, which is why it shows &lt;code&gt;opensc&lt;/code&gt; 0.27.1-0RIA3. Before the fix, it showed this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;opensc (0.25.0~rc1-1ubuntu0.2+esm1)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;With the new card inserted, the &lt;code&gt;Smart Card readers:&lt;/code&gt; section shows something like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Smart Card readers:
+ACS ACR 38U-CCID 00 00 max APDU size 65536
+Reader state: CHANGED, PRESENT
+ATR - 3BFF9600008031FE438031B85365494464B085051012233F1D
+AID_IDEMIA: 6a82 (Not found)
+AID_THALES: 9000 (OK)
+ID - XXXXXXXXXXX
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;AID_THALES: 9000 (OK)&lt;/code&gt; means that the Thales applet on the card answered. So pcscd and the reader do see the card, and DigiDoc4 itself is a version with Thales support. That means the problem had to be in the layer between them.&lt;/p&gt;
+&lt;p&gt;On Linux, DigiDoc4 uses OpenSC (PKCS#11) to access the card. Thales support was added to RIA's OpenSC in ID-software 25.10 (&lt;a href="https://www.id.ee/en/article/id-software-versions-info-release-notes/"&gt;release notes&lt;/a&gt;). RIA is Estonia's Information System Authority, and what I had installed instead was Ubuntu's own OpenSC from early 2024 with ESM patches on top. It predates the Thales card, so it does not know about it.&lt;/p&gt;
+&lt;h2&gt;The Root Cause&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;apt policy opensc&lt;/code&gt; explained why:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;policy&lt;span class="w"&gt; &lt;/span&gt;opensc
+opensc:
+&lt;span class="w"&gt;  &lt;/span&gt;Installed:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.25.0~rc1-1ubuntu0.2+esm1
+&lt;span class="w"&gt;  &lt;/span&gt;Candidate:&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.25.0~rc1-1ubuntu0.2+esm1
+&lt;span class="w"&gt;  &lt;/span&gt;Version&lt;span class="w"&gt; &lt;/span&gt;table:
+&lt;span class="w"&gt;     &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.27.1-0RIA3&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;500&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="m"&gt;500&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;https://installer.id.ee/media/ubuntu&lt;span class="w"&gt; &lt;/span&gt;noble/main&lt;span class="w"&gt; &lt;/span&gt;amd64&lt;span class="w"&gt; &lt;/span&gt;Packages
+&lt;span class="w"&gt; &lt;/span&gt;***&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.25.0~rc1-1ubuntu0.2+esm1&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;510&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="m"&gt;510&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;https://esm.ubuntu.com/apps/ubuntu&lt;span class="w"&gt; &lt;/span&gt;noble-apps-security/main&lt;span class="w"&gt; &lt;/span&gt;amd64&lt;span class="w"&gt; &lt;/span&gt;Packages
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href="https://www.id.ee/en/article/install-id-software/"&gt;RIA's repository&lt;/a&gt; offers &lt;code&gt;opensc 0.27.1-0RIA3&lt;/code&gt;. But Ubuntu Pro's ESM Apps repository has pin priority 510 against RIA's 500. apt looks at the priority before the version number, so &lt;code&gt;apt upgrade&lt;/code&gt; will keep the old ESM package no matter how many times you run it. &lt;code&gt;apt policy opensc-pkcs11&lt;/code&gt; showed the same thing.&lt;/p&gt;
+&lt;p&gt;This only happens if you have Ubuntu Pro (ESM) enabled. Without ESM, both sources are at priority 500 and apt picks the higher version, which is RIA's.&lt;/p&gt;
+&lt;h2&gt;The Solution&lt;/h2&gt;
+&lt;p&gt;Install RIA's OpenSC explicitly:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;opensc&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.27.1-0RIA3&lt;span class="w"&gt; &lt;/span&gt;opensc-pkcs11&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.27.1-0RIA3
+sudo&lt;span class="w"&gt; &lt;/span&gt;systemctl&lt;span class="w"&gt; &lt;/span&gt;restart&lt;span class="w"&gt; &lt;/span&gt;pcscd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If RIA has published a newer package by the time you read this, replace the version with the one shown by &lt;code&gt;apt policy opensc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then pin it so that future upgrades don't go back to the ESM version:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;tee&lt;span class="w"&gt; &lt;/span&gt;/etc/apt/preferences.d/ria-opensc&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;lt;&amp;lt;&amp;#39;EOF&amp;#39;&lt;/span&gt;
+&lt;span class="s"&gt;Package: opensc opensc-pkcs11&lt;/span&gt;
+&lt;span class="s"&gt;Pin: origin installer.id.ee&lt;/span&gt;
+&lt;span class="s"&gt;Pin-Priority: 600&lt;/span&gt;
+&lt;span class="s"&gt;EOF&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Relaunch DigiDoc4 and the new card should show up.&lt;/p&gt;
+&lt;h2&gt;After It Works&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Change PIN2 in DigiDoc4 under "My eID". New cards cannot sign until PIN2 has been changed once (&lt;a href="https://www.id.ee/en/article/thales-id-card/"&gt;id.ee&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Cards issued on or after 17 November 2025 cannot be used to authenticate to foreign e-services yet. They should work once the European Commission approves the changes to Estonia's eID scheme (&lt;a href="https://www.id.ee/en/article/id-cards-issued-from-17-november-onwards-cannot-be-used-for-e-services-provided-by-foreign-countries/"&gt;id.ee&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;PUK cannot be changed on Thales cards in the DigiDoc apps (&lt;a href="https://www.id.ee/en/article/thales-id-card/"&gt;id.ee&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Things That Were Not the Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The ID-software and DigiDoc4 versions (26.7 and 4.11.0 already support Thales)&lt;/li&gt;
+&lt;li&gt;The card reader (the ACR38U works)&lt;/li&gt;
+&lt;li&gt;pcscd (running, and it detected the card)&lt;/li&gt;
+&lt;li&gt;Wayland vs X11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Quick Checklist&lt;/h2&gt;
+&lt;p&gt;If you see the same symptoms, check these in order:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Run &lt;code&gt;apt policy opensc&lt;/code&gt;. Is the installed version from &lt;code&gt;installer.id.ee&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;In DigiDoc4 Diagnostics, does &lt;code&gt;AID_THALES&lt;/code&gt; return &lt;code&gt;9000&lt;/code&gt;?&lt;/li&gt;
+&lt;li&gt;If the answer to 1 is no and the answer to 2 is yes, install RIA's OpenSC and pin it.&lt;/li&gt;
+&lt;/ol&gt;</content><category term="2026"/><category term="estonia"/><category term="e-residency"/><category term="ubuntu"/><category term="digidoc4"/><category term="opensc"/><category term="linux"/></entry><entry><title>Georgi Ker's PyCon SG 2026 Keynote: "So Kiasu, Still Kena Replaced by AI?"</title><link href="https://iqbalabdullah.net/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/" rel="alternate"/><published>2026-06-20T10:00:00+09:00</published><updated>2026-06-26T09:00:00+09:00</updated><author><name>Iqbal Abdullah</name></author><id>tag:iqbalabdullah.net,2026-06-20:/posts/2026/06/pycon-sg-2026-keynote-by-georgi-ker/</id><summary type="html">&lt;p&gt;Notes and reflections from Georgi Ker's opening keynote at PyCon Singapore 2026, where the PSF Vice-Chair challenged the crowd to rethink kiasu, education, and what it means to stay human in the age of AI.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday morning at PyCon Singapore 2026, Georgi Ker took the stage for the opening keynote. She titled it &lt;em&gt;"So Kiasu, Still Kena Replaced by AI?"&lt;/em&gt; — a question so perfectly Singaporean that no one laughed because they knew she was not joking (not laughing at a joke is also very Asian).&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Georgi Ker presenting her keynote for PyConSG 2026 with two large screens displaying &amp;quot;Lorong AI&amp;quot;" src="https://iqbalabdullah.net/images/pycons/pyconsg2026/pyconsg-2026-georgi-keynote.webp"&gt;&lt;/p&gt;
 &lt;p&gt;Georgi is Vice-Chair of the Python Software Foundation. She is also, by her own admission, not a professional programmer. She learned Python by making a lot of mistakes. Like, a lot. That she sits on the board of the organization stewarding the world's most popular programming language is itself a testament to the very argument she was about to make: merit does not arrive through gatekept certificates. It arrives through openness, community, and the willingness to keep learning in public.&lt;/p&gt;
 &lt;h2&gt;The Singapore Education Trap&lt;/h2&gt;
